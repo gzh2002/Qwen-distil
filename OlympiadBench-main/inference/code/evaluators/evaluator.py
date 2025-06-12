@@ -112,9 +112,9 @@ class Evaluator:
 		print(self.json_dataset_path)
 		# self.image_parent_dir = os.path.join(os.path.dirname(self.json_dataset_path), 'images')
 		self.image_parent_dir = os.path.join(os.path.dirname(os.path.dirname(self.json_dataset_path)), 'images')
-		if not os.path.exists(self.image_parent_dir):
-			print('Cannot find image directory!')
-			exit()
+		# if not os.path.exists(self.image_parent_dir):
+		# 	print('Cannot find image directory!')
+		# 	exit()
 
 	def eval_dataset(self, json_dataset_path, json_dataset, save_result_dir):
 		self.json_dataset_path = json_dataset_path

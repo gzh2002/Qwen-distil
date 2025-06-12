@@ -1,0 +1,2103 @@
+[
+    {
+        "id": 239,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=-2+\\frac{\\sqrt{2}}{2} t \\\\ y=-4+\\frac{\\sqrt{2}}{2} t\\end{array}\\right.$ ( $t$ 为参数 $)$, 点 $M(-2,-4)$. 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho \\sin ^{2} \\theta-2 a \\cos \\theta=0(a>0)$.\n当 $a=1$ 时，求曲线 $C$ 的直角坐标方程.",
+        "solution": [
+            "曲线 $C: y^{2}=2 x$."
+        ],
+        "final_answer": [
+            "$y^{2}=2 x$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=-2+\\frac{\\sqrt{2}}{2} t \\\\ y=-4+\\frac{\\sqrt{2}}{2} t\\end{array}\\right.$ ( $t$ 为参数 $)$, 点 $M(-2,-4)$. 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho \\sin ^{2} \\theta-2 a \\cos \\theta=0(a>0)$.\n当 $a=1$ 时，求曲线 $C$ 的直角坐标方程.\n好的，我现在要解决这个数学竞赛题目。题目是在直角坐标系中，给定了"
+            }
+        }
+    },
+    {
+        "id": 240,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=-2+\\frac{\\sqrt{2}}{2} t \\\\ y=-4+\\frac{\\sqrt{2}}{2} t\\end{array}\\right.$ ( $t$ 为参数 $)$, 点 $M(-2,-4)$. 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho \\sin ^{2} \\theta-2 a \\cos \\theta=0(a>0)$.\n设曲线 $C$ 与直线 $l$ 交于点 $A, B$, 若 $|A B|^{2}=|M A| \\cdot|M B|$, 求 $a$ 的值.",
+        "solution": [
+            "曲线 $C: y^{2}=2 a x$, 直线 $l$ 的参数方程代入曲线 $C$ 的直角坐标方程得,\n\n$t^{2}-(8 \\sqrt{2}+2 \\sqrt{2} a) t+8 a+32=0$,\n\n设交点 $A, B$ 所对参数分别为 $t_{1}, t_{2}$,\n\n则 $t_{1}+t_{2}=8 \\sqrt{2}+2 \\sqrt{2} a, t_{1} \\cdot t_{2}=8 a+32$,\n\n$\\therefore|A B|=\\left|t_{1}-t_{2}\\right|=\\sqrt{\\left(t_{1}+t_{2}\\right)^{2}-4 t_{1} t_{2}}=\\sqrt{8 a^{2}+32 a} ，$\n\n$\\because|A B|^{2}=|M A| \\cdot|M B| \\quad \\therefore 8 a^{2}+32 a=8 a+32$\n\n得 $a=1$."
+        ],
+        "final_answer": [
+            "$1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=-2+\\frac{\\sqrt{2}}{2} t \\\\ y=-4+\\frac{\\sqrt{2}}{2} t\\end{array}\\right.$ ( $t$ 为参数 $)$, 点 $M(-2,-4)$. 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho \\sin ^{2} \\theta-2 a \\cos \\theta=0(a>0)$.\n设曲线 $C$ 与直线 $l$ 交于点 $A, B$, 若 $|A B|^{2}=|M A| \\cdot|M B|$, 求 $a$ 的值.\n好，我现在要解决这个数学竞赛题目。首先，我需要仔细阅读题目，理解题目"
+            }
+        }
+    },
+    {
+        "id": 241,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知 $f(x)=|x+2|-|a x-3|$.\n当 $a=2$ 时, 求不等式 $f(x)>2$ 的解集.",
+        "solution": [
+            "$f(x)=|x+2|-|2 x-3|= \\begin{cases}5-x & x \\geq \\frac{3}{2} \\\\ 3 x-1 & -2<x<\\frac{3}{2} \\\\ x-5 & x \\leq-2\\end{cases}$\n\n当 $x \\geq \\frac{3}{2}$ 时, $5-x>2, \\therefore x \\in\\left[\\frac{3}{2}, 3\\right)$\n\n当 $-2<x<\\frac{3}{2}$ 时, $3 x-1>2, \\therefore x \\in\\left(1, \\frac{3}{2}\\right)$\n\n当 $x \\leq-2$ 时, $x-5>2, \\therefore x \\in \\phi$\n\n综上可知, 所求不等式的解集为 $(1,3) $."
+        ],
+        "final_answer": [
+            "$(1,3) $"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知 $f(x)=|x+2|-|a x-3|$.\n当 $a=2$ 时, 求不等式 $f(x)>2$ 的解集.\n好，我来仔细思考一下这个问题。题目给出了函数f(x)=|x+2|"
+            }
+        }
+    },
+    {
+        "id": 243,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=1, a_{n+1}=2 a_{n}+3 \\times 2^{n-1}$, 设 $b_{n}=\\frac{a_{n}}{2^{n}}$.\n求 $b_{1}, b_{2}, b_{3}$.",
+        "solution": [
+            "$a_{2}=5, a_{3}=16, b_{1}=\\frac{1}{2}, b_{2}=\\frac{5}{4}, b_{3}=2 ;$"
+        ],
+        "final_answer": [
+            "$\\frac{1}{2},\\frac{5}{4},2$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=1, a_{n+1}=2 a_{n}+3 \\times 2^{n-1}$, 设 $b_{n}=\\frac{a_{n}}{2^{n}}$.\n求 $b_{1}, b_{2}, b_{3}$.\n好的，我现在要解决这个数学竞赛题目。题目说已知数列{aₙ"
+            }
+        }
+    },
+    {
+        "id": 245,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=1, a_{n+1}=2 a_{n}+3 \\times 2^{n-1}$, 设 $b_{n}=\\frac{a_{n}}{2^{n}}$.\n求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式.",
+        "solution": [
+            "$b_{1}=\\frac{1}{2}$,\n\n$\\because \\frac{a_{n+1}}{2^{n+1}}=\\frac{a_{n}}{2^{n}}+\\frac{3}{4}, \\therefore b_{n+1}-b_{n}=\\frac{3}{4}, \\therefore\\left\\{b_{n}\\right\\}$ 是等差数列;\n\n$\\therefore b_{n}=\\frac{1}{2}+(n-1) \\times \\frac{3}{4}=\\frac{1}{4}(3 n-1) ， \\therefore a_{n}=(3 n-1) \\cdot 2^{n-2}$."
+        ],
+        "final_answer": [
+            "$(3 n-1) \\cdot 2^{n-2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=1, a_{n+1}=2 a_{n}+3 \\times 2^{n-1}$, 设 $b_{n}=\\frac{a_{n}}{2^{n}}$.\n求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式.\n好的，我现在要解决这个数学竞赛题目。题目是关于一个数列{a_n}"
+            }
+        }
+    },
+    {
+        "id": 246,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "某集团公司计划从甲分公司中的 3 位员工 $A_{1} 、 A_{2} 、 A_{3}$ 和乙分公司中的 3 位员工 $B_{1} 、 B_{2} 、 B_{3}$ 选择 2 位员工去国外工作.\n若从这 6 名员工中任选 2 名, 求这 2 名员工都是甲分公司的概率.",
+        "solution": [
+            "由题意得, 从 6 名员工中任选 2 名, 其一切可能的结果组成的基本事件有:\n\n$\\left\\{A_{1}, A_{2}\\right\\},\\left\\{A_{1}, A_{3}\\right\\},\\left\\{A_{2}, A_{3}\\right\\},\\left\\{A_{1}, B_{1}\\right\\},\\left\\{A_{1}, B_{2}\\right\\},\\left\\{A_{1}, B_{3}\\right\\}$,\n\n$\\left\\{A_{2}, B_{1}\\right\\},\\left\\{A_{2}, B_{2}\\right\\},\\left\\{A_{2}, B_{3}\\right\\}\\left\\{A_{3}, B_{1}\\right\\},\\left\\{A_{3}, B_{2}\\right\\},\\left\\{A_{3}, B_{3}\\right\\}$,\n\n$\\left\\{B_{1}, B_{2}\\right\\},\\left\\{B_{1}, B_{3}\\right\\},\\left\\{B_{2}, B_{3}\\right\\}$ ，共 15 个\n\n所选两名员工都是甲分公司所包含的基本事件有: $\\left\\{A_{1}, A_{2}\\right\\},\\left\\{A_{1}, A_{3}\\right\\},\\left\\{A_{2}, A_{3}\\right\\}$, 共 3 个, 所以所求事件的概率为 $p=\\frac{3}{15}=\\frac{1}{5} ;$"
+        ],
+        "final_answer": [
+            "$\\frac{1}{5}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n某集团公司计划从甲分公司中的 3 位员工 $A_{1} 、 A_{2} 、 A_{3}$ 和乙分公司中的 3 位员工 $B_{1} 、 B_{2} 、 B_{3}$ 选择 2 位员工去国外工作.\n若从这 6 名员工中任选 2 名, 求这 2 名员工都是甲分公司的概率.\n好，我现在要解决这个数学竞赛题。题目是这样的：某集团公司计划从甲分"
+            }
+        }
+    },
+    {
+        "id": 247,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "某集团公司计划从甲分公司中的 3 位员工 $A_{1} 、 A_{2} 、 A_{3}$ 和乙分公司中的 3 位员工 $B_{1} 、 B_{2} 、 B_{3}$ 选择 2 位员工去国外工作.\n若从甲分公司和乙分公司中各任选 1 名员工，求这 2 名员工包括 $A_{1}$ 但不包括 $B_{1}$ 的概率.",
+        "solution": [
+            "从甲分公司和乙分公司各任选 1 名员工, 其一切可能的结果组成的基本事件有: $\\left\\{A_{1}, B_{1}\\right\\},\\left\\{A_{1}, B_{2}\\right\\},\\left\\{A_{1}, B_{3}\\right\\},\\left\\{A_{2}, B_{1}\\right\\},\\left\\{A_{2}, B_{2}\\right\\},\\left\\{A_{2}, B_{3}\\right\\}\\left\\{A_{3}, B_{1}\\right\\},\\left\\{A_{3}, B_{2}\\right\\},\\left\\{A_{3}, B_{3}\\right\\}$ 共 9 个，包含 $A_{1}$ 但不包括 $B_{1}$ 的事件所包含的基本事件有 $\\left\\{A_{1}, B_{2}\\right\\},\\left\\{A_{1}, B_{3}\\right\\}$ 共 2 个, 所以所求事件的概率为 $p=\\frac{2}{9}$."
+        ],
+        "final_answer": [
+            "$\\frac{2}{9}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n某集团公司计划从甲分公司中的 3 位员工 $A_{1} 、 A_{2} 、 A_{3}$ 和乙分公司中的 3 位员工 $B_{1} 、 B_{2} 、 B_{3}$ 选择 2 位员工去国外工作.\n若从甲分公司和乙分公司中各任选 1 名员工，求这 2 名员工包括 $A_{1}$ 但不包括 $B_{1}$ 的概率.\n</think>\n\n我们有甲分公司的3位员工：\\( A_1, A_2,"
+            }
+        }
+    },
+    {
+        "id": 250,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知 $O$ 为坐标原点, 抛物线 $C: y^{2}=4 x$, 点 $A(-2,0)$, 设直线 $l$ 与 $C$ 交于不同的两点 $P 、 Q$.\n若直线 $l \\perp x$ 轴, 求直线 $P A$ 的斜率的取值范围.",
+        "solution": [
+            "当点 $P$ 在第一象限时, 设 $P(t, 2 \\sqrt{t}), k_{P A}=\\frac{2 \\sqrt{t}-0}{t+2}=\\frac{2}{\\sqrt{t}+\\frac{2}{\\sqrt{t}}} \\leq \\frac{2}{2 \\sqrt{2}}=\\frac{\\sqrt{2}}{2}$,\n\n$\\therefore k_{P A} \\in\\left(0, \\frac{\\sqrt{2}}{2}\\right]$, 同理, 当点 $P$ 在第四象限时, $\\therefore k_{P A} \\in\\left[-\\frac{\\sqrt{2}}{2}, 0\\right)$, 综上所述 $\\therefore k_{P A} \\in\\left[-\\frac{\\sqrt{2}}{2}, 0\\right) \\cup\\left(0, \\frac{\\sqrt{2}}{2}\\right] $."
+        ],
+        "final_answer": [
+            "$\\left[-\\frac{\\sqrt{2}}{2}, 0\\right) \\cup\\left(0, \\frac{\\sqrt{2}}{2}\\right]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知 $O$ 为坐标原点, 抛物线 $C: y^{2}=4 x$, 点 $A(-2,0)$, 设直线 $l$ 与 $C$ 交于不同的两点 $P 、 Q$.\n若直线 $l \\perp x$ 轴, 求直线 $P A$ 的斜率的取值范围.\n好，我现在要解决这个问题。题目是说，给定抛物线C:y²="
+            }
+        }
+    },
+    {
+        "id": 253,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=e^{2 x}-3 a e^{x}-2 a^{2} x$.\n若对于任意的 $x_{1}, x_{2} \\in R, x_{1} \\neq x_{2}$, 都有 $\\frac{f\\left(x_{1}\\right)-f\\left(x_{2}\\right)}{x_{1}-x_{2}}>-2 a^{2}-1$ 恒成立, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "$\\because \\frac{f\\left(x_{1}\\right)-f\\left(x_{2}\\right)}{x_{1}-x_{2}}>-2 a^{2}-1, \\therefore$ 不妨设 $x_{1}>x_{2}$,\n\n则 $f\\left(x_{1}\\right)+\\left(2 a^{2}+1\\right) x_{1}>f\\left(x_{2}\\right)+\\left(2 a^{2}+1\\right) x_{2}$,\n\n$\\therefore f(x)+\\left(2 a^{2}+1\\right) x$ 在 $R$ 上单调递增:\n\n记 $g(x)=f(x)+\\left(2 a^{2}+1\\right) x=e^{2 x}-3 a e^{x}+x$,\n\n$g^{\\prime}(x)=2 e^{2 x}-3 a e^{x}+1 \\geq 0$ 恒成立, $\\therefore a \\leq \\frac{2 e^{2 x}+1}{3 e^{x}}=\\frac{1}{3}\\left(2 e^{x}+\\frac{1}{e^{x}}\\right)$ 对 $x \\in R$ 恒成立, 即 $\\therefore a \\leq \\frac{1}{3}\\left(2 e^{x}+\\frac{1}{e^{x}}\\right)_{\\text {min }}, \\because 2 e^{x}+\\frac{1}{e^{x}} \\geq 2 \\sqrt{2}$, 当且仅当 $2 e^{x}=\\frac{1}{e^{x}}$, 即 $e^{x}=\\frac{\\sqrt{2}}{2}$ 时等号取到, $\\therefore a \\leq \\frac{2 \\sqrt{2}}{3} $."
+        ],
+        "final_answer": [
+            "$(-\\infty, \\frac{2 \\sqrt{2}}{3}]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=e^{2 x}-3 a e^{x}-2 a^{2} x$.\n若对于任意的 $x_{1}, x_{2} \\in R, x_{1} \\neq x_{2}$, 都有 $\\frac{f\\left(x_{1}\\right)-f\\left(x_{2}\\right)}{x_{1}-x_{2}}>-2 a^{2}-1$ 恒成立, 求实数 $a$ 的取值范围.\n好，我现在来仔细研究一下这个数学竞赛题。题目是关于函数$f(x)=e"
+            }
+        }
+    },
+    {
+        "id": 254,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$, ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-1=0$.\n求曲线 $C$ 的直角坐标方程;",
+        "solution": [
+            "$x^{2}+y^{2}-4 x-1=0$."
+        ],
+        "final_answer": [
+            "$x^{2}+y^{2}-4 x-1=0$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$, ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-1=0$.\n求曲线 $C$ 的直角坐标方程;\n已知直线 $l$ 与曲线 $C$ 有两个不同的交点 $A$"
+            }
+        }
+    },
+    {
+        "id": 255,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$, ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-1=0$.\n设曲线 $C$ 与直线 $l$ 交于点 $A, B$, 求 $|A B|$ 的最小值.",
+        "solution": [
+            "当 $\\alpha=n \\pi+\\frac{\\pi}{2}(n \\in Z)$ 时, 直线 $l: x=1$, 此时 $|A B|=4 $;\n\n当 $\\alpha \\neq n \\pi+\\frac{\\pi}{2}(n \\in Z)$ 时, 设直线 $l: y-1=k(x-1)$, 圆心 $(2,0)$ 到直线 $l$ 的距离最大值为 $d_{\\text {max }}=\\sqrt{2}$, 此时 $|A B|=2 \\sqrt{5-2}=2 \\sqrt{3}, \\because 4>2 \\sqrt{3}, \\therefore|A B|_{\\text {min }}=2 \\sqrt{3} $."
+        ],
+        "final_answer": [
+            "$2 \\sqrt{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$, ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-1=0$.\n设曲线 $C$ 与直线 $l$ 交于点 $A, B$, 求 $|A B|$ 的最小值.\n好的，我现在要解决这个数学竞赛题目。首先，我需要仔细阅读题目，理解各个"
+            }
+        }
+    },
+    {
+        "id": 256,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x-2|+|x+1|, x \\in R$, 其最小值为 $t$.\n求 $t$ 的值.",
+        "solution": [
+            "$f(x)=\\left\\{\\begin{array}{c}2 x-1, x>2 \\\\ 3,-1 \\leq x \\leq 2 \\\\ -2 x+1, x<-1\\end{array}, f(x)_{\\text {min }}=3\\right.$, 即 $t=3$."
+        ],
+        "final_answer": [
+            "$3$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|x-2|+|x+1|, x \\in R$, 其最小值为 $t$.\n求 $t$ 的值.\n</think>\n\n已知函数 \\( f(x) = |x - 2| + |x +"
+            }
+        }
+    },
+    {
+        "id": 258,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=2, a_{n+1}=3 a_{n}+2$, 设 $b_{n}=a_{n}+1$.\n求 $b_{1}, b_{2}, b_{3}$.",
+        "solution": [
+            "$b_{1}=3, b_{2}=9, b_{3}=27$."
+        ],
+        "final_answer": [
+            "$3, 9, 27$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=2, a_{n+1}=3 a_{n}+2$, 设 $b_{n}=a_{n}+1$.\n求 $b_{1}, b_{2}, b_{3}$.\n求 $b_{n}$ 的通项公式。\n求 $\\lim _{n \\rightarrow \\"
+            }
+        }
+    },
+    {
+        "id": 260,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=2, a_{n+1}=3 a_{n}+2$, 设 $b_{n}=a_{n}+1$.\n求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式.",
+        "solution": [
+            "$\\because \\frac{b_{n+1}}{b_{n}}=\\frac{a_{n+1}+1}{a_{n}+1}=\\frac{3 a_{n}+3}{a_{n}+1}=3, \\therefore\\left\\{b_{n}\\right\\}$ 是等比数列.\n\n可得 $b_{n}=3^{n}, a_{n}=3^{n}-1$."
+        ],
+        "final_answer": [
+            "$3^{n}-1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=2, a_{n+1}=3 a_{n}+2$, 设 $b_{n}=a_{n}+1$.\n求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式.\n好的，我现在要解决这个数学竞赛题，题目是已知数列{aₙ"
+            }
+        }
+    },
+    {
+        "id": 266,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$ ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-6 \\rho \\sin \\theta-7=0$.\n求曲线 $C$ 的直角坐标方程.",
+        "solution": [
+            "曲线 $C: x^{2}+y^{2}-6 y-7=0$."
+        ],
+        "final_answer": [
+            "$x^{2}+y^{2}-6 y-7=0$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$ ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-6 \\rho \\sin \\theta-7=0$.\n求曲线 $C$ 的直角坐标方程.\n好的，我现在来解决这个问题。首先，题目中给出了曲线C的极坐标方程："
+            }
+        }
+    },
+    {
+        "id": 267,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$ ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-6 \\rho \\sin \\theta-7=0$.\n设曲线 $C$ 与直线 $l$ 交于点 $A, B$, 若点 $Q$ 的坐标为 $(2,1)$, 求 $|Q A|+|Q B|$ 的最小值.",
+        "solution": [
+            "曲线 $C: x^{2}+y^{2}-6 y-7=0$.\n\n直线 $l$ 的参数方程代入曲线 $C$ 的直角坐标方程得,\n\n$t^{2}+4(\\cos \\alpha-\\sin \\alpha) t-8=0$,\n\n设交点 $A, B$ 所对参数分别为 $t_{1}, t_{2}$,\n\n则 $t_{1}+t_{2}=-4(\\cos \\alpha-\\sin \\alpha), t_{1} \\cdot t_{2}=-8$,\n\n$\\therefore|Q A|+|Q B|=\\left|t_{1}\\right|+\\left|t_{2}\\right|=\\left|t_{1}-t_{2}\\right|=\\sqrt{\\left(t_{1}+t_{2}\\right)^{2}-4 t_{1} t_{2}}=4 \\sqrt{3-\\sin 2 \\alpha},$\n\n因此当 $\\alpha=\\frac{\\pi}{4}+k \\pi, k \\in Z$ 时, $|Q A|+|Q B|$ 取最小值 $4 \\sqrt{2}$."
+        ],
+        "final_answer": [
+            "$4 \\sqrt{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$ ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-6 \\rho \\sin \\theta-7=0$.\n设曲线 $C$ 与直线 $l$ 交于点 $A, B$, 若点 $Q$ 的坐标为 $(2,1)$, 求 $|Q A|+|Q B|$ 的最小值.\n好的，我现在要解决这个数学竞赛题，题目是关于直线和曲线的交点以及"
+            }
+        }
+    },
+    {
+        "id": 268,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "设函数 $f(x)=|x+3|+|x-a|-10$.\n当 $a=1$ 时, 求不等式 $f(x)>0$ 的解集.",
+        "solution": [
+            "当 $a=1$ 时, $f(x)=|x+3|+|x-1|-10=\\left\\{\\begin{array}{c}2 x-8, x \\geq 1 \\\\ -6,-3<x<1 \\\\ -2 x-12, x \\leq-3\\end{array}\\right.$, 所以 $f(x)>0$ 的解集为 $(-\\infty,-6) \\cup(4,+\\infty)$."
+        ],
+        "final_answer": [
+            "$(-\\infty,-6) \\cup(4,+\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n设函数 $f(x)=|x+3|+|x-a|-10$.\n当 $a=1$ 时, 求不等式 $f(x)>0$ 的解集.\n好的，我现在要解决这个数学竞赛题。题目是给定函数f(x)=|x"
+            }
+        }
+    },
+    {
+        "id": 269,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "设函数 $f(x)=|x+3|+|x-a|-10$.\n如果对任意的 $x$, 不等式 $f(x)>0$ 恒成立, 求 $a$ 的取值范围.",
+        "solution": [
+            "$\\because|x+3|+|x-a|-10 \\geq \\mid 3+a \\mid-10$\n\n$\\therefore|3+a|-10>0, \\quad \\therefore a \\in(-\\infty,-13) \\cup(7,+\\infty)$."
+        ],
+        "final_answer": [
+            "$(-\\infty,-13) \\cup(7,+\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n设函数 $f(x)=|x+3|+|x-a|-10$.\n如果对任意的 $x$, 不等式 $f(x)>0$ 恒成立, 求 $a$ 的取值范围.\n</think>\n\n为了确定参数 \\( a \\) 的取值范围，使得函数 \\( f(x)"
+            }
+        }
+    },
+    {
+        "id": 270,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "已知 $\\triangle A B C$ 的面积为 $S$, 其外接圆半径为 $R$,三个内角 $A, B, C$ 所对的边分别为 $a, b, c, 2 R\\left(\\sin ^{2} A-\\sin ^{2} C\\right)=$ $(\\sqrt{3} a-b) \\sin B$.\n求角 $C$.",
+        "solution": [
+            "根据题意, 有\n\n$$\n2 R \\cdot \\sin (A+C) \\cdot \\sin (A-C)=(\\sqrt{3} a-b) \\cdot \\sin B\n$$\n\n即\n\n$$\n\\sin (A-C)=\\sqrt{3} \\sin A-\\sin B,\n$$\n\n也即\n\n$$\n\\sqrt{3} \\sin A=\\sin (A-C)+\\sin (A+C),\n$$\n\n于是\n\n$$\n\\sqrt{3} \\sin A=2 \\sin A \\cdot \\cos C\n$$\n\n解得 $C=\\frac{\\pi}{6}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\pi}{6}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知 $\\triangle A B C$ 的面积为 $S$, 其外接圆半径为 $R$,三个内角 $A, B, C$ 所对的边分别为 $a, b, c, 2 R\\left(\\sin ^{2} A-\\sin ^{2} C\\right)=$ $(\\sqrt{3} a-b) \\sin B$.\n求角 $C$.\n好，我现在要解决这个几何题目，题目是关于三角形ABC的，给出了一些条件"
+            }
+        }
+    },
+    {
+        "id": 271,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "已知 $\\triangle A B C$ 的面积为 $S$, 其外接圆半径为 $R$,三个内角 $A, B, C$ 所对的边分别为 $a, b, c, 2 R\\left(\\sin ^{2} A-\\sin ^{2} C\\right)=$ $(\\sqrt{3} a-b) \\sin B$.\n若 $\\left(\\frac{\\sqrt{S}}{2 R}\\right)^{2}=\\sin ^{2} A-(\\sin B-\\sin C)^{2}, a=4$, 求 $c$ 及 $\\triangle A B C$ 的面积.",
+        "solution": [
+            "根据题意, 有\n\n$$\nS=a^{2}-(b-c)^{2},\n$$\n\n也即\n\n$$\n\\sqrt{p(p-a)(p-b)(p-c)}=4(p-b)(p-c),\n$$\n\n其中 $p$ 为 $\\triangle A B C$ 的半周长. 因此\n\n$$\n\\sqrt{\\frac{(p-b)(p-c)}{p(p-a)}}=\\frac{1}{4}\n$$\n\n也即\n\n$$\n\\tan \\frac{A}{2}=\\frac{1}{4}\n$$\n\n从而\n\n$$\n\\sin A=\\frac{8}{17}\n$$\n\n由正弦定理, 可得 $c=\\frac{17}{4}$. 又\n\n$$\n\\begin{aligned}\n\\sin B & =\\sin (A+C) \\\\\n& =\\sin A \\cdot \\cos C+\\cos A \\cdot \\sin C \\\\\n& =\\frac{8}{17} \\cdot \\frac{\\sqrt{3}}{2}+\\frac{15}{17} \\cdot \\frac{1}{2} \\\\\n& =\\frac{15+8 \\sqrt{3}}{34}\n\\end{aligned}\n$$\n\n于是\n\n$$\nS=\\frac{1}{2} a c \\sin B=\\frac{1}{2} \\cdot 4 \\cdot \\frac{17}{4} \\cdot \\frac{15+8 \\sqrt{3}}{34}=\\frac{15+8 \\sqrt{3}}{4}\n$$"
+        ],
+        "final_answer": [
+            "$\\frac{17}{4}, \\frac{15+8 \\sqrt{3}}{4}$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知 $\\triangle A B C$ 的面积为 $S$, 其外接圆半径为 $R$,三个内角 $A, B, C$ 所对的边分别为 $a, b, c, 2 R\\left(\\sin ^{2} A-\\sin ^{2} C\\right)=$ $(\\sqrt{3} a-b) \\sin B$.\n若 $\\left(\\frac{\\sqrt{S}}{2 R}\\right)^{2}=\\sin ^{2} A-(\\sin B-\\sin C)^{2}, a=4$, 求 $c$ 及 $\\triangle A B C$ 的面积.\n</think>\n\n已知三角形 \\( \\triangle ABC \\) 的面积为 \\( S \\)，外"
+            }
+        }
+    },
+    {
+        "id": 274,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知圆 $B:(x+\\sqrt{2})^{2}+y^{2}=16$, 定点 $A(\\sqrt{2}, 0), P$ 是圆周上任一点, 线段 $A P$ 的垂直平分线与 $B P$交于点 $Q$.\n求点 $Q$ 的轨迹 $C$ 的方程;",
+        "solution": [
+            "根据题意, 有\n\n$$\nQ A+Q B=Q P+Q B=P B=4\n$$\n\n因此 $Q$ 的轨迹是以 $A, B$ 为焦点, 4 为长轴长的椭圆, 其方程为\n\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1.\n$$"
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知圆 $B:(x+\\sqrt{2})^{2}+y^{2}=16$, 定点 $A(\\sqrt{2}, 0), P$ 是圆周上任一点, 线段 $A P$ 的垂直平分线与 $B P$交于点 $Q$.\n求点 $Q$ 的轨迹 $C$ 的方程;\n好的，我现在要解决这个数学竞赛题目。题目是已知圆B：(x +"
+            }
+        }
+    },
+    {
+        "id": 275,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知圆 $B:(x+\\sqrt{2})^{2}+y^{2}=16$, 定点 $A(\\sqrt{2}, 0), P$ 是圆周上任一点, 线段 $A P$ 的垂直平分线与 $B P$交于点 $Q$.\n直线 $l$ 过点 $A$ 且与 $x$ 轴不重合, 直线 $l$ 交曲线 $C$ 于 $M, N$ 两点, 过 $A$ 且与 $l$ 垂直的直线与圆 $B$ 交于 $D, E$ 两点, 求四边形 $M D N E$ 面积的取值范围.",
+        "solution": [
+            "根据题意, 设直线 $l$ 的倾斜角为 $\\theta$, 则 $\\theta \\neq 0$, 且\n\n$$\nl: x \\sin \\theta-y \\cos \\theta-\\sqrt{2} \\cdot \\sin \\theta=0\n$$\n\n于是直线 $M N$ 的方程可以表示为\n\n$$\nx \\cos \\theta+y \\sin \\theta-\\sqrt{2} \\cos \\theta=0,\n$$\n\n因此点 $B$ 到直线 $M N$ 的距离\n\n$$\nd=2 \\sqrt{2} \\cdot|\\cos \\theta|,\n$$\n\n进而\n\n$$\nD E=2 \\cdot \\sqrt{16-d^{2}}=4 \\sqrt{4-2 \\cos ^{2} \\theta}=4 \\sqrt{2+2 \\sin ^{2} \\theta}\n$$\n\n又根据椭圆的焦点弦长公式, 有\n\n$$\nM N=\\frac{4}{1+\\sin ^{2} \\theta},\n$$\n\n于是四边形 $M D N E$ 的面积\n\n$$\n\\begin{aligned}\nS & =\\frac{1}{2} \\cdot M N \\cdot D E \\\\\n& =\\frac{1}{2} \\cdot \\frac{4}{1+\\sin ^{2} \\theta} \\cdot 4 \\sqrt{2+2 \\sin ^{2} \\theta} \\\\\n& =\\frac{8 \\sqrt{2}}{\\sqrt{1+\\sin ^{2} \\theta}},\n\\end{aligned}\n$$\n\n而 $\\sin ^{2} \\theta \\in(0,1]$, 于是 $S$ 的取值范围是 $[8,8 \\sqrt{2})$."
+        ],
+        "final_answer": [
+            "$[8,8 \\sqrt{2})$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知圆 $B:(x+\\sqrt{2})^{2}+y^{2}=16$, 定点 $A(\\sqrt{2}, 0), P$ 是圆周上任一点, 线段 $A P$ 的垂直平分线与 $B P$交于点 $Q$.\n直线 $l$ 过点 $A$ 且与 $x$ 轴不重合, 直线 $l$ 交曲线 $C$ 于 $M, N$ 两点, 过 $A$ 且与 $l$ 垂直的直线与圆 $B$ 交于 $D, E$ 两点, 求四边形 $M D N E$ 面积的取值范围.\n首先，我需要理解题目中的各个条件，逐步分析问题。\n\n首先，题目给出了圆B"
+            }
+        }
+    },
+    {
+        "id": 278,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=-\\sqrt{3} t, \\\\ y=3+t,\\end{array}\\right.$ 其中 $t$ 为参数, 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2} \\cos ^{2} \\theta+3 \\rho^{2} \\sin ^{2} \\theta=3$.\n过曲线 $C$ 上任意一点 $P$ 作与 $l$ 夹角为 $45^{\\circ}$ 的直线, 交 $l$ 于点 $A$, 求 $|P A|$ 的最大值与最小值.",
+        "solution": [
+            "直线 $l: x+\\sqrt{3} y-3 \\sqrt{3}=0$, 过 $P(\\sqrt{3} \\cos \\theta, \\sin \\theta)$ 作直线 $l$ 的垂线, 垂足为 $H$, 则\n\n$$\n\\begin{aligned}\nP A & =\\sqrt{2} \\cdot P H \\\\\n& =\\sqrt{2} \\cdot \\frac{3 \\sqrt{3}-\\sqrt{3}(\\sin \\theta+\\cos \\theta)}{2} \\\\\n& =\\frac{3 \\sqrt{6}-2 \\sqrt{3} \\sin \\left(\\theta+\\frac{\\pi}{4}\\right)}{2}.\n\\end{aligned}\n$$\n\n因此所求 $|P A|$ 的最大值为 $\\frac{3 \\sqrt{6}+2 \\sqrt{3}}{2}$, 最小值为 $\\frac{3 \\sqrt{6}-2 \\sqrt{3}}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{3 \\sqrt{6}+2 \\sqrt{3}}{2}, \\frac{3 \\sqrt{6}-2 \\sqrt{3}}{2}$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=-\\sqrt{3} t, \\\\ y=3+t,\\end{array}\\right.$ 其中 $t$ 为参数, 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2} \\cos ^{2} \\theta+3 \\rho^{2} \\sin ^{2} \\theta=3$.\n过曲线 $C$ 上任意一点 $P$ 作与 $l$ 夹角为 $45^{\\circ}$ 的直线, 交 $l$ 于点 $A$, 求 $|P A|$ 的最大值与最小值.\n好，我现在要解决这个数学竞赛题。首先，我需要理解题目给出的条件和"
+            }
+        }
+    },
+    {
+        "id": 279,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|2 x-1|-|x+2|$.\n存在 $x_{0} \\in \\mathbb{R}$, 使得 $f\\left(x_{0}\\right)+2 a^{2} \\leqslant 4 a$, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "根据题意, 有\n\n$$\n\\exists x \\in \\mathbb{R}, f(x) \\leqslant-2 a^{2}+4 a\n$$\n\n也即\n\n$$\n\\min _{x \\in \\mathbb{R}}\\{f(x)\\} \\leqslant-2 a^{2}+4 a,\n$$\n\n也即\n\n$$\n2 a^{2}-4 a-\\frac{5}{2} \\leqslant 0,\n$$\n\n解得实数 $a$ 的取值范围是 $\\left[-\\frac{1}{2}, \\frac{5}{2}\\right]$."
+        ],
+        "final_answer": [
+            "$\\left[-\\frac{1}{2}, \\frac{5}{2}\\right]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|2 x-1|-|x+2|$.\n存在 $x_{0} \\in \\mathbb{R}$, 使得 $f\\left(x_{0}\\right)+2 a^{2} \\leqslant 4 a$, 求实数 $a$ 的取值范围.\n好的，我现在要解决这个问题：已知函数 \\( f(x) = |2x - "
+            }
+        }
+    },
+    {
+        "id": 280,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|2 x-1|-|x+2|$.\n存在 $x_{0} \\in \\mathbb{R}$, 使得 $f\\left(x_{0}\\right)+2 a^{2} \\leqslant 4 a$.设实数$a$的取值范围中的最大数为 $a_{0}$, 若 $\\frac{1}{a^{2}}+\\frac{4}{b^{2}}+\\frac{9}{c^{2}}=a_{0}$。存在 $a, b, c$, 使得$a^{2}+4 b^{2}+9 c^{2}$ 有最小值, 求出该最小值.",
+        "solution": [
+            "根据柯西不等式有\n\n$$\n\\frac{5}{2}=\\frac{1}{a^{2}}+\\frac{4}{b^{2}}+\\frac{9}{c^{2}} \\geqslant \\frac{(1+4+9)^{2}}{a^{2}+4 b^{2}+9 c^{2}},\n$$\n\n因此\n\n$$\na^{2}+4 b^{2}+9 c^{2} \\geqslant \\frac{392}{5}\n$$\n\n等号当\n\n$$\na^{2}=b^{2}=c^{2}=\\frac{28}{5}\n$$\n\n时取得, 进而可得所求代数式的最小值为 $\\frac{392}{5}$."
+        ],
+        "final_answer": [
+            "$\\frac{392}{5}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|2 x-1|-|x+2|$.\n存在 $x_{0} \\in \\mathbb{R}$, 使得 $f\\left(x_{0}\\right)+2 a^{2} \\leqslant 4 a$.设实数$a$的取值范围中的最大数为 $a_{0}$, 若 $\\frac{1}{a^{2}}+\\frac{4}{b^{2}}+\\frac{9}{c^{2}}=a_{0}$。存在 $a, b, c$, 使得$a^{2}+4 b^{2}+9 c^{2}$ 有最小值, 求出该最小值.\n</think>\n\n首先，我们需要分析函数 \\( f(x) = |2x - 1| -"
+            }
+        }
+    },
+    {
+        "id": 281,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知向量 $\\vec{m}=(2 \\cos x, \\sin x), \\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x) \\quad(x \\in \\mathbf{R})$,设函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$.\n求函数 $f(x)$ 的单调减区间.",
+        "solution": [
+            "$f(x)=\\vec{m} \\cdot \\vec{n}-1=2 \\cos ^{2} x+2 \\sqrt{3} \\sin x \\cos x-1=\\cos 2 x+\\sqrt{3} \\sin 2 x$.\n\n$$\n=2 \\sin \\left(2 x+\\frac{\\pi}{6}\\right)\n$$\n\n$\\because x \\in \\mathrm{R}$, 由 $2 k \\pi+\\frac{\\pi}{2} \\leq 2 x+\\frac{\\pi}{6} \\leq 2 k \\pi+\\frac{3 \\pi}{2}$ 得\n\n$$\nk \\pi+\\frac{\\pi}{6} \\leq x \\leq k \\pi+\\frac{2 \\pi}{3}\n$$\n\n$\\therefore$ 函数 $f(x)$ 的单调减区间 $\\left[k \\pi+\\frac{\\pi}{6}, k \\pi+\\frac{2 \\pi}{3}\\right] \\quad k \\in Z$."
+        ],
+        "final_answer": [
+            "$\\left[k \\pi+\\frac{\\pi}{6}, k \\pi+\\frac{2 \\pi}{3}\\right]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知向量 $\\vec{m}=(2 \\cos x, \\sin x), \\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x) \\quad(x \\in \\mathbf{R})$,设函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$.\n求函数 $f(x)$ 的单调减区间.\n好的，我现在需要解决这个数学竞赛题，题目是关于向量和函数单调区间的"
+            }
+        }
+    },
+    {
+        "id": 282,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知向量 $\\vec{m}=(2 \\cos x, \\sin x), \\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x) \\quad(x \\in \\mathbf{R})$,设函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$.\n已知 $\\triangle A B C$ 的三个内角分别为 $A, B, C$, 若 $f(A)=2, B=\\frac{\\pi}{4}$, 边 $A B=\\sqrt{6}+\\sqrt{2}$, 求边 $B C$.",
+        "solution": [
+            "$\\because f(A)=2$, 即 $2 \\sin \\left(2 A+\\frac{\\pi}{6}\\right)=2, \\because$ 角 $A$ 为锐角, 得 $A=\\frac{\\pi}{6}$,\n\n$$\n\\text { 又 } B=\\frac{\\pi}{4}, \\therefore C=\\frac{7}{12} \\pi, \\therefore \\sin C=\\sin \\frac{7 \\pi}{12}=\\sin \\left(\\frac{\\pi}{4}+\\frac{\\pi}{3}\\right)=\\frac{\\sqrt{6}+\\sqrt{2}}{4}\n$$\n\n$\\because A B=\\sqrt{6}+\\sqrt{2}$,\n\n由正弦定理得 $B C=\\frac{A B \\sin A}{\\sin C}=\\frac{(\\sqrt{6}+\\sqrt{2})(\\sqrt{6}-\\sqrt{2})}{2}=2$."
+        ],
+        "final_answer": [
+            "$2$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知向量 $\\vec{m}=(2 \\cos x, \\sin x), \\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x) \\quad(x \\in \\mathbf{R})$,设函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$.\n已知 $\\triangle A B C$ 的三个内角分别为 $A, B, C$, 若 $f(A)=2, B=\\frac{\\pi}{4}$, 边 $A B=\\sqrt{6}+\\sqrt{2}$, 求边 $B C$.\n</think>\n\n已知向量 \\(\\vec{m} = (2 \\cos x, \\"
+            }
+        }
+    },
+    {
+        "id": 285,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "2018 年元旦期间, 某品牌轿车销售商为了促销，给出了两种优惠方案, 顾客只能选择其中的一种, 方案一: 每满 6 万元, 可减 6 千元. 方案二: 金额超过 6 万元 (含 6 万元), 可摇号三次, 其规则是依次装有 2 个幸运号、 2 个吉祥号的一号摇号机, 装有 2 个幸运号、 2 个吉祥号的二号摇号机, 装有 1 个幸运号、 3 个吉祥号的三号摇号机各摇号一次, 其优惠情况为:若摇出 3 个幸运号则打 6 折; 若摇出 2 个幸运号则打 7 折; 若摇出 1 个幸运号则打 8 折；若没有摇出幸运号则不打折.\n若某型号的车正好 6 万元, 两个顾客都选中第二种方案, 求至少有一名顾客比选择方案一更优惠的概率;",
+        "solution": [
+            "要使选择方案二比选择方案一更优惠, 则需要至少摸出 1 个幸运球,设顾客不打折即三次没摸出幸运球为事件 $A$, 则\n\n$P(A)=\\frac{2 \\times 2 \\times 3}{4 \\times 4 \\times 4}=\\frac{3}{16}$,\n\n故所求概率 $P=1-P(A) P(A)=1-\\left(\\frac{3}{16}\\right)^{2}=\\frac{247}{256}$."
+        ],
+        "final_answer": [
+            "$\\frac{247}{256}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n2018 年元旦期间, 某品牌轿车销售商为了促销，给出了两种优惠方案, 顾客只能选择其中的一种, 方案一: 每满 6 万元, 可减 6 千元. 方案二: 金额超过 6 万元 (含 6 万元), 可摇号三次, 其规则是依次装有 2 个幸运号、 2 个吉祥号的一号摇号机, 装有 2 个幸运号、 2 个吉祥号的二号摇号机, 装有 1 个幸运号、 3 个吉祥号的三号摇号机各摇号一次, 其优惠情况为:若摇出 3 个幸运号则打 6 折; 若摇出 2 个幸运号则打 7 折; 若摇出 1 个幸运号则打 8 折；若没有摇出幸运号则不打折.\n若某型号的车正好 6 万元, 两个顾客都选中第二种方案, 求至少有一名顾客比选择方案一更优惠的概率;\n好，我现在来仔细思考这个问题。题目是关于概率的，涉及到两种优惠方案的选择，"
+            }
+        }
+    },
+    {
+        "id": 287,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知动点 $D$ 与两定点 $A(-2,0) 、 B(2,0)$ 连线的斜率的乘积为 $-\\frac{1}{2}$,圆 $C$ 的圆心在原点, 半径为 $\\sqrt{2}$.\n若动点 $D$ 的轨迹为曲线 $E$, 求曲线 $E$ 方程;",
+        "solution": [
+            "设点 $D(x, y)$, 则 $k_{D A} \\cdot k_{D B}=\\frac{y}{x+2} \\cdot \\frac{y}{x-2}=-\\frac{1}{2}$,\n\n即 $2 y^{2}+x^{2}=4$, 整理得 $\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$, 其中 $x \\neq \\pm 2$."
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知动点 $D$ 与两定点 $A(-2,0) 、 B(2,0)$ 连线的斜率的乘积为 $-\\frac{1}{2}$,圆 $C$ 的圆心在原点, 半径为 $\\sqrt{2}$.\n若动点 $D$ 的轨迹为曲线 $E$, 求曲线 $E$ 方程;\n求曲线 $E$ 与圆 $C$ 的交点坐标。\n</think>\n\n已知"
+            }
+        }
+    },
+    {
+        "id": 288,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知动点 $D$ 与两定点 $A(-2,0) 、 B(2,0)$ 连线的斜率的乘积为 $-\\frac{1}{2}$,圆 $C$ 的圆心在原点, 半径为 $\\sqrt{2}$.\n若动点 $P$ 在曲线 $E$ 上, 点 $Q$ 在圆 $C$ 上, 且 $P, Q$ 在 $y$ 轴两侧, 线段 $P Q$ 平行于 $x$ 轴. 直线 $A P$ 交 $y$ 轴于点 $M$, 直线 $B P$ 交 $y$ 轴于点 $N$, 求 $\\angle M Q N$.",
+        "solution": [
+            "设点 $D(x, y)$, 则 $k_{D A} \\cdot k_{D B}=\\frac{y}{x+2} \\cdot \\frac{y}{x-2}=-\\frac{1}{2}$,\n\n即 $2 y^{2}+x^{2}=4$, 整理得 $\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$, 其中 $x \\neq \\pm 2$.\n\n设直线 $A P$ 为 $y=k(x+2)$, 联立椭圆 $\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$ 得\n\n$$\n\\left(1+2 k^{2}\\right) x^{2}+8 k^{2} x+8 k^{2}-4=0\n$$\n\n根据韦达定理得 $x_{p} \\cdot x_{A}=\\frac{8 k^{2}-4}{1+2 k^{2}}$, 其中 $x_{A}=-2$, 所以 $x_{p}=\\frac{2-4 k^{2}}{1+2 k^{2}}$,\n\n将 $x_{p}$ 代入直线 $A P$ 得到 $y_{p}=\\frac{4 k}{1+2 k^{2}}$.\n\n由于 $P Q$ 平行于 $x$ 轴,所以 $y_{Q}=y_{p}=\\frac{4 k}{1+2 k^{2}}$.\n\n在直线 $A P$ 为 $y=k(x+2)$ 中令 $x=0$ 得 $M(0,2 k)$.\n\n根据条件知可设直线 $B P$ 为 $y=-\\frac{1}{2 k}(x-2)$, 令 $x=0$ 得 $N\\left(0, \\frac{1}{k}\\right)$.\n\n<img_4170>\n\n设 $Q\\left(x_{Q}, y_{Q}\\right)$, 则 $\\overrightarrow{M Q} \\cdot \\overrightarrow{N Q}=\\left(x_{Q}, y_{Q}-2 k\\right) \\cdot\\left(x_{Q}, y_{Q}-\\frac{1}{k}\\right)$\n\n$=x_{Q}^{2}+y_{Q}^{2}-\\left(\\frac{1}{k}+2 k\\right) y_{Q}+2=2-\\left(\\frac{1}{k}+2 k\\right) \\frac{4 k}{1+2 k^{2}}+2=0$.\n\n所以 $\\angle M Q N=\\frac{\\pi}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\pi}{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知动点 $D$ 与两定点 $A(-2,0) 、 B(2,0)$ 连线的斜率的乘积为 $-\\frac{1}{2}$,圆 $C$ 的圆心在原点, 半径为 $\\sqrt{2}$.\n若动点 $P$ 在曲线 $E$ 上, 点 $Q$ 在圆 $C$ 上, 且 $P, Q$ 在 $y$ 轴两侧, 线段 $P Q$ 平行于 $x$ 轴. 直线 $A P$ 交 $y$ 轴于点 $M$, 直线 $B P$ 交 $y$ 轴于点 $N$, 求 $\\angle M Q N$.\n</think>\n\n已知动点 \\( D \\) 与两定点 \\( A(-2,0"
+            }
+        }
+    },
+    {
+        "id": 289,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=\\frac{m \\ln x}{x}+n, g(x)=x^{2}\\left(f(x)-\\frac{1}{x}-\\frac{a}{2}\\right)$ $(m, n, a \\in R)$, 且曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y=x-1$.\n求实数 $m, n$ 的值.",
+        "solution": [
+            "函数 $f(x)$ 的定义域为 $(0,+\\infty), f^{\\prime}(x)=\\frac{m(1-\\ln x)}{x^{2}},$\n\n因为 $f(x)$ 的图象在点 $(1, f(1))$ 处的切线方程为 $y=x-1$,\n\n所以 $\\left\\{\\begin{array}{l}f^{\\prime}(1)=m=1 \\\\ f(1)=\\frac{m \\ln 1}{1}+n=0\\end{array}\\right.$. 解得 $m=1, n=0$."
+        ],
+        "final_answer": [
+            "$1, 0$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=\\frac{m \\ln x}{x}+n, g(x)=x^{2}\\left(f(x)-\\frac{1}{x}-\\frac{a}{2}\\right)$ $(m, n, a \\in R)$, 且曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y=x-1$.\n求实数 $m, n$ 的值.\n好的，我现在要解决这个数学竞赛题。题目是关于函数和导数的应用。首先"
+            }
+        }
+    },
+    {
+        "id": 290,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=\\frac{m \\ln x}{x}+n, g(x)=x^{2}\\left(f(x)-\\frac{1}{x}-\\frac{a}{2}\\right)$ $(m, n, a \\in R)$, 且曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y=x-1$.\n函数 $f(x)$ 的最大值.",
+        "solution": [
+            "函数 $f(x)$ 的定义域为 $(0,+\\infty), f^{\\prime}(x)=\\frac{m(1-\\ln x)}{x^{2}},$\n\n因为 $f(x)$ 的图象在点 $(1, f(1))$ 处的切线方程为 $y=x-1$,\n\n所以 $\\left\\{\\begin{array}{l}f^{\\prime}(1)=m=1 \\\\ f(1)=\\frac{m \\ln 1}{1}+n=0\\end{array}\\right.$. 解得 $m=1, n=0$.\n\n所以 $f(x)=\\frac{\\ln x}{x}$. 故 $f^{\\prime}(x)=\\frac{1-\\ln x}{x^{2}}$.\n\n令 $f^{\\prime}(x)=0$, 得 $x=e,$\n\n当 $0<x<e$ 时, $f^{\\prime}(x)>0, f(x)$ 单调递增;\n\n当 $x>e$ 时, $f^{\\prime}(x)<0, f(x)$ 单调递减.\n\n所以当 $x=e$ 时, $f(x)$ 取得最大值 $f(e)=\\frac{1}{e}$."
+        ],
+        "final_answer": [
+            "$\\frac{1}{e}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=\\frac{m \\ln x}{x}+n, g(x)=x^{2}\\left(f(x)-\\frac{1}{x}-\\frac{a}{2}\\right)$ $(m, n, a \\in R)$, 且曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y=x-1$.\n函数 $f(x)$ 的最大值.\n好的，我现在要解决这个数学竞赛题目，题目是关于函数的最大值。题目给了函数"
+            }
+        }
+    },
+    {
+        "id": 291,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=\\frac{m \\ln x}{x}+n, g(x)=x^{2}\\left(f(x)-\\frac{1}{x}-\\frac{a}{2}\\right)$ $(m, n, a \\in R)$, 且曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y=x-1$.\n当 $a \\in\\left(-e, \\frac{1}{e}\\right)$ 时, 记函数 $g(x)$ 的最小值为 $b$, 求实数 $b$ 的取值范围.",
+        "solution": [
+            "函数 $f(x)$ 的定义域为 $(0,+\\infty), f^{\\prime}(x)=\\frac{m(1-\\ln x)}{x^{2}},$\n\n因为 $f(x)$ 的图象在点 $(1, f(1))$ 处的切线方程为 $y=x-1$,\n\n所以 $\\left\\{\\begin{array}{l}f^{\\prime}(1)=m=1 \\\\ f(1)=\\frac{m \\ln 1}{1}+n=0\\end{array}\\right.$. 解得 $m=1, n=0$.\n\n所以 $f(x)=\\frac{\\ln x}{x}$. 故 $f^{\\prime}(x)=\\frac{1-\\ln x}{x^{2}}$.\n\n令 $f^{\\prime}(x)=0$, 得 $x=e,$\n\n当 $0<x<e$ 时, $f^{\\prime}(x)>0, f(x)$ 单调递增;\n\n当 $x>e$ 时, $f^{\\prime}(x)<0, f(x)$ 单调递减.\n\n$\\because g(x)=x^{2}\\left[f(x)-\\frac{1}{x}-\\frac{a}{2}\\right]=x \\ln x-\\frac{a x^{2}}{2}-x$,\n\n$\\therefore g^{\\prime}(x)=\\ln x-a x=x\\left(\\frac{\\ln x}{x}-a\\right),$\n\n令 $h(x)=\\frac{\\ln x}{x}-a$, $f(x)=\\frac{\\ln x}{x}$ 在 $(0, e)$ 上是增函数,\n\n故 $h(x)=\\frac{\\ln x}{x}-a$ 在 $(0, e)$ 上是增函数,\n\n又 $\\because-e<a<\\frac{1}{e}, \\quad \\therefore h(e)=\\frac{1}{e}-a>0, h\\left(\\frac{1}{e}\\right)=-e-a<0$,\n\n因此存在唯一的 $t \\in\\left(\\frac{1}{e}, e\\right)$, 使得 $h(t)=0$, 也就是 $g^{\\prime}(t)=0$, 即 $\\ln t=a t$\n\n当 $x \\in(0, t)$ 时, $h(x)<h(t)=0$, 所以 $g^{\\prime}(x)<0, g(x)$ 单调递减;\n\n当 $x \\in(t, e)$ 时, $g^{\\prime}(x)>0, g(x)$ 单调递增, 所以 $g(x)$ 的最小值为 $b=t \\ln t-\\frac{a}{2} t^{2}-t=\\frac{t \\ln t}{2}-t$, 令 $s(t)=\\frac{t \\ln t}{2}-t$, 因为 $h^{\\prime}(t)=\\frac{\\ln t-1}{2}<0$, 所以 $h(t)$ 在 $\\left(\\frac{1}{e}, e\\right)$ 单调递减, 从而$h(t) \\in\\left(-\\frac{e}{2},-\\frac{3}{2 e}\\right)$, 即 $b$ 的取值范围是 $\\left(-\\frac{e}{2},-\\frac{3}{2 e}\\right)$."
+        ],
+        "final_answer": [
+            "$\\left(-\\frac{e}{2},-\\frac{3}{2 e}\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=\\frac{m \\ln x}{x}+n, g(x)=x^{2}\\left(f(x)-\\frac{1}{x}-\\frac{a}{2}\\right)$ $(m, n, a \\in R)$, 且曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y=x-1$.\n当 $a \\in\\left(-e, \\frac{1}{e}\\right)$ 时, 记函数 $g(x)$ 的最小值为 $b$, 求实数 $b$ 的取值范围.\n好的，我现在要解决这个数学竞赛题。题目给出函数f(x)和g(x)，"
+            }
+        }
+    },
+    {
+        "id": 292,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=t \\\\ y=m+t\\end{array}\\right.$ ( $t$ 为参数, $m \\in R$ ), 以原点 $O$ 为极点, $x$ 轴的非负半轴为极轴建立极坐标系, 曲线 $C_{2}$的极坐标方程为 $\\rho^{2}=\\frac{3}{3-2 \\cos ^{2} \\theta}(0 \\leq \\theta \\leq \\pi)$.\n写出曲线 $C_{1}$ 的普通方程",
+        "solution": [
+            "由曲线 $C_{1}$ 的参数方程, 消去参数 $t$, 可得 $C_{1}$ 的普通方程为: $x-y+m=0$."
+        ],
+        "final_answer": [
+            "$x-y+m=0$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=t \\\\ y=m+t\\end{array}\\right.$ ( $t$ 为参数, $m \\in R$ ), 以原点 $O$ 为极点, $x$ 轴的非负半轴为极轴建立极坐标系, 曲线 $C_{2}$的极坐标方程为 $\\rho^{2}=\\frac{3}{3-2 \\cos ^{2} \\theta}(0 \\leq \\theta \\leq \\pi)$.\n写出曲线 $C_{1}$ 的普通方程\n嗯，我现在要解决这个数学题，首先题目分为两部分，第一部分是写出曲线"
+            }
+        }
+    },
+    {
+        "id": 293,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=t \\\\ y=m+t\\end{array}\\right.$ ( $t$ 为参数, $m \\in R$ ), 以原点 $O$ 为极点, $x$ 轴的非负半轴为极轴建立极坐标系, 曲线 $C_{2}$的极坐标方程为 $\\rho^{2}=\\frac{3}{3-2 \\cos ^{2} \\theta}(0 \\leq \\theta \\leq \\pi)$.\n写出曲线 $C_{2}$ 的直角坐标方程.",
+        "solution": [
+            "由曲线 $C_{2}$ 的极坐标方程得 $3 \\rho^{2}-2 \\rho^{2} \\cos ^{2} \\theta=3, \\theta \\in[0, \\pi]$,\n\n$\\therefore$ 曲线 $C_{2}$ 的直角坐标方程为 $\\frac{x^{2}}{3}+y^{2}=1(0 \\leq y \\leq 1)$."
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{3}+y^{2}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=t \\\\ y=m+t\\end{array}\\right.$ ( $t$ 为参数, $m \\in R$ ), 以原点 $O$ 为极点, $x$ 轴的非负半轴为极轴建立极坐标系, 曲线 $C_{2}$的极坐标方程为 $\\rho^{2}=\\frac{3}{3-2 \\cos ^{2} \\theta}(0 \\leq \\theta \\leq \\pi)$.\n写出曲线 $C_{2}$ 的直角坐标方程.\n好，我现在要解决这个数学竞赛题，题目是关于将极坐标方程转换为"
+            }
+        }
+    },
+    {
+        "id": 294,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=t \\\\ y=m+t\\end{array}\\right.$ ( $t$ 为参数, $m \\in R$ ), 以原点 $O$ 为极点, $x$ 轴的非负半轴为极轴建立极坐标系, 曲线 $C_{2}$的极坐标方程为 $\\rho^{2}=\\frac{3}{3-2 \\cos ^{2} \\theta}(0 \\leq \\theta \\leq \\pi)$.\n已知点 $P$ 是曲线 $C_{2}$ 上一点, 若点 $P$ 到曲线 $C_{1}$ 的最小距离为 $2 \\sqrt{2}$, 求 $m$的值.",
+        "solution": [
+            "由曲线 $C_{1}$ 的参数方程, 消去参数 $t$, 可得 $C_{1}$ 的普通方程为: $x-y+m=0$.\n\n由曲线 $C_{2}$ 的极坐标方程得 $3 \\rho^{2}-2 \\rho^{2} \\cos ^{2} \\theta=3, \\theta \\in[0, \\pi]$,\n\n$\\therefore$ 曲线 $C_{2}$ 的直角坐标方程为 $\\frac{x^{2}}{3}+y^{2}=1(0 \\leq y \\leq 1)$\n\n设曲线 $C_{2}$ 上任意一点 $P$ 为 $(\\sqrt{3} \\cos \\alpha, \\sin \\alpha), \\alpha \\in[0, \\pi]$,\n\n则点 $P$ 到曲线 $C_{1}$ 的距离为 $d=\\frac{|\\sqrt{3} \\cos \\alpha-\\sin \\alpha+m|}{\\sqrt{2}}=\\frac{\\left|2 \\cos \\left(\\alpha+\\frac{\\pi}{6}\\right)+m\\right|}{\\sqrt{2}} .$\n\n$\\because \\alpha \\in[0, \\pi] \\quad \\therefore \\cos \\left(\\alpha+\\frac{\\pi}{6}\\right) \\in\\left[-1, \\frac{\\sqrt{3}}{2}\\right], \\quad 2 \\cos \\left(\\alpha+\\frac{\\pi}{6}\\right) \\in[-2, \\sqrt{3}]$,\n\n当 $m+\\sqrt{3}<0$ 时, $m+\\sqrt{3}=-4$, 即 $m=-4-\\sqrt{3}$;\n\n当 $m-2>0$ 时, $m-2=4$, 即 $m=6$.\n\n$\\therefore m=-4-\\sqrt{3}$ 或 $m=6$."
+        ],
+        "final_answer": [
+            "$-4-\\sqrt{3},6$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=t \\\\ y=m+t\\end{array}\\right.$ ( $t$ 为参数, $m \\in R$ ), 以原点 $O$ 为极点, $x$ 轴的非负半轴为极轴建立极坐标系, 曲线 $C_{2}$的极坐标方程为 $\\rho^{2}=\\frac{3}{3-2 \\cos ^{2} \\theta}(0 \\leq \\theta \\leq \\pi)$.\n已知点 $P$ 是曲线 $C_{2}$ 上一点, 若点 $P$ 到曲线 $C_{1}$ 的最小距离为 $2 \\sqrt{2}$, 求 $m$的值.\n好的，我现在要解决这个数学竞赛题目。题目涉及到直角坐标系和极坐标系"
+            }
+        }
+    },
+    {
+        "id": 295,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数$f(x)=\\frac{1}{3}|x-a|(a \\in R)$.\n当 $a=2$ 时, 解不等式 $\\left|x-\\frac{1}{3}\\right|+f(x) \\geq 1$ ；",
+        "solution": [
+            "当 $a=2$ 时, 原不等式可化为 $|3 x-1|+|x-2| \\geq 3$.\n\n(1) 当 $x \\leq \\frac{1}{3}$ 时, 原不等式可化为 $-3 x+1+2-x \\geq 3$, 解得 $x \\leq 0$, 所以 $x \\leq 0 ;$\n\n(2)当 $\\frac{1}{3}<x<2$ 时, 原不等式可化为 $3 x-1+2-x \\geq 3$, 解得 $x \\geq 1$, 所以 $1 \\leq x<2 ;$\n\n(3)当 $x \\geq 2$ 时, 原不等式可化为 $3 x-1-2+x \\geq 3$, 解得 $x \\geq \\frac{3}{2}$, 所以 $x \\geq 2$.\n\n综上所述, 当 $a=2$ 时, 不等式的解集为 $\\{x \\mid x \\leq 0$ 或 $x \\geq 1\\}$."
+        ],
+        "final_answer": [
+            "$(-\\infty, 0] \\cup [1, +\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数$f(x)=\\frac{1}{3}|x-a|(a \\in R)$.\n当 $a=2$ 时, 解不等式 $\\left|x-\\frac{1}{3}\\right|+f(x) \\geq 1$ ；\n当 $a$ 变化时，设方程$f(x)=k$ 有三个"
+            }
+        }
+    },
+    {
+        "id": 296,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数$f(x)=\\frac{1}{3}|x-a|(a \\in R)$.\n设不等式 $\\left|x-\\frac{1}{3}\\right|+f(x) \\leq x$ 的解集为 $M$, 若 $\\left[\\frac{1}{3}, \\frac{1}{2}\\right] \\subseteq M$, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "不等式 $\\left|x-\\frac{1}{3}\\right|+f(x) \\leq x$ 可化为 $|3 x-1|+|x-a| \\leq 3 x ，$\n\n依题意不等式 $|3 x-1|+|x-a| \\leq 3 x$ 在 $\\left[\\frac{1}{3}, \\frac{1}{2}\\right]$ 恒成立,\n\n所以 $3 x-1+|x-a| \\leq 3 x$, 即 $|x-a| \\leq 1,$\n\n即 $a-1 \\leq x \\leq a+1$, 所以 $\\left\\{\\begin{array}{l}a-1 \\leq \\frac{1}{3} \\\\ a+1 \\geq \\frac{1}{2}\\end{array}\\right.$.\n\n解得 $-\\frac{1}{2} \\leq a \\leq \\frac{4}{3}$, 故所求实数 $a$ 的取值范围是 $\\left[-\\frac{1}{2}, \\frac{4}{3}\\right] .$"
+        ],
+        "final_answer": [
+            "$\\left[-\\frac{1}{2}, \\frac{4}{3}\\right]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数$f(x)=\\frac{1}{3}|x-a|(a \\in R)$.\n设不等式 $\\left|x-\\frac{1}{3}\\right|+f(x) \\leq x$ 的解集为 $M$, 若 $\\left[\\frac{1}{3}, \\frac{1}{2}\\right] \\subseteq M$, 求实数 $a$ 的取值范围.\n好的，我现在来解决这个数学问题。首先，我要理解题目的要求，然后一步步分析"
+            }
+        }
+    },
+    {
+        "id": 297,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=4 \\sin x \\sin \\left(x+\\frac{\\pi}{6}\\right)-\\sqrt{3}$.\n求 $f(x)$ 的最小正周期:",
+        "solution": [
+            "$f(x)=4 \\sin x \\sin \\left(x+\\frac{\\pi}{6}\\right)-\\sqrt{3}=4 \\sin x\\left(\\frac{\\sqrt{3}}{2} \\sin x+\\frac{1}{2} \\cos x\\right)-\\sqrt{3}$\n\n$$\n\\begin{aligned}\n& =2 \\sqrt{3} \\sin ^{2} x+2 \\sin x \\cos x-\\sqrt{3}=\\sqrt{3}(1-\\cos 2 x)+\\sin 2 x-\\sqrt{3} \\\\\n& =\\sin 2 x-\\sqrt{3} \\cos 2 x=2 \\sin \\left(2 x-\\frac{\\pi}{3}\\right)\n\\end{aligned}\n$$\n\n所以函数 $f(x)$ 的最小正周期为 $\\pi$."
+        ],
+        "final_answer": [
+            "$\\pi$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=4 \\sin x \\sin \\left(x+\\frac{\\pi}{6}\\right)-\\sqrt{3}$.\n求 $f(x)$ 的最小正周期:\n求 $f(x)$ 的最大值和最小值:\n求 $f(x)$ 的单调递"
+            }
+        }
+    },
+    {
+        "id": 298,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=4 \\sin x \\sin \\left(x+\\frac{\\pi}{6}\\right)-\\sqrt{3}$.\n在锐角 $\\triangle A B C$ 中, $a, b, c$ 分别为角 $A, B, C$ 的对边, 且满足 $a \\sin B+b \\cos 2 A=b \\cos A$, 求 $f(B)$ 的取值范围.",
+        "solution": [
+            "依题意, 由正弦定理, $\\sin A \\sin B+\\sin B \\cos 2 A=\\sin B \\cos A$, .\n\n因为在三角形中 $\\sin B \\neq 0$, 所以 $\\cos 2 A=\\cos A-\\sin A$.\n\n即 $(\\cos A-\\sin A)(\\cos A+\\sin A-1)=0$,\n\n当 $\\cos A-\\sin A=0$ 时, $\\tan A=1, A=\\frac{\\pi}{4}$ ：\n\n当 $\\cos A+\\sin A=1$ 时, 两边平方得 $1+2 \\sin A \\cos A=1$, 故 $\\sin A \\cos A=0, \\cos A=0, A=\\frac{\\pi}{2}$.由于 $\\triangle A B C$ 锐角三角形, 所以 $A=\\frac{\\pi}{4}$.\n\n则 $B+C=\\frac{3}{4} \\pi$. 又 $0<B<\\frac{\\pi}{2}, 0<C<\\frac{\\pi}{2}, C=\\frac{3}{4} \\pi-B$.\n\n所以 $\\frac{\\pi}{4}<B<\\frac{\\pi}{2}$,\n\n又 $\\frac{\\pi}{6}<2 B-\\frac{\\pi}{3}<\\frac{2 \\pi}{3}$, 所以 $\\frac{1}{2}<\\sin \\left(2 B-\\frac{\\pi}{3}\\right) \\leq 1$.\n\n由 $f(B)=2 \\sin \\left(2 B-\\frac{\\pi}{3}\\right)$,\n\n则 $f(B)$ 的取值范围 $(1,2]$."
+        ],
+        "final_answer": [
+            "$(1,2]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=4 \\sin x \\sin \\left(x+\\frac{\\pi}{6}\\right)-\\sqrt{3}$.\n在锐角 $\\triangle A B C$ 中, $a, b, c$ 分别为角 $A, B, C$ 的对边, 且满足 $a \\sin B+b \\cos 2 A=b \\cos A$, 求 $f(B)$ 的取值范围.\n好的，我现在来解决这个数学竞赛题目。首先，题目给出了函数$f(x)=4 \\"
+            }
+        }
+    },
+    {
+        "id": 304,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知 $A, B$ 是 $x$ 轴正半轴上两点 ( $A$ 在 $B$ 的左侧), 且 $|A B| = a(a>0)$, 过 $A, B$ 作 $x$ 轴的垂线, 与抛物线 $y^{2}=2 p x(p>0)$ 在第一象限分别交于 $D, C$ 两点.\n若 $a=p$, 点 $A$ 与抛物线 $y^{2}=2 p x$ 的焦点重合, 求直线 $C D$ 的斜率;",
+        "solution": [
+            "由 $A\\left(\\frac{p}{2}, 0\\right)$, 则 $B\\left(\\frac{p}{2}+a, 0\\right), D\\left(\\frac{p}{2}, p\\right)$, 则 $C\\left(\\frac{p}{2}+a, \\sqrt{p^{2}+2 p a}\\right)$,\n\n又 $a=p$, 所以 $k_{C D}=\\frac{\\sqrt{3} p-p}{\\frac{3 p}{2}-\\frac{p}{2}}=\\sqrt{3}-1$."
+        ],
+        "final_answer": [
+            "$\\sqrt{3}-1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知 $A, B$ 是 $x$ 轴正半轴上两点 ( $A$ 在 $B$ 的左侧), 且 $|A B| = a(a>0)$, 过 $A, B$ 作 $x$ 轴的垂线, 与抛物线 $y^{2}=2 p x(p>0)$ 在第一象限分别交于 $D, C$ 两点.\n若 $a=p$, 点 $A$ 与抛物线 $y^{2}=2 p x$ 的焦点重合, 求直线 $C D$ 的斜率;\n好的，我现在要解决这个数学竞赛题目。让我仔细读题，理解各个条件，然后"
+            }
+        }
+    },
+    {
+        "id": 305,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知 $A, B$ 是 $x$ 轴正半轴上两点 ( $A$ 在 $B$ 的左侧), 且 $|A B| = a(a>0)$, 过 $A, B$ 作 $x$ 轴的垂线, 与抛物线 $y^{2}=2 p x(p>0)$ 在第一象限分别交于 $D, C$ 两点.\n若 $O$ 为坐标原点, 记 $\\triangle O C D$ 的面积为 $S_{1}$, 梯形 $A B C D$ 的面积为 $S_{2}$, 求 $\\frac{S_{1}}{S_{2}}$ 的取值范围.",
+        "solution": [
+            "设直线 $C D$ 的方程为: $y=k x+b(k \\neq 0)$, 设 $C\\left(x_{1}, y_{1}\\right), D\\left(x_{2}, y_{2}\\right)$,\n\n由 $\\left\\{\\begin{array}{l}y=k x+b \\\\ y^{2}=2 p x\\end{array}\\right.$, 得 $k y^{2}-2 p y+2 p b=0$,\n\n所以 $\\Delta=4 p^{2}-8 p k b>0$, 得 $k b<\\frac{p}{2}$,\n\n又 $y_{1}+y_{2}=\\frac{2 p}{k}, y_{1} y_{2}=\\frac{2 p b}{k}$, 由 $y_{1}+y_{2}=\\frac{2 p}{k}>0, y_{1} y_{2}=\\frac{2 p b}{k}>0$, 可知 $k>0, b>0$,\n\n由 $|C D|=\\sqrt{1+k^{2}}\\left|x_{1}-x_{2}\\right|=a \\sqrt{1+k^{2}}$,\n\n点 $O$ 到直线 $C D$ 的距离为 $d=\\frac{|b|}{\\sqrt{1+k^{2}}}$, 所以 $S_{1}=\\frac{1}{2} \\cdot a \\sqrt{1+k^{2}} \\cdot \\frac{|b|}{\\sqrt{1+k^{2}}}=\\frac{1}{2} a b$.\n\n又 $S_{2}=\\frac{1}{2}\\left(y_{1}+y_{2}\\right) \\cdot\\left|x_{1}-x_{2}\\right|=\\frac{1}{2} \\cdot \\frac{2 p}{k} \\cdot a=\\frac{a p}{k}$,\n\n所以 $\\frac{S_{1}}{S_{2}}=\\frac{k b}{2 p}$,\n\n因为 $0<k b<\\frac{p}{2}$, 所以 $0<\\frac{S_{1}}{S_{2}}<\\frac{1}{4}$."
+        ],
+        "final_answer": [
+            "$(0,\\frac{1}{4})$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知 $A, B$ 是 $x$ 轴正半轴上两点 ( $A$ 在 $B$ 的左侧), 且 $|A B| = a(a>0)$, 过 $A, B$ 作 $x$ 轴的垂线, 与抛物线 $y^{2}=2 p x(p>0)$ 在第一象限分别交于 $D, C$ 两点.\n若 $O$ 为坐标原点, 记 $\\triangle O C D$ 的面积为 $S_{1}$, 梯形 $A B C D$ 的面积为 $S_{2}$, 求 $\\frac{S_{1}}{S_{2}}$ 的取值范围.\n好的，我现在要解决这个数学竞赛题。让我仔细阅读题目，理解每一个条件，然后"
+            }
+        }
+    },
+    {
+        "id": 308,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "已知曲线 $C$ 的参数方程为 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$ ( $\\theta$ 为参数), 以平面直角坐标系的原点为极点, $x$ 的非负半轴为极轴建立极坐标系.\n求曲线 $C$ 的极坐标方程.",
+        "solution": [
+            "由 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$, 得到曲线 $C$ 的普通方程是: $\\frac{2 x^{2}}{5}+y^{2}=1, $\n\n又 $x=\\rho \\cos \\theta, y=\\rho \\sin \\theta$, 代入得, $5 \\rho^{2} \\sin ^{2} \\theta+2 \\rho^{2} \\cos ^{2} \\theta=5$, 即 $\\rho^{2}=\\frac{5}{5 \\sin ^{2} \\theta+2 \\cos^{2} \\theta}$."
+        ],
+        "final_answer": [
+            "$\\rho^{2}=\\frac{5}{5 \\sin ^{2} \\theta+2 \\cos^{2} \\theta}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知曲线 $C$ 的参数方程为 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$ ( $\\theta$ 为参数), 以平面直角坐标系的原点为极点, $x$ 的非负半轴为极轴建立极坐标系.\n求曲线 $C$ 的极坐标方程.\n好，我现在要解决这个数学竞赛题。题目是给定一个曲线C的参数方"
+            }
+        }
+    },
+    {
+        "id": 309,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "已知曲线 $C$ 的参数方程为 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$ ( $\\theta$ 为参数), 以平面直角坐标系的原点为极点, $x$ 的非负半轴为极轴建立极坐标系.\n$P 、 Q$ 为曲线 $C$ 上两点, 若 $\\overrightarrow{O P} \\cdot \\overrightarrow{O Q}=0$, 求 $\\frac{|\\overrightarrow{O P}|^{2} \\cdot |\\overrightarrow{O Q}|^{2}}{|\\overrightarrow{O P}|^{2}+|\\overrightarrow{O Q}|^{2}}$ 的值.",
+        "solution": [
+            "由 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$, 得到曲线 $C$ 的普通方程是: $\\frac{2 x^{2}}{5}+y^{2}=1, $\n\n又 $x=\\rho \\cos \\theta, y=\\rho \\sin \\theta$, 代入得, $5 \\rho^{2} \\sin ^{2} \\theta+2 \\rho^{2} \\cos ^{2} \\theta=5$, 即 $\\rho^{2}=\\frac{5}{5 \\sin ^{2} \\theta+2 \\cos^{2} \\theta}$.\n\n因为 $\\rho^{2}=\\frac{5}{5 \\sin ^{2} \\theta+2 \\cos ^{2} \\theta}$, 所以 $\\frac{1}{\\rho^{2}}=\\sin ^{2} \\theta+\\frac{2 \\cos ^{2} \\theta}{5}$,\n\n由 $\\overrightarrow{O P} \\cdot \\overrightarrow{O Q}=0$, 故 $O P \\perp O Q$,\n\n设点 $P$ 的极坐标为 $\\left(\\rho_{1}, \\theta\\right)$, 则点 $Q$ 的极坐标可设为 $\\left(\\rho_{2}, \\theta \\pm \\frac{\\pi}{2}\\right)$,\n\n所以 $\\frac{|\\overrightarrow{O P}|^{2} \\cdot|\\overrightarrow{O Q}|^{2}}{|\\overrightarrow{O P}|^{2}+|\\overrightarrow{O Q}|^{2}}=\\frac{1}{\\frac{1}{|O P|^{2}}+\\frac{1}{|O Q|^{2}}}$\n\n$=\\frac{1}{\\frac{1}{\\rho_{1}^{2}}+\\frac{1}{\\rho_{2}^{2}}}=\\frac{1}{\\sin ^{2} \\theta+\\frac{2 \\cos ^{2} \\theta}{5}+\\cos ^{2} \\theta+\\frac{2 \\sin ^{2} \\theta}{5}}=\\frac{1}{1+\\frac{2}{5}}=\\frac{5}{7}$."
+        ],
+        "final_answer": [
+            "$\\frac{5}{7}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知曲线 $C$ 的参数方程为 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$ ( $\\theta$ 为参数), 以平面直角坐标系的原点为极点, $x$ 的非负半轴为极轴建立极坐标系.\n$P 、 Q$ 为曲线 $C$ 上两点, 若 $\\overrightarrow{O P} \\cdot \\overrightarrow{O Q}=0$, 求 $\\frac{|\\overrightarrow{O P}|^{2} \\cdot |\\overrightarrow{O Q}|^{2}}{|\\overrightarrow{O P}|^{2}+|\\overrightarrow{O Q}|^{2}}$ 的值.\n好，我现在来仔细思考一下这个数学竞赛题。题目给出了曲线C的参数方程"
+            }
+        }
+    },
+    {
+        "id": 310,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+2|-a|2 x-1|, a \\in \\mathbf{R}$.\n当 $a=1$ 时, 求不等式 $f(x) \\geq 0$ 的解集.",
+        "solution": [
+            "当 $a=1$ 时, 由 $f(x) \\geq 0$, 即 $|x+2| \\geq|2 x-1|$, 两边平方, 得:\n\n$x^{2}+4 x+4 \\geq 4 x^{2}-4 x+1$,\n\n即 $3 x^{2}-8 x-3 \\leq 0$,\n\n解得: $-\\frac{1}{3} \\leq x \\leq 3$,\n\n所以不等式 $f(x) \\geq 0$ 的解集为: $\\left\\{x \\mid-\\frac{1}{3} \\leq x \\leq 3\\right\\}$."
+        ],
+        "final_answer": [
+            "$[-\\frac{1}{3}, 3]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|x+2|-a|2 x-1|, a \\in \\mathbf{R}$.\n当 $a=1$ 时, 求不等式 $f(x) \\geq 0$ 的解集.\n好的，我现在要解决这个数学题，题目是已知函数 \\( f(x) = |"
+            }
+        }
+    },
+    {
+        "id": 311,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+2|-a|2 x-1|, a \\in \\mathbf{R}$.\n若存在 $x \\in \\mathbf{R}$, 使得不等式 $f(x)>a$ 成立, 求 $a$ 的取值范围.",
+        "solution": [
+            "若存在 $x \\in \\mathbf{R}$, 使得不等式 $f(x)>a$ 成立, 即 $|x+2|-a|2 x-1|>a$ 成立,\n\n所以存在 $x \\in \\mathbf{R}$, 使得 $a<\\frac{|x+2|}{|2 x-1|+1}$ 成立, 令 $g(x)=\\frac{|x+2|}{|2 x-1|+1}$, 只需 $a<g_{\\text {max }}(x)$ 即可.\n\n又函数 $g(x)=\\frac{|x+2|}{|2 x-1|+1}=\\left\\{\\begin{array}{l}\\frac{1}{2}+\\frac{3}{2(x-1)}, x<-2 \\\\ -\\frac{1}{2}-\\frac{3}{2(x-1)},-2 \\leq x \\leq \\frac{1}{2} \\\\ \\frac{1}{2}+\\frac{1}{x}, x>\\frac{1}{2}\\end{array}\\right.$,\n\n当 $x<-2$ 时, $g(x)$ 单调递减, $0<g(x)<\\frac{1}{2}$;\n\n当 $-2 \\leq x \\leq \\frac{1}{2}$ 时, $g(x)$ 单调递增, $0 \\leq g(x) \\leq \\frac{5}{2}$ ：\n\n当 $x>\\frac{1}{2}$ 时, $g(x)$ 单调递减, $\\frac{1}{2}<g(x)<\\frac{5}{2}$ ；\n\n可知函数 $g_{\\text {max }}(x)=g\\left(\\frac{1}{2}\\right)=\\frac{5}{2}$,\n\n所以 $a<\\frac{5}{2}$."
+        ],
+        "final_answer": [
+            "$(-\\infty, \\frac{5}{2})$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|x+2|-a|2 x-1|, a \\in \\mathbf{R}$.\n若存在 $x \\in \\mathbf{R}$, 使得不等式 $f(x)>a$ 成立, 求 $a$ 的取值范围.\n好，我现在要解决这个数学题。题目是已知函数 \\( f(x) = |"
+            }
+        }
+    },
+    {
+        "id": 312,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知 $S_{2}=3, a_{n+1}=S_{n}+1$\n求通项公式 $a_{n}$.",
+        "solution": [
+            "$\\because a_{n+1}=S_{n}+1$, 当 $n=1$ 时, $a_{2}=a_{1}+1$,\n\n$$\n\\text { 又 } \\because \\mathrm{a}_{1}+a_{2}=3, \\therefore a_{1}=1, a_{2}=2\n$$\n\n当$n>1$时，$a_{n}=S_{n-1} + 1, a_{n+1}-a_{n}=a_{n},\\therefore a_{n+1}=2a_{n}, \\therefore \\left \\{a_{n}\\right \\}$为等比数列.\n\n且公比 $\\mathrm{q}=2$,\n\n$a_{n}=2^{n-1} ;$"
+        ],
+        "final_answer": [
+            "$2^{n-1}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知 $S_{2}=3, a_{n+1}=S_{n}+1$\n求通项公式 $a_{n}$.\n</think>\n\n已知 \\( S_{2} = 3 \\) 和递推关系式 \\("
+            }
+        }
+    },
+    {
+        "id": 313,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知 $S_{2}=3, a_{n+1}=S_{n}+1$\n若 $b_{n}=a_{n}\\left(\\log _{2} a_{n}+1\\right)\\left(n \\in N_{+}\\right)$, 求数列 $\\left\\{b_{n}\\right\\}$ 的前 $\\mathrm{n}$ 项和为 $T_{n}$",
+        "solution": [
+            "$\\because a_{n+1}=S_{n}+1$, 当 $n=1$ 时, $a_{2}=a_{1}+1$,\n\n$$\n\\text { 又 } \\because \\mathrm{a}_{1}+a_{2}=3, \\therefore a_{1}=1, a_{2}=2\n$$\n\n当$n>1$时，$a_{n}=S_{n-1} + 1, a_{n+1}-a_{n}=a_{n},\\therefore a_{n+1}=2a_{n}, \\therefore \\left \\{a_{n}\\right \\}$为等比数列.\n\n且公比 $\\mathrm{q}=2$,\n\n$a_{n}=2^{n-1} ;$\n\n$b_{n}=a_{n}\\left(\\log _{2} a_{n}+1\\right)=n \\cdot 2^{n-1}$\n\n$$\n\\begin{aligned}\n& \\therefore T_{n}=1 \\cdot 2^{0}+2 \\cdot 2^{1}+3 \\cdot 2^{2}+\\cdots+n \\cdot 2^{n-1} \\\\\n& \\therefore 2 T_{n}=\\quad 1 \\cdot 2^{1}+2 \\cdot 2^{2}+\\cdots+(n-1) \\cdot 2^{n-1}+n \\cdot 2^{n} \\\\\n& \\therefore-T_{n}=2^{0}+2^{1}+2^{2}+\\cdots+2^{n-1}-n \\cdot 2^{n}=\\frac{1 \\cdot\\left(1-2^{n}\\right)}{1-2}-n \\cdot 2^{n}\n\\end{aligned}\n$$\n\n$$\n\\therefore T_{n}=(n-1) \\cdot 2^{n}+1 .\n$$"
+        ],
+        "final_answer": [
+            "$(n-1) \\cdot 2^{n}+1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知 $S_{2}=3, a_{n+1}=S_{n}+1$\n若 $b_{n}=a_{n}\\left(\\log _{2} a_{n}+1\\right)\\left(n \\in N_{+}\\right)$, 求数列 $\\left\\{b_{n}\\right\\}$ 的前 $\\mathrm{n}$ 项和为 $T_{n}$\n</think>\n\n已知 $S_{2}=3$，且 $a_{n+1}="
+            }
+        }
+    },
+    {
+        "id": 317,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "“不怕同桌是学霸, 就怕学霸过暑假.”说的是暑假学习的重要性.现对某中学高中学生暑假学习时间进行调查, 随机调查男生、女生各 50 名, 其中每学习时间超过 6 小时的学生为 “甲组”, 否则为 “乙组”, 调查结果如下:\n\n|      | 甲组 | 乙组 | 合计 |\n| :--: | :--: | :--: | :--: |\n| 男生 |  28  |  22  |  50  |\n| 女生 |  30  |  20  |  50  |\n| 合计 |  58  |  42  | 100 |\n\n参考公式: $K^{2}=\\frac{n(a d-b c)^{2}}{(a+b)(c+d)(a+c)(b+d)}$, 其中 $n=a+b+c+d$ 为样本容量.\n\n参考数据:\n\n| $P\\left(K^{2} \\geq k_{0}\\right)$ | 0.50 | 0.40 | 0.25 | 0.05 | 0.025 | 0.010 |\n| :--------------------------------: | :---: | :---: | :---: | :---: | :---: | :---: |\n|             $k_{0}$             | 0.455 | 0.708 | 1.323 | 3.841 | 5.024 | 6.635 |\n现从调查的女生中按分层抽样的方法选出 5 人赠送学习软件各 1 份,求所抽取 5 人中 “甲组”有3人，“乙组” 有2人.接着从抽取的 5 人中再随机抽取 2 人赠送 200 元的学习资料, 求 “这 2 人中都在甲组或都在乙组” 的概率.",
+        "solution": [
+            "设: 甲组的三人为 A, B, C, 乙组的二人为 $a, b$, 则从 5 人中选取 2 人的基本事件有: $(A, B)(A, C)(A, a)(A, b)(B, C)(B, a)(B, b)(C, a)(C, b)(a, b)$ 共 10 种.\n\n其中都在甲组或都在乙组的有（A, B）(A, C ）(B, C) ( $a, b)$ ，共 4 种.\n\n所以 “所选取 2 人中都在甲组或都在乙组” 的概率 $\\mathrm{P}=\\frac{4}{10}=\\frac{2}{5}$."
+        ],
+        "final_answer": [
+            "$\\frac{2}{5}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n“不怕同桌是学霸, 就怕学霸过暑假.”说的是暑假学习的重要性.现对某中学高中学生暑假学习时间进行调查, 随机调查男生、女生各 50 名, 其中每学习时间超过 6 小时的学生为 “甲组”, 否则为 “乙组”, 调查结果如下:\n\n|      | 甲组 | 乙组 | 合计 |\n| :--: | :--: | :--: | :--: |\n| 男生 |  28  |  22  |  50  |\n| 女生 |  30  |  20  |  50  |\n| 合计 |  58  |  42  | 100 |\n\n参考公式: $K^{2}=\\frac{n(a d-b c)^{2}}{(a+b)(c+d)(a+c)(b+d)}$, 其中 $n=a+b+c+d$ 为样本容量.\n\n参考数据:\n\n| $P\\left(K^{2} \\geq k_{0}\\right)$ | 0.50 | 0.40 | 0.25 | 0.05 | 0.025 | 0.010 |\n| :--------------------------------: | :---: | :---: | :---: | :---: | :---: | :---: |\n|             $k_{0}$             | 0.455 | 0.708 | 1.323 | 3.841 | 5.024 | 6.635 |\n现从调查的女生中按分层抽样的方法选出 5 人赠送学习软件各 1 份,求所抽取 5 人中 “甲组”有3人，“乙组” 有2人.接着从抽取的 5 人中再随机抽取 2 人赠送 200 元的学习资料, 求 “这 2 人中都在甲组或都在乙组” 的概率.\n首先，我需要理解题目的要求。题目分为两部分：第一部分是计算概率，"
+            }
+        }
+    },
+    {
+        "id": 318,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知中心在原点, 焦点在 $x$ 轴上的椭圆 C 过点 $\\left(1, \\frac{\\sqrt{3}}{2}\\right)$, 离心率为 $\\frac{\\sqrt{3}}{2}, A_{1}$, $A_{2}$ 是椭圆 $C$ 的长轴的两个端点 ( $A_{2}$ 位于 $A_{1}$ 右侧), $B$ 是椭圆在 $\\mathrm{y}$ 轴正半轴的交点.\n求椭圆 $C$ 的标准方程;",
+        "solution": [
+            "设椭圆的方程为 $\\frac{x^{2}}{\\mathrm{a}^{2}}+\\frac{y^{2}}{b^{2}}=1$\n\n$$\n\\left\\{\\begin{array}{l}\n\\frac{1}{a^{2}}+\\frac{3}{4} \\cdot \\frac{1}{b^{2}}=1 \\\\\n\\frac{c}{a}=\\frac{\\sqrt{3}}{2}, \\\\\na^{2}=b^{2}+c^{2}\n\\end{array}\\right.\n$$\n\n$\\therefore a=2, b=1,$所以椭圆的方程为$\\frac{\\mathrm{x}^{2}}{4}+y^{2}=1$."
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{4}+y^{2}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知中心在原点, 焦点在 $x$ 轴上的椭圆 C 过点 $\\left(1, \\frac{\\sqrt{3}}{2}\\right)$, 离心率为 $\\frac{\\sqrt{3}}{2}, A_{1}$, $A_{2}$ 是椭圆 $C$ 的长轴的两个端点 ( $A_{2}$ 位于 $A_{1}$ 右侧), $B$ 是椭圆在 $\\mathrm{y}$ 轴正半轴的交点.\n求椭圆 $C$ 的标准方程;\n求点 $B$ 的坐标;\n求点 $A_{1}$ 的坐标;\n求点"
+            }
+        }
+    },
+    {
+        "id": 320,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=2 \\ln x-a x^{2}+3 x, a \\in R$.\n若 $f(1)=2$, 求函数 $f(x)$ 的最大值.",
+        "solution": [
+            "因为 $f(1)=2$, 所以 $-a+3=2$, 所以 $a=1$,\n\n$$\n\\begin{aligned}\n\\therefore & f(x)=2 \\ln x-x^{2}+3 x \\\\\n\\therefore & f^{\\prime}(x)=\\frac{2}{x}-2 x+3=-\\frac{(2 x+1)(x-2)}{x}\n\\end{aligned}\n$$\n\n由 $f^{\\prime}(x)>0$ 得, $0<x<2$, 有 $f^{\\prime}(x)<0$ 得, $x>2$,\n\n$\\therefore f(x)$ 在 $(0,2)$ 为增函数, 在 $(2,+\\infty)$ 为减函数\n\n$\\therefore f(x)_{\\max }=f(2)=2 \\ln 2+2$."
+        ],
+        "final_answer": [
+            "$2 \\ln 2+2$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=2 \\ln x-a x^{2}+3 x, a \\in R$.\n若 $f(1)=2$, 求函数 $f(x)$ 的最大值.\n好，我现在来解决这个问题。首先，题目给了我们一个函数f(x)=2 ln x"
+            }
+        }
+    },
+    {
+        "id": 322,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x 0 y$ 中, 以坐标原点为极点, $\\mathrm{x}$ 轴正半轴为极轴建立极坐标系,曲线 $\\mathrm{C}_{1}$ 的极坐标方程为 $\\rho \\cos \\theta=6(\\rho>0)$.\n$M$ 为曲线 $C_{1}$ 的动点, 点 $P$ 在线段 $O M$ 上, 且满足 $|O M| \\cdot|O P|=36$, 求点 $P$ 的轨迹 $C_{2}$ 的直角坐标方程.",
+        "solution": [
+            "设 $\\mathrm{P}$ 的极坐标为 $(\\rho, \\theta)(\\rho>0), \\mathrm{M}$ 的极坐标为 $\\left(\\rho_{1}, \\theta\\right)\\left(\\rho_{1}>0\\right)$\n\n由题设知 $|\\mathrm{OP}|=\\rho,|\\mathrm{OM}|=\\rho_{1}=\\frac{6}{\\cos \\theta}$,\n\n由 $|\\mathrm{OM}||\\mathrm{OP}|=36$ 得 $\\mathrm{C}_{2}$ 的极坐标方程 $\\rho=6 \\cos \\theta(\\rho>0)$\n\n因此 $C_{2}$ 的直角坐标方程为 $(x-3)^{2}+y^{2}=9(x \\neq 0)$."
+        ],
+        "final_answer": [
+            "$(x-3)^{2}+y^{2}=9$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x 0 y$ 中, 以坐标原点为极点, $\\mathrm{x}$ 轴正半轴为极轴建立极坐标系,曲线 $\\mathrm{C}_{1}$ 的极坐标方程为 $\\rho \\cos \\theta=6(\\rho>0)$.\n$M$ 为曲线 $C_{1}$ 的动点, 点 $P$ 在线段 $O M$ 上, 且满足 $|O M| \\cdot|O P|=36$, 求点 $P$ 的轨迹 $C_{2}$ 的直角坐标方程.\n好的，我现在来仔细思考一下这个数学竞赛题。题目是在直角坐标系xO"
+            }
+        }
+    },
+    {
+        "id": 323,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x 0 y$ 中, 以坐标原点为极点, $\\mathrm{x}$ 轴正半轴为极轴建立极坐标系,曲线 $\\mathrm{C}_{1}$ 的极坐标方程为 $\\rho \\cos \\theta=6(\\rho>0)$.\n设点 $\\mathrm{A}$ 的极坐标为 $\\left(4, \\frac{\\pi}{3}\\right)$, 点 $\\mathrm{B}$ 在曲线 $\\mathrm{C}_{2}$ 上, 求 $\\triangle O A B$ 面积的最大值",
+        "solution": [
+            "设点 B 的极坐标为 $\\left(\\rho_{B}, \\alpha\\right)\\left(\\rho_{B}>0\\right)$. 由题设知 $|0 \\mathrm{~A}|=4, \\rho_{B}=6 \\cos \\alpha,$\n\n于是 $\\triangle \\mathrm{OAB}$ 面积 $S=\\frac{1}{2}|\\mathrm{OA}| \\cdot \\rho_{\\mathrm{B}} \\sin \\angle A O B=12 \\cos \\alpha\\left|\\sin \\left(\\alpha-\\frac{\\pi}{3}\\right)\\right|$\n\n$$\n\\begin{aligned}\n& =12\\left|\\frac{1}{2} \\sin \\alpha \\cos \\alpha-\\frac{\\sqrt{3}}{2} \\cos ^{2} \\alpha\\right|=6\\left|\\sin 2 \\alpha \\cdot \\frac{1}{2}-\\cos 2 \\alpha \\cdot \\frac{\\sqrt{3}}{2}-\\frac{\\sqrt{3}}{2}\\right| \\\\\n& =6\\left|\\sin \\left(2 \\alpha-\\frac{\\pi}{3}\\right)-\\frac{\\sqrt{3}}{2}\\right| \\leqslant 6+3 \\sqrt{3}\n\\end{aligned}\n$$\n\n所以当 $\\alpha=-\\frac{\\pi}{12}$ 时, $\\mathrm{S}$ 取得最大值 $6+3 \\sqrt{3}$.\n\n所以 $\\triangle O A B$ 面积的最大值为 $6+3 \\sqrt{3}$."
+        ],
+        "final_answer": [
+            "$6+3 \\sqrt{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x 0 y$ 中, 以坐标原点为极点, $\\mathrm{x}$ 轴正半轴为极轴建立极坐标系,曲线 $\\mathrm{C}_{1}$ 的极坐标方程为 $\\rho \\cos \\theta=6(\\rho>0)$.\n设点 $\\mathrm{A}$ 的极坐标为 $\\left(4, \\frac{\\pi}{3}\\right)$, 点 $\\mathrm{B}$ 在曲线 $\\mathrm{C}_{2}$ 上, 求 $\\triangle O A B$ 面积的最大值\n其中曲线 $\\mathrm{C}_{2}$ 的参数方程为\n$$\n\\begin{"
+            }
+        }
+    },
+    {
+        "id": 324,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+1|-|x-2|$\n求不等式 $f(x) \\geqslant 2$ 的解集.",
+        "solution": [
+            "$f(x)=|x+1|-|x-2| \\geqslant 2$\n\n当 $x<-1$ 时, $f(x)=-x-1+x-2=-3 \\geqslant 2$ 不成立\n\n当 $-1 \\leq x \\leq 2$ 时, $f(x)=x+1+x-2=2 x-1 \\geqslant 2, \\therefore x \\geqslant \\frac{3}{2} \\therefore \\frac{3}{2} \\leqslant x \\leqslant 2$\n\n当 $x>2$ 时, $f(x)=x+1-x+2=3 \\geqslant 2$ 恒成立, $\\therefore x>2$\n\n综上所述: $f(x) \\geqslant 2$ 的解集为 $\\left[\\frac{3}{2},+\\infty\\right)$;"
+        ],
+        "final_answer": [
+            "$\\left[\\frac{3}{2},+\\infty\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|x+1|-|x-2|$\n求不等式 $f(x) \\geqslant 2$ 的解集.\n好的，我现在要解这个不等式 f(x) ≥ 2，其中 f(x)"
+            }
+        }
+    },
+    {
+        "id": 325,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+1|-|x-2|$\n若不等式 $f(x) \\geqslant a^{2}+4 a$ 恒成立, 求 $a$ 的取值范围.",
+        "solution": [
+            "$\\because|f(x)| \\leqslant|x+1-x+2|=3, \\therefore-3 \\leqslant f(x) \\leqslant 3$\n\n$$\n\\therefore f(x)_{\\text {min }}=-3 \\text {, }\n$$\n\n$\\because f(x) \\geqslant a^{2}+4 a$ 恒成立, $\\therefore a^{2}+4 a \\leqslant-3$\n\n所以 $a$ 的范围是 $[-3,-1]$."
+        ],
+        "final_answer": [
+            "$[-3,-1]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|x+1|-|x-2|$\n若不等式 $f(x) \\geqslant a^{2}+4 a$ 恒成立, 求 $a$ 的取值范围.\n好，我现在要解决这个数学竞赛题。题目是关于函数和不等式的，看起来"
+            }
+        }
+    },
+    {
+        "id": 326,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "在 $\\triangle A B C$ 中, 内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $\\frac{b^{2}+c^{2}-a^{2}}{b c}=\\frac{2 \\sin B-\\sin A}{\\sin C}$.\n求角 $C$ 的值.",
+        "solution": [
+            "由条件和正弦定理可得 $\\frac{b^{2}+c^{2}-a^{2}}{b}=2 b-a$\n\n整理得 $b^{2}+a^{2}-c^{2}=a b$ 从而由余弦定理得 $\\cos C=\\frac{1}{2}$.\n\n又 $\\because C$ 是三角形的内角\n\n$\\therefore C=\\frac{\\pi}{3}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\pi}{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在 $\\triangle A B C$ 中, 内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $\\frac{b^{2}+c^{2}-a^{2}}{b c}=\\frac{2 \\sin B-\\sin A}{\\sin C}$.\n求角 $C$ 的值.\n好的，我现在要解决这个三角形的问题。题目是在△ABC中，已知内角"
+            }
+        }
+    },
+    {
+        "id": 327,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "在 $\\triangle A B C$ 中, 内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $\\frac{b^{2}+c^{2}-a^{2}}{b c}=\\frac{2 \\sin B-\\sin A}{\\sin C}$.\n若 $a+b=4$, 当边 $c$ 取最小值时，求 $\\triangle A B C$ 的面积.",
+        "solution": [
+            "由条件和正弦定理可得 $\\frac{b^{2}+c^{2}-a^{2}}{b}=2 b-a$\n\n整理得 $b^{2}+a^{2}-c^{2}=a b$ 从而由余弦定理得 $\\cos C=\\frac{1}{2}$.\n\n又 $\\because C$ 是三角形的内角\n\n$\\therefore C=\\frac{\\pi}{3}$.\n\n由余弦定理得 $c^{2}=a^{2}+b^{2}-2 a b \\cos C=a^{2}+b^{2}-a b$,\n\n$\\because a+b=4, \\quad \\therefore c^{2}=a^{2}+b^{2}-a b=(a+b)^{2}-3 a b=16-3 a b$,\n\n$\\therefore c^{2}=16-3 a b \\geq 16-3\\left(\\frac{a+b}{2}\\right)^{2}=4$ （当且仅当 $a=b=2$ 时等号成立）\n\n$\\therefore c$ 的最小值为 2 , 故 $S_{\\triangle A B C}=\\frac{1}{2} a b \\sin C=\\sqrt{3} .$"
+        ],
+        "final_answer": [
+            "$\\sqrt{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在 $\\triangle A B C$ 中, 内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $\\frac{b^{2}+c^{2}-a^{2}}{b c}=\\frac{2 \\sin B-\\sin A}{\\sin C}$.\n若 $a+b=4$, 当边 $c$ 取最小值时，求 $\\triangle A B C$ 的面积.\n</think>\n\n我们首先分析题目给出的条件：\n\n在 $\\triangle ABC$ 中，内角 $"
+            }
+        }
+    },
+    {
+        "id": 328,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "网约车的兴起,丰富了民众出行的选择,为民众出行提供便利的同时也解决了很多劳动力的就业问题,据某著名网约车公司 “滴*打车” 官网显示, 截止目前, 该公司已经累计解决退伍军人转业为兼职或专职司机三百多万人次.梁某即为此类网约车司机，据梁某自己统计某一天出车一次的总路程数可能的取值是 $20 、 22 、 24 、 26 、$ 28、30(km)， 它们出现的概率依次是 $0.1 、 0.2 、 0.3 、 0.1 、 t 、 2 t$.\n求这一天中梁某一次行驶路程 $\\mathrm{X}$ 的均值和方差.",
+        "solution": [
+            "由概率分布的性质有 $0.1+0.2+0.3+0.1+t+2 t=1$.\n\n所以 $t=0.1,$\n\n$\\therefore X$ 的分布列为:\n\n| $\\mathrm{X}$ | 20 | 22 | 24 | 26 | 28 | 30 |\n| :------------: | :-: | :-: | :-: | :-: | :-: | :-: |\n| $\\mathrm{P}$ | 0.1 | 0.2 | 0.3 | 0.1 | 0.1 | 0.2 |\n\n$\\therefore E(X)=20 \\times 0.1+22 \\times 0.2+24 \\times 0.3+26 \\times 0.1+28 \\times 0.1+30 \\times 0.2=25(\\mathrm{~km})$.\n\n$D(X)=5^{2} \\times 0.1+3^{2} \\times 0.2+1^{2} \\times 0.3+1^{2} \\times 0.1+3^{2} \\times 0.1+5^{2} \\times 0.2=10.6$."
+        ],
+        "final_answer": [
+            "$25 , 10.6$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n网约车的兴起,丰富了民众出行的选择,为民众出行提供便利的同时也解决了很多劳动力的就业问题,据某著名网约车公司 “滴*打车” 官网显示, 截止目前, 该公司已经累计解决退伍军人转业为兼职或专职司机三百多万人次.梁某即为此类网约车司机，据梁某自己统计某一天出车一次的总路程数可能的取值是 $20 、 22 、 24 、 26 、$ 28、30(km)， 它们出现的概率依次是 $0.1 、 0.2 、 0.3 、 0.1 、 t 、 2 t$.\n求这一天中梁某一次行驶路程 $\\mathrm{X}$ 的均值和方差.\n好的，我现在需要解决这个问题，关于梁某网约车行驶路程的概率分布，进而求出均"
+            }
+        }
+    },
+    {
+        "id": 329,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "网约车的兴起,丰富了民众出行的选择,为民众出行提供便利的同时也解决了很多劳动力的就业问题,据某著名网约车公司 “滴*打车” 官网显示, 截止目前, 该公司已经累计解决退伍军人转业为兼职或专职司机三百多万人次.梁某即为此类网约车司机，据梁某自己统计某一天出车一次的总路程数可能的取值是 $20 、 22 、 24 、 26 、$ 28、30(km)， 它们出现的概率依次是 $0.1 、 0.2 、 0.3 、 0.1 、 t 、 2 t$.\n网约车计费细则如下：起步价为 5 元，行驶路程不超过 $3 \\mathrm{~km}$ 时，租车费为 5 元，若行驶路程超过 $3 \\mathrm{~km}$ ，则按每超出 $1 \\mathrm{~km}$ （不足 $1 \\mathrm{~km}$ 也按 $1 \\mathrm{~km}$ 计程）收费 3 元计费. 依据以上条件, 计算梁某一天中出车一次收入的均值和方差.",
+        "solution": [
+            "由已知设梁某一天出车一次的收入为 $Y$ 元,\n\n则 $Y=3(X-3)+5=3 X-4,(X>3, X \\in N),$\n\n$\\therefore E(Y)=E(3 X-4)=3 E(X)-4=3 \\times 25-4=71$ (元),\n\n$D(Y)=D(3 X-4)=32 D(X)=95.4$."
+        ],
+        "final_answer": [
+            "$71 , 95.4$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n网约车的兴起,丰富了民众出行的选择,为民众出行提供便利的同时也解决了很多劳动力的就业问题,据某著名网约车公司 “滴*打车” 官网显示, 截止目前, 该公司已经累计解决退伍军人转业为兼职或专职司机三百多万人次.梁某即为此类网约车司机，据梁某自己统计某一天出车一次的总路程数可能的取值是 $20 、 22 、 24 、 26 、$ 28、30(km)， 它们出现的概率依次是 $0.1 、 0.2 、 0.3 、 0.1 、 t 、 2 t$.\n网约车计费细则如下：起步价为 5 元，行驶路程不超过 $3 \\mathrm{~km}$ 时，租车费为 5 元，若行驶路程超过 $3 \\mathrm{~km}$ ，则按每超出 $1 \\mathrm{~km}$ （不足 $1 \\mathrm{~km}$ 也按 $1 \\mathrm{~km}$ 计程）收费 3 元计费. 依据以上条件, 计算梁某一天中出车一次收入的均值和方差.\n好的，我现在需要解决这个数学竞赛题目。首先，我得仔细阅读题目，理解问题"
+            }
+        }
+    },
+    {
+        "id": 334,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在平面直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\\\ y=t\\end{array}\\right.$ ( $t$ 为参数), 以坐标原点为极点, $x$ 轴正半轴为极轴的极坐标系中, 圆 $C_{1}$ 的极坐标方程为 $\\rho^{2}-2 a \\rho \\cos \\theta+a^{2}-4=0(a>0)$.\n若直线 $l$ 与圆 $C_{1}$ 相切, 求 $a$ 的值.",
+        "solution": [
+            "直线 $l$ 的普通方程为 $y=x-1$.\n\n圆 $C_{1}$ 的直角坐标方程为 $(x-a)^{2}+y^{2}=4$.\n\n因直线 $l$ 与圆 $C_{1}$ 相切,所以 $\\frac{|a-1|}{\\sqrt{2}}=2$, 由于 $a>0$ 解得 $a=2 \\sqrt{2}+1$."
+        ],
+        "final_answer": [
+            "$2 \\sqrt{2}+1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在平面直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\\\ y=t\\end{array}\\right.$ ( $t$ 为参数), 以坐标原点为极点, $x$ 轴正半轴为极轴的极坐标系中, 圆 $C_{1}$ 的极坐标方程为 $\\rho^{2}-2 a \\rho \\cos \\theta+a^{2}-4=0(a>0)$.\n若直线 $l$ 与圆 $C_{1}$ 相切, 求 $a$ 的值.\n</think>\n\n我们首先将直线 \\( l \\) 的参数方程转化为直角坐标系下的"
+            }
+        }
+    },
+    {
+        "id": 335,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在平面直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\\\ y=t\\end{array}\\right.$ ( $t$ 为参数), 以坐标原点为极点, $x$ 轴正半轴为极轴的极坐标系中, 圆 $C_{1}$ 的极坐标方程为 $\\rho^{2}-2 a \\rho \\cos \\theta+a^{2}-4=0(a>0)$.\n若直线 $l$ 与曲线 $C_{2}:\\left\\{\\begin{array}{l}x=2 \\cos \\theta \\\\ y=\\sqrt{3} \\sin \\theta\\end{array}\\right.$ ( $\\theta$ 为参数), 交于 $A, B$ 两点, 点 $C(2,1)$, 求 $|A C|+|B C|$.",
+        "solution": [
+            "曲线 $C_{2}$ 的普通方程为 $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$, 点 $C(2,1)$ 在直线 $y=x-1$ 上,\n\n所以直线 $l$ 的参数方程可以写为 $\\left\\{\\begin{array}{l}x=2+\\frac{\\sqrt{2}}{2} t \\\\ y=1+\\frac{\\sqrt{2}}{2} t\\end{array}\\right.$ ( $t$ 为参数),\n\n将上式代入 $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ 得 $\\frac{7}{2} t^{2}+10 \\sqrt{2} t+4=0$.\n\n设 $A, B$ 对应的参数分别为 $t_{1}, t_{2}$,\n\n所以 $t_{1}+t_{2}=-\\frac{20 \\sqrt{2}}{7}, t_{1} t_{2}=\\frac{8}{7},$\n\n所以 $|A C|+|B C|=\\left|t_{1}\\right|+\\left|t_{2}\\right|=-\\left(t_{1}+t_{2}\\right)=\\frac{20 \\sqrt{2}}{7}$."
+        ],
+        "final_answer": [
+            "$\\frac{20 \\sqrt{2}}{7}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在平面直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\\\ y=t\\end{array}\\right.$ ( $t$ 为参数), 以坐标原点为极点, $x$ 轴正半轴为极轴的极坐标系中, 圆 $C_{1}$ 的极坐标方程为 $\\rho^{2}-2 a \\rho \\cos \\theta+a^{2}-4=0(a>0)$.\n若直线 $l$ 与曲线 $C_{2}:\\left\\{\\begin{array}{l}x=2 \\cos \\theta \\\\ y=\\sqrt{3} \\sin \\theta\\end{array}\\right.$ ( $\\theta$ 为参数), 交于 $A, B$ 两点, 点 $C(2,1)$, 求 $|A C|+|B C|$.\n好的，我现在要解决这个数学竞赛题目，题目有点复杂，我得一步步理清楚思路"
+            }
+        }
+    },
+    {
+        "id": 336,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+1|+|3 x+a|$, 若 $f(x)$ 的最小值为 1 .\n求实数 $a$ 的值.",
+        "solution": [
+            "$f(x)=|x+1|+|3 x+a|$\n\n(1) 当$a>3$时，即$-1>-\\frac{a}{3}$ , $f(x)=\\left\\{\\begin{array}{l}-4x-1-a, x \\leq -\\frac{a}{3}\\\\ 2x+a-1, -\\frac{a}{3}<x<-1 \\\\ 4x+a+1, x \\geq -1\\end{array}\\right.$,\n\n$\\because f(-1)-f\\left(-\\frac{a}{3}\\right)=(-3+a)-\\left(\\frac{a}{3}-1\\right)=\\frac{2(a-3)}{3}>0$\n\n$\\therefore f(-1)>f\\left(-\\frac{a}{3}\\right)$\n\n则当 $x=-\\frac{a}{3}$ 时, $f(x)_{\\text {min }}=-4\\left(-\\frac{a}{3}\\right)-1-a=1$\n\n$\\therefore a=6 \\quad$\n\n(2) 当$a<3$时，即$-1<-\\frac{a}{3}$ , $f(x)=\\left\\{\\begin{array}{l}-4x-1-a, x \\leq -1\\\\ 2x-a+1, -1<x<-\\frac{a}{3} \\\\ 4x+a+1, x \\geq -\\frac{a}{3}\\end{array}\\right.$,\n\n$\\because f(-1)-f\\left(-\\frac{a}{3}\\right)=(3-a)-\\left(-\\frac{a}{3}+1\\right)=\\frac{2(3-a)}{3}>0$\n\n$\\therefore f(-1)>f\\left(-\\frac{a}{3}\\right)$\n\n则当 $x=-\\frac{a}{3}$ 时, $f(x)_{\\text {min }}=4\\left(-\\frac{a}{3}\\right)+1+a=1$\n\n$\\therefore a=0$\n\n(3)当 $a=3$ 时, 即 $-1=-\\frac{a}{3} ， f(x)=4|x+1|$\n\n当 $x=-1$ 时, $f(\\mathrm{x})_{\\min }=0$ 不满足题意\n\n综上 $a=0$ 或 $a=6$."
+        ],
+        "final_answer": [
+            "$0 , 6$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|x+1|+|3 x+a|$, 若 $f(x)$ 的最小值为 1 .\n求实数 $a$ 的值.\n好的，我现在来仔细思考一下这个数学题。题目是已知函数f(x)=|"
+            }
+        }
+    },
+    {
+        "id": 337,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+1|+|3 x+a|$, 若 $f(x)$ 的最小值为 1 .\n若 $a>0$, 且 $m, n$ 均为正实数, 且满足 $m+n=\\frac{a}{2}$, 求 $m^{2}+n^{2}$ 的最小值.",
+        "solution": [
+            "由题意知, $m+n=3, \\because m>0, n>0$,\n\n$\\therefore(m+n)^{2}=m^{2}+n^{2}+2 m n \\leq\\left(m^{2}+n^{2}\\right)+\\left(m^{2}+n^{2}\\right)=2\\left(m^{2}+n^{2}\\right)$\n\n即 $m^{2}+n^{2} \\geq \\frac{1}{2}(m+n)^{2},$\n\n当且仅当 $m=n=\\frac{3}{2}$ 时取 “ $=”$\n\n$\\therefore m^{2}+n^{2} \\geq \\frac{9}{2} ， \\therefore m^{2}+n^{2}$ 的最小值为 $\\frac{9}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{9}{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|x+1|+|3 x+a|$, 若 $f(x)$ 的最小值为 1 .\n若 $a>0$, 且 $m, n$ 均为正实数, 且满足 $m+n=\\frac{a}{2}$, 求 $m^{2}+n^{2}$ 的最小值.\n</think>\n\n已知函数 \\( f(x) = |x + 1| + |3x"
+            }
+        }
+    },
+    {
+        "id": 338,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知等比数列 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $S_{n}$ 为其前 $n$ 项和, $a_{3}=8, S_{3}=14$.\n求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式.",
+        "solution": [
+            "等比数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{3}=8, S_{3}=14$, 可列方程组 $\\left\\{\\begin{array}{l}a_{1} q^{2}=8 \\\\ a_{1}+a_{1} q=6\\end{array} \\right.$\n\n由于 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $\\therefore q>0$, 可得 $\\left\\{\\begin{array}{l}a_{1}=2 \\\\ q=2\\end{array}\\right.$\n\n$\\therefore a_{n}=2^{n}$."
+        ],
+        "final_answer": [
+            "$2^{n}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知等比数列 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $S_{n}$ 为其前 $n$ 项和, $a_{3}=8, S_{3}=14$.\n求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式.\n好的，我现在要解决这个等比数列的问题。题目给出的是，等比数列"
+            }
+        }
+    },
+    {
+        "id": 339,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知等比数列 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $S_{n}$ 为其前 $n$ 项和, $a_{3}=8, S_{3}=14$.\n设 $\\left\\{a_{n}-b_{n}\\right\\}$ 是首项为 1 , 公差为 3 的等差数列, 求数列 $\\left\\{b_{n}\\right\\}$ 的通项公式及其前 $n$ 项和 $T_{n}$.",
+        "solution": [
+            "等比数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{3}=8, S_{3}=14$, 可列方程组 $\\left\\{\\begin{array}{l}a_{1} q^{2}=8 \\\\ a_{1}+a_{1} q=6\\end{array} \\right.$\n\n由于 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $\\therefore q>0$, 可得 $\\left\\{\\begin{array}{l}a_{1}=2 \\\\ q=2\\end{array}\\right.$\n\n$\\therefore a_{n}=2^{n}$.\n\n$\\because 2^{n}-b_{n}=1+(n-1) \\times 3, \\quad \\therefore b_{n}=2^{n}-3 n+2 $\n\n$\\therefore \\mathrm{T}_{\\mathrm{n}}=2^{1}+2^{2}+\\cdots+2^{n}-3 \\times(1+2+\\cdots+n)+2 n$\n\n$=\\frac{2\\left(1-2^{n}\\right)}{1-2}-3 \\times \\frac{(1+n) n}{2}+2 n=2^{n+1}-\\frac{3}{2} n^{2}+\\frac{n}{2}-2$."
+        ],
+        "final_answer": [
+            "$2^{n}-3 n+2, 2^{n+1}-\\frac{3}{2} n^{2}+\\frac{n}{2}-2$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知等比数列 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $S_{n}$ 为其前 $n$ 项和, $a_{3}=8, S_{3}=14$.\n设 $\\left\\{a_{n}-b_{n}\\right\\}$ 是首项为 1 , 公差为 3 的等差数列, 求数列 $\\left\\{b_{n}\\right\\}$ 的通项公式及其前 $n$ 项和 $T_{n}$.\n好的，我现在要解决这个数学竞赛题目。首先，题目给出了一个等比数列{"
+            }
+        }
+    },
+    {
+        "id": 340,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "某公司生产甲、乙两种不同规格的产品, 并且根据质量的测试指标分数进行划分, 其中分数不小于 70 的为合格品, 否则为次品, 现随机抽取两种产品各 100 件进行检测, 其结果如下:\n\n| 测试指标分数 | $[50,60)$ | $[60,70)$ | $[70,80)$ | $[80,90)$ | $[90,100]$ |\n| :----------- | :---------- | :---------- | :---------- | :---------- | :----------- |\n| 产品甲       | 7           | 13          | 40          | 32          | 8            |\n| 产品乙       | 9           | 21          | 40          | 24          | 6            |\n根据表中数据，估计甲、乙两种产品的不合格率.",
+        "solution": [
+            "甲产品的不合格率为 $P_{1}=\\frac{7+13}{100}=20 \\%$, 乙产品的不合格率为 $P_{2}=\\frac{9+21}{100}=30 \\%$."
+        ],
+        "final_answer": [
+            "$20，30$"
+        ],
+        "is_multiple_answer": true,
+        "unit": "%,%",
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}(单位)。”显式给出结果，注意答案的单位不要放在\\boxed{}中。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n某公司生产甲、乙两种不同规格的产品, 并且根据质量的测试指标分数进行划分, 其中分数不小于 70 的为合格品, 否则为次品, 现随机抽取两种产品各 100 件进行检测, 其结果如下:\n\n| 测试指标分数 | $[50,60)$ | $[60,70)$ | $[70,80)$ | $[80,90)$ | $[90,100]$ |\n| :----------- | :---------- | :---------- | :---------- | :---------- | :----------- |\n| 产品甲       | 7           | 13          | 40          | 32          | 8            |\n| 产品乙       | 9           | 21          | 40          | 24          | 6            |\n根据表中数据，估计甲、乙两种产品的不合格率.\n</think>\n\n根据题目要求，我们需要计算甲、乙两种产品的不合格率。不合格率是指测试"
+            }
+        }
+    },
+    {
+        "id": 341,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "某公司生产甲、乙两种不同规格的产品, 并且根据质量的测试指标分数进行划分, 其中分数不小于 70 的为合格品, 否则为次品, 现随机抽取两种产品各 100 件进行检测, 其结果如下:\n\n| 测试指标分数 | $[50,60)$ | $[60,70)$ | $[70,80)$ | $[80,90)$ | $[90,100]$ |\n| :----------- | :---------- | :---------- | :---------- | :---------- | :----------- |\n| 产品甲       | 7           | 13          | 40          | 32          | 8            |\n| 产品乙       | 9           | 21          | 40          | 24          | 6            |\n若按合格与不合格的比例抽取 5 件甲产品, 再从这 5 件甲产品中随机抽取 2 件, 求这 2 件产品全是合格品的概率.",
+        "solution": [
+            "由题意, 若按合格与不合格的比例抽取 5 件甲产品, 则其中恰有 1 件次品, 4 件合格品, 因而可设这 5 件甲产品分别为 a,b,c,d,E, 其中小写字母代表合格品, E 代表次品, 从中随机抽取 2 件，则所有可能的情况为 $\\mathrm{ab}, \\mathrm{ac}, \\mathrm{ad}, \\mathrm{aE}, \\mathrm{bc}, \\mathrm{bd}, \\mathrm{bE}, \\mathrm{cd}, \\mathrm{cE}, \\mathrm{dE}$ ，共 10种, 设 “这 2 件产品全是合格品” 为事件 M, 则事件 M 所包含的情况为 ab,ac,ad,bc,bd,cd, 共 6 种.\n\n由古典概型的概率计算公式, 得 $P(M)=\\frac{6}{10}=\\frac{3}{5}$ ."
+        ],
+        "final_answer": [
+            "$\\frac{3}{5}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n某公司生产甲、乙两种不同规格的产品, 并且根据质量的测试指标分数进行划分, 其中分数不小于 70 的为合格品, 否则为次品, 现随机抽取两种产品各 100 件进行检测, 其结果如下:\n\n| 测试指标分数 | $[50,60)$ | $[60,70)$ | $[70,80)$ | $[80,90)$ | $[90,100]$ |\n| :----------- | :---------- | :---------- | :---------- | :---------- | :----------- |\n| 产品甲       | 7           | 13          | 40          | 32          | 8            |\n| 产品乙       | 9           | 21          | 40          | 24          | 6            |\n若按合格与不合格的比例抽取 5 件甲产品, 再从这 5 件甲产品中随机抽取 2 件, 求这 2 件产品全是合格品的概率.\n</think>\n\n首先，计算甲产品的合格品数量。合格品是指测试指标分数不小于7"
+            }
+        }
+    },
+    {
+        "id": 343,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "设抛物线 $C: y^{2}=2 p x(p>0)$, 过焦点 $F$ 的直线 $l$ 与 $C$ 交于 $A$,$B$ 两点.\n当 $|A B|$ 的最小值为 4 时, 求抛物线 $C$ 的方程.",
+        "solution": [
+            "当直线 $l$ 的斜率不存在时, $A\\left(\\frac{p}{2}, p\\right), B\\left(\\frac{p}{2},-p\\right)$, 此时 $|A B|=2 p$.\n\n当直线 $l$ 的斜率存在时, 设为 $k$, 此时 $l: y=k\\left(x-\\frac{p}{2}\\right)$, 与抛物线方程联立:\n\n$\\left\\{\\begin{array}{l}y=k\\left(x-\\frac{p}{2}\\right) \\\\ y^{2}=2 p x\\end{array}\\right.$, 消去 $y$, 可得: $k^{2} x^{2}-\\left(k^{2} p+2 p\\right) x+\\frac{k^{2} p^{2}}{4}=0 $.\n\n设 $A\\left(x_{1}, y_{1}\\right), B\\left(x_{2}, y_{2}\\right)$, 根据韦达定理, $x_{1}+x_{2}=\\frac{k^{2} p+2 p}{k^{2}}=p+\\frac{2 p}{k^{2}}$\n\n$\\therefore|A B|=x_{1}+x_{2}+p=2 p\\left(1+\\frac{1}{k^{2}}\\right)>2 p$\n\n$\\therefore|A B|_{\\text {min }}=2 p=4$, 则抛物线 $\\mathrm{C}$ 的方程为: $y^{2}=4 x$."
+        ],
+        "final_answer": [
+            "$y^{2}=4 x$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n设抛物线 $C: y^{2}=2 p x(p>0)$, 过焦点 $F$ 的直线 $l$ 与 $C$ 交于 $A$,$B$ 两点.\n当 $|A B|$ 的最小值为 4 时, 求抛物线 $C$ 的方程.\n好的，我现在来仔细思考一下这个问题。题目是关于抛物线和过焦点的直线"
+            }
+        }
+    },
+    {
+        "id": 346,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=x^{3}+a x-2 \\ln x$.\n若 $f(x) \\geq 0$ 在定义域内恒成立, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "$\\because f(x)=x^{3}+a x-2 \\ln x \\geq 0$ 在 $(0,+\\infty)$ 上恒成立, $\\therefore$ 当 $x \\in(0,+\\infty)$ 时,\n\n$g(x)=x^{2}+a-\\frac{2 \\ln x}{x} \\geq 0$ 恒成立\n\n$g^{\\prime}(x)=2 x-2 \\frac{(\\ln x)^{\\prime} \\cdot x-\\ln x \\cdot x^{\\prime}}{x^{2}}=2 \\frac{x^{3}+\\ln x-1}{x}$ .\n\n令 $h(x)=x^{3}+\\ln x-1$, 可得 $h(x)$ 在 $(0,+\\infty)$ 上单调递增, 且 $h(1)=0$\n\n$\\therefore x \\in(0,1)$ 时, $\\mathrm{h}(x)<0, g^{\\prime}(x)<0$, 即 $y=g(x)$ 单调递减\n\n$\\therefore x \\in(1,+\\infty), \\mathrm{h}(x)>0, g^{\\prime}(x)>0$, 即 $y=g(x)$ 单调递增 .\n\n$\\therefore g(x)_{\\text {min }}=g(1)=1+a \\geq 0$, 可得: $a \\geq-1$ ."
+        ],
+        "final_answer": [
+            "$[-1, +\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=x^{3}+a x-2 \\ln x$.\n若 $f(x) \\geq 0$ 在定义域内恒成立, 求实数 $a$ 的取值范围.\n好的，我现在要解决这个数学竞赛题，题目是已知函数$f(x)=x^{"
+            }
+        }
+    },
+    {
+        "id": 347,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "已知在平面直角坐标系 $x O y$ 中, 以 $O$ 为极点, $x$ 轴正半轴为极轴建立极坐标系, $P$ 点的极坐标为 $\\left(3 \\sqrt{2},-\\frac{\\pi}{4}\\right)$, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-2 \\rho \\sin \\theta+1=0$.\n写出点 $P$ 的直角坐标及曲线 $C$ 的直角坐标方程;",
+        "solution": [
+            "$P(3,-3), \\mathrm{C}:(x-2)^{2}+(y-1)^{2}=4$."
+        ],
+        "final_answer": [
+            "$(3,-3), (x-2)^{2}+(y-1)^{2}=4$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Tuple,Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知在平面直角坐标系 $x O y$ 中, 以 $O$ 为极点, $x$ 轴正半轴为极轴建立极坐标系, $P$ 点的极坐标为 $\\left(3 \\sqrt{2},-\\frac{\\pi}{4}\\right)$, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-2 \\rho \\sin \\theta+1=0$.\n写出点 $P$ 的直角坐标及曲线 $C$ 的直角坐标方程;\n设点 $Q$ 在曲线 $C$ 上, 且 $\\angle P O Q=\\"
+            }
+        }
+    },
+    {
+        "id": 348,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "已知在平面直角坐标系 $x O y$ 中, 以 $O$ 为极点, $x$ 轴正半轴为极轴建立极坐标系, $P$ 点的极坐标为 $\\left(3 \\sqrt{2},-\\frac{\\pi}{4}\\right)$, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-2 \\rho \\sin \\theta+1=0$.\n若 $Q$ 为 $C$ 上的动点, 求 $P Q$ 的中点 $M$ 到直线 $l:\\left\\{\\begin{array}{l}x=2-2 t \\\\ y=4+2 t\\end{array}\\right.$ ( $t$ 为参数) 的距离的最大值.",
+        "solution": [
+            "$P(3,-3), \\mathrm{C}:(x-2)^{2}+(y-1)^{2}=4$.\n\n设 $\\mathrm{Q}(2 \\cos \\theta+2,2 \\sin \\theta+1)$, 则 $\\mathrm{PQ}$ 的中点 $\\mathrm{M}\\left(\\cos \\theta+\\frac{5}{2}, \\sin \\theta-1\\right)$.\n\n直线 $l: x+y-6=0$.\n\n则点 $\\mathrm{M}$ 到直线 $l$ 的距离为 $\\mathrm{d}=\\frac{\\left|\\cos \\theta+\\sin \\theta-\\frac{9}{2}\\right|}{\\sqrt{2}}=\\frac{\\left|\\sqrt{2} \\sin \\left(\\theta+\\frac{\\pi}{4}\\right)-\\frac{9}{2}\\right|}{\\sqrt{2}}$.\n\n当 $\\theta=2 k \\pi-\\frac{3}{4} \\pi(k \\in Z)$ 时, 最大距离为 $1+\\frac{9 \\sqrt{2}}{4}$ ."
+        ],
+        "final_answer": [
+            "$1+\\frac{9 \\sqrt{2}}{4}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知在平面直角坐标系 $x O y$ 中, 以 $O$ 为极点, $x$ 轴正半轴为极轴建立极坐标系, $P$ 点的极坐标为 $\\left(3 \\sqrt{2},-\\frac{\\pi}{4}\\right)$, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-2 \\rho \\sin \\theta+1=0$.\n若 $Q$ 为 $C$ 上的动点, 求 $P Q$ 的中点 $M$ 到直线 $l:\\left\\{\\begin{array}{l}x=2-2 t \\\\ y=4+2 t\\end{array}\\right.$ ( $t$ 为参数) 的距离的最大值.\n好，我现在要解决这个数学题。首先，题目给了点P的极坐标和曲线"
+            }
+        }
+    },
+    {
+        "id": 349,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知不等式 $|2 x+4|+|x-1| \\geq m$ 的解集为 $R$.\n求实数 $m$ 的取值范围.",
+        "solution": [
+            "$f(x)=|2 x+4|+|x-1|=\\left\\{\\begin{array}{l}3 x+3, x \\geq 1 \\\\ x+5,-2<x<1, \\\\ -3 x-3, x \\leq-2\\end{array}\\right.$ 所以 $f(x)$ 的值域为 $[3,+\\infty)$,由不等式 $|2 x+4|+|x-1| \\geq m$ 的解集为 $\\mathrm{R}$ 可知, $m \\leq 3 $."
+        ],
+        "final_answer": [
+            "$(-\\infty, 3]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知不等式 $|2 x+4|+|x-1| \\geq m$ 的解集为 $R$.\n求实数 $m$ 的取值范围.\n好的，我现在要解决这个不等式的问题：已知不等式 \\(|2x"
+            }
+        }
+    },
+    {
+        "id": 350,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知不等式 $|2 x+4|+|x-1| \\geq m$ 的解集为 $R$.\n若 $m$ 的最大值为 $n$, 当正数 $a, b$ 满足 $\\frac{2}{2 a+b}+\\frac{1}{a+3 b}=n$ 时, 求 $17 a+11 b$ 的最小值.",
+        "solution": [
+            "$n=3, \\frac{2}{2 a+b}+\\frac{1}{a+3 b}=3$\n\n当 $a, b>0$ 时, $17 a+11 b=\\frac{1}{3}\\left(\\frac{2}{2 a+b}+\\frac{1}{a+3 b}\\right)[8(2 a+b)+(a+3 b)]$ $=\\frac{1}{3}\\left[16+\\frac{2(a+3 b)}{2 a+b}+\\frac{8(2 a+b)}{a+3 b}+1\\right] \\geq \\frac{1}{3}(17+2 \\sqrt{2 \\times 8})=\\frac{25}{3}$.\n\n当且仅当 $\\left\\{\\begin{array}{l}\\frac{2}{2 a+b}+\\frac{1}{a+3 b}=3 \\\\ a+3 b=2(2 a+b)\\end{array}\\right.$, 即 $a=\\frac{1}{6}, b=\\frac{1}{2}$ 时, $17 a+11 b$ 取到最小值 $\\frac{25}{3}$."
+        ],
+        "final_answer": [
+            "$\\frac{25}{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知不等式 $|2 x+4|+|x-1| \\geq m$ 的解集为 $R$.\n若 $m$ 的最大值为 $n$, 当正数 $a, b$ 满足 $\\frac{2}{2 a+b}+\\frac{1}{a+3 b}=n$ 时, 求 $17 a+11 b$ 的最小值.\n好的，我现在来仔细思考一下这个数学竞赛题。题目分为两个部分，首先是一个关于"
+            }
+        }
+    },
+    {
+        "id": 351,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{1}=2, a_{2}=6$, 且数列 $\\left\\{a_{n+1}-a_{n}\\right\\}$ 是公差为 2 的等差数列.\n求 $a_{n}$.",
+        "solution": [
+            "$\\because$ 数列 $\\left\\{a_{n+1}-a_{n}\\right\\}$ 是首项为 $a_{2}-a_{1}=4$, 公差为 2 的等差数列\n\n$$\n\\begin{aligned}\n& \\therefore a_{n+1}-a_{n}=2 n+2 \\\\\n& \\therefore a_{2}-a_{1}=2 \\times 1+2 \\\\\n& a_{3}-a_{2}=2 \\times 2+2 \\\\\n& \\ldots \\ldots . \\\\\n& a_{n}-a_{n-1}=2 \\times(n-1)+2(n \\geq 2)\n\\end{aligned}\n$$\n\n将以上各式相加得\n\n$$\na_{n}-a_{1}=2 \\times[1+2+3+\\ldots(n-1)]+2(n-1)=2 \\times \\frac{(n-1) n}{2}+2 n-2\n$$\n\n$\\therefore a_{n}=n(n-1)+2 n=n^{2}+n(n \\geq 2) \\because a_{1}=2$ 也符合上式 $\\quad \\therefore a_{n}=n^{2}+n(n \\geq 1)$."
+        ],
+        "final_answer": [
+            "$a_{n}=n^{2}+n$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{1}=2, a_{2}=6$, 且数列 $\\left\\{a_{n+1}-a_{n}\\right\\}$ 是公差为 2 的等差数列.\n求 $a_{n}$.\n好，我现在来解决这个数学竞赛题。题目是已知数列 {a_n}"
+            }
+        }
+    },
+    {
+        "id": 352,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{1}=2, a_{2}=6$, 且数列 $\\left\\{a_{n+1}-a_{n}\\right\\}$ 是公差为 2 的等差数列.\n$a_{n}=n^{2}+n(n \\geq 1)$, 记数列 $\\left\\{\\frac{1}{a_{n}}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 求满足不等式 $S_{n}>\\frac{2016}{2017}$ 的 $n$ 的最小值.",
+        "solution": [
+            "$\\because \\frac{1}{a_{n}}=\\frac{1}{n(n+1)}=\\frac{1}{n}-\\frac{1}{n+1}$\n\n$\\therefore S_{n}=\\left(1-\\frac{1}{2}\\right)+\\left(\\frac{1}{2}-\\frac{1}{3}\\right)+\\ldots+\\left(\\frac{1}{n}-\\frac{1}{n+1}\\right)=1-\\frac{1}{n+1}$\n\n令 $S_{n}>\\frac{2016}{2017}$ 即 $1-\\frac{1}{n+1}>\\frac{2016}{2017} \\therefore n>2016 \\because n \\in N^{*}$\n\n$\\therefore n$ 的最小值为 2017."
+        ],
+        "final_answer": [
+            "$2017$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{1}=2, a_{2}=6$, 且数列 $\\left\\{a_{n+1}-a_{n}\\right\\}$ 是公差为 2 的等差数列.\n$a_{n}=n^{2}+n(n \\geq 1)$, 记数列 $\\left\\{\\frac{1}{a_{n}}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 求满足不等式 $S_{n}>\\frac{2016}{2017}$ 的 $n$ 的最小值.\n好，我现在要解决这个数学竞赛题。首先，题目里给定了一个数列{"
+            }
+        }
+    },
+    {
+        "id": 356,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "身体质量指数 BMI（简称体质指数）是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准.现为分析胖瘦程度对空腹血糖的影响, 从志愿者中随机抽取 12 名志愿者测定 BMI 值及空腹血糖 GLU 指标值 (单位: mmol/L) 如下表所示:\n\n|         人员编号         |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10 | 11 | 12 |\n| :----------------------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |\n|   BMI 值$\\mathrm{x}$   | 14 | 17 | 18 | 19 | 20 | 22 | 23 | 26 | 27 | 29 | 30 | 31 |\n| GLU 指标值$\\mathrm{y}$ | 2.5 | 4.5 | 4.8 | 4.9 | 5.5 | 5.6 | 5.8 | 6.1 | 6.4 | 6.9 | 7.1 | 9.5 |\n\n参考公式: $\\hat{b}=\\frac{\\sum_{i=1}^{n} x_{i} y_{i}-n \\bar{x} \\bar{y}}{\\sum_{i=1}^{n} x_{i}^{2}-n \\bar{x}^{2}}=\\frac{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)}{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)^{2}}, \\quad \\hat{a}=\\bar{y}-\\hat{b} \\bar{x}$;\n\n相关系数 $r=\\frac{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)}{\\sqrt{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)^{2} \\sum_{i=1}^{n}\\left(y_{i}-\\bar{y}\\right)^{2}}}$;\n\n参考数据: $\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)=95.8 ，$\n\n$$\n\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)^{2}=342, \\quad \\sum_{i=1}^{12}\\left(y_{i}-\\bar{y}\\right)^{2}=\\sum_{i=1}^{12} y_{i}^{2}-12 y^{2}=31.56\n$$\n\n$s=\\sqrt{\\frac{1}{12}\\left[\\sum_{i=1}^{12}\\left(y_{i}-\\bar{y}\\right)^{2}\\right]} \\approx 1.6, \\sqrt{38} \\approx 6.2, \\sqrt{31.56} \\approx 5.6, \\sqrt{0.6964} \\approx 0.83$\n求 $y$ 与 $x$ 的线性回归方程, 并预测 GLU 指标值 $y=9.8$ 时 BMI 值 $x$ 是多少？",
+        "solution": [
+            "$\\because \\hat{b}=\\frac{\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)}{\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)^{2}}=\\frac{95.8}{342} \\approx 0.28$\n\n又 $\\because \\bar{x}=23, \\bar{y}=5.8$\n\n$\\therefore \\hat{a}=5.8-0.28 \\times 23=-0.64 \\therefore$ 线性回归方程为: $\\hat{y}=0.28 x-0.64$\n\n令 $\\hat{y}=9.8$ 则 $x \\approx 37.29$."
+        ],
+        "final_answer": [
+            "$\\hat{y}=0.28 x-0.64, 37.29$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Expression,Numerical",
+        "error": ",1e-2",
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型分别为表达式、数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n身体质量指数 BMI（简称体质指数）是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准.现为分析胖瘦程度对空腹血糖的影响, 从志愿者中随机抽取 12 名志愿者测定 BMI 值及空腹血糖 GLU 指标值 (单位: mmol/L) 如下表所示:\n\n|         人员编号         |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10 | 11 | 12 |\n| :----------------------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |\n|   BMI 值$\\mathrm{x}$   | 14 | 17 | 18 | 19 | 20 | 22 | 23 | 26 | 27 | 29 | 30 | 31 |\n| GLU 指标值$\\mathrm{y}$ | 2.5 | 4.5 | 4.8 | 4.9 | 5.5 | 5.6 | 5.8 | 6.1 | 6.4 | 6.9 | 7.1 | 9.5 |\n\n参考公式: $\\hat{b}=\\frac{\\sum_{i=1}^{n} x_{i} y_{i}-n \\bar{x} \\bar{y}}{\\sum_{i=1}^{n} x_{i}^{2}-n \\bar{x}^{2}}=\\frac{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)}{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)^{2}}, \\quad \\hat{a}=\\bar{y}-\\hat{b} \\bar{x}$;\n\n相关系数 $r=\\frac{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)}{\\sqrt{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)^{2} \\sum_{i=1}^{n}\\left(y_{i}-\\bar{y}\\right)^{2}}}$;\n\n参考数据: $\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)=95.8 ，$\n\n$$\n\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)^{2}=342, \\quad \\sum_{i=1}^{12}\\left(y_{i}-\\bar{y}\\right)^{2}=\\sum_{i=1}^{12} y_{i}^{2}-12 y^{2}=31.56\n$$\n\n$s=\\sqrt{\\frac{1}{12}\\left[\\sum_{i=1}^{12}\\left(y_{i}-\\bar{y}\\right)^{2}\\right]} \\approx 1.6, \\sqrt{38} \\approx 6.2, \\sqrt{31.56} \\approx 5.6, \\sqrt{0.6964} \\approx 0.83$\n求 $y$ 与 $x$ 的线性回归方程, 并预测 GLU 指标值 $y=9.8$ 时 BMI 值 $x$ 是多少？\n</think>\n\n根据题目要求，我们需要求出 y 与 x 的线性回归方程，并"
+            }
+        }
+    },
+    {
+        "id": 357,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知动圆 $P$ 在圆 $E:(x+1)^{2}+y^{2}=\\frac{1}{4}$ 外部且与圆 $E$ 相切, 同时还在圆 $F:(x-1)^{2}+y^{2}=\\frac{49}{4}$ 内部与圆 $F$ 相切,\n求动圆圆心 $P$ 的轨迹 $C$ 的方程;",
+        "solution": [
+            "设 $P(x, y)$, 动圆 $P$ 半径为 $r$ 由题意 $\\left\\{\\begin{array}{l}|P E|=r+\\frac{1}{2} \\\\ |P F|=\\frac{7}{2}-r\\end{array}\\right.$\n\n$$\n\\therefore|P E|+|P F|=4>|E F|=2\n$$\n\n$\\therefore$ 轨迹 $C$ 是以 $E, F$ 为焦点的椭圆, 设其方程为: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 则 $\\left\\{\\begin{array}{l}a=2 \\\\ b=\\sqrt{3}\\end{array}\\right.$\n\n$\\therefore$ 轨迹 $C$ 的方程为: $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$."
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知动圆 $P$ 在圆 $E:(x+1)^{2}+y^{2}=\\frac{1}{4}$ 外部且与圆 $E$ 相切, 同时还在圆 $F:(x-1)^{2}+y^{2}=\\frac{49}{4}$ 内部与圆 $F$ 相切,\n求动圆圆心 $P$ 的轨迹 $C$ 的方程;\n好，我现在要解决这个几何问题，题目是关于动圆P的轨迹。首先，"
+            }
+        }
+    },
+    {
+        "id": 358,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知动圆 $P$ 在圆 $E:(x+1)^{2}+y^{2}=\\frac{1}{4}$ 外部且与圆 $E$ 相切, 同时还在圆 $F:(x-1)^{2}+y^{2}=\\frac{49}{4}$ 内部与圆 $F$ 相切,\n设 $A(2,0)$, 过点 $A$ 的直线 $l$ 与轨迹 $C$ 交于点 $B$ (点 $B$ 不在 $X$ 轴上),垂直于 $l$ 的直线与 $l$ 交于点 $M$, 与 $y$ 轴交于点 $H$ .若 $B F \\perp H F$, 且 $\\angle M O A \\leq \\angle M A O$, 求直线 $l$ 斜率的取值范围.",
+        "solution": [
+            "设 $P(x, y)$, 动圆 $P$ 半径为 $r$ 由题意 $\\left\\{\\begin{array}{l}|P E|=r+\\frac{1}{2} \\\\ |P F|=\\frac{7}{2}-r\\end{array}\\right.$\n\n$$\n\\therefore|P E|+|P F|=4>|E F|=2\n$$\n\n$\\therefore$ 轨迹 $C$ 是以 $E, F$ 为焦点的椭圆, 设其方程为: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 则 $\\left\\{\\begin{array}{l}a=2 \\\\ b=\\sqrt{3}\\end{array}\\right.$\n\n$\\therefore$ 轨迹 $C$ 的方程为: $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$.\n\n设直线 $l$ 的斜率为 $k(k \\neq 0)$, 则直线 $l$ 的方程为 $y=k(x-2)$. 设 $B\\left(x_{B}, y_{B}\\right)$,\n\n由方程组 $\\left\\{\\begin{array}{l}\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1 \\\\ y=k(x-2)\\end{array}\\right.$, 消去 $y$, 整理得 $\\left(4 k^{2}+3\\right) x^{2}-16 k^{2} x+16 k^{2}-12=0$.\n\n解得 $x=2$ 或 $x=\\frac{8 k^{2}-6}{4 k^{2}+3}$, 由题意得 $x_{B}=\\frac{8 k^{2}-6}{4 k^{2}+3}$, 从而 $y_{B}=\\frac{-12 k}{4 k^{2}+3}$.\n\n$F(1,0)$, 设 $H\\left(0, y_{H}\\right)$, 有 $\\overrightarrow{F H}=\\left(-1, y_{H}\\right), \\overrightarrow{B F}=\\left(\\frac{9-4 k^{2}}{4 k^{2}+3}, \\frac{12 k}{4 k^{2}+3}\\right)$\n\n由 $B F \\perp F H$, 得 $\\overrightarrow{B F} \\cdot \\overrightarrow{F H}=0$, 所以 $\\frac{4 k^{2}-9}{4 k^{2}+3}+\\frac{12 k y_{H}}{4 k^{2}+3}=0$, 解得 $y_{H}=\\frac{9-4 k^{2}}{12 k}$. 因此直线 $M H$ 的方程为 $y=-\\frac{1}{k} x+\\frac{9-4 k^{2}}{12 k}$.\n\n设 $M\\left(x_{M}, y_{M}\\right)$, 由方程组 $\\left\\{\\begin{array}{l}y=-\\frac{1}{k} x+\\frac{9-4 k^{2}}{12 k} \\text { 消去 } y \\text {, 解得 } x_{M}=\\frac{20 k^{2}+9}{12\\left(k^{2}+1\\right)} \\\\ y=k(x-2)\\end{array}\\right.$\n\n在 $\\triangle M A O$ 中, $\\angle M O A \\leq \\angle M A O \\Leftrightarrow|M A| \\leq|M O|$, 即 $\\left(x_{M}-2\\right)^{2}+y_{M}^{2} \\leq x_{M}^{2}+y_{M}^{2}$.\n\n化简得 $x_{M} \\geq 1$, 即 $\\frac{20 k^{2}+9}{12\\left(k^{2}+1\\right)} \\geq 1$, 解得 $k \\leq-\\frac{\\sqrt{6}}{4}$ 或 $k \\geq \\frac{\\sqrt{6}}{4}$\n\n所以直线 $l$ 的斜率的取值范围为 $\\left(-\\infty,-\\frac{\\sqrt{6}}{4}\\right] \\cup\\left[\\frac{\\sqrt{6}}{4},+\\infty\\right)$."
+        ],
+        "final_answer": [
+            "$\\left(-\\infty,-\\frac{\\sqrt{6}}{4}\\right] \\cup\\left[\\frac{\\sqrt{6}}{4},+\\infty\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知动圆 $P$ 在圆 $E:(x+1)^{2}+y^{2}=\\frac{1}{4}$ 外部且与圆 $E$ 相切, 同时还在圆 $F:(x-1)^{2}+y^{2}=\\frac{49}{4}$ 内部与圆 $F$ 相切,\n设 $A(2,0)$, 过点 $A$ 的直线 $l$ 与轨迹 $C$ 交于点 $B$ (点 $B$ 不在 $X$ 轴上),垂直于 $l$ 的直线与 $l$ 交于点 $M$, 与 $y$ 轴交于点 $H$ .若 $B F \\perp H F$, 且 $\\angle M O A \\leq \\angle M A O$, 求直线 $l$ 斜率的取值范围.\n好的，我现在要解决这个数学竞赛题目，题目看起来有点复杂，不过我慢慢理清楚"
+            }
+        }
+    },
+    {
+        "id": 359,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "设函数 $f(x)=a \\ln x+\\frac{2 a}{x}-\\frac{e^{x}}{x^{2}}$.\n若 $a \\leq e$, 求 $f(x)$ 的最大值.",
+        "solution": [
+            "$$\nf^{\\prime}(x)=\\frac{a}{x}-\\frac{2 a}{x^{2}}-\\frac{x e^{x}-2 e^{x}}{x^{3}}=\\frac{a x(x-2)-e^{x}(x-2)}{x^{3}}=\\frac{(x-2)\\left(a x-e^{x}\\right)}{x^{3}} \\quad(x>0)\n$$\n\n(1)当 $a \\leq 0$ 时 $a x-e^{x}<0$ 令 $f^{\\prime}(x)>0$ 则 $0<x<2$; 令 $f^{\\prime}(x)<0$ 则 $x>2$;\n\n$\\therefore f(x)$ 在 $(0,2)$ 单调递增, $(2,+\\infty)$ 单调递减 $\\therefore f(x)_{\\max }=f(2)=a \\ln 2+a-\\frac{e^{2}}{4}$\n\n(2)当 $0<a \\leq e$ 时 令 $g(x)=a x-e^{x}(x \\in R)$, 则 $g^{\\prime}(x)=a-e^{x}$\n\n令 $g^{\\prime}(x)>0$ 则 $x<\\ln a$; 令 $g^{\\prime}(x)<0$ 则 $x>\\ln a$\n\n$\\therefore g(x)$ 在 $(-\\infty, \\ln a)$ 单调递增, $(\\ln a,+\\infty)$ 单调递减\n\n$\\therefore g(x)_{\\max }=g(\\ln a)=a \\ln a-a=a(\\ln a-1) \\because 0<a \\leq e \\therefore g(x)_{\\max } \\leq 0$\n\n$\\therefore g(x) \\leq 0(x \\in R) \\quad \\therefore g(x) \\leq 0(x>0)$\n\n令 $f^{\\prime}(x)>0$ 则 $0<x<2$; 令 $f^{\\prime}(x)<0$ 则 $x>2$;\n\n$\\therefore f(x)$ 在 $(0,2)$ 单调递增, $(2,+\\infty)$ 单调递减 $\\therefore f(x)_{\\max }=f(2)=a \\ln 2+a-\\frac{e^{2}}{4}$\n\n综上所述: 当 $a \\leq e$ 时, $f(x)_{\\text {max }}=f(2)=a \\ln 2+a-\\frac{e^{2}}{4}$."
+        ],
+        "final_answer": [
+            "$a \\ln 2+a-\\frac{e^{2}}{4}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n设函数 $f(x)=a \\ln x+\\frac{2 a}{x}-\\frac{e^{x}}{x^{2}}$.\n若 $a \\leq e$, 求 $f(x)$ 的最大值.\n好的，我现在要解决这个数学竞赛题目。题目是给定一个函数f(x)=a"
+            }
+        }
+    },
+    {
+        "id": 361,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 以坐标原点为极点, $x$ 轴的正半轴为极轴建立极坐标系, 半圆 $C$ 的极坐标方程为: $\\rho=2 \\sin \\vartheta, \\vartheta \\in\\left(\\frac{\\pi}{4}, \\frac{3}{4} \\pi\\right)$.\n直线 $l$ 与两坐标轴的交点分别为 $A, B$, 其中 $A(0,-2)$, 点 $D$ 在半圆 $C$上, 且直线 $C D$ 的倾斜角是直线 $l$ 倾斜角 2 倍.若 $\\triangle A B D$ 的面积为 $1+\\sqrt{3}$,求点 $D$ 的直角坐标.",
+        "solution": [
+            "设 $l$ 的倾斜角为 $\\alpha$, 则 $C D$ 的倾斜角为 $2 \\alpha\\left(0<\\alpha<\\frac{\\pi}{2}\\right)$\n\n$\\therefore D(\\cos 2 \\alpha, 1+\\sin 2 \\alpha)$\n\n$\\because l$ 的方程为 $y=x \\tan \\alpha-2$ 即 $x \\tan \\alpha-y-2=0$\n\n$\\therefore$ 令 $y=0$, 则 $x=\\frac{2}{\\tan \\alpha} \\therefore B\\left(\\frac{2}{\\tan \\alpha}, 0\\right) \\quad \\therefore|A B|=\\frac{2}{\\sin \\alpha}$\n\n$\\because D$ 到 $I$ 的距离 $d=\\frac{|\\cos 2 \\alpha \\cdot \\tan \\alpha-(1+\\sin 2 \\alpha)-2|}{\\sqrt{1+\\tan ^{2} \\alpha}}=\\cos \\alpha\\left|\\frac{\\sin \\alpha}{\\cos \\alpha} \\cos 2 \\alpha-\\sin 2 \\alpha-3\\right|$\n\n$$\n\\begin{aligned}\n& =|\\sin \\alpha \\cos 2 \\alpha-\\cos \\sin 2 \\alpha-3 \\cos \\alpha|=|\\sin (\\alpha-2 \\alpha)-3 \\cos \\alpha| \\\\\n& =\\sin \\alpha+3 \\cos \\alpha\n\\end{aligned}\n$$\n\n$\\therefore S_{\\triangle A B D}=\\frac{1}{2} \\cdot \\frac{2}{\\sin \\alpha} \\cdot(\\sin \\alpha+3 \\cos \\alpha)=1+\\sqrt{3} \\quad \\therefore \\tan \\alpha=\\sqrt{3}$\n\n$\\therefore \\alpha=\\frac{\\pi}{3} \\quad \\therefore D\\left(-\\frac{1}{2}, 1+\\frac{\\sqrt{3}}{2}\\right)$."
+        ],
+        "final_answer": [
+            "$\\left(-\\frac{1}{2}, 1+\\frac{\\sqrt{3}}{2}\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Tuple",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系 $x O y$ 中, 以坐标原点为极点, $x$ 轴的正半轴为极轴建立极坐标系, 半圆 $C$ 的极坐标方程为: $\\rho=2 \\sin \\vartheta, \\vartheta \\in\\left(\\frac{\\pi}{4}, \\frac{3}{4} \\pi\\right)$.\n直线 $l$ 与两坐标轴的交点分别为 $A, B$, 其中 $A(0,-2)$, 点 $D$ 在半圆 $C$上, 且直线 $C D$ 的倾斜角是直线 $l$ 倾斜角 2 倍.若 $\\triangle A B D$ 的面积为 $1+\\sqrt{3}$,求点 $D$ 的直角坐标.\n好，我现在要解决这个数学竞赛题。首先，我得仔细阅读题目，理解每一个"
+            }
+        }
+    },
+    {
+        "id": 362,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=2|x-1|-a, g(x)=-|2 x+m| \\quad(a \\in R, m \\in Z)$.若关于 $x$ 不等式 $g(x) \\geq-1$ 的整数解有且仅有一个值为$-4$.\n求 $m$ 的值.",
+        "solution": [
+            "$\\because g(x) \\geq-1 \\therefore-|2 x+m| \\geq-1 \\therefore|2 x+m| \\leq 1$\n\n$\\therefore \\frac{-m-1}{2} \\leq x \\leq \\frac{-m+1}{2}$\n\n$\\because$ 不等式 $g(x) \\geq-1$ 的整数解有且仅有一个值为 $-4$.\n\n$\\therefore-5<\\frac{-m-1}{2} \\leq-4 \\leq \\frac{-m+1}{2}<-3$\n\n$\\therefore 7<m<9 \\quad \\because m \\in Z \\quad \\therefore m=8$."
+        ],
+        "final_answer": [
+            "$8$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=2|x-1|-a, g(x)=-|2 x+m| \\quad(a \\in R, m \\in Z)$.若关于 $x$ 不等式 $g(x) \\geq-1$ 的整数解有且仅有一个值为$-4$.\n求 $m$ 的值.\n好，我现在要解决这个问题。首先，我需要理解题目给出的条件和要求。\n\n题目"
+            }
+        }
+    },
+    {
+        "id": 363,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=2|x-1|-a, g(x)=-|2 x+m| \\quad(a \\in R, m \\in Z)$.若关于 $x$ 不等式 $g(x) \\geq-1$ 的整数解有且仅有一个值为$-4$.\n若函数 $y=f(x)$ 的图象恒在函数 $y=\\frac{1}{2} g(x)$ 的上方, 求 $a$ 的取值范围.",
+        "solution": [
+            "$\\because$ 函数 $y=f(x)$ 的图象恒在函数 $y=\\frac{1}{2} g(x)$ 的上方\n\n$\\therefore f(x)-\\frac{1}{2} g(x)>0$\n\n$\\therefore a<2|x-1|+|x+4|$ 对任意 $x \\in R$ 恒成立\n\n$\\because 2|x-1|+|x+4|=|x-1|+|x-1|+|x+4| \\geq|x-1|+5 \\geq 5$, 当且仅当 $x=1$ 时, “=” 成立\n\n$\\therefore a<5$."
+        ],
+        "final_answer": [
+            "$(-\\infty, 5)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=2|x-1|-a, g(x)=-|2 x+m| \\quad(a \\in R, m \\in Z)$.若关于 $x$ 不等式 $g(x) \\geq-1$ 的整数解有且仅有一个值为$-4$.\n若函数 $y=f(x)$ 的图象恒在函数 $y=\\frac{1}{2} g(x)$ 的上方, 求 $a$ 的取值范围.\n好，我现在要解决这个数学竞赛题，题目分两部分，首先我需要仔细阅读"
+            }
+        }
+    },
+    {
+        "id": 364,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 且 $S_{n}=n^{2}+n, n \\in N^{*}$, 数列 $\\left\\{b_{n}\\right\\}$ 满足 $b_{n}=2^{a}, n \\in N^{*}$.\n求 $a_{n}, b_{n}$.",
+        "solution": [
+            "当 $n=1$ 时, $a_{1}=S_{1}=2$\n\n当 $n \\geq 2$ 时, $a_{n}=S_{n}-S_{n-1}=\\left(n^{2}+n\\right)-\\left[(n-1)^{2}+(n-1)\\right]=2 n$\n\n$\\therefore a_{n}=2 n(n \\geq 1), b_{n}=2^{2 n}=4^{n}$."
+        ],
+        "final_answer": [
+            "$2 n, 4^{n}$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 且 $S_{n}=n^{2}+n, n \\in N^{*}$, 数列 $\\left\\{b_{n}\\right\\}$ 满足 $b_{n}=2^{a}, n \\in N^{*}$.\n求 $a_{n}, b_{n}$.\n好的，我现在来仔细解决这个问题。题目给出了数列 {aₙ} 的前n"
+            }
+        }
+    },
+    {
+        "id": 365,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 且 $S_{n}=n^{2}+n, n \\in N^{*}$, 数列 $\\left\\{b_{n}\\right\\}$ 满足 $b_{n}=2^{a}, n \\in N^{*}$.\n求数列 $\\left\\{a_{n} \\cdot b_{n}\\right\\}$ 的前 $n$ 项和 $T_{n}$.",
+        "solution": [
+            "当 $n=1$ 时, $a_{1}=S_{1}=2$\n\n当 $n \\geq 2$ 时, $a_{n}=S_{n}-S_{n-1}=\\left(n^{2}+n\\right)-\\left[(n-1)^{2}+(n-1)\\right]=2 n$\n\n$\\therefore a_{n}=2 n(n \\geq 1), b_{n}=2^{2 n}=4^{n}$.\n\n$a_{n} \\cdot b_{n}=2 n \\cdot 4^{n}$\n\n设 $\\left\\{n \\cdot 4^{n}\\right\\}$ 的前 $n$ 项和为 $H_{n}$\n\n$H_{n}=1 \\times 4^{1}+2 \\times 4^{2}+3 \\times 4^{3}+\\cdots \\cdots \\cdot+n \\cdot 4^{n}$\n\n$4 H_{n}=1 \\times 4^{2}+2 \\times 4^{3}+\\cdots \\cdots+(n-1) \\cdot 4^{n}+n \\cdot 4^{n+1}$\n\n可得: $-3 H_{n}=-\\frac{4}{3}+\\left(\\frac{1}{3}-n\\right) \\cdot 4^{n+1}$\n\n$\\therefore H_{n}=\\frac{4}{9}+\\left(\\frac{n}{3}-\\frac{1}{9}\\right) \\cdot 4^{n+1}$\n\n$\\therefore T_{n}=\\frac{8}{9}+\\frac{2(3 n-1)}{9} \\cdot 4^{n+1}$."
+        ],
+        "final_answer": [
+            "$\\frac{8}{9}+\\frac{2(3 n-1)}{9} \\cdot 4^{n+1}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为表达式。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 且 $S_{n}=n^{2}+n, n \\in N^{*}$, 数列 $\\left\\{b_{n}\\right\\}$ 满足 $b_{n}=2^{a}, n \\in N^{*}$.\n求数列 $\\left\\{a_{n} \\cdot b_{n}\\right\\}$ 的前 $n$ 项和 $T_{n}$.\n好的，我现在要解决这个数学竞赛题。题目给出了数列{a_n}的前"
+            }
+        }
+    },
+    {
+        "id": 366,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "根据某省的高考改革方案, 考生应在 3 门理科学科 (物理、化学、生物) 和 3 门文科学科 (历史、政治、地理) 6 门学科中选择 3 门学科数加考试.\n假设考生甲理科成绩较好，决定至少选择两门理科学科，那么该同学的选科方案有几种？",
+        "solution": [
+            "选科方案中两门理科的情况有: 物化历, 物化政, 物化地, 物生历, 物生政, 物生地,化生历, 化生政, 化生地;\n\n选科方案中三门理科的情况有: 物化生;\n\n因此至少选择两门理科学科的选科方案有 10 种."
+        ],
+        "final_answer": [
+            "$10$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n根据某省的高考改革方案, 考生应在 3 门理科学科 (物理、化学、生物) 和 3 门文科学科 (历史、政治、地理) 6 门学科中选择 3 门学科数加考试.\n假设考生甲理科成绩较好，决定至少选择两门理科学科，那么该同学的选科方案有几种？\n</think>\n\n根据题目要求，考生甲需要从6门学科中选择3门，并且至少"
+            }
+        }
+    },
+    {
+        "id": 367,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "根据某省的高考改革方案, 考生应在 3 门理科学科 (物理、化学、生物) 和 3 门文科学科 (历史、政治、地理) 6 门学科中选择 3 门学科数加考试.\n假设每门学科被选中的概率是相同的，求选科方案中有包括物理但不包括历史的概率.",
+        "solution": [
+            "选科方案的情况有: 物化生, 物化历, 物化政, 物化地, 物生历, 物生政, 物生地,化生历、化生政, 化生地, 历政地, 历政物, 历政化, 历政生, 历地物, 历地化, 历地生,政地物, 政地化, 政地生, 共 20 种.\n\n选科方案中有包括物理但不包括历史的情况有: 物化生, 物化政, 物化地, 物生政, 物生地,物政地, 共 6 种.\n\n所以概率 $P=\\frac{6}{20}=0.3$."
+        ],
+        "final_answer": [
+            "$0.3$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n根据某省的高考改革方案, 考生应在 3 门理科学科 (物理、化学、生物) 和 3 门文科学科 (历史、政治、地理) 6 门学科中选择 3 门学科数加考试.\n假设每门学科被选中的概率是相同的，求选科方案中有包括物理但不包括历史的概率.\n</think>\n\n根据题目，考生需要从6门学科中选择3门，每门学科被"
+            }
+        }
+    },
+    {
+        "id": 370,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知抛物线 $C: y^{2}=2 p x$ 经过点 $A(1,2)$, 经过点 $(1,1)$ 且斜率为 $k$ 的直线与抛物线 $C$ 交于不同的两点 $P$, $Q$ (均异于点 $A$ ), 设直线 $A P$ 的斜率为 $k_{1}$, 直线 $A Q$ 的斜率为 $k_{2}$.\n当 $k=1$ 时, 求 $k_{1}+k_{2}$ 的值.",
+        "solution": [
+            "由题意知, $4=2 p \\times 1, \\therefore p=2$, 抛物线 $C: y^{2}=4 x$\n\n当 $k=1$ 时, 直线 $l: y=x$, 与抛物线联立后得 $x^{2}=4 x, x_{1}=0, x_{2}=4$, 不妨设\n\n$P(0,0), Q(4,4), \\quad k_{1}=2, \\quad k_{2}=\\frac{2}{3}, \\quad \\therefore k_{1}+k_{2}=\\frac{8}{3}$\n."
+        ],
+        "final_answer": [
+            "$\\frac{8}{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知抛物线 $C: y^{2}=2 p x$ 经过点 $A(1,2)$, 经过点 $(1,1)$ 且斜率为 $k$ 的直线与抛物线 $C$ 交于不同的两点 $P$, $Q$ (均异于点 $A$ ), 设直线 $A P$ 的斜率为 $k_{1}$, 直线 $A Q$ 的斜率为 $k_{2}$.\n当 $k=1$ 时, 求 $k_{1}+k_{2}$ 的值.\n好，我现在要解决这个数学竞赛题。题目是关于抛物线、直线和斜"
+            }
+        }
+    },
+    {
+        "id": 371,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知抛物线 $C: y^{2}=2 p x$ 经过点 $A(1,2)$, 经过点 $(1,1)$ 且斜率为 $k$ 的直线与抛物线 $C$ 交于不同的两点 $P$, $Q$ (均异于点 $A$ ), 设直线 $A P$ 的斜率为 $k_{1}$, 直线 $A Q$ 的斜率为 $k_{2}$.\n求 $k_{1}^{2}+k_{2}^{2}$ 的取值范围.",
+        "solution": [
+            "由题意得：\n\n$4=2 p \\times 1, \\therefore p=2$, 抛物线 $C: y^{2}=4 x$\n\n直线 $l: y=k x+1-k$, 与抛物线联立 $\\left\\{\\begin{array}{c}y=k x+1-k \\\\ y^{2}=4 x\\end{array}\\right.$, 得\n\n$k y^{2}-4 y+4-4 k=0$.\n\n设 $P\\left(x_{1}, y_{1}\\right), Q\\left(x_{2}, y_{2}\\right)$\n\n$y_{1}+y_{2}=\\frac{4}{k}, \\quad y_{1} \\cdot y_{2}=\\frac{4}{k}-4, \\quad k_{1}=\\frac{y_{1}-2}{\\frac{y_{1}^{2}}{4}-1}=\\frac{4}{y_{1}+2}, \\quad k_{2}=\\frac{y_{2}-2}{\\frac{y_{2}^{2}}{4}-1}=\\frac{4}{y_{2}+2},$\n\n$k_{1}^{2}+k_{2}^{2}=\\frac{16}{\\left(y_{1}+2\\right)^{2}}+\\frac{16}{\\left(y_{2}+2\\right)^{2}}=16 \\cdot \\frac{\\left(y_{1}+y_{2}\\right)^{2}-2 y_{1} y_{2}+4\\left(y_{1}+y_{2}\\right)+8}{\\left[y_{1} y_{2}+2\\left(y_{1}+y_{2}\\right)+4\\right]^{2}}$\n\n$=\\frac{8}{9}\\left(2 k^{2}+k+2\\right) \\geq \\frac{5}{3}$,\n\n所以 $k_{1}^{2}+k_{2}^{2}$ 的取值范围为 $\\left[\\frac{5}{3},+\\infty\\right)$."
+        ],
+        "final_answer": [
+            "$\\left[\\frac{5}{3},+\\infty\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知抛物线 $C: y^{2}=2 p x$ 经过点 $A(1,2)$, 经过点 $(1,1)$ 且斜率为 $k$ 的直线与抛物线 $C$ 交于不同的两点 $P$, $Q$ (均异于点 $A$ ), 设直线 $A P$ 的斜率为 $k_{1}$, 直线 $A Q$ 的斜率为 $k_{2}$.\n求 $k_{1}^{2}+k_{2}^{2}$ 的取值范围.\n好的，我现在要解决这个数学竞赛题。首先，我仔细阅读题目，明确问题和"
+            }
+        }
+    },
+    {
+        "id": 373,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "设函数 $f(x)=e^{x}-x^{2} e^{x}-a x-1$.\n若对于任意的 $x_{1}, x_{2} \\in(1,+\\infty), x_{1} \\neq x_{2}$, 都有 $\\frac{f\\left(x_{1}\\right)-f\\left(x_{2}\\right)}{x_{1}-x_{2}}<x_{1}+x_{2}$ 恒成立, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "不妨设 $x_{1}>x_{2}>1$, 则 $f\\left(x_{1}\\right)-f\\left(x_{2}\\right)<x_{1}^{2}-x_{2}^{2}$, 即 $f\\left(x_{1}\\right)-x_{1}^{2}<f\\left(x_{2}\\right)-x_{2}^{2}, $\n\n设 $g(x)=e^{x}-x^{2} e^{x}-a x-1-x^{2}, g^{\\prime}(x)=e^{x}-\\left(2 x e^{x}+x^{2} e^{x}\\right)-a-2 x \\leq 0$ 在 $x \\in(1,+\\infty)$ 上恒成立.\n\n设 $h(x)=g^{\\prime}(x)=e^{x}-\\left(2 x e^{x}+x^{2} e^{x}\\right)-a-2 x, \\quad h^{\\prime}(x)=-\\left(x^{2}+4 x+1\\right) e^{x}-2<0$,\n\n$\\therefore y=h(x)$ 在 $x \\in(1,+\\infty)$ 上单调递减,\n\n$h(x)<h(1)=-2 e-2-a \\leq 0, \\quad a \\geq-2 e-2$."
+        ],
+        "final_answer": [
+            "$[-2 e-2, +\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n设函数 $f(x)=e^{x}-x^{2} e^{x}-a x-1$.\n若对于任意的 $x_{1}, x_{2} \\in(1,+\\infty), x_{1} \\neq x_{2}$, 都有 $\\frac{f\\left(x_{1}\\right)-f\\left(x_{2}\\right)}{x_{1}-x_{2}}<x_{1}+x_{2}$ 恒成立, 求实数 $a$ 的取值范围.\n</think>\n\n设函数 $f(x) = e^x - x^2 e^x -"
+            }
+        }
+    },
+    {
+        "id": 374,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系$xOy$中，直线$l$的参数方程为$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$,（$t$为参数） 曲线$C$的参数方程为$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$（$\\theta$为参数）.\n写出直线 $l$ 与曲线 $C$ 的普通方程;",
+        "solution": [
+            "直线 $l: 2 x+y-8=0 ;$\n\n由线 $C: \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$."
+        ],
+        "final_answer": [
+            "$2 x+y-8=0 , \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为方程。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系$xOy$中，直线$l$的参数方程为$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$,（$t$为参数） 曲线$C$的参数方程为$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$（$\\theta$为参数）.\n写出直线 $l$ 与曲线 $C$ 的普通方程;\n求直线 $l$ 与曲线 $C$ 的交点坐标.\n好的，我现在要"
+            }
+        }
+    },
+    {
+        "id": 375,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系$xOy$中，直线$l$的参数方程为$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$,（$t$为参数） 曲线$C$的参数方程为$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$（$\\theta$为参数）.\n过曲线 $C$ 上任意一点 $A$ 作与 $l$ 夹角为 $\\alpha$ 的直线, 交直线 $l$ 于点 $B$, 若 $\\tan \\alpha=\\frac{1}{2}$, 求 $|A B|$ 的最大值和最小值.",
+        "solution": [
+            "直线 $l: 2 x+y-8=0 ;$\n\n由线 $C: \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$.\n\n椭圆 $C$ 上的点到直线 $l$ 的距离 $d=\\frac{|6 \\cos \\theta+2 \\sin \\theta-8|}{\\sqrt{2^{2}+1^{2}}}=\\frac{|\\sqrt{40} \\sin (\\theta+\\varphi)-8|}{\\sqrt{5}}$, 其中 $\\varphi$ 是第一象限角, 且 $\\tan \\varphi=3$,\n\n$\\therefore d_{\\min }=\\frac{|2 \\sqrt{10}-8|}{\\sqrt{5}}=\\frac{8-2 \\sqrt{10}}{\\sqrt{5}}, d_{\\max }=\\frac{|-2 \\sqrt{10}-8|}{\\sqrt{5}}=\\frac{8+2 \\sqrt{10}}{\\sqrt{5}}$,\n\n$\\because \\tan \\alpha=\\frac{1}{2}, \\therefore \\sin \\alpha=\\frac{1}{\\sqrt{5}}$\n\n$\\because|A B|=\\frac{d}{\\sin \\alpha}$\n\n$\\therefore |A B|_{\\min }=d_{\\min } \\times \\sqrt{5}=8-2 \\sqrt{10}, \\therefore|A B|_{\\max }=d_{\\max } \\times \\sqrt{5}=8+2 \\sqrt{10}$."
+        ],
+        "final_answer": [
+            "$8+2 \\sqrt{10}, 8-2 \\sqrt{10}$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在直角坐标系$xOy$中，直线$l$的参数方程为$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$,（$t$为参数） 曲线$C$的参数方程为$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$（$\\theta$为参数）.\n过曲线 $C$ 上任意一点 $A$ 作与 $l$ 夹角为 $\\alpha$ 的直线, 交直线 $l$ 于点 $B$, 若 $\\tan \\alpha=\\frac{1}{2}$, 求 $|A B|$ 的最大值和最小值.\n好，我现在要解决这个数学竞赛题。题目是在直角坐标系xOy中"
+            }
+        }
+    },
+    {
+        "id": 376,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|2 x+1|-|3 x-a|(a>0)$\n当 $a=3$ 时, 求不等式 $f(x)>2$ 的解集.",
+        "solution": [
+            "当 $a=3$ 时, $f(x)=|2 x+1|-|3 x-3|=\\left\\{\\begin{array}{l}-x+4, x \\geq 1 \\\\ 5 x-2,-\\frac{1}{2}<x<1 \\\\ x-4, x \\leq-\\frac{1}{2}\\end{array}\\right.$\n\n当 $x \\geq 1$ 时， $4-x>2, \\therefore x \\in[1,2)$\n\n当 $-\\frac{1}{2}<x<1$ 时, $5 x-2>2, \\therefore x \\in\\left(\\frac{4}{5}, 1\\right)$\n\n当 $x \\leq-\\frac{1}{2}$ 时， $x-4>2, \\therefore x \\in(6,+\\infty)$ 含去\n\n综上可知，$x \\in\\left(\\frac{4}{5}, 2\\right)$."
+        ],
+        "final_answer": [
+            "$\\left(\\frac{4}{5}, 2\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|2 x+1|-|3 x-a|(a>0)$\n当 $a=3$ 时, 求不等式 $f(x)>2$ 的解集.\n</think>\n\n当 \\( a = 3 \\) 时，函数变为：\n\\[\nf(x"
+            }
+        }
+    },
+    {
+        "id": 377,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|2 x+1|-|3 x-a|(a>0)$\n若 $f(x)$ 的图像与 $x$ 轴围成的三角形的面积大于 $\\frac{5}{3}$, 求 $a$ 的取值范围.",
+        "solution": [
+            "$\\because a>0$, 则\n\n$f(x)=|2 x+1|-|3 x-a|=\\left\\{\\begin{array}{l}-x+1+a, x \\geq \\frac{a}{3} \\\\ 5 x+1-a,-\\frac{1}{2}<x<\\frac{a}{3} \\\\ x-a-1, x \\leq-\\frac{1}{2}\\end{array}\\right.$\n\n今 $5 x_{1}+1-a=0 . \\therefore x_{1}=\\frac{a-1}{5}$\n\n今 $-x_{2}+1+a=0, \\therefore x_{2}=1+a$\n\n$x_{2}-x_{1}=\\frac{4 a+6}{5}, f\\left(\\frac{a}{3}\\right)=\\frac{2 a}{3}+1$\n\n$S_{\\Delta}=\\frac{1}{2} \\times \\frac{4 a+6}{5} \\times\\left(\\frac{2 a}{3}+1\\right)>\\frac{5}{3}, \\therefore a>1$."
+        ],
+        "final_answer": [
+            "$(1, +\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为区间。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知函数 $f(x)=|2 x+1|-|3 x-a|(a>0)$\n若 $f(x)$ 的图像与 $x$ 轴围成的三角形的面积大于 $\\frac{5}{3}$, 求 $a$ 的取值范围.\n好的，我现在要解决这个数学竞赛题。题目是关于函数$f(x)=|2x"
+            }
+        }
+    },
+    {
+        "id": 378,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "在 $\\triangle \\mathrm{ABC}$ 中, 角 $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ 对应的边分别为 $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}$, 且满足 $b \\cos A-a \\sin B=0$.\n求角 $\\mathrm{A}$ 的大小.",
+        "solution": [
+            "$\\because b \\cos A-a \\sin B=0$\n\n由正弦定理得： $\\sin B \\cos A-\\sin A \\sin B=0$\n\n又 $\\because 0<\\mathrm{B}<\\pi \\quad \\therefore \\sin B \\neq 0, \\cos A-\\sin A=0$\n\n$\\therefore \\tan A=1$\n\n$\\because 0<\\mathrm{A}<\\pi$\n\n$\\therefore A=\\frac{\\pi}{4}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\pi}{4}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在 $\\triangle \\mathrm{ABC}$ 中, 角 $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ 对应的边分别为 $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}$, 且满足 $b \\cos A-a \\sin B=0$.\n求角 $\\mathrm{A}$ 的大小.\n好的，我现在要解决这个三角形的问题。题目说在△ABC中，角A、"
+            }
+        }
+    },
+    {
+        "id": 379,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "在 $\\triangle \\mathrm{ABC}$ 中, 角 $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ 对应的边分别为 $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}$, 且满足 $b \\cos A-a \\sin B=0$.\n已知 $b=\\sqrt{2}, A=\\frac{\\pi}{4}, \\triangle \\mathrm{ABC}$ 的面积为 1 , 求边 $\\mathrm{a}$.",
+        "solution": [
+            "$\\because b=\\sqrt{2}, A=\\frac{\\pi}{4}, S_{\\triangle A B C}=1$\n\n$\\therefore \\frac{1}{2} b c \\sin A=1 \\quad$，得 $c=2$\n\n由余弦定理得, $a^{2}=b^{2}+c^{2}-2 b c \\cos A=2$\n\n得 $a=\\sqrt{2}$."
+        ],
+        "final_answer": [
+            "$\\sqrt{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n在 $\\triangle \\mathrm{ABC}$ 中, 角 $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ 对应的边分别为 $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}$, 且满足 $b \\cos A-a \\sin B=0$.\n已知 $b=\\sqrt{2}, A=\\frac{\\pi}{4}, \\triangle \\mathrm{ABC}$ 的面积为 1 , 求边 $\\mathrm{a}$.\n好的，我现在要解决这个三角形的问题。题目中给出了△ABC，其中角A、"
+            }
+        }
+    },
+    {
+        "id": 382,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "双十一之后, 网购粉丝们期待的双十二已然到来, 为了解双十二消费者购物情况和电商的营业情况，做如下数据分析.据悉 12 月 12 日.有 2000 名网购者在某购物网站进行网购消费（消费金额不超过 1000 元），其中有女士 1100 名，男士:900 名，该购物网站为优化营销策略, 根据性别采用分层抽样的方法从这 2000 名网购者中抽取 200 名进行分析, 如表.（消费金额单位：元）\n\n女士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 10          | 25            | 35            | 30            | $x$          |\n\n男士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 15          | 30            | 25            | $y$         | 5              |\n\n附:\n\n$$\nK^{2}=\\frac{n(a d-b c)^{2}}{(a+\\mathrm{b})(\\mathrm{c}+\\mathrm{d})(\\mathrm{a}+\\mathrm{c})(\\mathrm{b}+\\mathrm{d})}, \\quad n=a+b+c+d\n$$\n\n| $P\\left(K^{2} \\geq k_{0}\\right)$ | 0.10  | 0.05  | 0.025 | 0.010 | 0.005 |\n| :--------------------------------- | :---- | :---- | :---- | :---- | :---- |\n| $k_{0}$                          | 2.706 | 3.841 | 5.024 | 6.635 | 7.879 |\n计算 $\\mathrm{x}, \\mathrm{y}$ 的值.",
+        "solution": [
+            "依原意,女士应抽取 110 名,男士应抽取 90 名,故 $x=10, y=15$."
+        ],
+        "final_answer": [
+            "$10, 15$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，题目有多个答案，答案类型均为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{用英文逗号连接的多个答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n双十一之后, 网购粉丝们期待的双十二已然到来, 为了解双十二消费者购物情况和电商的营业情况，做如下数据分析.据悉 12 月 12 日.有 2000 名网购者在某购物网站进行网购消费（消费金额不超过 1000 元），其中有女士 1100 名，男士:900 名，该购物网站为优化营销策略, 根据性别采用分层抽样的方法从这 2000 名网购者中抽取 200 名进行分析, 如表.（消费金额单位：元）\n\n女士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 10          | 25            | 35            | 30            | $x$          |\n\n男士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 15          | 30            | 25            | $y$         | 5              |\n\n附:\n\n$$\nK^{2}=\\frac{n(a d-b c)^{2}}{(a+\\mathrm{b})(\\mathrm{c}+\\mathrm{d})(\\mathrm{a}+\\mathrm{c})(\\mathrm{b}+\\mathrm{d})}, \\quad n=a+b+c+d\n$$\n\n| $P\\left(K^{2} \\geq k_{0}\\right)$ | 0.10  | 0.05  | 0.025 | 0.010 | 0.005 |\n| :--------------------------------- | :---- | :---- | :---- | :---- | :---- |\n| $k_{0}$                          | 2.706 | 3.841 | 5.024 | 6.635 | 7.879 |\n计算 $\\mathrm{x}, \\mathrm{y}$ 的值.\n根据上述数据，是否有超过 $95\\%$ 的把握认为消费金额与性别有关"
+            }
+        }
+    },
+    {
+        "id": 383,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "双十一之后, 网购粉丝们期待的双十二已然到来, 为了解双十二消费者购物情况和电商的营业情况，做如下数据分析.据悉 12 月 12 日.有 2000 名网购者在某购物网站进行网购消费（消费金额不超过 1000 元），其中有女士 1100 名，男士:900 名，该购物网站为优化营销策略, 根据性别采用分层抽样的方法从这 2000 名网购者中抽取 200 名进行分析, 如表.（消费金额单位：元）\n\n女士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 10          | 25            | 35            | 30            | $x$          |\n\n男士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 15          | 30            | 25            | $y$         | 5              |\n\n附:\n\n$$\nK^{2}=\\frac{n(a d-b c)^{2}}{(a+\\mathrm{b})(\\mathrm{c}+\\mathrm{d})(\\mathrm{a}+\\mathrm{c})(\\mathrm{b}+\\mathrm{d})}, \\quad n=a+b+c+d\n$$\n\n| $P\\left(K^{2} \\geq k_{0}\\right)$ | 0.10  | 0.05  | 0.025 | 0.010 | 0.005 |\n| :--------------------------------- | :---- | :---- | :---- | :---- | :---- |\n| $k_{0}$                          | 2.706 | 3.841 | 5.024 | 6.635 | 7.879 |\n在抽出的 200 名且消费金额在 [800, 1000]（单位: 元）网购者中随机选出 2 名发放网购红包, 求选出的 2 名网购者都是男士的概率;",
+        "solution": [
+            "消费金额在 $[800,1000]$ (单位:元)的网影者共有 15 名, 从中选出 2 名共有 105 种选法,若 2 名网则者都是男士,共有 10 种选法,所以选出的 2 名网则者都是男士的概率为 $\\frac{10}{105}=\\frac{2}{21} $."
+        ],
+        "final_answer": [
+            "$\\frac{2}{21}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n双十一之后, 网购粉丝们期待的双十二已然到来, 为了解双十二消费者购物情况和电商的营业情况，做如下数据分析.据悉 12 月 12 日.有 2000 名网购者在某购物网站进行网购消费（消费金额不超过 1000 元），其中有女士 1100 名，男士:900 名，该购物网站为优化营销策略, 根据性别采用分层抽样的方法从这 2000 名网购者中抽取 200 名进行分析, 如表.（消费金额单位：元）\n\n女士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 10          | 25            | 35            | 30            | $x$          |\n\n男士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 15          | 30            | 25            | $y$         | 5              |\n\n附:\n\n$$\nK^{2}=\\frac{n(a d-b c)^{2}}{(a+\\mathrm{b})(\\mathrm{c}+\\mathrm{d})(\\mathrm{a}+\\mathrm{c})(\\mathrm{b}+\\mathrm{d})}, \\quad n=a+b+c+d\n$$\n\n| $P\\left(K^{2} \\geq k_{0}\\right)$ | 0.10  | 0.05  | 0.025 | 0.010 | 0.005 |\n| :--------------------------------- | :---- | :---- | :---- | :---- | :---- |\n| $k_{0}$                          | 2.706 | 3.841 | 5.024 | 6.635 | 7.879 |\n在抽出的 200 名且消费金额在 [800, 1000]（单位: 元）网购者中随机选出 2 名发放网购红包, 求选出的 2 名网购者都是男士的概率;\n问题二: 根据表格中的数据, 估计该购物网站在双十二期间女士"
+            }
+        }
+    },
+    {
+        "id": 385,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知椭圆 $\\mathrm{M}: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的两个顶点分别为 $\\mathrm{A}(-\\mathrm{a}, 0), \\mathrm{B}(\\mathrm{a}, 0)$,点 $\\mathrm{P}$ 为椭圆上异于 $\\mathrm{A}, \\mathrm{B}$ 的点, 设直线 $\\mathrm{PA}$ 的斜率为 $k_{1}$, 直线 $\\mathrm{PB}$ 的斜率为 $k_{2}, k_{1} k_{2}=-\\frac{1}{2}$ .\n求椭圆 $C$ 的离心率;",
+        "solution": [
+            "设 $P\\left(x_{0}, y_{0}\\right)$, 代入椭圆的方程有: $\\frac{x_{0}^{2}}{a^{2}}+\\frac{y_{0}^{2}}{b^{2}}=1$,\n\n整理得: $y_{0}^{2}=-\\frac{b^{2}}{a^{2}}\\left(x_{0}^{2}-a^{2}\\right)$,\n\n又 $k_{1}=\\frac{y_{0}}{x_{0}+a}, k_{2}=\\frac{y_{0}}{x_{0}-a}$, 所以 $k_{1} k_{2}=\\frac{y_{0}^{2}}{x_{0}^{2}-a^{2}}=-\\frac{1}{2}$,\n\n联立两个方程有 $k_{1} k_{2}=-\\frac{b^{2}}{a^{2}}=-\\frac{1}{2}$, 解得: 离心率$e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\sqrt{2}}{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知椭圆 $\\mathrm{M}: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的两个顶点分别为 $\\mathrm{A}(-\\mathrm{a}, 0), \\mathrm{B}(\\mathrm{a}, 0)$,点 $\\mathrm{P}$ 为椭圆上异于 $\\mathrm{A}, \\mathrm{B}$ 的点, 设直线 $\\mathrm{PA}$ 的斜率为 $k_{1}$, 直线 $\\mathrm{PB}$ 的斜率为 $k_{2}, k_{1} k_{2}=-\\frac{1}{2}$ .\n求椭圆 $C$ 的离心率;\n</think>\n\n已知椭圆 \\( \\mathrm{M}: \\frac{x^{2}}{a"
+            }
+        }
+    },
+    {
+        "id": 386,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知椭圆 $\\mathrm{M}: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的两个顶点分别为 $\\mathrm{A}(-\\mathrm{a}, 0), \\mathrm{B}(\\mathrm{a}, 0)$,点 $\\mathrm{P}$ 为椭圆上异于 $\\mathrm{A}, \\mathrm{B}$ 的点, 设直线 $\\mathrm{PA}$ 的斜率为 $k_{1}$, 直线 $\\mathrm{PB}$ 的斜率为 $k_{2}, k_{1} k_{2}=-\\frac{1}{2}$ .\n若 $\\mathrm{b}=1$ ， 设直线 $l$ 与 $x$ 轴交于 $\\mathrm{D}\\left(-1, 0\\right)$, 与椭圆交于 $M, N$ 两点, 求 $\\triangle O M N$ 的面积的最大值.",
+        "solution": [
+            "设 $P\\left(x_{0}, y_{0}\\right)$, 代入椭圆的方程有: $\\frac{x_{0}^{2}}{a^{2}}+\\frac{y_{0}^{2}}{b^{2}}=1$,\n\n整理得: $y_{0}^{2}=-\\frac{b^{2}}{a^{2}}\\left(x_{0}^{2}-a^{2}\\right)$,\n\n又 $k_{1}=\\frac{y_{0}}{x_{0}+a}, k_{2}=\\frac{y_{0}}{x_{0}-a}$, 所以 $k_{1} k_{2}=\\frac{y_{0}^{2}}{x_{0}^{2}-a^{2}}=-\\frac{1}{2}$,\n\n联立两个方程有 $k_{1} k_{2}=-\\frac{b^{2}}{a^{2}}=-\\frac{1}{2}$, 所以$a^{2}=2b^{2}$,又$b=1$，所以椭圆$C$的方程为$\\frac{x^{2}}{2}+\\frac{y^{2}}{1}=1$,\n\n设直线 $l$ 的方程为: $x=m y-1$, 代入椭圆的方程有: $\\left(m^{2}+2\\right) y^{2}-2 m y-1=0$,\n\n设 $M\\left(x_{1}, y_{1}\\right), N\\left(x_{2}, y_{2}\\right)$, 由韦达定理: $y_{1}+y_{2}=\\frac{2 m}{m^{2}+2}, y_{1} y_{2}=\\frac{-1}{m^{2}+2}$,\n\n所以\n\n$\\mathrm{S}_{\\triangle \\mathrm{OMN}}=\\frac{1}{2}|\\mathrm{OD}|\\left|\\mathrm{y}_{1}-\\mathrm{y}_{2}\\right|=\\frac{1}{2} \\sqrt{\\left(\\mathrm{y}_{1}+\\mathrm{y}_{2}\\right)^{2}-4 \\mathrm{y}_{1} \\mathrm{y}_{2}}=\\frac{1}{2} \\frac{\\sqrt{8 \\mathrm{~m}^{2}+8}}{\\mathrm{~m}^{2}+2}=\\frac{\\sqrt{2} \\sqrt{\\mathrm{m}^{2}+1}}{\\mathrm{~m}^{2}+2}$,\n\n令 $\\sqrt{m^{2}+1}=t(t \\geqslant 1)$, 则有 $m^{2}=t^{2}-1$,\n\n代入上式有 $\\mathrm{S}_{\\triangle O M N}=\\frac{\\sqrt{2} \\sqrt{\\mathrm{m}^{2}+1}}{\\mathrm{~m}^{2}+2}=\\frac{\\sqrt{2} \\mathrm{t}}{\\mathrm{t}^{2}+1}=\\frac{\\sqrt{2}}{\\mathrm{t}+\\frac{1}{t}} \\leq \\frac{\\sqrt{2}}{2}$,\n\n当且仅当 $t=1$, 即 $m=0$ 时等号成立,\n\n所以 $\\triangle O M N$ 的面积的最大值为 $\\frac{\\sqrt{2}}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\sqrt{2}}{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n已知椭圆 $\\mathrm{M}: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的两个顶点分别为 $\\mathrm{A}(-\\mathrm{a}, 0), \\mathrm{B}(\\mathrm{a}, 0)$,点 $\\mathrm{P}$ 为椭圆上异于 $\\mathrm{A}, \\mathrm{B}$ 的点, 设直线 $\\mathrm{PA}$ 的斜率为 $k_{1}$, 直线 $\\mathrm{PB}$ 的斜率为 $k_{2}, k_{1} k_{2}=-\\frac{1}{2}$ .\n若 $\\mathrm{b}=1$ ， 设直线 $l$ 与 $x$ 轴交于 $\\mathrm{D}\\left(-1, 0\\right)$, 与椭圆交于 $M, N$ 两点, 求 $\\triangle O M N$ 的面积的最大值.\n好，我现在要解决这个数学竞赛题。题目是关于椭圆和几何的，看起来"
+            }
+        }
+    },
+    {
+        "id": 388,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "设函数 $f(x)=\\ln x+\\frac{a-1}{x}, g(x)=a x-3$\n当 $\\mathrm{a}=1$ 时, 记 $h(x)=f(x) \\cdot g(x)$, 存在整数 $\\lambda$, 使得关于 $x$ 的不等式 $2 \\lambda \\geq h(x)$ 有解，请求出 $\\lambda$ 的最小值.",
+        "solution": [
+            "当 $a=1$ 时, $f(x)=\\ln x, g(x)=x-3, h(x)=(x-3) \\ln x$\n\n所以 $h^{\\prime}(x)=\\ln x+1-\\frac{3}{x}$ 单调递增,\n\n$h^{\\prime}\\left(\\frac{3}{2}\\right)=\\ln \\frac{3}{2}+1-2<0, h^{\\prime}(2)=\\ln 2+1-\\frac{3}{2}>0$.\n\n所以存在唯一 $x_{0} \\in\\left(\\frac{3}{2}, 2\\right)$, 使得 $h^{\\prime}\\left(x_{0}\\right)=0$, 即 $\\ln x_{0}+1-\\frac{3}{x_{0}}=0,$\n\n当 $x \\in\\left(0, x_{0}\\right)$ 时, $h^{\\prime}(x)<0$, 当 $x \\in\\left(x_{0},+\\infty\\right)$ 时, $h^{\\prime}(x)>0$,\n\n所以 $h_{min}(x)=h\\left(x_{0}\\right)=\\left(x_{0}-3\\right) \\ln x_{0}$\n\n$=\\left(x_{0}-3\\right)\\left(\\frac{3}{x_{0}}-1\\right)=-\\frac{\\left(x_{0}-3\\right)^{2}}{x_{0}}=6-\\left(x_{0}+\\frac{9}{x_{0}}\\right)$,\n\n记函数 $r(x)=6-\\left(x+\\frac{9}{x}\\right)$, 则 $r(x)$ 在 $\\left(\\frac{3}{2}, 2\\right)$ 上单调递增,\n\n所以 $r\\left(\\frac{3}{2}\\right)<h\\left(x_{0}\\right)<r(2)$, 即 $h\\left(x_{0}\\right) \\in\\left(-\\frac{3}{2},-\\frac{1}{2}\\right)$,\n\n由 $2 \\lambda \\geq h(x)_{\\text {min }}=h\\left(x_{0}\\right),$ 得 $ 2 \\lambda \\geq h\\left(x_{0}\\right)_{\\text {max }}$, 即 $2 \\lambda \\geq-\\frac{1}{2}$, 且 $\\lambda$ 为整数, 得 $\\lambda \\geq 0$,\n\n所以存在整数 $\\lambda$ 满足题意, 且 $\\lambda$ 的最小值为 0.",
+            "当 $a=1$ 时, $f(x)=\\ln x, g(x)=x-3, h(x)=(x-3) \\ln x$,\n\n所以 $h^{\\prime}(x)=\\ln x+1-\\frac{3}{x}$ 单调迸增,\n\n$h^{\\prime}(1)=\\ln 1+1-3<0, h^{\\prime}(2)=\\ln 2+1-\\frac{3}{2}>0$.\n\n所以存在唯一 $x_{0} \\in(1,2)$, 使得 $h^{\\prime}\\left(x_{0}\\right)=0$, 即 $\\ln x_{0}+1-\\frac{3}{x_{0}}=0,$\n\n当 $x \\in\\left(0, x_{0}\\right)$ 时, $h^{\\prime}(x)<0$, 当 $x \\in\\left(x_{0},+\\infty\\right)$ 时, $h^{\\prime}(x)>0$,\n\n所以 $h_{min}(x)=h\\left(x_{0}\\right)=\\left(x_{0}-3\\right) \\ln x_{0}$\n\n$=\\left(x_{0}-3\\right)\\left(\\frac{3}{x_{0}}-1\\right)=-\\frac{\\left(x_{0}-3\\right)^{2}}{x_{0}}=6-\\left(x_{0}+\\frac{9}{x_{0}}\\right)$.\n\n记函数 $r(x)=6-\\left(x+\\frac{9}{x}\\right)$, 则 $r(x)$ 在 $(1,2)$ 上单调递增,\n\n所以 $r(1)<h\\left(x_{0}\\right)<r(2)$, 即 $h\\left(x_{0}\\right) \\in\\left(-4,-\\frac{1}{2}\\right),$\n\n由 $2 \\lambda \\geq h(x)_{\\text {min }}=h\\left(x_{0}\\right),$得  $ 2 \\lambda \\geq h\\left(x_{0}\\right)_{\\max }$, 即 $2 \\lambda \\geq-\\frac{1}{2}$, 且 $\\lambda$ 为整数, 得 $\\lambda \\geq 0$,\n\n所以存在整数 $\\lambda$ 满足题意, 且 $\\lambda$ 的最小值为 0 ."
+        ],
+        "final_answer": [
+            "$0$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "DeepSeek-R1-Distill-Qwen-32B": {
+                "raw_output": "你是一个中文人工智能助手。请根据要求，完成下面的数学竞赛题目。\n以下是中国数学竞赛中的解答题，答案类型为数值。请根据题目的要求和所提供的信息计算得出答案。请在最后以“所以最终答案是\\boxed{答案}。”显式给出结果。在最终答案之后给出你的解答。过程解答过程和结果中使用的变量和公式请使用LaTeX格式表示。确保你的思考过程不超过2000个token，回答总长度不超过2048个token，回答中必须包含上面指定的答案格式。\n设函数 $f(x)=\\ln x+\\frac{a-1}{x}, g(x)=a x-3$\n当 $\\mathrm{a}=1$ 时, 记 $h(x)=f(x) \\cdot g(x)$, 存在整数 $\\lambda$, 使得关于 $x$ 的不等式 $2 \\lambda \\geq h(x)$ 有解，请求出 $\\lambda$ 的最小值.\n好的，我现在要解决这个数学竞赛题。首先，我要理解题目所给的信息和要求"
+            }
+        }
+    }
+]

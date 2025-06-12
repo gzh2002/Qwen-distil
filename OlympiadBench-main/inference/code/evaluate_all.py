@@ -1,12 +1,12 @@
 import os
 import json
 import argparse
-from evaluators.gpt_4v import GPT_4V_Evaluator
-from evaluators.gemini_pro_vision import Gemini_Pro_Vision_Evaluator
-from evaluators.qwen_vl import Qwen_VL_Evaluator
-from evaluators.deepseek_evaluator import Deepseek_Evaluator
+# from evaluators.gpt_4v import GPT_4V_Evaluator
+# from evaluators.gemini_pro_vision import Gemini_Pro_Vision_Evaluator
+# from evaluators.qwen_vl import Qwen_VL_Evaluator
+# from evaluators.deepseek_evaluator import Deepseek_Evaluator
 from evaluators.check_prompt import Check_Prompt_Evaluator
-from evaluators.text_only_gpt_4 import Text_Only_GPT_4_Evaluator
+# from evaluators.text_only_gpt_4 import Text_Only_GPT_4_Evaluator
 from evaluators.qwen2_5 import Qwen_25_Evaluator
 # from evaluators.yi_vl import YI_VL_Evaluator
 # from evaluators.yi_chat import YI_Chat_Evaluator
@@ -22,9 +22,9 @@ def main(args):
 	# 	evaluator = Qwen_25_Evaluator(
 	# 		model_name='D:\\code\\py\\class_code\\nlp\\Qwen2.5-0.5B'
 	# 	)
-	elif 'qwen-2.5-grpo' in args.model_name:
+	elif 'qwen-2.5-0.5B' in args.model_name:
 		evaluator = Qwen_25_Evaluator(
-			model_name='D:\\code\\py\\class_code\\nlp\\Qwen2.5-0.5B-GRPO'
+			model_name='/home/gaoziheng/nlp/models/Qwen/Qwen2___5-0___5B'
 		)
 	elif 'results' in args.model_name:
 		evaluator = Qwen_25_Evaluator(
@@ -95,7 +95,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--model_name", type=str, required=True)
 	parser.add_argument("--dataset_path", type=str, required=True)
-	parser.add_argument("--save_dir", type=str, default='../generated')
+	parser.add_argument("--save_dir", type=str, default='/user/gaoziheng/nlp/generated')
 	parser.add_argument("--saving_name", type=str)
 	parser.add_argument("--cuda_device", type=int)     
 	args = parser.parse_args()

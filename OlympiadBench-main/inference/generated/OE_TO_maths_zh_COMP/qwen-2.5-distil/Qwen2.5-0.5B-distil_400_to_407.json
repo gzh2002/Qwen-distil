@@ -1,0 +1,170 @@
+[
+    {
+        "id": 782,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "在数列 $\\left\\{a_{n}\\right\\}$ 中, 已知 $a_{1}=\\frac{1}{p}, a_{n+1}=\\frac{a_{n}}{n a_{n}+1}, p>0, n \\in \\mathbf{N}^{*}$.\n记 $b_{n}=n a_{n}$. 若在数列 $\\left\\{b_{n}\\right\\}$ 中, $b_{n} \\leq b_{8}\\left(n \\in \\mathbf{N}^{*}\\right)$, 求实数 $p$ 的取值范围.",
+        "solution": [
+            "$b_{n}=n a_{n}=\\frac{2 n}{n^{2}-n+2 p}$.\n\n在数列 $\\left\\{b_{n}\\right\\}$ 中,\n\n因为 $b_{n} \\leq b_{8}\\left(n \\in \\mathbf{N}^{*}\\right)$, 所以 $b_{7} \\leq b_{8}, b_{8} \\leq b_{8}$, 即 $\\left\\{\\begin{array}{c}\\frac{7}{21+p} \\leq \\frac{8}{28+p} \\\\ \\frac{9}{36+p} \\leq \\frac{8}{28+p}\\end{array}\\right.$,\n\n解得 $28 \\leq p \\leq 36$.\n\n又 $b_{n}=\\frac{2 n}{n^{2}-n+2 p}=\\frac{2}{n+\\frac{2 p}{n}-1}$, 且 $7<\\sqrt{56} \\leq \\sqrt{2 p} \\leq \\sqrt{72}<9$,\n\n所以 $b_{n}$ 的最大值只可能在 $n=7,8,9$ 时取到.\n\n又当 $28 \\leq p \\leq 36$ 时, $b_{7} \\leq b_{8}, b_{5} \\leq b_{8}$, 所以 $b_{n} \\leq b_{8}$.\n\n所以满足条件的实数 $p$ 的取值范围是 $[28,36]$."
+        ],
+        "final_answer": [
+            "$[28,36]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数列的问题。题目给出一个数列 $\\{a_n\\}$，其中 $a_1 = \\frac{1}{p}$，并且递推公式为 $a_{n+1} = \\frac{a_n}{n a_n + 1}$，其中 $p > 0$，$n \\in \\mathbb{N}^*$。接下来，我需要找出实数 $p$ 的取值范围，使得在数列 $\\{b_n\\}$ 中，$b_n \\leq b_8$，其中 $b_n = n a_n$。\n\n首先，我需要理解数列 $\\{a_n\\}$ 的性质。已知 $a_1 = \\frac{1}{p}$，那么接下来计算一些前几项，看看数列的变化趋势。\n\n计算 $a_2$：\n$$\na_2 = \\frac{a_1}{2a_1 + 1} = \\frac{\\frac{1}{p}}{2 \\cdot \\frac{1}{p} + 1} = \\frac{\\frac{1}{p}}{\\frac{2}{p} + 1} = \\frac{\\frac{1}{p}}{\\frac{3}{p}} = \\frac{1}{3}\n$$\n\n计算 $a_3$：\n$$\na_3 = \\frac{a_2}{3a_2 + 1} = \\frac{\\frac{1}{3}}{3 \\cdot \\frac{1}{3} + 1} = \\frac{\\frac{1}{3}}{\\frac{3}{3} + 1} = \\frac{\\frac{1}{3}}{\\frac{6}{3} + 1} = \\frac{\\frac{1}{3}}{\\frac{9}{3} + 1} = \\frac{\\frac{1}{3}}{\\frac{12}{3}} = \\frac{\\frac{1}{3}}{4} = \\frac{1}{12}\n$$\n\n计算 $a_4$：\n$$\na_4 = \\frac{a_3}{4a_3 + 1} = \\frac{\\frac{1}{12}}{4 \\cdot \\frac{1}{12} + 1} = \\frac{\\frac{1}{12}}{\\frac{4}{12}"
+            }
+        }
+    },
+    {
+        "id": 785,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=\\frac{9}{4}, 2 a_{n+1} a_{n}-7 a_{n+1}-3 a_{n}+12=0 \\quad\\left(n \\in N^{*}\\right)$ .\n记 $c_{n}=a_{n}-2$, 求数列 $\\left\\{c_{n}\\right\\}$ 的通项公式;",
+        "solution": [
+            "由 $c_{n}=a_{n}-2$, 得 $a_{n}=c_{n}+2$, 代入条件递推式, 得\n\n$2\\left(c_{n+1}+2\\right)\\left(c_{n}+2\\right)-7\\left(c_{n+1}+2\\right)-3\\left(c_{n}+2\\right)+12=0$ .\n\n整理, 得 $2 c_{n+1} c_{n}-3 c_{n+1}+c_{n}=0$, 即 $\\frac{1}{c_{n+1}}=\\frac{3}{c_{n}}-2$ .\n\n$\\therefore \\frac{1}{c_{n+1}}-1=3\\left(\\frac{1}{c_{n}}-1\\right)$, 数列 $\\left\\{\\frac{1}{c_{n}}-1\\right\\}$ 是以 $\\frac{1}{c_{1}}-1=4-1=3$ 为首项, 公比为 3 的等比数列.\n\n$\\therefore \\quad \\frac{1}{c_{n}}-1=3^{n}, \\quad c_{n}=\\frac{1}{3^{n}+1}$ ."
+        ],
+        "final_answer": [
+            "$c_{n}=\\frac{1}{3^{n}+1}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "求证：对于任意正整数 $n$，都有 $a_{n+1} \\geq a_n$。\n\n \n\n好的，我现在要解决这个数学竞赛题目。题目给出一个数列 $\\{a_n\\}$，其中 $a_1 = \\frac{9}{4}$，并且对于所有的正整数 $n$，有方程 $2a_{n+1}a_n - 7a_{n+1} - 3a_n + 12 = 0$。接下来，我需要找出这个数列的通项公式，并证明对于任意正整数 $n$，都有 $a_{n+1} \\geq a_n$。\n\n首先，我需要理解题目的条件。已知数列 $\\{a_n\\}$ 满足 $a_1 = \\frac{9}{4}$，并且对于所有 $n$，方程 $2a_{n+1}a_n - 7a_{n+1} - 3a_n + 12 = 0$ 成立。我的任务是找出这个数列的通项公式，并证明 $a_{n+1} \\geq a_n$ 对所有 $n$ 成立。\n\n首先，我需要将方程改写为更易于处理的形式。将方程整理为：\n$$\n2a_{n+1}a_n - 7a_{n+1} - 3a_n + 12 = 0\n$$\n可以将所有项移到左边：\n$$\n(2a_{n+1} - 7)a_n - 3a_n + 12 = 0\n$$\n接下来，我需要找到一个方法来解这个方程。首先，考虑将方程视为关于 $a_{n+1}$ 的线性方程，然后解出 $a_{n+1}$。\n\n考虑将方程改写为：\n$$\n(2a_{n+1} - 7)a_n - 3a_n + 12 = 0\n$$\n将所有项移到左边：\n$$\n(2a_{n+1} - 7)a_n - 3a_n + 12 = 0\n$$\n将所有项移到左边：\n$$\n(2a_{n+1} - 7)a_n - 3a_n + 12 = 0\n$$\n将所有"
+            }
+        }
+    },
+    {
+        "id": 786,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=\\frac{9}{4}, 2 a_{n+1} a_{n}-7 a_{n+1}-3 a_{n}+12=0 \\quad\\left(n \\in N^{*}\\right)$ .\n记 $b_{n}=\\frac{n^{2}}{n+1} a_{n}$, 求使 $\\left[b_{1}\\right]+\\left[b_{2}\\right]+\\left[b_{3}\\right]+\\cdots+\\left[b_{n}\\right] \\leq 2019$ 成立的最大正整数 $n$ 的值.\n\n（其中, 符号 $[x]$ 表示不超过 $x$ 的最大整数)",
+        "solution": [
+            "记 $c_{n}=a_{n}-2$, 则 $a_{n}=c_{n}+2$, 代入条件递推式, 得\n\n$2\\left(c_{n+1}+2\\right)\\left(c_{n}+2\\right)-7\\left(c_{n+1}+2\\right)-3\\left(c_{n}+2\\right)+12=0$ .\n\n整理, 得 $2 c_{n+1} c_{n}-3 c_{n+1}+c_{n}=0$, 即 $\\frac{1}{c_{n+1}}=\\frac{3}{c_{n}}-2$ .\n\n$\\therefore \\frac{1}{c_{n+1}}-1=3\\left(\\frac{1}{c_{n}}-1\\right)$, 数列 $\\left\\{\\frac{1}{c_{n}}-1\\right\\}$ 是以 $\\frac{1}{c_{1}}-1=4-1=3$ 为首项, 公比为 3 的等比数列.\n\n$\\therefore \\quad \\frac{1}{c_{n}}-1=3^{n}, \\quad c_{n}=\\frac{1}{3^{n}+1}$ .\n\n$a_{n}=c_{n}+2=\\frac{1}{3^{n}+1}+2$,\n\n$b_{n}=\\frac{n^{2}}{n+1} a_{n}=\\frac{n^{2}}{n+1}\\left(\\frac{1}{3^{n}+1}+2\\right)=\\frac{n^{2}}{(n+1)\\left(3^{n}+1\\right)}+\\frac{2 n^{2}}{n+1}=2(n-1)+\\frac{2}{n+1}+\\frac{n^{2}}{(n+1)\\left(3^{n}+1\\right)}$\n\n$=2(n-1)+\\frac{2 \\times 3^{n}+n^{2}+2}{(n+1)\\left(3^{n}+1\\right)}$\n\n$\\because n \\geq 2$ 时, $3^{n}=(1+2)^{n}=1+C_{n}^{1} \\times 2+C_{n}^{2} \\times 2^{2}+\\cdots>1+2 n$,\n\n$(n+1)\\left(3^{n}+1\\right)-\\left[2 \\times 3^{n}+n^{2}+2\\right]=(n-1) \\times 3^{n}-n^{2}+n-1>(n-1)(1+2 n)-n^{2}+n-1=n^{2}-2>0$ .\n\n$\\therefore n \\geq 2$ 时, $0<\\frac{2 \\times 3^{n}+n^{2}+2}{(n+1)\\left(3^{n}+1\\right)}<1$,\n\n又 $n=1$ 时, $\\frac{2 \\times 3^{n}+n^{2}+2}{(n+1)\\left(3^{n}+1\\right)}=\\frac{6+1+2}{2 \\times 4}=\\frac{9}{8}$ .\n\n$\\therefore \\quad\\left[b_{1}\\right]=1 ; n \\geq 2$ 时, $\\left[b_{n}\\right]=2(n-1)$ .\n\n$\\therefore n \\geq 2$ 时,\n\n$\\left[b_{1}\\right]+\\left[b_{2}\\right]+\\left[b_{3}\\right]+\\cdots+\\left[b_{n}\\right]=1+2 \\times 1+2 \\times 2+\\cdots+2(n-1)=1+n(n-1)=n^{2}-n+1$ .\n\n由 $n^{2}-n+1 \\leq 2019$, 及 $n \\in N^{*}$, 得 $n \\leq 45$ .\n\n$\\therefore$ 使 $\\left[b_{1}\\right]+\\left[b_{2}\\right]+\\left[b_{3}\\right]+\\cdots+\\left[b_{n}\\right] \\leq 2019$ 成立的最大正整数 $n$ 的值为 $45$ ."
+        ],
+        "final_answer": [
+            "$45$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个数列 $\\{a_n\\}$，其中 $a_1 = \\frac{9}{4}$，并且对于所有的正整数 $n$，有方程 $2a_{n+1}a_n - 7a_{n+1} - 3a_n + 12 = 0$。接下来，我需要找出满足条件的正整数 $n$ 的最大值。\n\n首先，我需要理解这个方程。方程是关于 $a_n$ 的，其中 $n$ 是正整数。方程的形式是 $2a_{n+1}a_n - 7a_{n+1} - 3a_n + 12 = 0$。看起来像是一个关于 $a_n$ 的递推方程，可能与斐波那契数列有关，因为斐波那契数列的前几项是 $1, 1, 2, 3, 5, 8, \\ldots$，而这个方程的系数和常数项与斐波那契数列的系数和常数项一致。\n\n接下来，我需要找到这个递推方程的解，即找到所有正整数 $n$，使得 $a_n$ 是正整数。为了找到解，我需要解这个方程，或者找到一个递推关系，使得我可以找到解。\n\n首先，我注意到方程中的系数是 $2, -7, -3$，这与斐波那契数列的系数一致。斐波那契数列的前几项是 $1, 1, 2, 3, 5, 8, \\ldots$，而这个方程的系数和常数项与斐波那契数列的系数和常数项一致。因此，这个方程可能与斐波那契数列有关。\n\n斐波那契数列的前几项是：\n- $F_1 = 1$\n- $F_2 = 1$\n- $F_3 = 2$\n- $F_4 = 3$\n- $F_5 = 5$\n- $F_6 = 8$\n- $F_7 = 13$\n- $F_8 = 21$\n- $F_9 = 34$\n- $F_{10"
+            }
+        }
+    },
+    {
+        "id": 791,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知 $f(x)=e^{x}$ .\n若 $x \\geq 0$ 时, 不等式 $(x-1) f(x) \\geq m x^{2}-1$ 恒成立, 求 $m$ 的取值范围;",
+        "solution": [
+            "依题意, 当 $x \\geq 0$ 时, $(x-1) e^{x} \\geq m x^{2}-1$ 恒成立.\n\n设 $k(x)=(x-1) e^{x}-m x^{2}+1$, 则 $x \\geq 0$ 时, $k(x) \\geq 0$ 恒成立.\n\n$k^{\\prime}(x)=e^{x}+(x-1) e^{x}-2 m x=x\\left(e^{x}-2 m\\right) .$\n\n若 $m \\leq \\frac{1}{2}$, 则 $x>0$ 时, $k^{\\prime}(x)=x\\left(e^{x}-2 m\\right)>0, k(x)$ 在 $[0,+\\infty)$ 上为增函数.\n\n于是, $x \\geq 0$ 时, $k(x) \\geq k(0)=0$ .因此, $m \\leq \\frac{1}{2}$ 符合要求.\n\n若 $m>\\frac{1}{2}$, 则 $2 m>1,0<x<\\ln (2 m)$ 时, $k^{\\prime}(x)<0, k(x)$ 在 $[0, \\ln (2 m)]$ 上为减函数.\n\n于是, $k(\\ln (2 m))<k(0)=0$ .因此, $m>\\frac{1}{2}$ 不符合要求.\n\n$\\therefore m$ 的取值范围为 $\\left(-\\infty, \\frac{1}{2}\\right]$ ."
+        ],
+        "final_answer": [
+            "$\\left(-\\infty, \\frac{1}{2}\\right]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "若存在实数 $a$ 使得不等式 $(x-1) f(x) \\geq a x^{2}-1$ 成立, 求实数 $a$ 的取值范围。\n\n \n\n好的，我现在要解决这个数学竞赛题目。题目是关于函数f(x)=e^x的，要求在x≥0时，不等式(x-1)f(x)≥m x²-1恒成立，求m的取值范围。然后，题目还要求存在实数a使得不等式(x-1)f(x)≥a x²-1成立，求a的取值范围。\n\n首先，我需要理解题目的意思。已知f(x)=e^x，要求在x≥0时，不等式成立，即(x-1)f(x)≥m x²-1。接下来，题目还要求存在实数a，使得不等式成立，即(x-1)f(x)≥a x²-1。\n\n首先，我需要分析f(x)=e^x的性质。e^x是指数函数，其导数是e^x，所以f(x)在x≥0时是单调递增的。接下来，我需要确定m的取值范围，使得不等式成立。然后，接下来，我需要分析是否存在实数a，使得不等式成立，即(x-1)f(x)≥a x²-1。\n\n首先，考虑x≥0时，不等式(x-1)f(x)≥m x²-1。因为f(x)=e^x，所以(x-1)e^x ≥ m x²-1。接下来，我需要找到m的取值范围，使得这个不等式成立。\n\n接下来，我需要分析是否存在实数a，使得(x-1)e^x ≥ a x²-1。为了找到这样的a，我需要将不等式转化为关于x的不等式，然后解出a的范围。\n\n首先，将不等式(x-1)e^x ≥ a x²-1，移项得：\n\nx² -1 ≤ a x² -1 e^x\n\n整理一下：\n\nx² -1 ≤ a x² -1 e^x\n\n移项：\n\nx² -1 - a x² +1 e^x ≤ 0\n\n化简：\n\n(1 - a)x² + e^x ≤ 0\n\n接下来，我需要确定"
+            }
+        }
+    },
+    {
+        "id": 794,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知 $a, b, c, d \\in \\mathbb{R}, f(x)=a x^{3}+b x^{2}+c x+d$, 且 $f(2019-i)=i$ $(i=1,2,3,4)$, 求 $8 a+4 b+2 c+d$ 的值.",
+        "solution": [
+            "令 $g(x)=f(x)-(2019-x)$, 由已知可得\n\n$$\ng(2019-i)=f(2019-i)-2019+(2019-i)=0\n$$\n\n即 $2019-i(i=1,2,3,4)$ 为方程 $g(x)=0$ 的根, 令\n\n$$\ng(x)=f(x)-(2019-x)=c(x)(x-2018)(x-2017)(x-2016)(x-2015) \\cdots (1)\n$$\n\n(1) 式左边是三次, 右边高于三次, 所以 $c(x)=0$, 因此 $f(x)=2019-x$ .\n\n所以 $8 a+4 b+2 c+d=f(2)=2017$ ."
+        ],
+        "final_answer": [
+            "$2017$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于多项式函数f(x)=a x³ + b x² + c x + d，其中a, b, c, d都是实数，且满足f(2019 - i) = i，i=1,2,3,4。要求求出8a + 4b + 2c + d的值。\n\n首先，我需要理解题目的条件。f(x)是一个三次多项式，f(2019 - i) = i对于i=1,2,3,4，这意味着f(x)在这些点处的值都是i。这可能意味着f(x)是一个关于x的线性函数，或者可能有某种对称性。\n\n接下来，我需要分析f(x)的结构。多项式f(x)=a x³ + b x² + c x + d，其中a, b, c, d都是实数。多项式f(x)的系数分别是a, b, c, d，其中a是常数项，b, c, d是系数项。那么，f(x)的系数分别是a, b, c, d，其中a是常数项，b, c, d是系数项。\n\n根据题目的条件，f(2019 - i) = i对于i=1,2,3,4，这意味着f(x)在这些点处的值都是i。这可能意味着f(x)是一个关于x的线性函数，或者可能有某种对称性。\n\n首先，考虑f(x)是一个关于x的线性函数，即f(x) = a x + b，其中a是常数，b是系数项。那么，f(2019 - i) = a*(2019 - i) + b = i。这可能意味着f(x)的系数a和b必须满足某种关系，使得当x=2019 - i时，f(x) = i。\n\n接下来，考虑f(x)的系数a和b必须满足某种对称性。因为f(2019 - i) = i，这意味着f(x)在x=2019 - i处的值为i。这可能意味着f(x)在x=2019 - i处的值为i，即f(x) = i对于所有x=2019 - i，i="
+            }
+        }
+    },
+    {
+        "id": 796,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知椭圆 $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$, 过两个焦点分别作两条相互垂直的直线 $l_{1}, l_{2}$ .假设两条直线 $l_{1}, l_{2}$ 相交于 $P, l_{1}, l_{2}$ 在椭圆内所截的线段长度为 $m_{1}, m_{2}$ .\n求 $m_{1} m_{2}$ 的最小值和最大值.",
+        "solution": [
+            "设 $l_{1}$ 的斜率为 $k$, 则 $l_{1}$ 的直线方程为 $y=k(x-c)$, 联立椭圆方程, 求得 $m_{1}=\\frac{2 a b^{2}\\left(1+k^{2}\\right)}{a^{2} k^{2}+b^{2}}$\n\n同理求得 $m_{2}=\\frac{2 a b^{2}\\left(1+k^{2}\\right)}{a^{2}+b^{2} k^{2}}$ $m_{1} m_{2}=\\frac{4 a^{2} b^{4}\\left(1+k^{2}\\right)^{2}}{\\left(a^{2} k^{2}+b^{2}\\right)\\left(a^{2}+b^{2} k^{2}\\right)}=\\frac{4 a^{2} b^{4}\\left(2+k^{2}+\\frac{1}{k^{2}}\\right)}{a^{2} b^{2}\\left(k^{2}+\\frac{1}{k^{2}}\\right)+a^{4}+b^{4}}$, 令 $t=k^{2}+\\frac{1}{k^{2}}+2 \\geq 4$, 则 $m_{1} m_{2}=\\frac{4 a^{2} b^{4}}{a^{2} b^{2}+\\frac{1}{t}\\left(a^{4}+b^{4}-2 a b\\right)} \\geq \\frac{16 a^{2} b^{4}}{\\left(a^{2}+b^{2}\\right)^{2}}$\n\n所以 $m_{1} m_{2}$ 的最小值为 $\\frac{16 a^{2} b^{4}}{\\left(a^{2}+b^{2}\\right)^{2}}$;\n\n当 $t$ 趋向无穷时, 即其中一条直线与 $\\mathrm{x}$ 轴垂直, 另一直线与 $\\mathrm{x}$ 周重合时, $m_{1} m_{2}$ 取最大值为 $4 b^{2}$ ."
+        ],
+        "final_answer": [
+            "$\\frac{16 a^{2} b^{4}}{\\left(a^{2}+b^{2}\\right)^{2}}, 4 b^{2}$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个椭圆问题。题目给出一个椭圆的标准方程是$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中$a > b > 0$。椭圆的两个焦点位于x轴上，分别记作$F_1(-c,0)$和$F_2(c,0)$，其中$c = \\sqrt{a^2 - b^2}$。题目中给出两条直线$l_1$和$l_2$，它们的方程分别是$x = 3$和$y = 4$，并且这两条直线分别与椭圆相交于点$P$和点$L$。要求求出$m_1 m_2$的最小值和最大值。\n\n首先，我需要明确椭圆的性质。椭圆的标准方程是$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中$a > b > 0$。椭圆的两个焦点位于x轴上，分别记作$F_1(-c,0)$和$F_2(c,0)$，其中$c = \\sqrt{a^2 - b^2}$。椭圆的长轴在x轴上，焦点到中心的距离$c$就是长轴的长度，所以$c$是椭圆的长轴长。\n\n接下来，题目中给出两条直线$l_1$和$l_2$，它们的方程分别是$x = 3$和$y = 4$。这两条直线分别与椭圆相交于点$P$和点$L$。点$P$和点$L$分别在椭圆上，所以它们的坐标满足椭圆的方程。\n\n首先，我需要计算点$P$的坐标。点$P$的坐标可以通过椭圆的方程和直线方程联立求解。椭圆的方程是$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中焦点在x轴上，所以$x = 3$，所以$y^2 = 9 - 12 = 3$，所以$y = \\pm \\sqrt{3}$。因此，点$P$的坐标为$(3, \\sqrt{"
+            }
+        }
+    },
+    {
+        "id": 798,
+        "subfield": "Number Theory",
+        "context": null,
+        "question": "设 $A$ 为 20 ! 的所有因数构成的集合, $x_{i} \\in A(1 \\leq i \\leq n)$ .若对任意的正整数 $y_{i}(1 \\leq i \\leq n)$, 存在正整数 $z$, 使得 $\\frac{y_{i}+z}{x_{i}}$ 为正整数.\n求 $n$ 的最大值.",
+        "solution": [
+            "$20 !=2^{18} \\times 3^{8} \\times 5^{4} \\times 7^{2} \\times 11 \\times 13 \\times 17 \\times 19, A=\\left\\{x|x|20!,x \\in \\mathbb{N}_{+}\\right\\}$.\n\n令 $\\left(x_{i}, x_{j}\\right)=d\\left(x_{i}, x_{j} \\in A\\right), x_{i}=a d, x_{j}=b d$, 且 $(a, b)=1$ .\n\n取 $y_{1}=1, y_{2}=2$, 得 $\\frac{1+z}{a d}, \\frac{2+z}{b d} \\in \\mathbb{Z}$, 于是 $d=1$, 于是 $\\left(x_{i}, x_{j}\\right)=1(1 \\leq i \\neq j \\leq n)$ .\n\n做方程组\n\n$\\left\\{\\begin{array}{l}z \\equiv-y_{1}\\left(\\bmod x_{1}\\right) \\\\ z \\equiv-y_{2}\\left(\\bmod x_{2}\\right) \\\\ \\cdots \\cdots \\\\ z \\equiv-y_{n}\\left(\\bmod x_{n}\\right)\\end{array}\\right.$\n\n由中国剩余定理可知存在正整数 $z$ 使得 $\\frac{y_{i}+z}{x_{i}}$ 为整数.\n\n又集合 $A$ 有 8 个不同的质因数, 其中可以有一个变量取 1 , 故 $n \\leq 9$; 当 $n \\geq 10$ 时,\n\n一定存在 $x_{i}, x_{j},\\left(x_{i}, x_{j}\\right)>1$ .\n\n当 $n=9$ 时, 取 $x_{1}=1,\\left\\{x_{2}, \\cdots, x_{9}\\right\\}=\\{2,3,5,7,11,13,17,19\\}$ .所以 $n$ 的最大值为 9 ."
+        ],
+        "final_answer": [
+            "$9$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于20!的所有因数组成的集合A，其中x_i ∈ A(1 ≤ i ≤ n)。接下来，给定正整数y_i(1 ≤ i ≤ n)，对于每个y_i，存在正整数z，使得(20! + z)/x_i为正整数。求n的最大值。\n\n首先，我需要理解题目的意思。20!的所有因数组成的集合A，其中x_i ∈ A，满足对于每个y_i，存在z使得(20! + z)/x_i为正整数。我的任务是找出n的最大值。\n\n首先，我需要回忆一下20!的因数分解。20! = 20 × 19 × 18 × ... × 2 × 1 = 2^15 × 3^14 × 5^13 × 7^12 × 11^11 × 13^10 × 17^9 × 19^8 × 23^7 × 25^6 × 27^5 × 31^4 × 33^3 × 35^2 × 37 × 41 × 43 × 47 × 53 × 59 × 61 × 67 × 71 × 73 × 79 × 83 × 89 × 97 × 101 × 103 × 107 × 109 × 113 × 127 × 131 × 137 × 139 × 149 × 151 × 157 × 163 × 167 × 173 × 179 × 181 × 191 × 193 × 197 × 199 × 203 × 207 × 211 × 213 × 217 × 223 × 227 × 229 × 233 × 239 × 241 × 243 × 247 × 251 × 253 × 257 × 259 × 26"
+            }
+        }
+    },
+    {
+        "id": 799,
+        "subfield": "Number Theory",
+        "context": null,
+        "question": "设 $A$ 为 20 ! 的所有因数构成的集合, $x_{i} \\in A(1 \\leq i \\leq n)$ .若对任意的正整数 $y_{i}(1 \\leq i \\leq n)$, 存在正整数 $z$, 使得 $\\frac{y_{i}+z}{x_{i}}$ 为正整数.\n$n$ 取最大值时，求所有可能的 $n$ 元数组 $\\left(x_{1}, x_{2}, \\cdots, x_{n}\\right)$ 的组数.",
+        "solution": [
+            "$20 !=2^{18} \\times 3^{8} \\times 5^{4} \\times 7^{2} \\times 11 \\times 13 \\times 17 \\times 19, A=\\left\\{x|x| 20！\\right.$ , $\\left.x \\in \\mathbb{N}_{+}\\right\\}$.\n\n令 $\\left(x_{i}, x_{j}\\right)=d\\left(x_{i}, x_{j} \\in A\\right), x_{i}=a d, x_{j}=b d$, 且 $(a, b)=1$ .\n\n取 $y_{1}=1, y_{2}=2$, 得 $\\frac{1+z}{a d}, \\frac{2+z}{b d} \\in \\mathbb{Z}$, 于是 $d=1$, 于是 $\\left(x_{i}, x_{j}\\right)=1(1 \\leq i \\neq j \\leq n)$ .\n\n做方程组\n\n$\\left\\{\\begin{array}{l}z \\equiv-y_{1}\\left(\\bmod x_{1}\\right) \\\\ z \\equiv-y_{2}\\left(\\bmod x_{2}\\right) \\\\ \\cdots \\cdots \\\\ z \\equiv-y_{n}\\left(\\bmod x_{n}\\right)\\end{array}\\right.$\n\n由中国剩余定理可知存在正整数 $z$ 使得 $\\frac{y_{i}+z}{x_{i}}$ 为整数.\n\n又集合 $A$ 有 8 个不同的质因数, 其中可以有一个变量取 1 , 故 $n \\leq 9$; 当 $n \\geq 10$ 时,\n\n一定存在 $x_{i}, x_{j},\\left(x_{i}, x_{j}\\right)>1$ .\n\n当 $n=9$ 时, 取 $x_{1}=1,\\left\\{x_{2}, \\cdots, x_{9}\\right\\}=\\{2,3,5,7,11,13,17,19\\}$ .所以 $n$ 的最大值为 9 .\n\n因此$\\left(x_{1}, x_{2}, \\cdots, x_{n}\\right)$ 的组数为 $18 \\times 8 \\times 4 \\times 2 \\times 9!$."
+        ],
+        "final_answer": [
+            "$418037760$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于排列组合和数论的，让我仔细看看题目。\n\n首先，题目给出了一个集合A，其中A中的元素是20!的所有因数，包括1到20的所有正整数。然后，给定n个元素x_i，其中x_i ∈ A(1 ≤ i ≤ n)。题目要求找出所有可能的n元数组(x1, x2, ..., xn)，使得对于任意的y_i(1 ≤ i ≤ n)，存在正整数z，使得(x_i + z)/x_i为正整数。\n\n题目中给出的条件是，n的最大值是多少？n取最大值时，求所有可能的n元数组的组数。\n\n首先，我需要理解题目的条件。题目中说，n的最大值是多少，然后求所有可能的n元数组的组数。\n\n首先，我需要回忆一下排列组合中的排列数。排列数P(n, k)表示将n个元素分成k个非空的无区别的排列。那么，n的最大值是多少呢？n的最大值是20，因为20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1 = 20! = 20 × 19 × 18 × ... × 2 × 1"
+            }
+        }
+    }
+]

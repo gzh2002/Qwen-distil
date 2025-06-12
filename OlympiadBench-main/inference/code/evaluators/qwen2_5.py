@@ -1,21 +1,27 @@
+# 
 from evaluators.evaluator import Evaluator
 import os, re
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from vllm import LLM, SamplingParams
+from vllm.lora.request import LoRARequest
 import torch
 
 class Qwen_25_Evaluator(Evaluator):
     def __init__(self, model_name, k=-1):
         super(Qwen_25_Evaluator, self).__init__(model_name, k)
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.model = AutoModelForCausalLM.from_pretrained(model_name)
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.model.to(self.device)
+        
+        # 使用 vLLM 加载模型
+        self.llm = LLM(
+            model=model_name,
+            trust_remote_code=True,
+            dtype='bfloat16',  # 或 'float16'
+            tensor_parallel_size=2,  # 自动使用所有 GPU
+            enforce_eager=False,
+        )
+        self.sampling_params = SamplingParams(temperature=0.0, max_tokens=512)
+        self.tokenizer = self.llm.get_tokenizer()
 
     def split_markdown(self, md):
-        # use regex to extract image property
         items = re.split('(<img_\d+>)', md)
-
-        # 从分割后的字符串列表中去除空的元素（完全由空白符、换行符或制表符构成的字符串）
         items = [item for item in items if item and not item.isspace()]
         message_items = []
         for item in items:
@@ -76,14 +82,5 @@ class Qwen_25_Evaluator(Evaluator):
                     elif 'image' in item:
                         input_text += f"![image]({item['image']})\n"
 
-        # Tokenize the input text
-        inputs = self.tokenizer(input_text, return_tensors="pt").to(self.device)
-
-        # Generate the response
-        with torch.no_grad():
-            outputs = self.model.generate(**inputs)
-
-        # Decode the output tokens to text
-        model_response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-
-        return model_response
+        outputs = self.llm.generate([input_text], self.sampling_params)
+        return outputs[0].outputs[0].text.strip()

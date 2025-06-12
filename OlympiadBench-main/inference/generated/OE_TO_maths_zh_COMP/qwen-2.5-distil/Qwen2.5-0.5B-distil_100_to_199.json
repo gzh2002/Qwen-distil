@@ -1,0 +1,2103 @@
+[
+    {
+        "id": 239,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=-2+\\frac{\\sqrt{2}}{2} t \\\\ y=-4+\\frac{\\sqrt{2}}{2} t\\end{array}\\right.$ ( $t$ 为参数 $)$, 点 $M(-2,-4)$. 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho \\sin ^{2} \\theta-2 a \\cos \\theta=0(a>0)$.\n当 $a=1$ 时，求曲线 $C$ 的直角坐标方程.",
+        "solution": [
+            "曲线 $C: y^{2}=2 x$."
+        ],
+        "final_answer": [
+            "$y^{2}=2 x$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "当 $a=2$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=3$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=4$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=5$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=6$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=7$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=8$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=9$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=10$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=11$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=12$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=13$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=14$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=15$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=16$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=17$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=18$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=19$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=20$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=21$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=22$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=23$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=24$ 时，求曲线 $C$ 的直角坐标方程。\n当 $a=25$ 时，求曲线 $C"
+            }
+        }
+    },
+    {
+        "id": 240,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=-2+\\frac{\\sqrt{2}}{2} t \\\\ y=-4+\\frac{\\sqrt{2}}{2} t\\end{array}\\right.$ ( $t$ 为参数 $)$, 点 $M(-2,-4)$. 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho \\sin ^{2} \\theta-2 a \\cos \\theta=0(a>0)$.\n设曲线 $C$ 与直线 $l$ 交于点 $A, B$, 若 $|A B|^{2}=|M A| \\cdot|M B|$, 求 $a$ 的值.",
+        "solution": [
+            "曲线 $C: y^{2}=2 a x$, 直线 $l$ 的参数方程代入曲线 $C$ 的直角坐标方程得,\n\n$t^{2}-(8 \\sqrt{2}+2 \\sqrt{2} a) t+8 a+32=0$,\n\n设交点 $A, B$ 所对参数分别为 $t_{1}, t_{2}$,\n\n则 $t_{1}+t_{2}=8 \\sqrt{2}+2 \\sqrt{2} a, t_{1} \\cdot t_{2}=8 a+32$,\n\n$\\therefore|A B|=\\left|t_{1}-t_{2}\\right|=\\sqrt{\\left(t_{1}+t_{2}\\right)^{2}-4 t_{1} t_{2}}=\\sqrt{8 a^{2}+32 a} ，$\n\n$\\because|A B|^{2}=|M A| \\cdot|M B| \\quad \\therefore 8 a^{2}+32 a=8 a+32$\n\n得 $a=1$."
+        ],
+        "final_answer": [
+            "$1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后根据题目的条件和所提供的信息计算得出答案。接下来，我将一步步来思考这个问题。\n\n首先，题目给出的直线方程是：\n$$\n\\left\\{\\begin{array}{l}x = -2 + \\frac{\\sqrt{2}}{2} t \\\\ y = -4 + \\frac{\\sqrt{2}}{2} t\\end{array}\\right.$$\n其中 $t$ 是参数，点 $M(-2, -4)$ 在直角坐标系中。\n\n接下来，题目要求以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，曲线 $C$ 的极坐标方程为：\n$$\n\\rho \\sin^2 \\theta - 2a \\cos \\theta = 0\n$$\n其中 $a > 0$。\n\n然后，题目要求曲线 $C$ 与直线 $l$ 交于点 $A$ 和 $B$，且 $|A B|^{2} = |M A| \\cdot |M B|$。\n\n现在，我需要解决这个问题。首先，我需要明确题目中的参数和条件，然后根据这些条件计算出 $a$ 的值。\n\n首先，题目给出的直线方程是：\n$$\n\\left\\{\\begin{array}{l}x = -2 + \\frac{\\sqrt{2}}{2} t \\\\ y = -4 + \\frac{\\sqrt{2}}{2} t\\end{array}\\right.$$\n其中 $t$ 是参数，点 $M(-2, -4)$ 在直角坐标系中。\n\n接下来，题目要求以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，曲线 $C$ 的极坐标方程为：\n$$\n\\rho \\sin^2 \\theta - 2a \\cos \\theta = 0\n$$\n其中 $a > 0$。\n\n然后，题目要求曲线 $C$ 与直线 $l$ 交于点 $A$ 和 $B$，且 $|A B|^{2} = |M A| \\cdot |M B|$。\n\n现在，我需要解决这个问题。首先，我需要明确题目中的参数和条件，然后根据这些条件计算出 $a$ 的值。\n\n首先"
+            }
+        }
+    },
+    {
+        "id": 241,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知 $f(x)=|x+2|-|a x-3|$.\n当 $a=2$ 时, 求不等式 $f(x)>2$ 的解集.",
+        "solution": [
+            "$f(x)=|x+2|-|2 x-3|= \\begin{cases}5-x & x \\geq \\frac{3}{2} \\\\ 3 x-1 & -2<x<\\frac{3}{2} \\\\ x-5 & x \\leq-2\\end{cases}$\n\n当 $x \\geq \\frac{3}{2}$ 时, $5-x>2, \\therefore x \\in\\left[\\frac{3}{2}, 3\\right)$\n\n当 $-2<x<\\frac{3}{2}$ 时, $3 x-1>2, \\therefore x \\in\\left(1, \\frac{3}{2}\\right)$\n\n当 $x \\leq-2$ 时, $x-5>2, \\therefore x \\in \\phi$\n\n综上可知, 所求不等式的解集为 $(1,3) $."
+        ],
+        "final_answer": [
+            "$(1,3) $"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于函数f(x) = |x + 2| - |2x - 3|，其中a=2。要求解不等式f(x) > 2的解集。\n\n首先，我需要理解题目的要求。题目要求求解不等式f(x) > 2，其中f(x)是一个绝对值函数，参数a是一个常数。接下来，我需要找到f(x)的最大值，然后根据这个最大值来确定解集。\n\n首先，我需要分析f(x) = |x + 2| - |2x - 3|。这个函数的定义域是x ∈ ℝ，因为绝对值函数在x=±2处才不为零。接下来，我需要找到这个函数的最大值，然后根据这个最大值来确定解集。\n\n首先，我来分析f(x)的结构。f(x) = |x + 2| - |2x - 3|。这个函数可以分解为两个部分：|x + 2|和|2x - 3|。那么，f(x) = |x + 2| - |2x - 3| = |(x + 2) - (2x - 3)| = |3x - 1|。所以，f(x) = |3x - 1|，其中x ∈ ℝ。\n\n接下来，我需要找到这个函数的最大值。为了找到这个最大值，我需要找到f(x)的最小值，然后将这个最小值作为f(x)的最大值。那么，我需要找到f(x)的最小值，也就是f(x)的极值点。\n\n首先，我来求f(x)的导数f’(x)。f(x) = |3x - 1|，所以f’(x) = 0当且仅当3x - 1 = 0，即x = 1/3。当x < 1/3时，3x - 1 > 0，所以f’(x) = 3x - 1 > 0，即f(x)在(-∞, 1/3)上单调递增。当x > 1/3时，3x - 1 < 0，所以f’(x) = 3x - 1 < 0，即f(x)在(1"
+            }
+        }
+    },
+    {
+        "id": 243,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=1, a_{n+1}=2 a_{n}+3 \\times 2^{n-1}$, 设 $b_{n}=\\frac{a_{n}}{2^{n}}$.\n求 $b_{1}, b_{2}, b_{3}$.",
+        "solution": [
+            "$a_{2}=5, a_{3}=16, b_{1}=\\frac{1}{2}, b_{2}=\\frac{5}{4}, b_{3}=2 ;$"
+        ],
+        "final_answer": [
+            "$\\frac{1}{2},\\frac{5}{4},2$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个数列 $\\{a_n\\}$，其中 $a_1 = 1$，并且递推公式为 $a_{n+1} = 2a_n + 3 \\times 2^{n-1}$。接下来，我需要找出数列的前三个项，并计算它们的平均值。\n\n首先，我需要明确数列的前几项，然后计算它们的平均值。数列的前几项是：\n- $a_1 = 1$\n- $a_2 = 2a_1 + 3 \\times 2^{0} = 2 \\times 1 + 3 \\times 1 = 5$\n- $a_3 = 2a_2 + 3 \\times 2^{1} = 2 \\times 5 + 3 \\times 2 = 10 + 6 = 16$\n- $a_4 = 2a_3 + 3 \\times 2^{2} = 2 \\times 16 + 3 \\times 4 = 32 + 12 = 44$\n- $a_5 = 2a_4 + 3 \\times 2^{3} = 2 \\times 44 + 3 \\times 8 = 92 + 24 = 116$\n- $a_6 = 2a_5 + 3 \\times 2^{4} = 2 \\times 116 + 3 \\times 16 = 232 + 48 = 280$\n- $a_7 = 2a_6 + 3 \\times 2^{5} = 2 \\times 280 + 3 \\times 32 = 560 + 96 = 656$\n- $a_8 = 2a_7 + 3 \\times 2^{6} = 2 \\times 656 + 3 \\times 64 = 1312 + 192 = 1504$\n- $a_9 = 2a_8 + 3 \\times 2^{7} = 2 \\times 1504 + 3 \\times 128 = 3008 +"
+            }
+        }
+    },
+    {
+        "id": 245,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=1, a_{n+1}=2 a_{n}+3 \\times 2^{n-1}$, 设 $b_{n}=\\frac{a_{n}}{2^{n}}$.\n求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式.",
+        "solution": [
+            "$b_{1}=\\frac{1}{2}$,\n\n$\\because \\frac{a_{n+1}}{2^{n+1}}=\\frac{a_{n}}{2^{n}}+\\frac{3}{4}, \\therefore b_{n+1}-b_{n}=\\frac{3}{4}, \\therefore\\left\\{b_{n}\\right\\}$ 是等差数列;\n\n$\\therefore b_{n}=\\frac{1}{2}+(n-1) \\times \\frac{3}{4}=\\frac{1}{4}(3 n-1) ， \\therefore a_{n}=(3 n-1) \\cdot 2^{n-2}$."
+        ],
+        "final_answer": [
+            "$(3 n-1) \\cdot 2^{n-2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数列的问题。题目给出一个数列 $\\left\\{a_{n}\\right\\}$，其中 $a_1 = 1$，并且递推公式为 $a_{n+1} = 2a_n + 3 \\times 2^{n-1}$。接下来，我需要找出这个数列的通项公式。\n\n首先，我需要理解递推公式。这个递推公式是一个线性递推关系，其中每一项都是前一项的两倍加上一个常数。这可能涉及到线性方程的解，或者可能是一个差分方程。\n\n接下来，我需要将递推公式转化为更易于处理的形式。首先，我可以将右边的 $3 \\times 2^{n-1}$ 表示为 $2 \\times 3 \\times 2^{n-2}$，这样可能更容易处理。或者，我可以将右边的 $2a_n + 3 \\times 2^{n-1}$ 表示为 $2a_n + 6 \\times 2^{n-1}$，这样可能更容易找到递推关系。\n\n不过，更直接的方法是将递推公式写成差分方程的形式。假设 $a_n$ 是一个函数 $f(n)$，那么递推公式可以表示为：\n\n$$\nf(n+1) = 2f(n) + 3 \\times 2^{n-1}\n$$\n\n或者，也可以将递推公式写成：\n\n$$\nf(n+1) = 2f(n) + 6 \\times 2^{n-1}\n$$\n\n这可能更直接，因为右边的 $6 \\times 2^{n-1}$ 是一个常数，可以忽略不计，因为 $f(n)$ 是一个数，而 $2^{n-1}$ 是一个指数项，不影响 $f(n+1)$ 的值。\n\n接下来，我需要找到一个初始条件来确定 $f(0)$ 的值。因为 $a_1 = 1$，所以 $f(0) = 1$。\n\n接下来，我需要找到一个递推关系式，使得 $f(n+1)$ 可以表示为 $f(n)$ 的函数。假设 $f(n)$ 是一个线性函数，即 $f(n) = c \\times 2^n$，其中 $c$ 是一个常数。那么，将 $f"
+            }
+        }
+    },
+    {
+        "id": 246,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "某集团公司计划从甲分公司中的 3 位员工 $A_{1} 、 A_{2} 、 A_{3}$ 和乙分公司中的 3 位员工 $B_{1} 、 B_{2} 、 B_{3}$ 选择 2 位员工去国外工作.\n若从这 6 名员工中任选 2 名, 求这 2 名员工都是甲分公司的概率.",
+        "solution": [
+            "由题意得, 从 6 名员工中任选 2 名, 其一切可能的结果组成的基本事件有:\n\n$\\left\\{A_{1}, A_{2}\\right\\},\\left\\{A_{1}, A_{3}\\right\\},\\left\\{A_{2}, A_{3}\\right\\},\\left\\{A_{1}, B_{1}\\right\\},\\left\\{A_{1}, B_{2}\\right\\},\\left\\{A_{1}, B_{3}\\right\\}$,\n\n$\\left\\{A_{2}, B_{1}\\right\\},\\left\\{A_{2}, B_{2}\\right\\},\\left\\{A_{2}, B_{3}\\right\\}\\left\\{A_{3}, B_{1}\\right\\},\\left\\{A_{3}, B_{2}\\right\\},\\left\\{A_{3}, B_{3}\\right\\}$,\n\n$\\left\\{B_{1}, B_{2}\\right\\},\\left\\{B_{1}, B_{3}\\right\\},\\left\\{B_{2}, B_{3}\\right\\}$ ，共 15 个\n\n所选两名员工都是甲分公司所包含的基本事件有: $\\left\\{A_{1}, A_{2}\\right\\},\\left\\{A_{1}, A_{3}\\right\\},\\left\\{A_{2}, A_{3}\\right\\}$, 共 3 个, 所以所求事件的概率为 $p=\\frac{3}{15}=\\frac{1}{5} ;$"
+        ],
+        "final_answer": [
+            "$\\frac{1}{5}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后根据题目的条件和所提供的信息计算得出答案。接下来，我将详细地分析这个问题，包括问题的定义、条件和要求，以及可能用到的数学知识和公式。\n\n首先，题目给出的是从 6 名员工中选择 2 名员工的条件概率问题。这里的条件概率是指从 6 个员工中选择 2 个员工的概率。因此，问题可以分解为计算从 6 个员工中选择 2 个员工的概率，并且这个概率必须是 1/2。\n\n接下来，我需要明确问题中的变量和公式。总的选法数是 6 个员工的组合数，即 C(6,2)。然后，从这 6 个员工中选择 2 个员工的组合数是 C(6,2) = 15。因此，概率 P 是 15 / 15 = 1。但是，题目中说这个概率必须是 1/2，这似乎有问题，因为概率不能是 1/2，除非题目中存在一些错误。\n\n让我再仔细分析一下。题目中说从 6 个员工中选择 2 个员工的概率必须是 1/2，这似乎矛盾了。因此，可能需要重新审视问题。\n\n另一种可能是，问题中的条件概率是选择 2 个员工时，其中至少有一个是甲分公司的员工。那么，概率应该是 1 - P(两个都是乙分公司的)，因为如果两个都是乙分公司的，那么总共有 3 个乙分公司，所以概率是 3/6 = 1/2。因此，P(两个都是乙分公司的) = 1 - 1/2 = 1/2。那么，P(至少一个甲分公司的) = 1 - 1/2 = 1/2。但是，题目中说这个概率必须是 1/2，这似乎矛盾了。\n\n这可能意味着我的理解有误。或者，可能题目中的条件概率是选择 2 个员工时，其中至少有一个是甲分公司的员工，而另一个是乙分公司的员工。那么，概率应该是 1 - P(两个都是乙分公司的)，因为如果两个都是乙分公司的，那么总共有 3 个乙分公司，所以概率是 3/6 ="
+            }
+        }
+    },
+    {
+        "id": 247,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "某集团公司计划从甲分公司中的 3 位员工 $A_{1} 、 A_{2} 、 A_{3}$ 和乙分公司中的 3 位员工 $B_{1} 、 B_{2} 、 B_{3}$ 选择 2 位员工去国外工作.\n若从甲分公司和乙分公司中各任选 1 名员工，求这 2 名员工包括 $A_{1}$ 但不包括 $B_{1}$ 的概率.",
+        "solution": [
+            "从甲分公司和乙分公司各任选 1 名员工, 其一切可能的结果组成的基本事件有: $\\left\\{A_{1}, B_{1}\\right\\},\\left\\{A_{1}, B_{2}\\right\\},\\left\\{A_{1}, B_{3}\\right\\},\\left\\{A_{2}, B_{1}\\right\\},\\left\\{A_{2}, B_{2}\\right\\},\\left\\{A_{2}, B_{3}\\right\\}\\left\\{A_{3}, B_{1}\\right\\},\\left\\{A_{3}, B_{2}\\right\\},\\left\\{A_{3}, B_{3}\\right\\}$ 共 9 个，包含 $A_{1}$ 但不包括 $B_{1}$ 的事件所包含的基本事件有 $\\left\\{A_{1}, B_{2}\\right\\},\\left\\{A_{1}, B_{3}\\right\\}$ 共 2 个, 所以所求事件的概率为 $p=\\frac{2}{9}$."
+        ],
+        "final_answer": [
+            "$\\frac{2}{9}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后根据题目的条件和所提供的信息计算得出答案。接下来，我将详细地分析这个问题，包括问题的定义、条件和要求，以及可能用到的数学方法和公式。\n\n首先，题目给出的是一个数学竞赛题目，涉及从甲分公司和乙分公司中选择2名员工，其中甲分公司有3位员工A1、A2、A3，乙分公司有3位员工B1、B2、B3。要求计算这2名员工中包括A1但不包括B1的概率。\n\n接下来，我需要明确问题的定义。题目中说，从甲分公司和乙分公司中各任选1名员工，求这2名员工中包括A1但不包括B1的概率。也就是说，从甲分公司中选出A1和B1，从乙分公司中选出A2和A3，然后计算这两种选出的员工中，A1不在其中的概率。\n\n接下来，我需要考虑如何计算这种情况的概率。首先，我需要明确事件A1和事件B1分别是什么样的事件。事件A1是从甲分公司中选出A1和B1，事件B1是从乙分公司中选出A2和A3。那么，事件A1和事件B1是独立事件，因为从甲分公司中选出A1和B1是相同的，而从乙分公司中选出A2和A3也是相同的。\n\n接下来，我需要计算事件A1和事件B1同时发生的概率。事件A1的概率是1/3，因为甲分公司中只有A1一个人。事件B1的概率是1/3，因为乙分公司中只有B1一个人。事件A1和事件B1同时发生的概率是这两个事件概率的乘积，即1/3 * 1/3 = 1/9。\n\n但是，这里的问题是，事件A1和事件B1中，事件A1包括A1和B1，而事件B1不包括B1。因此，事件A1和事件B1是互斥事件，因为只有当事件A1发生时，事件B1才会发生，反之亦然。因此，事件A1和事件B1是独立事件，所以它们的概率是1/9。\n\n接下来，我需要计算事件A1和事件B1同时发生的概率，也就是1/9。那么，概率P(A1 ∩"
+            }
+        }
+    },
+    {
+        "id": 250,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知 $O$ 为坐标原点, 抛物线 $C: y^{2}=4 x$, 点 $A(-2,0)$, 设直线 $l$ 与 $C$ 交于不同的两点 $P 、 Q$.\n若直线 $l \\perp x$ 轴, 求直线 $P A$ 的斜率的取值范围.",
+        "solution": [
+            "当点 $P$ 在第一象限时, 设 $P(t, 2 \\sqrt{t}), k_{P A}=\\frac{2 \\sqrt{t}-0}{t+2}=\\frac{2}{\\sqrt{t}+\\frac{2}{\\sqrt{t}}} \\leq \\frac{2}{2 \\sqrt{2}}=\\frac{\\sqrt{2}}{2}$,\n\n$\\therefore k_{P A} \\in\\left(0, \\frac{\\sqrt{2}}{2}\\right]$, 同理, 当点 $P$ 在第四象限时, $\\therefore k_{P A} \\in\\left[-\\frac{\\sqrt{2}}{2}, 0\\right)$, 综上所述 $\\therefore k_{P A} \\in\\left[-\\frac{\\sqrt{2}}{2}, 0\\right) \\cup\\left(0, \\frac{\\sqrt{2}}{2}\\right] $."
+        ],
+        "final_answer": [
+            "$\\left[-\\frac{\\sqrt{2}}{2}, 0\\right) \\cup\\left(0, \\frac{\\sqrt{2}}{2}\\right]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于抛物线C：y²=4x，点A(-2,0)到准线的距离为2，且直线l与抛物线相切。要求求出直线PAB的斜率的取值范围。\n\n首先，我需要理解题目的条件。抛物线C是y²=4x，焦点在原点，准线方程是x=0。点A在抛物线上，距离准线2个单位，也就是2，所以A(-2,0)。直线l与抛物线相切，说明直线l的斜率为0，即斜率为0。\n\n接下来，我需要确定直线l的方程。因为直线l与抛物线相切，所以切线的斜率为0。切线的斜率可以通过导数来求，或者通过方程来表示。这里可能需要方程来表示，因为直线l的斜率为0，所以方程为y=0。\n\n接下来，我需要确定直线PAB的斜率。因为点A(-2,0)在直线l上，所以可以设直线PAB的斜率为k。那么，点B的坐标应该是(2,0)，因为点A在(-2,0)。直线PAB的方程为y = k(x - 2)。\n\n因为直线PAB与抛物线相切，所以切线的斜率为0，即k=0。因此，直线PAB的方程为y = 0(x - 2)，即y = 2。\n\n现在，我需要确定k的取值范围，使得直线PAB与抛物线相切。因为直线PAB的斜率为0，所以k=0。那么，直线PAB的方程为y = 2，也就是y=2x。因为直线PAB与抛物线相切，所以切线的斜率为0，即k=0。因此，直线PAB的斜率为0。\n\n不过，这里可能需要更仔细地分析。因为直线PAB的斜率为0，所以k=0。那么，直线PAB的方程为y = 2x。因为直线PAB与抛物线相切，所以切线的斜率为0，即k=0。因此，直线PAB的斜率为0。\n\n不过，这里可能需要更严谨地证明。因为直线"
+            }
+        }
+    },
+    {
+        "id": 253,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=e^{2 x}-3 a e^{x}-2 a^{2} x$.\n若对于任意的 $x_{1}, x_{2} \\in R, x_{1} \\neq x_{2}$, 都有 $\\frac{f\\left(x_{1}\\right)-f\\left(x_{2}\\right)}{x_{1}-x_{2}}>-2 a^{2}-1$ 恒成立, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "$\\because \\frac{f\\left(x_{1}\\right)-f\\left(x_{2}\\right)}{x_{1}-x_{2}}>-2 a^{2}-1, \\therefore$ 不妨设 $x_{1}>x_{2}$,\n\n则 $f\\left(x_{1}\\right)+\\left(2 a^{2}+1\\right) x_{1}>f\\left(x_{2}\\right)+\\left(2 a^{2}+1\\right) x_{2}$,\n\n$\\therefore f(x)+\\left(2 a^{2}+1\\right) x$ 在 $R$ 上单调递增:\n\n记 $g(x)=f(x)+\\left(2 a^{2}+1\\right) x=e^{2 x}-3 a e^{x}+x$,\n\n$g^{\\prime}(x)=2 e^{2 x}-3 a e^{x}+1 \\geq 0$ 恒成立, $\\therefore a \\leq \\frac{2 e^{2 x}+1}{3 e^{x}}=\\frac{1}{3}\\left(2 e^{x}+\\frac{1}{e^{x}}\\right)$ 对 $x \\in R$ 恒成立, 即 $\\therefore a \\leq \\frac{1}{3}\\left(2 e^{x}+\\frac{1}{e^{x}}\\right)_{\\text {min }}, \\because 2 e^{x}+\\frac{1}{e^{x}} \\geq 2 \\sqrt{2}$, 当且仅当 $2 e^{x}=\\frac{1}{e^{x}}$, 即 $e^{x}=\\frac{\\sqrt{2}}{2}$ 时等号取到, $\\therefore a \\leq \\frac{2 \\sqrt{2}}{3} $."
+        ],
+        "final_answer": [
+            "$(-\\infty, \\frac{2 \\sqrt{2}}{3}]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个函数f(x)=e^{2x} -3a e^x -2a²x，其中a是一个实数。题目要求证明对于任意x1≠x2∈R，都有(f(x1) - f(x2))/(x1 - x2) > -2a² -1。同时，求出实数a的取值范围。\n\n首先，我需要理解题目的要求。题目要求证明f(x)在x1≠x2时，(f(x1) - f(x2))/(x1 - x2) > -2a² -1。然后，求出a的取值范围。\n\n首先，我需要将函数f(x)展开，然后计算分母(x1 - x2)。接下来，计算分子(f(x1) - f(x2))，然后将分子和分母进行比较，看看是否满足不等式。\n\n接下来，我来展开f(x)。f(x)=e^{2x} -3a e^x -2a²x。那么，分母(x1 - x2)。因为x1和x2是不同的，所以x1 - x2 ≠ 0，所以分母是(x1 - x2)。分子是f(x1) - f(x2) = e^{2x1} -3a e^{x1} -2a²x1 - e^{2x2} +3a e^{x2} +2a²x2。\n\n现在，我需要计算分子和分母之间的关系，看看是否满足不等式。首先，分子部分：e^{2x1} -3a e^{x1} -2a²x1 - e^{2x2} +3a e^{x2} +2a²x2。然后，分母部分：(x1 - x2)。\n\n接下来，我需要将分子和分母进行比较，看看是否满足不等式。首先，分子部分：e^{2x1} -3a e^{x1} -2a²x1 - e^{2x2} +3a e^{x2} +2a²x2。分母部分：(x1 - x2)。\n\n为了比较这两个表达式，我们可以将分子和分母都写成关于x1和x2的表达式，然后比较它们的"
+            }
+        }
+    },
+    {
+        "id": 254,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$, ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-1=0$.\n求曲线 $C$ 的直角坐标方程;",
+        "solution": [
+            "$x^{2}+y^{2}-4 x-1=0$."
+        ],
+        "final_answer": [
+            "$x^{2}+y^{2}-4 x-1=0$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "求曲线 $C$ 在点 $(1,0)$ 处的切线方程。\n\n \n\n好的，我现在要解决这个数学竞赛题目。题目给出的是一个直角坐标系中的直线方程，参数方程为$\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$，其中$t$为参数。然后以原点为极点，x轴正半轴为极轴建立极坐标系，曲线$C$的极坐标方程为$\\rho^2 -4\\rho \\cos \\theta -1=0$。要求曲线$C$的直角坐标方程，以及在点$(1,0)$处的切线方程。\n\n首先，我需要理解题目给出的参数方程和极坐标方程。直线的参数方程是关于$t$的，而极坐标方程是关于$\\rho$的。接下来，我需要将这些方程转化为直角坐标方程，以及求出曲线在特定点处的切线方程。\n\n首先，我来分析直线的参数方程。直线的参数方程是$\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$，其中$t$是参数。这看起来像是一个椭圆的参数方程，因为椭圆的参数方程通常写成$x = a \\cos \\theta + b \\sin \\theta$，这里$a=1$，$b=1$，所以椭圆的参数方程是$x = \\cos \\theta + \\sin \\theta$。因此，直线的参数方程可以写成$\\left\\{\\begin{array}{l}x = 1 + \\cos \\alpha \\\\ y = 1 + \\sin \\alpha\\end{array}\\right.$，其中$\\alpha$是参数。\n\n接下来，我需要将这个参数方程转化为极坐标方程。极坐标方程的一般形式是$\\rho^2 -4\\rho \\cos \\theta -1=0$。这看起来像是一个椭圆的极坐标方程，因为椭圆的极坐标方程通常写成$\\rho^2 -4\\rho \\cos \\theta -1=0$。因此，曲线$C$的极坐标方程是$\\rho^"
+            }
+        }
+    },
+    {
+        "id": 255,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$, ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-1=0$.\n设曲线 $C$ 与直线 $l$ 交于点 $A, B$, 求 $|A B|$ 的最小值.",
+        "solution": [
+            "当 $\\alpha=n \\pi+\\frac{\\pi}{2}(n \\in Z)$ 时, 直线 $l: x=1$, 此时 $|A B|=4 $;\n\n当 $\\alpha \\neq n \\pi+\\frac{\\pi}{2}(n \\in Z)$ 时, 设直线 $l: y-1=k(x-1)$, 圆心 $(2,0)$ 到直线 $l$ 的距离最大值为 $d_{\\text {max }}=\\sqrt{2}$, 此时 $|A B|=2 \\sqrt{5-2}=2 \\sqrt{3}, \\because 4>2 \\sqrt{3}, \\therefore|A B|_{\\text {min }}=2 \\sqrt{3} $."
+        ],
+        "final_answer": [
+            "$2 \\sqrt{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于曲线与直线相交问题的最小距离问题。首先，我需要理解题目的要求，然后一步步分析和计算。\n\n首先，题目给出的直线方程是$\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$，其中$t$是参数。这看起来像是一个双曲线的方程，因为$\\cos^2 \\alpha + \\sin^2 \\alpha = 1$，所以曲线应该是双曲线。\n\n接下来，题目给出的曲线方程是$\\rho^2 - 4\\rho \\cos \\theta -1=0$，其中$\\rho$是极坐标方程中的半径，$\\theta$是极坐标方程中的角度。这看起来像是一个椭圆的方程，因为椭圆的方程是$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中$a > b$，所以椭圆的长轴在x轴上，焦点在x轴上，所以$\\theta$应该在第一象限。\n\n接下来，题目要求的是曲线与直线$\\left\\{\\begin{array}{l}x=1+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$相交的点$A$和$B$之间的距离$|AB|$的最小值。这可能涉及到几何中的最短距离问题，也就是双曲线的最短距离。\n\n首先，我需要回忆一下双曲线的定义。双曲线的标准方程是$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$，其中$a > b$，所以双曲线的长轴在x轴上，焦点在x轴上，所以$\\theta$在第一象限。双曲线的离心率e的计算公式是$e = \\sqrt{1 + \\frac{b^2}{a^2}}$，其中$a > b$。\n\n接下来，我需要计算双曲线的离心率e。题目中给出的双曲线方程是$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$，其中$a > b$，所以离心率e的计算公式"
+            }
+        }
+    },
+    {
+        "id": 256,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x-2|+|x+1|, x \\in R$, 其最小值为 $t$.\n求 $t$ 的值.",
+        "solution": [
+            "$f(x)=\\left\\{\\begin{array}{c}2 x-1, x>2 \\\\ 3,-1 \\leq x \\leq 2 \\\\ -2 x+1, x<-1\\end{array}, f(x)_{\\text {min }}=3\\right.$, 即 $t=3$."
+        ],
+        "final_answer": [
+            "$3$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "嗯，我现在要解决这个数学竞赛题目。题目给出一个函数 $f(x) = |x - 2| + |x + 1|$，要求最小值，并且这个最小值是 $t$。我要找出这个最小值的值。\n\n首先，我需要理解这个函数的结构。函数 $f(x)$ 是由两个绝对值函数组成的，分别表示 $x$ 在区间 $[2, +\\infty)$ 和 $(-\\infty, 2)$ 上的值。那么，最小值的确定需要找到这个函数在区间内的极值点，然后比较这些极值点的值，找到最小的值。\n\n首先，我来分析函数 $f(x)$ 的单调性。绝对值函数的单调性取决于函数本身。对于 $x$ 在 $[2, +\\infty)$ 上，$f(x) = |x - 2| + |x + 1|$，当 $x$ 趋近于 $2$ 时，$f(x)$ 的值会逐渐增大，因为 $x$ 趋近于 $2$ 时，$x - 2$ 和 $x + 1$ 都趋近于 $0$，所以 $f(x)$ 也会趋近于 $0$。那么，$f(x)$ 在 $[2, +\\infty)$ 上是单调递增的。\n\n接下来，考虑 $x$ 在 $(-\\infty, 2)$ 上。在这个区间内，$f(x)$ 是由两个绝对值函数组成的，所以 $f(x)$ 在 $(-\\infty, 2)$ 上也是单调递增的。因此，$f(x)$ 在 $(-\\infty, 2)$ 上是单调递增的。\n\n现在，我需要找到函数 $f(x)$ 在区间 $[2, +\\infty)$ 上的极值点。极值点出现在函数的导数为零的点上。那么，我来求 $f(x)$ 的导数：\n\n$f(x) = |x - 2| + |x + 1|$\n\n首先，处理 $x \\geq 2$ 的情况：\n\n当 $x \\geq 2$ 时，$f(x) = (x - 2) + (x + 1) = 2x - 1$。\n\n当 $x < 2$ 时，$f"
+            }
+        }
+    },
+    {
+        "id": 258,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=2, a_{n+1}=3 a_{n}+2$, 设 $b_{n}=a_{n}+1$.\n求 $b_{1}, b_{2}, b_{3}$.",
+        "solution": [
+            "$b_{1}=3, b_{2}=9, b_{3}=27$."
+        ],
+        "final_answer": [
+            "$3, 9, 27$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个数列 $\\{a_n\\}$，其中 $a_1 = 2$，并且递推公式为 $a_{n+1} = 3a_n + 2$。接下来，定义了数列 $\\{b_n\\}$，其中 $b_n = a_n + 1$。要求 $b_1, b_2, b_3$ 的值。\n\n首先，我需要理解题目的要求。题目要求计算前三个数列的值，分别是 $b_1, b_2, b_3$。这些值都是由递推公式计算得出的，而且都是通过定义的方式给出的。\n\n接下来，我需要明确递推公式和初始条件。递推公式是 $a_{n+1} = 3a_n + 2$，其中 $a_1 = 2$。初始条件是 $b_1 = a_1 + 1 = 3$，因为 $a_1 = 2$，所以 $b_1 = 3 + 1 = 4$。\n\n接下来，我需要计算前三个数列的值。首先，计算 $b_1$：\n$$\nb_1 = a_1 + 1 = 2 + 1 = 3\n$$\n\n接下来，计算 $b_2$：\n$$\nb_2 = a_2 + 1 = 3a_1 + 2 + 1 = 3 \\times 2 + 3 + 1 = 6 + 3 + 1 = 10\n$$\n\n然后，计算 $b_3$：\n$$\nb_3 = a_3 + 1 = 3a_2 + 2 + 1 = 3 \\times 3 + 2 + 1 = 9 + 2 + 1 = 12\n$$\n\n现在，我来检查一下计算过程是否正确。首先，计算 $a_1$：\n$$\na_1 = 2\n$$\n\n然后，计算 $a_2$：\n$$\na_2 = 3a_1 + 2 = 3 \\times 2 + 2 = 6 + 2 = 8\n$$\n\n接下来，计算 $a_3$：\n$$\na_3 = 3a_2 + 2 = 3 \\times"
+            }
+        }
+    },
+    {
+        "id": 260,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=2, a_{n+1}=3 a_{n}+2$, 设 $b_{n}=a_{n}+1$.\n求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式.",
+        "solution": [
+            "$\\because \\frac{b_{n+1}}{b_{n}}=\\frac{a_{n+1}+1}{a_{n}+1}=\\frac{3 a_{n}+3}{a_{n}+1}=3, \\therefore\\left\\{b_{n}\\right\\}$ 是等比数列.\n\n可得 $b_{n}=3^{n}, a_{n}=3^{n}-1$."
+        ],
+        "final_answer": [
+            "$3^{n}-1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数列的问题。题目给出一个数列 $\\left\\{a_{n}\\right\\}$，其中 $a_1 = 2$，并且递推公式为 $a_{n+1} = 3a_n + 2$。接下来，我们定义了一个新的数列 $\\left\\{b_n\\right\\}$，其中 $b_n = a_n + 1$。要求找出数列 $\\left\\{a_n\\right\\}$ 的通项公式。\n\n首先，我需要理解题目的要求。题目要求找出一个数列的通项公式，而这个数列的前几项已经给出，包括 $a_1$ 和 $b_1$。接下来，我需要根据递推公式来推导出数列的通项公式。\n\n首先，我回忆一下数列的前几项。已知 $a_1 = 2$，$b_1 = a_1 + 1 = 3$。接下来，递推公式是 $a_{n+1} = 3a_n + 2$。那么，我可以尝试用递推公式来计算前几项，看看是否有规律。\n\n计算前几项：\n\n- $a_1 = 2$\n- $b_1 = a_1 + 1 = 3$\n- $a_2 = 3a_1 + 2 = 3*2 + 2 = 8$\n- $b_2 = a_2 + 1 = 8 + 1 = 9$\n- $a_3 = 3a_2 + 2 = 3*8 + 2 = 26$\n- $b_3 = a_3 + 1 = 26 + 1 = 27$\n- $a_4 = 3a_3 + 2 = 3*26 + 2 = 80$\n- $b_4 = a_4 + 1 = 80 + 1 = 81$\n- $a_5 = 3a_4 + 2 = 3*80 + 2 = 242$\n- $b_5 = a_5 + 1 = 242 + 1 = 243$\n- $a_6 = 3a_5 + 2 = 3*242 +"
+            }
+        }
+    },
+    {
+        "id": 266,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$ ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-6 \\rho \\sin \\theta-7=0$.\n求曲线 $C$ 的直角坐标方程.",
+        "solution": [
+            "曲线 $C: x^{2}+y^{2}-6 y-7=0$."
+        ],
+        "final_answer": [
+            "$x^{2}+y^{2}-6 y-7=0$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好，我现在要解决这个数学竞赛题。题目是关于曲线的直角坐标方程的。首先，我需要理解题目的要求，然后一步步来解决。\n\n首先，题目给出的直线方程是$\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$，其中$t$是参数。这看起来像是一个参数方程，可能涉及到三角函数或者几何图形。\n\n接下来，题目给出的曲线方程是$\\rho^2 - 6\\rho \\sin \\theta - 7 = 0$，其中$\\theta$是参数。这里$\\rho$是直角坐标方程中的半径，$\\theta$是角度。\n\n好的，首先，我需要将直线方程转化为直角坐标方程。直线方程是$\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$，其中$t$是参数。这看起来像是一个参数方程，可能涉及到三角函数或者几何图形。\n\n接下来，题目给出的曲线方程是$\\rho^2 - 6\\rho \\sin \\theta - 7 = 0$，其中$\\theta$是参数。这看起来像是一个二次方程，可能可以写成标准形式，或者通过其他方法转换。\n\n首先，我需要将$\\theta$转换为$\\phi$，即$\\theta = \\arcsin\\left(\\frac{y}{x}\\right)$。这样，$\\sin \\theta = \\frac{y}{x}$，$\\cos \\theta = \\frac{x}{x}$，所以方程变为：\n\n$\\rho^2 - 6\\rho \\sin \\theta - 7 = 0$\n\n接下来，我需要将这个二次方程转化为标准形式，或者找到一个合适的变量替换，比如将$\\theta$用$\\phi$表示，或者将$\\theta$用$\\sin \\theta$表示。\n\n首先，我注意到$\\sin \\theta = \\frac{y}{x}$，所以方程变为：\n\n$\\rho^2 - 6\\rho \\cdot \\frac{y}{x} - 7 = 0$\n\n接下来，我需要将这个方程转化为标准形式，或者找到一个合适的变量替换。考虑到$\\theta = \\arcsin\\left(\\frac{y}{x}\\right)$，那么"
+            }
+        }
+    },
+    {
+        "id": 267,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$ ( $t$ 为参数). 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-6 \\rho \\sin \\theta-7=0$.\n设曲线 $C$ 与直线 $l$ 交于点 $A, B$, 若点 $Q$ 的坐标为 $(2,1)$, 求 $|Q A|+|Q B|$ 的最小值.",
+        "solution": [
+            "曲线 $C: x^{2}+y^{2}-6 y-7=0$.\n\n直线 $l$ 的参数方程代入曲线 $C$ 的直角坐标方程得,\n\n$t^{2}+4(\\cos \\alpha-\\sin \\alpha) t-8=0$,\n\n设交点 $A, B$ 所对参数分别为 $t_{1}, t_{2}$,\n\n则 $t_{1}+t_{2}=-4(\\cos \\alpha-\\sin \\alpha), t_{1} \\cdot t_{2}=-8$,\n\n$\\therefore|Q A|+|Q B|=\\left|t_{1}\\right|+\\left|t_{2}\\right|=\\left|t_{1}-t_{2}\\right|=\\sqrt{\\left(t_{1}+t_{2}\\right)^{2}-4 t_{1} t_{2}}=4 \\sqrt{3-\\sin 2 \\alpha},$\n\n因此当 $\\alpha=\\frac{\\pi}{4}+k \\pi, k \\in Z$ 时, $|Q A|+|Q B|$ 取最小值 $4 \\sqrt{2}$."
+        ],
+        "final_answer": [
+            "$4 \\sqrt{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后根据题目的条件和所提供的信息计算得出答案。接下来，我将逐步解决这个问题。\n\n首先，题目给出的直线方程是 $\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$，其中 $t$ 是参数。这看起来像是一个参数方程，可能与圆锥曲线有关。接下来，题目给出曲线 $C$ 的极坐标方程为 $\\rho^2 - 6 \\rho \\sin \\theta -7=0$，其中 $\\theta$ 是参数。这看起来像是一个椭圆的极坐标方程，因为椭圆的极坐标方程通常为 $\\rho^2 - 6 \\rho \\sin \\theta -7=0$。\n\n接下来，题目要求在直角坐标系中，曲线 $C$ 与直线 $l$ 交于点 $A$ 和 $B$，并且点 $Q$ 的坐标为 $(2,1)$。要求 $|Q A| + |Q B|$ 的最小值。\n\n首先，我需要明确直线 $l$ 的参数方程。直线 $l$ 的参数方程是 $\\left\\{\\begin{array}{l}x=2+t \\cos \\alpha \\\\ y=1+t \\sin \\alpha\\end{array}\\right.$，其中 $t$ 是参数。因此，直线 $l$ 的方程可以表示为：\n\n$$\nx = 2 + t \\cos \\alpha \\\\\ny = 1 + t \\sin \\alpha\n$$\n\n接下来，曲线 $C$ 的极坐标方程为 $\\rho^2 - 6 \\rho \\sin \\theta -7=0$。这看起来像是一个椭圆的极坐标方程，因为椭圆的极坐标方程通常为 $\\rho^2 - 6 \\rho \\sin \\theta -7=0$。\n\n椭圆的极坐标方程可以表示为：\n\n$$\n\\rho^2 = 6 \\sin \\theta + 7\n$$\n\n现在，我需要找到曲线 $C$ 与直线 $l$ 交点 $A$ 和 $B$ 的坐标。将直线方程代入椭圆方程：\n\n$$\n\\rho^2 = 6 \\sin \\theta + 7\n$$"
+            }
+        }
+    },
+    {
+        "id": 268,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "设函数 $f(x)=|x+3|+|x-a|-10$.\n当 $a=1$ 时, 求不等式 $f(x)>0$ 的解集.",
+        "solution": [
+            "当 $a=1$ 时, $f(x)=|x+3|+|x-1|-10=\\left\\{\\begin{array}{c}2 x-8, x \\geq 1 \\\\ -6,-3<x<1 \\\\ -2 x-12, x \\leq-3\\end{array}\\right.$, 所以 $f(x)>0$ 的解集为 $(-\\infty,-6) \\cup(4,+\\infty)$."
+        ],
+        "final_answer": [
+            "$(-\\infty,-6) \\cup(4,+\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "当 $a=2$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=3$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=4$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=5$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=6$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=7$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=8$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=9$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=10$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=11$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=12$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=13$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=14$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=15$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=16$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=17$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=18$ 时, 求不等式 $f(x)\\leq 0$ 的解集。\n当 $a=19$ 时, 求不等式 $f(x)\\leq 0$ 的解"
+            }
+        }
+    },
+    {
+        "id": 269,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "设函数 $f(x)=|x+3|+|x-a|-10$.\n如果对任意的 $x$, 不等式 $f(x)>0$ 恒成立, 求 $a$ 的取值范围.",
+        "solution": [
+            "$\\because|x+3|+|x-a|-10 \\geq \\mid 3+a \\mid-10$\n\n$\\therefore|3+a|-10>0, \\quad \\therefore a \\in(-\\infty,-13) \\cup(7,+\\infty)$."
+        ],
+        "final_answer": [
+            "$(-\\infty,-13) \\cup(7,+\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于函数f(x) = |x + 3| + |x - a| - 10，要求a的取值范围，使得对于所有x，f(x) > 0恒成立。也就是说，无论x取什么实数值，f(x)总是正数。\n\n首先，我需要理解题目的条件。f(x)是一个绝对值函数，分母是x - a，所以f(x) = |x + 3| + |x - a| - 10。题目要求a的取值范围，使得对于所有x，f(x) > 0。\n\n接下来，我需要分析f(x)的结构。绝对值函数的性质告诉我们，|x + 3| = |x + 3|，而|x - a| = |x - a|。因此，f(x) = |x + 3| + |x - a| - 10 = |(x + 3) + (x - a)| - 10 = |2x + 3 - a| - 10。\n\n现在，f(x) = |2x + 3 - a| - 10。为了使f(x) > 0，即|2x + 3 - a| - 10 > 0，我们可以将等式两边都加上10，得到：\n\n|2x + 3 - a| > 10。\n\n接下来，我需要确定这个绝对值的范围，使得|2x + 3 - a| > 10。绝对值的定义是，对于任何x，|2x + 3 - a| = 2x + 3 - a。因此，2x + 3 - a > 10，即：\n\n2x + 3 - a > 10 ⇒ 2x + 3 - a > 10 ⇒ 2x + 3 - a > 10 ⇒ 2x + 3 - a > 10 ⇒ 2x + 3 - a > 10 ⇒ 2x + 3 - a > 10 ⇒ 2x + 3 - a > 10 ⇒ 2x + 3 - a > 10 ⇒ 2x + 3 - a > 10 ⇒ 2x + 3 - a > 10 ⇒"
+            }
+        }
+    },
+    {
+        "id": 270,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "已知 $\\triangle A B C$ 的面积为 $S$, 其外接圆半径为 $R$,三个内角 $A, B, C$ 所对的边分别为 $a, b, c, 2 R\\left(\\sin ^{2} A-\\sin ^{2} C\\right)=$ $(\\sqrt{3} a-b) \\sin B$.\n求角 $C$.",
+        "solution": [
+            "根据题意, 有\n\n$$\n2 R \\cdot \\sin (A+C) \\cdot \\sin (A-C)=(\\sqrt{3} a-b) \\cdot \\sin B\n$$\n\n即\n\n$$\n\\sin (A-C)=\\sqrt{3} \\sin A-\\sin B,\n$$\n\n也即\n\n$$\n\\sqrt{3} \\sin A=\\sin (A-C)+\\sin (A+C),\n$$\n\n于是\n\n$$\n\\sqrt{3} \\sin A=2 \\sin A \\cdot \\cos C\n$$\n\n解得 $C=\\frac{\\pi}{6}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\pi}{6}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是已知三角形ABC的面积S，外接圆半径R，三个内角A、B、C所对的边分别为a、b、c，满足条件2R(sin²A - sin²C) = (√3)a sinB。求角C的大小。\n\n首先，我需要理解题目的条件和要求。已知三角形ABC的面积S，外接圆半径R，三个内角A、B、C所对的边分别为a、b、c。题目要求求角C的大小。\n\n首先，我回忆一下三角形面积的公式。三角形的面积S可以通过公式：\nS = 1/2 * a * b * sinC\n所以，我可以将这个公式代入题目中的条件中：\n2R(sin²A - sin²C) = (√3)a sinB\n\n接下来，我需要将这个等式转化为更易于处理的形式。首先，我可以将左边展开：\n2R sin²A - 2R sin²C = (√3)a sinB\n\n接下来，我注意到左边的表达式中，2R sin²A 和 2R sin²C 都是关于sinA和sinC的表达式，而右边的(√3)a sinB 是一个关于a和b的表达式。为了将这个等式转化为一个关于a和b的方程，可能需要将左边的表达式进行变形。\n\n让我尝试将左边的表达式进行因式分解：\n2R sin²A - 2R sin²C = 2R sinA sinC\n\n这样，左边可以分解为：\n2R sinA sinC = 2R sinA sinC\n\n接下来，我注意到左边的表达式中，2R sinA sinC 是一个关于sinA和sinC的乘积，而右边的(√3)a sinB 是一个关于a和b的乘积。为了将这个等式转化为一个关于a和b的方程，可能需要将左边的表达式进行变形。\n\n让我尝试将左边的表达式进行平方：\n(2R sinA sinC)^2 = (2R sinA sinC)^2 = 4R² sin²A sin²C\n\n这样，左边的表达式变为：\n4R² sin²A sin²C = 2R sinA sinC\n\n现在，左边的表达式变为"
+            }
+        }
+    },
+    {
+        "id": 271,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "已知 $\\triangle A B C$ 的面积为 $S$, 其外接圆半径为 $R$,三个内角 $A, B, C$ 所对的边分别为 $a, b, c, 2 R\\left(\\sin ^{2} A-\\sin ^{2} C\\right)=$ $(\\sqrt{3} a-b) \\sin B$.\n若 $\\left(\\frac{\\sqrt{S}}{2 R}\\right)^{2}=\\sin ^{2} A-(\\sin B-\\sin C)^{2}, a=4$, 求 $c$ 及 $\\triangle A B C$ 的面积.",
+        "solution": [
+            "根据题意, 有\n\n$$\nS=a^{2}-(b-c)^{2},\n$$\n\n也即\n\n$$\n\\sqrt{p(p-a)(p-b)(p-c)}=4(p-b)(p-c),\n$$\n\n其中 $p$ 为 $\\triangle A B C$ 的半周长. 因此\n\n$$\n\\sqrt{\\frac{(p-b)(p-c)}{p(p-a)}}=\\frac{1}{4}\n$$\n\n也即\n\n$$\n\\tan \\frac{A}{2}=\\frac{1}{4}\n$$\n\n从而\n\n$$\n\\sin A=\\frac{8}{17}\n$$\n\n由正弦定理, 可得 $c=\\frac{17}{4}$. 又\n\n$$\n\\begin{aligned}\n\\sin B & =\\sin (A+C) \\\\\n& =\\sin A \\cdot \\cos C+\\cos A \\cdot \\sin C \\\\\n& =\\frac{8}{17} \\cdot \\frac{\\sqrt{3}}{2}+\\frac{15}{17} \\cdot \\frac{1}{2} \\\\\n& =\\frac{15+8 \\sqrt{3}}{34}\n\\end{aligned}\n$$\n\n于是\n\n$$\nS=\\frac{1}{2} a c \\sin B=\\frac{1}{2} \\cdot 4 \\cdot \\frac{17}{4} \\cdot \\frac{15+8 \\sqrt{3}}{34}=\\frac{15+8 \\sqrt{3}}{4}\n$$"
+        ],
+        "final_answer": [
+            "$\\frac{17}{4}, \\frac{15+8 \\sqrt{3}}{4}$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出的是一个三角形ABC，面积S，外接圆半径R，三个内角A、B、C所对的边分别为a、b、c，其中2R(sin²A - sin²C) = (√3)a sinB。接下来，我需要根据这个条件，求出c的长度以及三角形ABC的面积。\n\n首先，我需要理解题目中的条件。已知三角形ABC的面积S，外接圆半径R，三个内角A、B、C所对的边分别为a、b、c。然后，给出方程2R(sin²A - sin²C) = (√3)a sinB，要求c的长度以及面积S。\n\n首先，我需要回忆一下三角形面积的计算公式。三角形的面积S可以通过公式：\nS = 1/2 |a b c| = 1/2 [a b c sinθ]\n其中，θ是三角形的对边与对角的夹角。\n\n接下来，我需要利用这个公式来找到a、b、c之间的关系。已知R是外接圆半径，所以R² = a² + b² + c²。同时，已知2R(sin²A - sin²C) = (√3)a sinB，这里A、B、C是三角形的三个内角，所以A + B + C = π。\n\n接下来，我需要将这个方程转化为更易于处理的形式。首先，我注意到2R(sin²A - sin²C) = (√3)a sinB，可以将左边展开：\n2R sin²A - 2R sin²C = (√3)a sinB\n\n接下来，我需要将这个方程转化为关于a、b、c的方程。首先，我可以将左边的式子展开：\n2R sin²A - 2R sin²C = 2R sinA sinC\n\n然后，我注意到2R sinA sinC = 2R sinA cosA sinC，所以方程变为：\n2R sinA sinC = 2R sinA cosA sinC\n\n接下来，我可以将方程两边同时除以2R sinA，得到：\nsinA = cosA sinC / R\n\n接下来，我需要利用这个关系来找到a、b、c之间的关系。首先，我注意到R² = a"
+            }
+        }
+    },
+    {
+        "id": 274,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知圆 $B:(x+\\sqrt{2})^{2}+y^{2}=16$, 定点 $A(\\sqrt{2}, 0), P$ 是圆周上任一点, 线段 $A P$ 的垂直平分线与 $B P$交于点 $Q$.\n求点 $Q$ 的轨迹 $C$ 的方程;",
+        "solution": [
+            "根据题意, 有\n\n$$\nQ A+Q B=Q P+Q B=P B=4\n$$\n\n因此 $Q$ 的轨迹是以 $A, B$ 为焦点, 4 为长轴长的椭圆, 其方程为\n\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1.\n$$"
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "证明：对于任意点 $Q$ 在轨迹 $C$ 上，都有 $Q$ 到原点的距离等于轨迹 $C$ 上任意一点到原点的距离的最小值。\n\n \n\n好的，我现在要解决这个圆锥曲线的问题。题目给出一个圆锥曲线B：(x + √2)^2 + y^2 = 16，其中点A在圆上，点P是圆周上任意一点，线段AP的垂直平分线与B点P交于点Q。要求点Q的轨迹C的方程，并证明对于任意点Q在轨迹C上，Q到原点的距离等于轨迹C上任意一点到原点的距离的最小值。\n\n首先，我需要理解题目的条件和要求。圆锥曲线B是一个圆，方程为(x + √2)^2 + y^2 = 16。点A在圆上，点P是圆周上任意一点，线段AP的垂直平分线与点P交于点Q。我的任务是找出点Q的轨迹C的方程，并证明Q到原点的距离最小。\n\n首先，我需要回忆一下圆锥曲线的基本知识。圆锥曲线的一般方程是(x - h)^2 + (y - k)^2 = r^2，其中h是中心在x轴上的圆锥曲线的横坐标，k是中心在y轴上的圆锥曲线的纵坐标，r是半径。这里给出的方程是(x + √2)^2 + y^2 = 16，这看起来像是一个圆锥曲线，因为x + √2 = rcosθ，y = r sinθ，所以方程可以写成(x + √2)^2 + y^2 = r^2 cos^2θ + r^2 sin^2θ = r^2，这与圆锥曲线的方程(x - h)^2 + (y - k)^2 = r^2一致。\n\n接下来，点A在圆上，所以点A的坐标满足这个方程。点P是圆周上任意一点，线段AP的垂直平分线与点P交于点Q。垂直平分线的性质告诉我们，点Q到点A和点P的距离相等，因为垂直平分线将圆分成两个等分，所以点Q到点A的距离等于点P到点A的距离，而点"
+            }
+        }
+    },
+    {
+        "id": 275,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知圆 $B:(x+\\sqrt{2})^{2}+y^{2}=16$, 定点 $A(\\sqrt{2}, 0), P$ 是圆周上任一点, 线段 $A P$ 的垂直平分线与 $B P$交于点 $Q$.\n直线 $l$ 过点 $A$ 且与 $x$ 轴不重合, 直线 $l$ 交曲线 $C$ 于 $M, N$ 两点, 过 $A$ 且与 $l$ 垂直的直线与圆 $B$ 交于 $D, E$ 两点, 求四边形 $M D N E$ 面积的取值范围.",
+        "solution": [
+            "根据题意, 设直线 $l$ 的倾斜角为 $\\theta$, 则 $\\theta \\neq 0$, 且\n\n$$\nl: x \\sin \\theta-y \\cos \\theta-\\sqrt{2} \\cdot \\sin \\theta=0\n$$\n\n于是直线 $M N$ 的方程可以表示为\n\n$$\nx \\cos \\theta+y \\sin \\theta-\\sqrt{2} \\cos \\theta=0,\n$$\n\n因此点 $B$ 到直线 $M N$ 的距离\n\n$$\nd=2 \\sqrt{2} \\cdot|\\cos \\theta|,\n$$\n\n进而\n\n$$\nD E=2 \\cdot \\sqrt{16-d^{2}}=4 \\sqrt{4-2 \\cos ^{2} \\theta}=4 \\sqrt{2+2 \\sin ^{2} \\theta}\n$$\n\n又根据椭圆的焦点弦长公式, 有\n\n$$\nM N=\\frac{4}{1+\\sin ^{2} \\theta},\n$$\n\n于是四边形 $M D N E$ 的面积\n\n$$\n\\begin{aligned}\nS & =\\frac{1}{2} \\cdot M N \\cdot D E \\\\\n& =\\frac{1}{2} \\cdot \\frac{4}{1+\\sin ^{2} \\theta} \\cdot 4 \\sqrt{2+2 \\sin ^{2} \\theta} \\\\\n& =\\frac{8 \\sqrt{2}}{\\sqrt{1+\\sin ^{2} \\theta}},\n\\end{aligned}\n$$\n\n而 $\\sin ^{2} \\theta \\in(0,1]$, 于是 $S$ 的取值范围是 $[8,8 \\sqrt{2})$."
+        ],
+        "final_answer": [
+            "$[8,8 \\sqrt{2})$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后一步步分析和解决。\n\n首先，题目给出圆 $B:(x+\\sqrt{2})^{2}+y^{2}=16$，这是一个圆，圆心在 $(0,0)$，半径为4。定点 $A(\\sqrt{2},0)$，直线 $l$ 过点 $A$ 且与 $x$ 轴不重合，直线 $l$ 交曲线 $C$ 于 $M, N$ 两点。接下来，直线 $l$ 与圆 $B$ 交于 $D, E$ 两点，且 $M, N$ 在圆上，$D, E$ 在圆外。求四边形 $M D N E$ 面积的取值范围。\n\n好的，首先，我需要明确题目中的变量和条件。圆的方程是 $(x + \\sqrt{2})^2 + y^2 = 16$，圆心在 $(0,0)$，半径为4。定点 $A(\\sqrt{2},0)$，直线 $l$ 过点 $A$ 且与 $x$ 轴不重合，直线 $l$ 交曲线 $C$ 于 $M, N$ 两点。接下来，直线 $l$ 与圆 $B$ 交于 $D, E$ 两点，且 $M, N$ 在圆上，$D, E$ 在圆外。求四边形 $M D N E$ 面积的取值范围。\n\n首先，我需要明确直线 $l$ 的方程。直线 $l$ 过点 $A(\\sqrt{2},0)$，所以可以设直线 $l$ 的方程为 $y = m(x - \\sqrt{2})$，其中 $m$ 是斜率。直线 $l$ 与圆 $B$ 交于点 $M$ 和 $N$，所以这两个点的坐标满足圆 $B$ 的方程。\n\n接下来，我需要确定直线 $l$ 的斜率 $m$。直线 $l$ 与圆 $B$ 交于点 $M$ 和 $N$，所以这两个点的横坐标之和为 $2\\sqrt{2}$，横坐标之差为 $"
+            }
+        }
+    },
+    {
+        "id": 278,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=-\\sqrt{3} t, \\\\ y=3+t,\\end{array}\\right.$ 其中 $t$ 为参数, 以坐标原点为极点, $x$ 轴正半轴为极轴建立极坐标系, 曲线 $C$ 的极坐标方程为 $\\rho^{2} \\cos ^{2} \\theta+3 \\rho^{2} \\sin ^{2} \\theta=3$.\n过曲线 $C$ 上任意一点 $P$ 作与 $l$ 夹角为 $45^{\\circ}$ 的直线, 交 $l$ 于点 $A$, 求 $|P A|$ 的最大值与最小值.",
+        "solution": [
+            "直线 $l: x+\\sqrt{3} y-3 \\sqrt{3}=0$, 过 $P(\\sqrt{3} \\cos \\theta, \\sin \\theta)$ 作直线 $l$ 的垂线, 垂足为 $H$, 则\n\n$$\n\\begin{aligned}\nP A & =\\sqrt{2} \\cdot P H \\\\\n& =\\sqrt{2} \\cdot \\frac{3 \\sqrt{3}-\\sqrt{3}(\\sin \\theta+\\cos \\theta)}{2} \\\\\n& =\\frac{3 \\sqrt{6}-2 \\sqrt{3} \\sin \\left(\\theta+\\frac{\\pi}{4}\\right)}{2}.\n\\end{aligned}\n$$\n\n因此所求 $|P A|$ 的最大值为 $\\frac{3 \\sqrt{6}+2 \\sqrt{3}}{2}$, 最小值为 $\\frac{3 \\sqrt{6}-2 \\sqrt{3}}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{3 \\sqrt{6}+2 \\sqrt{3}}{2}, \\frac{3 \\sqrt{6}-2 \\sqrt{3}}{2}$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出的是一个直角坐标系中的直线方程，参数方程为$x = -\\sqrt{3}t$，$y = 3 + t$，其中$t$为参数。然后曲线C的极坐标方程为$\\rho^2 \\cos^2 \\theta + 3\\rho^2 \\sin^2 \\theta = 3$。接下来，我要求过曲线C上任意一点P作与直线l夹角为45°的直线交l于点A，求|P A|的最大值和最小值。\n\n首先，我需要理解题目中的几何图形。直线l的参数方程是$x = -\\sqrt{3}t$，$y = 3 + t$，其中t是参数。曲线C的极坐标方程是$\\rho^2 \\cos^2 \\theta + 3\\rho^2 \\sin^2 \\theta = 3$。这里，$\\theta$是极坐标中的角度，通常用弧度表示，或者用圆周的角度来表示。\n\n接下来，我需要将直线方程转化为极坐标形式。直线方程$x = -\\sqrt{3}t$可以写成$\\tan \\theta = -\\sqrt{3}$，因为$\\tan \\theta = \\frac{y}{x}$，所以$\\tan \\theta = -\\sqrt{3}$，即$\\theta = \\frac{2\\pi}{3} + k\\pi$，其中k是整数。因此，$\\theta = \\frac{2\\pi}{3} + \\frac{\\pi}{3} = \\frac{3\\pi}{3} = \\pi$，或者$\\theta = \\frac{5\\pi}{3}$。\n\n接下来，我需要将曲线C的极坐标方程$\\rho^2 \\cos^2 \\theta + 3\\rho^2 \\sin^2 \\theta = 3$转化为极坐标形式。首先，我可以将$\\cos^2 \\theta$和$\\sin^2 \\theta$分别写成$\\frac{1 + \\cos 2\\theta}{2}$和$\\frac{1 - \\cos 2\\theta}{2}$，然后代入方程：\n\n$\\rho^2 \\left( \\frac{1 + \\cos 2\\theta}{2} \\right) + 3 \\rho^2 \\"
+            }
+        }
+    },
+    {
+        "id": 279,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|2 x-1|-|x+2|$.\n存在 $x_{0} \\in \\mathbb{R}$, 使得 $f\\left(x_{0}\\right)+2 a^{2} \\leqslant 4 a$, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "根据题意, 有\n\n$$\n\\exists x \\in \\mathbb{R}, f(x) \\leqslant-2 a^{2}+4 a\n$$\n\n也即\n\n$$\n\\min _{x \\in \\mathbb{R}}\\{f(x)\\} \\leqslant-2 a^{2}+4 a,\n$$\n\n也即\n\n$$\n2 a^{2}-4 a-\\frac{5}{2} \\leqslant 0,\n$$\n\n解得实数 $a$ 的取值范围是 $\\left[-\\frac{1}{2}, \\frac{5}{2}\\right]$."
+        ],
+        "final_answer": [
+            "$\\left[-\\frac{1}{2}, \\frac{5}{2}\\right]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个函数f(x)=|2x-1|-|x+2|，并且要求存在x0使得f(x0)+2a² ≤4a，其中a是一个实数。我需要找到a的取值范围。\n\n首先，我需要理解函数f(x)的定义域。函数f(x)是一个绝对值函数，所以x必须满足x≥1/2。接下来，我需要分析f(x)的单调性，以及是否存在x0使得f(x0)达到某个值。\n\n首先，我来计算f(x)的表达式。f(x)=|2x-1|-|x+2|。这个函数的定义域是x≥1/2，因为绝对值函数的定义域是正数。\n\n接下来，我需要分析f(x)在x≥1/2时的单调性。首先，我需要计算f(x)在x=1/2时的值，然后判断f(x)在x>1/2时的单调性。\n\n计算f(x)在x=1/2时的值。当x=1/2时，2x-1=1，x+2=3/2。所以，f(1/2)=|1/2 - 3/2|=| -1/2 | = 1/2。\n\n接下来，我需要判断f(x)在x>1/2时的单调性。首先，我需要分析f(x)在x>1/2时的符号。因为x>1/2，所以2x-1>0，x+2>0，所以f(x)=|2x-1|-|x+2| = |2x-1| - |x+2|。\n\n接下来，我需要分析f(x)在x>1/2时的符号。首先，我需要分析f(x)在x>1/2时的符号。因为x>1/2，所以2x-1>0，x+2>0，所以f(x)=|2x-1|-|x+2| = |2x-1| - |x+2|。\n\n接下来，我需要分析f(x)在x>1/2时的符号。首先，我需要分析f(x)在x>1/2时的符号。因为x>1/2，所以2x-1>0"
+            }
+        }
+    },
+    {
+        "id": 280,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|2 x-1|-|x+2|$.\n存在 $x_{0} \\in \\mathbb{R}$, 使得 $f\\left(x_{0}\\right)+2 a^{2} \\leqslant 4 a$.设实数$a$的取值范围中的最大数为 $a_{0}$, 若 $\\frac{1}{a^{2}}+\\frac{4}{b^{2}}+\\frac{9}{c^{2}}=a_{0}$。存在 $a, b, c$, 使得$a^{2}+4 b^{2}+9 c^{2}$ 有最小值, 求出该最小值.",
+        "solution": [
+            "根据柯西不等式有\n\n$$\n\\frac{5}{2}=\\frac{1}{a^{2}}+\\frac{4}{b^{2}}+\\frac{9}{c^{2}} \\geqslant \\frac{(1+4+9)^{2}}{a^{2}+4 b^{2}+9 c^{2}},\n$$\n\n因此\n\n$$\na^{2}+4 b^{2}+9 c^{2} \\geqslant \\frac{392}{5}\n$$\n\n等号当\n\n$$\na^{2}=b^{2}=c^{2}=\\frac{28}{5}\n$$\n\n时取得, 进而可得所求代数式的最小值为 $\\frac{392}{5}$."
+        ],
+        "final_answer": [
+            "$\\frac{392}{5}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后一步步分析和解决。\n\n首先，题目给出函数 $f(x)=|2x-1|-|x+2|$，其中 $x \\in \\mathbb{R}$。题目要求存在 $x_0 \\in \\mathbb{R}$，使得 $f(x_0) + 2a^2 \\leq 4a$，其中 $a$ 是实数，且 $a$ 的取值范围中的最大值为 $a_0$。接下来，题目要求存在实数 $a$，使得 $\\frac{1}{a^2} + \\frac{4}{b^2} + \\frac{9}{c^2} = a_0$，其中 $a, b, c$ 是实数，且满足 $a^2 + 4b^2 + 9c^2$ 有最小值。\n\n首先，我需要明确题目中的变量和公式。函数 $f(x)$ 的定义是 $f(x)=|2x-1|-|x+2|$，其中 $x \\in \\mathbb{R}$。题目中给出 $f(x_0) + 2a^2 \\leq 4a$，其中 $a$ 是实数，且 $a$ 的最大值为 $a_0$。接下来，题目要求存在实数 $a$，使得 $\\frac{1}{a^2} + \\frac{4}{b^2} + \\frac{9}{c^2} = a_0$，其中 $a, b, c$ 是实数，且满足 $a^2 + 4b^2 + 9c^2$ 有最小值。\n\n首先，我需要理解题目中的变量和公式。函数 $f(x)$ 的定义是 $f(x)=|2x-1|-|x+2|$，其中 $x \\in \\mathbb{R}$。题目中给出 $f(x_0) + 2a^2 \\leq 4a$，其中 $a$ 是实数，且 $a$ 的最大值为 $a_0$。接下来，题目要求存在实数 $a$，使得 $\\frac{1}{a^2} + \\frac{4}{b^2} + \\frac{9}{c^2"
+            }
+        }
+    },
+    {
+        "id": 281,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知向量 $\\vec{m}=(2 \\cos x, \\sin x), \\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x) \\quad(x \\in \\mathbf{R})$,设函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$.\n求函数 $f(x)$ 的单调减区间.",
+        "solution": [
+            "$f(x)=\\vec{m} \\cdot \\vec{n}-1=2 \\cos ^{2} x+2 \\sqrt{3} \\sin x \\cos x-1=\\cos 2 x+\\sqrt{3} \\sin 2 x$.\n\n$$\n=2 \\sin \\left(2 x+\\frac{\\pi}{6}\\right)\n$$\n\n$\\because x \\in \\mathrm{R}$, 由 $2 k \\pi+\\frac{\\pi}{2} \\leq 2 x+\\frac{\\pi}{6} \\leq 2 k \\pi+\\frac{3 \\pi}{2}$ 得\n\n$$\nk \\pi+\\frac{\\pi}{6} \\leq x \\leq k \\pi+\\frac{2 \\pi}{3}\n$$\n\n$\\therefore$ 函数 $f(x)$ 的单调减区间 $\\left[k \\pi+\\frac{\\pi}{6}, k \\pi+\\frac{2 \\pi}{3}\\right] \\quad k \\in Z$."
+        ],
+        "final_answer": [
+            "$\\left[k \\pi+\\frac{\\pi}{6}, k \\pi+\\frac{2 \\pi}{3}\\right]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出向量 $\\vec{m}=(2 \\cos x, \\sin x)$ 和 $\\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x)$，然后定义函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$。要求函数 $f(x)$ 的单调减区间。\n\n首先，我需要理解题目中的向量和函数。向量 $\\vec{m}$ 是一个正弦和余弦的组合，而 $\\vec{n}$ 是一个正弦和 $\\sqrt{3}$ 余弦的组合。然后，函数 $f(x)$ 是通过这两个向量的点积减去1来得到的。\n\n接下来，我需要回忆一下如何计算向量的点积。向量的点积公式是 $\\vec{a} \\cdot \\vec{b} = |a| |b| \\cos \\theta$，其中 $\\theta$ 是向量的夹角。这里，$\\vec{a} = \\vec{m}$，$\\vec{b} = \\vec{n}$，所以 $\\theta$ 就是向量 $\\vec{m}$ 和 $\\vec{n}$ 的夹角。\n\n接下来，我需要确定向量 $\\vec{m}$ 和 $\\vec{n}$ 的夹角。向量的夹角可以用余弦来表示，因为余弦的平方和为1。所以，$\\cos \\theta = \\frac{\\vec{m} \\cdot \\vec{n}}{|\\vec{m}| | \\vec{n}|}$。\n\n接下来，我需要计算 $\\vec{m} \\cdot \\vec{n}$。根据向量的点积公式，$\\vec{m} \\cdot \\vec{n} = | \\vec{m} | | \\vec{n} | \\cos \\theta$。这里，$| \\vec{m} | = 2$，$| \\vec{n} | = 1$，所以 $\\cos \\theta = \\frac{2 \\sqrt{3}}{2 \\times 1} = \\sqrt{3}$。因此，$\\vec{m} \\cdot \\vec{n} = 2 \\times 1 \\times \\sqrt{3} = 2\\sqrt{3}$。\n\n接下来，我需要计算 $|\\vec{m}|$ 和 $|\\vec{n}|$。$|\\vec{m}| = 2"
+            }
+        }
+    },
+    {
+        "id": 282,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知向量 $\\vec{m}=(2 \\cos x, \\sin x), \\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x) \\quad(x \\in \\mathbf{R})$,设函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$.\n已知 $\\triangle A B C$ 的三个内角分别为 $A, B, C$, 若 $f(A)=2, B=\\frac{\\pi}{4}$, 边 $A B=\\sqrt{6}+\\sqrt{2}$, 求边 $B C$.",
+        "solution": [
+            "$\\because f(A)=2$, 即 $2 \\sin \\left(2 A+\\frac{\\pi}{6}\\right)=2, \\because$ 角 $A$ 为锐角, 得 $A=\\frac{\\pi}{6}$,\n\n$$\n\\text { 又 } B=\\frac{\\pi}{4}, \\therefore C=\\frac{7}{12} \\pi, \\therefore \\sin C=\\sin \\frac{7 \\pi}{12}=\\sin \\left(\\frac{\\pi}{4}+\\frac{\\pi}{3}\\right)=\\frac{\\sqrt{6}+\\sqrt{2}}{4}\n$$\n\n$\\because A B=\\sqrt{6}+\\sqrt{2}$,\n\n由正弦定理得 $B C=\\frac{A B \\sin A}{\\sin C}=\\frac{(\\sqrt{6}+\\sqrt{2})(\\sqrt{6}-\\sqrt{2})}{2}=2$."
+        ],
+        "final_answer": [
+            "$2$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "已知函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$，其中 $\\vec{m}=(2 \\cos x, \\sin x)$ 和 $\\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x)$，求 $f(x)$ 的最大值和最小值。\n已知 $\\triangle ABC$ 的三个内角分别为 $A, B, C$，且满足 $\\sin A + \\sin B + \\sin C = 3$，求 $\\sin A \\sin B \\sin C$ 的值。\n已知函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$，其中 $\\vec{m}=(2 \\cos x, \\sin x)$ 和 $\\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x)$，求 $f(x)$ 的周期。\n已知函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$，其中 $\\vec{m}=(2 \\cos x, \\sin x)$ 和 $\\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x)$，求 $f(x)$ 的振幅。\n已知函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$，其中 $\\vec{m}=(2 \\cos x, \\sin x)$ 和 $\\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x)$，求 $f(x)$ 的相位。\n已知函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$，其中 $\\vec{m}=(2 \\cos x, \\sin x)$ 和 $\\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x)$，求 $f(x)$ 的初相位。\n已知函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$，其中 $\\vec{m}=(2 \\cos x, \\sin x)$ 和 $\\vec{n}=(\\cos x, 2 \\sqrt{3} \\cos x)$，求 $f(x)$ 的幅角。\n已知函数 $f(x)=\\vec{m} \\cdot \\vec{n}-1$，其中 $\\vec{m}=(2 \\cos x, \\sin x)$ 和 $\\vec{n}=(\\cos x, 2 \\"
+            }
+        }
+    },
+    {
+        "id": 285,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "2018 年元旦期间, 某品牌轿车销售商为了促销，给出了两种优惠方案, 顾客只能选择其中的一种, 方案一: 每满 6 万元, 可减 6 千元. 方案二: 金额超过 6 万元 (含 6 万元), 可摇号三次, 其规则是依次装有 2 个幸运号、 2 个吉祥号的一号摇号机, 装有 2 个幸运号、 2 个吉祥号的二号摇号机, 装有 1 个幸运号、 3 个吉祥号的三号摇号机各摇号一次, 其优惠情况为:若摇出 3 个幸运号则打 6 折; 若摇出 2 个幸运号则打 7 折; 若摇出 1 个幸运号则打 8 折；若没有摇出幸运号则不打折.\n若某型号的车正好 6 万元, 两个顾客都选中第二种方案, 求至少有一名顾客比选择方案一更优惠的概率;",
+        "solution": [
+            "要使选择方案二比选择方案一更优惠, 则需要至少摸出 1 个幸运球,设顾客不打折即三次没摸出幸运球为事件 $A$, 则\n\n$P(A)=\\frac{2 \\times 2 \\times 3}{4 \\times 4 \\times 4}=\\frac{3}{16}$,\n\n故所求概率 $P=1-P(A) P(A)=1-\\left(\\frac{3}{16}\\right)^{2}=\\frac{247}{256}$."
+        ],
+        "final_answer": [
+            "$\\frac{247}{256}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "若某型号的车比 6 万元贵, 且至少有一个顾客选择方案一, 求所有可能的车价组合中, 该组合中至少有一个顾客比选择方案一更优惠的概率。\n\n \n\n现在请解答上述问题。\n好，我现在要解决这个数学竞赛题目。题目是关于两种优惠方案的计算，一个是满6万减6千，一个是超过6万减三次摇号。然后问的是两种情况的概率，一个是两个顾客都选中第二种方案，一个是其中一个选择方案一，另一个选择方案二。然后还要求所有可能的车价组合中至少有一个顾客比选择方案一更优惠的概率。\n\n首先，我需要理解题目的意思。题目中说，有两种优惠方案，一个是满6万减6千，另一个是超过6万减三次摇号。然后问的是两种情况的概率，一个是两个顾客都选中第二种方案，一个是其中一个选择方案一，另一个选择方案二。然后还要求所有可能的车价组合中至少有一个顾客比选择方案一更优惠的概率。\n\n首先，我需要明确两种方案的条件和结果。首先，满6万减6千，也就是每满6万减6千，所以每辆车的优惠是6千减去6千，也就是0。而超6万减三次摇号，也就是超过6万，然后每次摇号，每次的概率是2/3，所以三次摇号的概率是2/3 * 2/3 * 2/3 = 8/27。所以，超6万减三次摇号的优惠是6万减去8/27，也就是6万减去0.296，也就是5.704万。所以，两种方案的总优惠是0 + 5.704万 = 5.704万。\n\n接下来，我需要计算两种情况的概率。首先，两个顾客都选中第二种方案的概率。第二种方案是每辆车减去6千，所以每辆车的优惠是6千减去6千，也就是0。所以，两个顾客都选中第二种方案的概率是1/2 * 1/2 = 1/4。\n\n然后，其中一个选择方案一，另一个选择方案二。这里，方案一和方案二都是每辆车减去6千，所以每辆车的优惠是6千减去6千，也就是0。所以，两个选择方案一的概率是1/2 *"
+            }
+        }
+    },
+    {
+        "id": 287,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知动点 $D$ 与两定点 $A(-2,0) 、 B(2,0)$ 连线的斜率的乘积为 $-\\frac{1}{2}$,圆 $C$ 的圆心在原点, 半径为 $\\sqrt{2}$.\n若动点 $D$ 的轨迹为曲线 $E$, 求曲线 $E$ 方程;",
+        "solution": [
+            "设点 $D(x, y)$, 则 $k_{D A} \\cdot k_{D B}=\\frac{y}{x+2} \\cdot \\frac{y}{x-2}=-\\frac{1}{2}$,\n\n即 $2 y^{2}+x^{2}=4$, 整理得 $\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$, 其中 $x \\neq \\pm 2$."
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "求曲线 $E$ 上一点 $P(x_0, y_0)$ 到原点的距离的最大值和最小值。\n\n \n\n好的，我现在要解决这个数学竞赛题目。题目给出的是一个椭圆的方程，椭圆的方程是标准形式，即 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中 $a > b$ 表示椭圆的长轴在x轴上。题目中还给出了一个条件，椭圆上一点 $P(x_0, y_0)$ 到原点的距离的最大值和最小值。\n\n首先，我需要理解题目中的条件。椭圆的方程是 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中 $a > b$ 表示椭圆的长轴在x轴上。椭圆的长轴在x轴上的长度是 $2a$，所以椭圆的长轴在x轴上的长度是 $2a$，而椭圆的短轴在y轴上的长度是 $b$。椭圆的离心率 $e$ 是椭圆上一点到两个焦点的距离之比，即 $e = \\frac{c}{a}$，其中 $c = \\sqrt{a^2 - b^2}$。椭圆的长轴在x轴上的长度是 $2a$，所以椭圆的长轴在x轴上的长度是 $2a$，而椭圆的短轴在y轴上的长度是 $b$。椭圆的离心率 $e$ 是椭圆上一点到两个焦点的距离之比，即 $e = \\frac{c}{a}$，其中 $c = \\sqrt{a^2 - b^2}$。椭圆的长轴在x轴上的长度是 $2a$，所以椭圆的长轴在x轴上的长度是 $2a$，而椭圆的短轴在y轴上的长度是 $b$。椭圆的离心率 $e$ 是椭圆上一点到两个焦点的距离之比，即 $e = \\frac{c}{a}$，其中 $c = \\sqrt{a^2 - b^2}$。椭圆的长轴在x轴上的长度是 $2a$，所以椭圆的"
+            }
+        }
+    },
+    {
+        "id": 288,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知动点 $D$ 与两定点 $A(-2,0) 、 B(2,0)$ 连线的斜率的乘积为 $-\\frac{1}{2}$,圆 $C$ 的圆心在原点, 半径为 $\\sqrt{2}$.\n若动点 $P$ 在曲线 $E$ 上, 点 $Q$ 在圆 $C$ 上, 且 $P, Q$ 在 $y$ 轴两侧, 线段 $P Q$ 平行于 $x$ 轴. 直线 $A P$ 交 $y$ 轴于点 $M$, 直线 $B P$ 交 $y$ 轴于点 $N$, 求 $\\angle M Q N$.",
+        "solution": [
+            "设点 $D(x, y)$, 则 $k_{D A} \\cdot k_{D B}=\\frac{y}{x+2} \\cdot \\frac{y}{x-2}=-\\frac{1}{2}$,\n\n即 $2 y^{2}+x^{2}=4$, 整理得 $\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$, 其中 $x \\neq \\pm 2$.\n\n设直线 $A P$ 为 $y=k(x+2)$, 联立椭圆 $\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$ 得\n\n$$\n\\left(1+2 k^{2}\\right) x^{2}+8 k^{2} x+8 k^{2}-4=0\n$$\n\n根据韦达定理得 $x_{p} \\cdot x_{A}=\\frac{8 k^{2}-4}{1+2 k^{2}}$, 其中 $x_{A}=-2$, 所以 $x_{p}=\\frac{2-4 k^{2}}{1+2 k^{2}}$,\n\n将 $x_{p}$ 代入直线 $A P$ 得到 $y_{p}=\\frac{4 k}{1+2 k^{2}}$.\n\n由于 $P Q$ 平行于 $x$ 轴,所以 $y_{Q}=y_{p}=\\frac{4 k}{1+2 k^{2}}$.\n\n在直线 $A P$ 为 $y=k(x+2)$ 中令 $x=0$ 得 $M(0,2 k)$.\n\n根据条件知可设直线 $B P$ 为 $y=-\\frac{1}{2 k}(x-2)$, 令 $x=0$ 得 $N\\left(0, \\frac{1}{k}\\right)$.\n\n<img_4170>\n\n设 $Q\\left(x_{Q}, y_{Q}\\right)$, 则 $\\overrightarrow{M Q} \\cdot \\overrightarrow{N Q}=\\left(x_{Q}, y_{Q}-2 k\\right) \\cdot\\left(x_{Q}, y_{Q}-\\frac{1}{k}\\right)$\n\n$=x_{Q}^{2}+y_{Q}^{2}-\\left(\\frac{1}{k}+2 k\\right) y_{Q}+2=2-\\left(\\frac{1}{k}+2 k\\right) \\frac{4 k}{1+2 k^{2}}+2=0$.\n\n所以 $\\angle M Q N=\\frac{\\pi}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\pi}{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后一步步分析和解决。\n\n首先，题目给出三个条件：\n1. 运动点 $D$ 与两定点 $A(-2,0)$ 和 $B(2,0)$ 连线的斜率的乘积为 $-\\frac{1}{2}$。\n2. 圆 $C$ 的圆心在原点，半径为 $\\sqrt{2}$。\n3. 运动点 $P$ 在曲线 $E$ 上，点 $Q$ 在圆 $C$ 上，且 $P, Q$ 在 $y$ 轴两侧，线段 $PQ$ 平行于 $x$ 轴。\n4. 直线 $A P$ 交 $y$ 轴于点 $M$，直线 $B P$ 交 $y$ 轴于点 $N$。\n\n接下来，我需要根据这些条件，逐步分析和解决这个问题。\n\n首先，分析条件1：斜率的乘积为 $-\\frac{1}{2}$。这意味着对于点 $D$，斜率 $m$ 满足：\n$$\nm \\cdot m' = -\\frac{1}{2}\n$$\n其中，$m'$ 是 $m$ 的导数，即 $m'(x) = \\frac{dx}{dx} = 0$，因为 $m$ 是常数。\n\n接下来，分析条件2：圆 $C$ 的圆心在原点，半径为 $\\sqrt{2}$。这意味着圆 $C$ 的方程为：\n$$\nx^2 + y^2 = 2\n$$\n即 $x^2 + y^2 = 2$。\n\n接下来，分析条件3：点 $P$ 在曲线 $E$ 上，点 $Q$ 在圆 $C$ 上，且 $P, Q$ 在 $y$ 轴两侧，线段 $PQ$ 平行于 $x$ 轴。这意味着点 $P$ 和点 $Q$ 的纵坐标相等，即 $y = k$，其中 $k$ 是常数。\n\n接下来，分析条件4：直线 $A P$ 交 $y$ 轴于点 $M$，直线 $B P$ 交 $y$ 轴于点 $N"
+            }
+        }
+    },
+    {
+        "id": 289,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=\\frac{m \\ln x}{x}+n, g(x)=x^{2}\\left(f(x)-\\frac{1}{x}-\\frac{a}{2}\\right)$ $(m, n, a \\in R)$, 且曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y=x-1$.\n求实数 $m, n$ 的值.",
+        "solution": [
+            "函数 $f(x)$ 的定义域为 $(0,+\\infty), f^{\\prime}(x)=\\frac{m(1-\\ln x)}{x^{2}},$\n\n因为 $f(x)$ 的图象在点 $(1, f(1))$ 处的切线方程为 $y=x-1$,\n\n所以 $\\left\\{\\begin{array}{l}f^{\\prime}(1)=m=1 \\\\ f(1)=\\frac{m \\ln 1}{1}+n=0\\end{array}\\right.$. 解得 $m=1, n=0$."
+        ],
+        "final_answer": [
+            "$1, 0$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个函数f(x)=m*lnx/x + n，其中m和n是实数，且f(1)=1。接下来，题目要求m和n的值，同时给出曲线y=f(x)在点(1, f(1))处的切线方程为y=x-1。我的任务是找到m和n的值。\n\n首先，我需要理解题目的条件。已知f(1)=1，所以当x=1时，f(x)的值是多少。接下来，题目要求f(x)在x=1处的导数，也就是f'(1)。然后，f'(1)等于1，因为f(x)在x=1处的导数是1。接下来，题目要求f(x)在x=1处的切线方程为y=x-1。切线方程的一般形式是y = f(a) + f'(a)(x - a)，其中a是切点的横坐标。这里，a=1，所以切线方程变为y = f(1) + f'(1)(x - 1)。\n\n接下来，我需要计算f(1)的值。根据题目，f(x)=m*lnx/x + n，所以f(1)=m*ln1/x + n = 0 + n = n。所以，n=0。\n\n接下来，我需要计算f'(1)的值。f'(x)=d/dx [m*lnx/x + n] = (m*(1/x)*x - m*(1/x^2)) / x^2 + 0 = (m/x - m/x^2)/x^2 = (m - m/x^2)/x^2。当x=1时，f'(1)=0 + 0 = 0。\n\n现在，我有f(1)=n=0，f'(1)=0。根据切线方程的条件，f(1) + f'(1)(x - 1) = y = f(1) + f'(1)(x - 1)。将已知的n=0代入，得到0 + 0*(x - 1) = 0，所以0 + 0*(x - 1) = 0，这显然成立，说明切线方程是正确的。\n\n接下来，我需要找到m的"
+            }
+        }
+    },
+    {
+        "id": 290,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=\\frac{m \\ln x}{x}+n, g(x)=x^{2}\\left(f(x)-\\frac{1}{x}-\\frac{a}{2}\\right)$ $(m, n, a \\in R)$, 且曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y=x-1$.\n函数 $f(x)$ 的最大值.",
+        "solution": [
+            "函数 $f(x)$ 的定义域为 $(0,+\\infty), f^{\\prime}(x)=\\frac{m(1-\\ln x)}{x^{2}},$\n\n因为 $f(x)$ 的图象在点 $(1, f(1))$ 处的切线方程为 $y=x-1$,\n\n所以 $\\left\\{\\begin{array}{l}f^{\\prime}(1)=m=1 \\\\ f(1)=\\frac{m \\ln 1}{1}+n=0\\end{array}\\right.$. 解得 $m=1, n=0$.\n\n所以 $f(x)=\\frac{\\ln x}{x}$. 故 $f^{\\prime}(x)=\\frac{1-\\ln x}{x^{2}}$.\n\n令 $f^{\\prime}(x)=0$, 得 $x=e,$\n\n当 $0<x<e$ 时, $f^{\\prime}(x)>0, f(x)$ 单调递增;\n\n当 $x>e$ 时, $f^{\\prime}(x)<0, f(x)$ 单调递减.\n\n所以当 $x=e$ 时, $f(x)$ 取得最大值 $f(e)=\\frac{1}{e}$."
+        ],
+        "final_answer": [
+            "$\\frac{1}{e}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "函数 $g(x)$ 的最小值。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的平均值。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的积分。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的积分。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $f(x)$ 在区间 $(0, 2)$ 上的导数。\n函数 $g(x)$ 在区间 $(0, 2)$ 上的导数。\n函数"
+            }
+        }
+    },
+    {
+        "id": 291,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=\\frac{m \\ln x}{x}+n, g(x)=x^{2}\\left(f(x)-\\frac{1}{x}-\\frac{a}{2}\\right)$ $(m, n, a \\in R)$, 且曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y=x-1$.\n当 $a \\in\\left(-e, \\frac{1}{e}\\right)$ 时, 记函数 $g(x)$ 的最小值为 $b$, 求实数 $b$ 的取值范围.",
+        "solution": [
+            "函数 $f(x)$ 的定义域为 $(0,+\\infty), f^{\\prime}(x)=\\frac{m(1-\\ln x)}{x^{2}},$\n\n因为 $f(x)$ 的图象在点 $(1, f(1))$ 处的切线方程为 $y=x-1$,\n\n所以 $\\left\\{\\begin{array}{l}f^{\\prime}(1)=m=1 \\\\ f(1)=\\frac{m \\ln 1}{1}+n=0\\end{array}\\right.$. 解得 $m=1, n=0$.\n\n所以 $f(x)=\\frac{\\ln x}{x}$. 故 $f^{\\prime}(x)=\\frac{1-\\ln x}{x^{2}}$.\n\n令 $f^{\\prime}(x)=0$, 得 $x=e,$\n\n当 $0<x<e$ 时, $f^{\\prime}(x)>0, f(x)$ 单调递增;\n\n当 $x>e$ 时, $f^{\\prime}(x)<0, f(x)$ 单调递减.\n\n$\\because g(x)=x^{2}\\left[f(x)-\\frac{1}{x}-\\frac{a}{2}\\right]=x \\ln x-\\frac{a x^{2}}{2}-x$,\n\n$\\therefore g^{\\prime}(x)=\\ln x-a x=x\\left(\\frac{\\ln x}{x}-a\\right),$\n\n令 $h(x)=\\frac{\\ln x}{x}-a$, $f(x)=\\frac{\\ln x}{x}$ 在 $(0, e)$ 上是增函数,\n\n故 $h(x)=\\frac{\\ln x}{x}-a$ 在 $(0, e)$ 上是增函数,\n\n又 $\\because-e<a<\\frac{1}{e}, \\quad \\therefore h(e)=\\frac{1}{e}-a>0, h\\left(\\frac{1}{e}\\right)=-e-a<0$,\n\n因此存在唯一的 $t \\in\\left(\\frac{1}{e}, e\\right)$, 使得 $h(t)=0$, 也就是 $g^{\\prime}(t)=0$, 即 $\\ln t=a t$\n\n当 $x \\in(0, t)$ 时, $h(x)<h(t)=0$, 所以 $g^{\\prime}(x)<0, g(x)$ 单调递减;\n\n当 $x \\in(t, e)$ 时, $g^{\\prime}(x)>0, g(x)$ 单调递增, 所以 $g(x)$ 的最小值为 $b=t \\ln t-\\frac{a}{2} t^{2}-t=\\frac{t \\ln t}{2}-t$, 令 $s(t)=\\frac{t \\ln t}{2}-t$, 因为 $h^{\\prime}(t)=\\frac{\\ln t-1}{2}<0$, 所以 $h(t)$ 在 $\\left(\\frac{1}{e}, e\\right)$ 单调递减, 从而$h(t) \\in\\left(-\\frac{e}{2},-\\frac{3}{2 e}\\right)$, 即 $b$ 的取值范围是 $\\left(-\\frac{e}{2},-\\frac{3}{2 e}\\right)$."
+        ],
+        "final_answer": [
+            "$\\left(-\\frac{e}{2},-\\frac{3}{2 e}\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个函数f(x)=m*lnx/x +n，其中m和n是常数，x是正实数。然后f(x)在x=1处的切线方程是y=x-1。接下来，当a∈(-e,1/e)时，求函数g(x)=x²*(f(x)-1/2)的最小值b的取值范围。\n\n首先，我需要理解题目的条件和要求。首先，f(x)在x=1处的导数是0，因为切线方程是y=x-1，所以f(1)=1-1=0。接下来，当a∈(-e,1/e)时，求g(x)的最小值b的取值范围。\n\n接下来，我来详细分析一下这个问题。首先，我需要明确f(x)的导数f’(x)。然后，根据切线方程，f(1)=0，所以f’(1)=0。接下来，当a∈(-e,1/e)时，求g(x)的最小值b的取值范围。\n\n首先，我需要计算f(x)的导数f’(x)。函数f(x)=m*lnx/x +n，我可以将分子和分母都乘以x来化简：\n\nf(x)=m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx)/x +n = m*(lnx"
+            }
+        }
+    },
+    {
+        "id": 292,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=t \\\\ y=m+t\\end{array}\\right.$ ( $t$ 为参数, $m \\in R$ ), 以原点 $O$ 为极点, $x$ 轴的非负半轴为极轴建立极坐标系, 曲线 $C_{2}$的极坐标方程为 $\\rho^{2}=\\frac{3}{3-2 \\cos ^{2} \\theta}(0 \\leq \\theta \\leq \\pi)$.\n写出曲线 $C_{1}$ 的普通方程",
+        "solution": [
+            "由曲线 $C_{1}$ 的参数方程, 消去参数 $t$, 可得 $C_{1}$ 的普通方程为: $x-y+m=0$."
+        ],
+        "final_answer": [
+            "$x-y+m=0$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "写出曲线 $C_{2}$ 的极坐标方程\n求曲线 $C_{1}$ 和 $C_{2}$ 的交点的坐标\n \n\n好的，我现在要解决这个数学竞赛题目。题目给出的是两个曲线的方程，一个是直角坐标系下的曲线C1，参数方程为x = t，y = m + t，其中t为参数，m ∈ ℝ。然后，以原点为极点，x轴的非负半轴为极轴建立极坐标系，曲线C2的极坐标方程为ρ² = (3/3 - 2cos²θ)（0 ≤ θ ≤ π）。\n\n首先，我需要理解题目的要求。首先，我需要写出曲线C1的方程，然后写出曲线C2的极坐标方程。接下来，我需要求出曲线C1和C2的交点的坐标。\n\n首先，我来分析曲线C1的方程。曲线C1的参数方程是x = t，y = m + t，其中t为参数，m ∈ ℝ。这看起来像是一个线性方程，可以表示为y = mx + c，其中c是常数。不过，这里t是参数，x和y都是关于t的，所以可能需要将t替换掉，或者用其他方法表示。\n\n另一种方法是将曲线C1的方程写成标准的极坐标方程。极坐标方程的一般形式是ρ² = A + B sinθ，其中A是常数，B是常数，θ是参数。不过，这里可能需要更准确地表示曲线C1的方程。\n\n接下来，我来分析曲线C2的方程。曲线C2的极坐标方程是ρ² = (3/3 - 2cos²θ)（0 ≤ θ ≤ π）。首先，我需要将这个表达式展开，然后化简，得到极坐标方程。\n\n首先，展开右边的表达式：\n(3/3 - 2cos²θ) = 1 - 2cos²θ\n\n所以，方程变为：\nρ² = 1 - 2cos²θ\n\n接下来，我需要将这个表达式转化为极坐标方程的形式。极坐标方程的一般形式是ρ² = A + B sinθ，其中A是常数，B是常数，θ是参数。这里，A是1"
+            }
+        }
+    },
+    {
+        "id": 293,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=t \\\\ y=m+t\\end{array}\\right.$ ( $t$ 为参数, $m \\in R$ ), 以原点 $O$ 为极点, $x$ 轴的非负半轴为极轴建立极坐标系, 曲线 $C_{2}$的极坐标方程为 $\\rho^{2}=\\frac{3}{3-2 \\cos ^{2} \\theta}(0 \\leq \\theta \\leq \\pi)$.\n写出曲线 $C_{2}$ 的直角坐标方程.",
+        "solution": [
+            "由曲线 $C_{2}$ 的极坐标方程得 $3 \\rho^{2}-2 \\rho^{2} \\cos ^{2} \\theta=3, \\theta \\in[0, \\pi]$,\n\n$\\therefore$ 曲线 $C_{2}$ 的直角坐标方程为 $\\frac{x^{2}}{3}+y^{2}=1(0 \\leq y \\leq 1)$."
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{3}+y^{2}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出的是一个曲线C2的极坐标方程，其中参数方程为x = t，y = m + t，其中t为参数，m为常数。然后，曲线C2在x轴上的非负半轴上，以原点为极点，x轴为极轴建立极坐标系。接下来，给出一个极坐标方程，表达式为ρ² = (3/3 - 2cos²θ)。要求写出曲线C2的直角坐标方程。\n\n首先，我需要理解题目的要求。题目中给出的是一个曲线C2的极坐标方程，其中参数方程为x = t，y = m + t，其中t为参数，m为常数。然后，曲线C2在x轴上的非负半轴上，以原点为极点，x轴为极轴建立极坐标系。接下来，给出一个极坐标方程，表达式为ρ² = (3/3 - 2cos²θ)。要求写出曲线C2的直角坐标方程。\n\n首先，我需要回忆一下极坐标方程的基本形式。极坐标方程的一般形式是ρ² = f(θ)，其中θ是参数，f(θ)是关于θ的二次函数。这里给出的方程是ρ² = (3/3 - 2cos²θ)，这看起来像是一个关于ρ²的二次函数，但其中θ的表达式是cosθ，这可能意味着我需要将θ用某种形式表示出来。\n\n接下来，我需要找到θ的表达式。根据极坐标方程的定义，θ是满足方程的角θ，满足θ = arctan(ρ/0)，即θ = arctan(ρ/0)。但是，这里θ必须是0到π之间的角，所以θ = arctan(ρ/0) = arctan(∞)。这显然是不可能的，因为arctan(∞)是无穷大，不可能等于θ。这说明我的理解有问题。\n\n或者，可能题目中的θ表达式是另一种形式，比如θ = arctan(ρ/0) = arctan(∞)，这显然是不可能的，所以可能需要重新审视题目。\n\n另一种可能是，θ的表达式是θ = arctan(ρ/0)，这显然是不可能的，因为arctan"
+            }
+        }
+    },
+    {
+        "id": 294,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=t \\\\ y=m+t\\end{array}\\right.$ ( $t$ 为参数, $m \\in R$ ), 以原点 $O$ 为极点, $x$ 轴的非负半轴为极轴建立极坐标系, 曲线 $C_{2}$的极坐标方程为 $\\rho^{2}=\\frac{3}{3-2 \\cos ^{2} \\theta}(0 \\leq \\theta \\leq \\pi)$.\n已知点 $P$ 是曲线 $C_{2}$ 上一点, 若点 $P$ 到曲线 $C_{1}$ 的最小距离为 $2 \\sqrt{2}$, 求 $m$的值.",
+        "solution": [
+            "由曲线 $C_{1}$ 的参数方程, 消去参数 $t$, 可得 $C_{1}$ 的普通方程为: $x-y+m=0$.\n\n由曲线 $C_{2}$ 的极坐标方程得 $3 \\rho^{2}-2 \\rho^{2} \\cos ^{2} \\theta=3, \\theta \\in[0, \\pi]$,\n\n$\\therefore$ 曲线 $C_{2}$ 的直角坐标方程为 $\\frac{x^{2}}{3}+y^{2}=1(0 \\leq y \\leq 1)$\n\n设曲线 $C_{2}$ 上任意一点 $P$ 为 $(\\sqrt{3} \\cos \\alpha, \\sin \\alpha), \\alpha \\in[0, \\pi]$,\n\n则点 $P$ 到曲线 $C_{1}$ 的距离为 $d=\\frac{|\\sqrt{3} \\cos \\alpha-\\sin \\alpha+m|}{\\sqrt{2}}=\\frac{\\left|2 \\cos \\left(\\alpha+\\frac{\\pi}{6}\\right)+m\\right|}{\\sqrt{2}} .$\n\n$\\because \\alpha \\in[0, \\pi] \\quad \\therefore \\cos \\left(\\alpha+\\frac{\\pi}{6}\\right) \\in\\left[-1, \\frac{\\sqrt{3}}{2}\\right], \\quad 2 \\cos \\left(\\alpha+\\frac{\\pi}{6}\\right) \\in[-2, \\sqrt{3}]$,\n\n当 $m+\\sqrt{3}<0$ 时, $m+\\sqrt{3}=-4$, 即 $m=-4-\\sqrt{3}$;\n\n当 $m-2>0$ 时, $m-2=4$, 即 $m=6$.\n\n$\\therefore m=-4-\\sqrt{3}$ 或 $m=6$."
+        ],
+        "final_answer": [
+            "$-4-\\sqrt{3},6$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出的是一个直角坐标系下的曲线C1的参数方程，其中x和y的表达式分别是x = t，y = m + t，其中t为参数，m ∈ R。然后，以原点为极点，x轴的非负半轴为极轴建立极坐标系，曲线C2的极坐标方程为ρ² = (3/3 - 2cos²θ)（0 ≤ θ ≤ π）。已知点P是曲线C2上的一点，且到曲线C1的最小距离为2√2，求m的值。\n\n首先，我需要理解题目的几何意义。曲线C1是通过参数方程x = t，y = m + t得到的，其中t是参数。曲线C2的极坐标方程是ρ² = (3/3 - 2cos²θ)（0 ≤ θ ≤ π）。这个方程看起来像是一个椭圆的方程，因为当θ = π/2时，椭圆的长轴为3，短轴为2，焦距为1，所以椭圆的标准方程是x²/9 + y²/4 =1。不过，这里可能需要更准确地理解。\n\n接下来，我需要明确点P的位置。点P在曲线C2上，所以它的坐标可以表示为（ρ, θ），其中ρ是极坐标中的参数，θ是θ的取值范围，即0 ≤ θ ≤ π。点P到曲线C1的最小距离为2√2，这意味着点P到原点的距离最小，也就是到曲线C1的最短距离。\n\n为了求m的值，我需要计算点P到原点的距离，并且这个距离最小化。首先，点P的坐标为（ρ, θ），其中ρ是极坐标中的参数，θ是θ的取值范围。点P到原点的距离d就是：\n\nd = √(ρ² + m²)\n\n因为点P到原点的距离最小化，所以d的值最小。根据几何知识，当点P到原点的距离最小化时，点P到曲线C1的最小距离为2√2。因此，我们可以得到方程：\n\n√(ρ² + m²) = 2√2\n\n两边平方得到：\n\nρ² + m² = 8\n\n接下来，我"
+            }
+        }
+    },
+    {
+        "id": 295,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数$f(x)=\\frac{1}{3}|x-a|(a \\in R)$.\n当 $a=2$ 时, 解不等式 $\\left|x-\\frac{1}{3}\\right|+f(x) \\geq 1$ ；",
+        "solution": [
+            "当 $a=2$ 时, 原不等式可化为 $|3 x-1|+|x-2| \\geq 3$.\n\n(1) 当 $x \\leq \\frac{1}{3}$ 时, 原不等式可化为 $-3 x+1+2-x \\geq 3$, 解得 $x \\leq 0$, 所以 $x \\leq 0 ;$\n\n(2)当 $\\frac{1}{3}<x<2$ 时, 原不等式可化为 $3 x-1+2-x \\geq 3$, 解得 $x \\geq 1$, 所以 $1 \\leq x<2 ;$\n\n(3)当 $x \\geq 2$ 时, 原不等式可化为 $3 x-1-2+x \\geq 3$, 解得 $x \\geq \\frac{3}{2}$, 所以 $x \\geq 2$.\n\n综上所述, 当 $a=2$ 时, 不等式的解集为 $\\{x \\mid x \\leq 0$ 或 $x \\geq 1\\}$."
+        ],
+        "final_answer": [
+            "$(-\\infty, 0] \\cup [1, +\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "当 $a=3$ 时, 求函数$f(x)$的最大值和最小值。\n\n好的，我现在要解决这个数学竞赛题目。题目给出一个函数$f(x)=\\frac{1}{3}|x-2|$,其中$a=2$和$a=3$。我需要分别求解这两个情况下不等式，并且给出解集。\n\n首先，我来分析$a=2$的情况。当$a=2$时，函数$f(x)$是一个分式函数，分母是$x-2$，所以分母必须非负，即$x-2 \\geq 0$，解得$x \\geq 2$。那么，当$x \\geq 2$时，$f(x)=\\frac{1}{3}|x-2|$。不等式变为：\n\n$$\n\\left|x - 2\\right| + \\frac{1}{3}|x - 2| \\geq 1\n$$\n\n接下来，我需要将这个不等式转化为更易于处理的形式。首先，注意到$|x - 2|$可以表示为$x - 2$或者$2 - x$，但这里可能更直接的方法是使用绝对值的不等式。考虑$f(x)$的定义域，即$x \\geq 2$，那么$x - 2$和$2 - x$都是非负的，所以它们的和$|x - 2| + \\frac{1}{3}|x - 2|$可以写成：\n\n$$\n|x - 2| + \\frac{1}{3}|x - 2| = \\left| \\frac{2 + x}{3} \\right| + \\left| \\frac{2 - x}{3} \\right|\n$$\n\n现在，不等式变为：\n\n$$\n\\left| \\frac{2 + x}{3} \\right| + \\left| \\frac{2 - x}{3} \\right| \\geq 1\n$$\n\n接下来，我需要将这个不等式转化为区间的形式。首先，考虑$|x - 2|$的范围。因为$x \\geq 2$，所以$|x - 2|$的最大值是$2 - 2=0$，最小值是$-2$。因此，$|x - 2| + \\frac{1}{3}|x - 2|$的最大"
+            }
+        }
+    },
+    {
+        "id": 296,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数$f(x)=\\frac{1}{3}|x-a|(a \\in R)$.\n设不等式 $\\left|x-\\frac{1}{3}\\right|+f(x) \\leq x$ 的解集为 $M$, 若 $\\left[\\frac{1}{3}, \\frac{1}{2}\\right] \\subseteq M$, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "不等式 $\\left|x-\\frac{1}{3}\\right|+f(x) \\leq x$ 可化为 $|3 x-1|+|x-a| \\leq 3 x ，$\n\n依题意不等式 $|3 x-1|+|x-a| \\leq 3 x$ 在 $\\left[\\frac{1}{3}, \\frac{1}{2}\\right]$ 恒成立,\n\n所以 $3 x-1+|x-a| \\leq 3 x$, 即 $|x-a| \\leq 1,$\n\n即 $a-1 \\leq x \\leq a+1$, 所以 $\\left\\{\\begin{array}{l}a-1 \\leq \\frac{1}{3} \\\\ a+1 \\geq \\frac{1}{2}\\end{array}\\right.$.\n\n解得 $-\\frac{1}{2} \\leq a \\leq \\frac{4}{3}$, 故所求实数 $a$ 的取值范围是 $\\left[-\\frac{1}{2}, \\frac{4}{3}\\right] .$"
+        ],
+        "final_answer": [
+            "$\\left[-\\frac{1}{2}, \\frac{4}{3}\\right]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于函数$f(x)=\\frac{1}{3}|x-a|$，其中$a \\in R$，并且不等式$\\left|x-\\frac{1}{3}\\right|+f(x) \\leq x$的解集为$M$，同时$\\left[\\frac{1}{3}, \\frac{1}{2}\\right] \\subseteq M$。要求求出实数$a$的取值范围。\n\n首先，我需要理解题目的意思。函数$f(x)$是一个分式函数，分母是$x - a$，所以$f(x) = \\frac{1}{3}|x - a|$。不等式$\\left|x - \\frac{1}{3}\\right| + f(x) \\leq x$的解集$M$，意味着方程$\\left|x - \\frac{1}{3}\\right| + f(x) = x$的所有解都在集合$M$中。同时，$\\left[\\frac{1}{3}, \\frac{1}{2}\\right]$是集合$M$的一个子集，也就是说，对于所有x在$\\left[\\frac{1}{3}, \\frac{1}{2}\\right]$上，方程$\\left|x - \\frac{1}{3}\\right| + f(x) = x$都成立。\n\n接下来，我需要找到方程$\\left|x - \\frac{1}{3}\\right| + f(x) = x$的所有解，然后确定这些解是否在$\\left[\\frac{1}{3}, \\frac{1}{2}\\right]$上。为了求解这个方程，我需要将方程整理成标准形式，然后解出x的表达式。\n\n首先，整理方程：\n$\\left|x - \\frac{1}{3}\\right| + f(x) = x$\n\n将左边移到右边：\n$f(x) - x = x - \\left|x - \\frac{1}{3}\\right|$\n\n移项：\n$f(x) - x - x + \\left|x - \\frac{1}{3}\\right| = 0$\n\n化简：\n$f(x) - 2x + \\left|x - \\frac{1}{3}\\right| = 0$\n\n接下来，考虑函数$f(x) = \\frac{1}{3}|x - a|$。将这个函数代入方程中，得到"
+            }
+        }
+    },
+    {
+        "id": 297,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=4 \\sin x \\sin \\left(x+\\frac{\\pi}{6}\\right)-\\sqrt{3}$.\n求 $f(x)$ 的最小正周期:",
+        "solution": [
+            "$f(x)=4 \\sin x \\sin \\left(x+\\frac{\\pi}{6}\\right)-\\sqrt{3}=4 \\sin x\\left(\\frac{\\sqrt{3}}{2} \\sin x+\\frac{1}{2} \\cos x\\right)-\\sqrt{3}$\n\n$$\n\\begin{aligned}\n& =2 \\sqrt{3} \\sin ^{2} x+2 \\sin x \\cos x-\\sqrt{3}=\\sqrt{3}(1-\\cos 2 x)+\\sin 2 x-\\sqrt{3} \\\\\n& =\\sin 2 x-\\sqrt{3} \\cos 2 x=2 \\sin \\left(2 x-\\frac{\\pi}{3}\\right)\n\\end{aligned}\n$$\n\n所以函数 $f(x)$ 的最小正周期为 $\\pi$."
+        ],
+        "final_answer": [
+            "$\\pi$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "1. 通过三角恒等式化简 $f(x)$，然后利用三角恒等式求解周期。\n2. 利用三角恒等式将 $f(x)$ 表达为 $A \\sin x + B \\cos x$ 的形式，然后求解周期。\n3. 通过求导法求 $f(x)$ 的导数，然后解方程 $f'(x)=0$，得到 $x=k\\pi + \\frac{\\pi}{6}$，求解 $k$ 的最小正整数，得到最小正周期为 $2\\pi$。\n4. 利用三角恒等式将 $f(x)$ 表达为 $A \\sin x + B \\cos x$ 的形式，然后求解周期。由于 $f(x)$ 是一个周期函数，周期为 $2\\pi$。\n5. 通过求导法求 $f(x)$ 的导数，然后解方程 $f'(x)=0$，得到 $x=k\\pi + \\frac{\\pi}{6}$，求解 $k$ 的最小正整数，得到最小正周期为 $2\\pi$。\n6. 利用三角恒等式将 $f(x)$ 表达为 $A \\sin x + B \\cos x$ 的形式，然后求解周期。由于 $f(x)$ 是一个周期函数，周期为 $2\\pi$。\n7. 通过求导法求 $f(x)$ 的导数，然后解方程 $f'(x)=0$，得到 $x=k\\pi + \\frac{\\pi}{6}$，求解 $k$ 的最小正整数，得到最小正周期为 $2\\pi$。\n8. 利用三角恒等式将 $f(x)$ 表达为 $A \\sin x + B \\cos x$ 的形式，然后求解周期。由于 $f(x)$ 是一个周期函数，周期为 $2\\pi$。\n9. 通过求导法求 $f(x)$ 的导数，然后解方程 $f'(x)=0$，得到 $x=k\\pi + \\frac{\\pi}{6}$，求解 $k$ 的最小正整数，得到最小正周期为 $2\\pi$。\n10. 利用三角恒等式将 $f(x)$ 表达为 $A \\sin x +"
+            }
+        }
+    },
+    {
+        "id": 298,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=4 \\sin x \\sin \\left(x+\\frac{\\pi}{6}\\right)-\\sqrt{3}$.\n在锐角 $\\triangle A B C$ 中, $a, b, c$ 分别为角 $A, B, C$ 的对边, 且满足 $a \\sin B+b \\cos 2 A=b \\cos A$, 求 $f(B)$ 的取值范围.",
+        "solution": [
+            "依题意, 由正弦定理, $\\sin A \\sin B+\\sin B \\cos 2 A=\\sin B \\cos A$, .\n\n因为在三角形中 $\\sin B \\neq 0$, 所以 $\\cos 2 A=\\cos A-\\sin A$.\n\n即 $(\\cos A-\\sin A)(\\cos A+\\sin A-1)=0$,\n\n当 $\\cos A-\\sin A=0$ 时, $\\tan A=1, A=\\frac{\\pi}{4}$ ：\n\n当 $\\cos A+\\sin A=1$ 时, 两边平方得 $1+2 \\sin A \\cos A=1$, 故 $\\sin A \\cos A=0, \\cos A=0, A=\\frac{\\pi}{2}$.由于 $\\triangle A B C$ 锐角三角形, 所以 $A=\\frac{\\pi}{4}$.\n\n则 $B+C=\\frac{3}{4} \\pi$. 又 $0<B<\\frac{\\pi}{2}, 0<C<\\frac{\\pi}{2}, C=\\frac{3}{4} \\pi-B$.\n\n所以 $\\frac{\\pi}{4}<B<\\frac{\\pi}{2}$,\n\n又 $\\frac{\\pi}{6}<2 B-\\frac{\\pi}{3}<\\frac{2 \\pi}{3}$, 所以 $\\frac{1}{2}<\\sin \\left(2 B-\\frac{\\pi}{3}\\right) \\leq 1$.\n\n由 $f(B)=2 \\sin \\left(2 B-\\frac{\\pi}{3}\\right)$,\n\n则 $f(B)$ 的取值范围 $(1,2]$."
+        ],
+        "final_answer": [
+            "$(1,2]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个函数f(x)=4sinx sin(x + π/6) - √3，要求在锐角三角形ABC中，a, b, c是角A, B, C的对边，且满足a sinB + b cos2A = b cosA，求f(B)的取值范围。\n\n首先，我需要理解题目的要求。题目要求在锐角三角形ABC中，a, b, c是角A, B, C的对边，且满足a sinB + b cos2A = b cosA。求f(B)的取值范围。\n\n接下来，我需要先分析这个函数f(x)的结构。函数f(x)是一个复合函数，内层函数是4sinx，外层函数是sin(x + π/6)。外层函数的定义域是x ∈ R，因为正弦函数的定义域是[0, π]，而x + π/6的范围是[π/6, 2π/3]，所以外层函数的定义域是[0, 2π/3]。内层函数是4sinx，内层函数的定义域是R，因为正弦函数的值域是[-1, 1]。\n\n接下来，我需要将这个复合函数的表达式化简，或者找到一个合适的替换变量，使得问题更容易解决。考虑到f(x)是一个关于a, b, c的方程，可能需要找到一个关系式，或者使用一些三角恒等式来简化。\n\n首先，我注意到内层函数sin(x + π/6)可以使用三角恒等式来化简。三角恒等式是sin(A + B) = sinA cosB + cosA sinB。这里A = x + π/6，所以内层函数可以写成：\n\nsin(x + π/6) = sin(x) cos(π/6) + cos(x) sin(π/6)\n\n接下来，我需要将这个表达式进一步化简。因为π/6是30度，所以cos(π/6) = √3/2，sin(π/6) = √3/2。因此，内层函数可以写成：\n\nsin(x + π/6) = √3/2 sinx + √3/2 cosx = √3/2"
+            }
+        }
+    },
+    {
+        "id": 304,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知 $A, B$ 是 $x$ 轴正半轴上两点 ( $A$ 在 $B$ 的左侧), 且 $|A B| = a(a>0)$, 过 $A, B$ 作 $x$ 轴的垂线, 与抛物线 $y^{2}=2 p x(p>0)$ 在第一象限分别交于 $D, C$ 两点.\n若 $a=p$, 点 $A$ 与抛物线 $y^{2}=2 p x$ 的焦点重合, 求直线 $C D$ 的斜率;",
+        "solution": [
+            "由 $A\\left(\\frac{p}{2}, 0\\right)$, 则 $B\\left(\\frac{p}{2}+a, 0\\right), D\\left(\\frac{p}{2}, p\\right)$, 则 $C\\left(\\frac{p}{2}+a, \\sqrt{p^{2}+2 p a}\\right)$,\n\n又 $a=p$, 所以 $k_{C D}=\\frac{\\sqrt{3} p-p}{\\frac{3 p}{2}-\\frac{p}{2}}=\\sqrt{3}-1$."
+        ],
+        "final_answer": [
+            "$\\sqrt{3}-1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "若 $a=2p$, 点 $A$ 与抛物线 $y^{2}=2 p x$ 的焦点重合, 求直线 $C D$ 的斜率;\n若 $a=3p$, 点 $A$ 与抛物线 $y^{2}=2 p x$ 的焦点重合, 求直线 $C D$ 的斜率。\n \n\n现在，我需要解决的是第2题。题目是：已知 $A, B$ 是 $x$ 轴正半轴上两点 ( $A$ 在 $B$ 的左侧), 且 $|A B| = a(a>0)$, 过 $A, B$ 作 $x$ 轴的垂线, 与抛物线 $y^{2}=2 p x(p>0)$ 在第一象限分别交于 $D, C$ 两点. 若 $a=p$, 点 $A$ 与抛物线 $y^{2}=2 p x$ 的焦点重合, 求直线 $C D$ 的斜率; 若 $a=2p$, 点 $A$ 与抛物线 $y^{2}=2 p x$ 的焦点重合, 求直线 $C D$ 的斜率; 若 $a=3p$, 点 $A$ 与抛物线 $y^{2}=2 p x$ 的焦点重合, 求直线 $C D$ 的斜率。\n好的，我现在要解决的是第2题。题目给出的是一个抛物线的方程，焦点在x轴上，且过点A和B。已知点A在x轴上，且AB是x轴上的两点，且|AB|=a(a>0)，过A和B作x轴的垂线，与抛物线y²=2px(p>0)在第一象限分别交于D和C两点。题目要求求出直线CD的斜率，当a=p时，点A与抛物线的焦点重合，求出斜率；当a=2p时，点A与抛物线的焦点重合，求出斜率；当a=3p时，点A与抛物线的焦点重合，求出斜率。\n\n首先，我需要理解题目的条件和要求。题目中给出的条件是"
+            }
+        }
+    },
+    {
+        "id": 305,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知 $A, B$ 是 $x$ 轴正半轴上两点 ( $A$ 在 $B$ 的左侧), 且 $|A B| = a(a>0)$, 过 $A, B$ 作 $x$ 轴的垂线, 与抛物线 $y^{2}=2 p x(p>0)$ 在第一象限分别交于 $D, C$ 两点.\n若 $O$ 为坐标原点, 记 $\\triangle O C D$ 的面积为 $S_{1}$, 梯形 $A B C D$ 的面积为 $S_{2}$, 求 $\\frac{S_{1}}{S_{2}}$ 的取值范围.",
+        "solution": [
+            "设直线 $C D$ 的方程为: $y=k x+b(k \\neq 0)$, 设 $C\\left(x_{1}, y_{1}\\right), D\\left(x_{2}, y_{2}\\right)$,\n\n由 $\\left\\{\\begin{array}{l}y=k x+b \\\\ y^{2}=2 p x\\end{array}\\right.$, 得 $k y^{2}-2 p y+2 p b=0$,\n\n所以 $\\Delta=4 p^{2}-8 p k b>0$, 得 $k b<\\frac{p}{2}$,\n\n又 $y_{1}+y_{2}=\\frac{2 p}{k}, y_{1} y_{2}=\\frac{2 p b}{k}$, 由 $y_{1}+y_{2}=\\frac{2 p}{k}>0, y_{1} y_{2}=\\frac{2 p b}{k}>0$, 可知 $k>0, b>0$,\n\n由 $|C D|=\\sqrt{1+k^{2}}\\left|x_{1}-x_{2}\\right|=a \\sqrt{1+k^{2}}$,\n\n点 $O$ 到直线 $C D$ 的距离为 $d=\\frac{|b|}{\\sqrt{1+k^{2}}}$, 所以 $S_{1}=\\frac{1}{2} \\cdot a \\sqrt{1+k^{2}} \\cdot \\frac{|b|}{\\sqrt{1+k^{2}}}=\\frac{1}{2} a b$.\n\n又 $S_{2}=\\frac{1}{2}\\left(y_{1}+y_{2}\\right) \\cdot\\left|x_{1}-x_{2}\\right|=\\frac{1}{2} \\cdot \\frac{2 p}{k} \\cdot a=\\frac{a p}{k}$,\n\n所以 $\\frac{S_{1}}{S_{2}}=\\frac{k b}{2 p}$,\n\n因为 $0<k b<\\frac{p}{2}$, 所以 $0<\\frac{S_{1}}{S_{2}}<\\frac{1}{4}$."
+        ],
+        "final_answer": [
+            "$(0,\\frac{1}{4})$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后一步步分析和计算得出答案。让我先仔细阅读题目：\n\n已知 $A, B$ 是 $x$ 轴正半轴上两点 ( $A$ 在 $B$ 的左侧), 且 $|A B| = a(a>0)$, 过 $A, B$ 作 $x$ 轴的垂线, 与抛物线 $y^{2}=2 p x(p>0)$ 在第一象限分别交于 $D, C$ 两点.\n若 $O$ 为坐标原点, 记 $\\triangle O C D$ 的面积为 $S_{1}$, 梯形 $A B C D$ 的面积为 $S_{2}$, 求 $\\frac{S_{1}}{S_{2}}$ 的取值范围。\n\n首先，我需要明确题目中的变量和条件。题目中给出的是一个抛物线 $y^2 = 2px$，其中 $p > 0$。同时，点 $A$ 和 $B$ 都在 $x$ 轴上，且 $|AB| = a$，其中 $a > 0$。然后，过点 $A$ 和 $B$ 作 $x$ 轴的垂线，分别与抛物线相交于点 $D$ 和 $C$。点 $O$ 位于原点，记 $\\triangle O C D$ 的面积为 $S_1$，以及梯形 $A B C D$ 的面积为 $S_2$。求 $\\frac{S_1}{S_2}$ 的取值范围。\n\n接下来，我需要分析这个题目。首先，我注意到题目中涉及到两个点 $A$ 和 $B$ 在 $x$ 轴上，且它们之间的距离 $|AB| = a$。这可能意味着 $A$ 和 $B$ 是两个不同的点，但它们在 $x$ 轴上，所以可能它们的坐标是 $x_1$ 和 $x_2$，其中 $x_1 < x_2$。接下来，我需要确定 $p$ 的值，即抛物线的方程。然后，我需要计算点 $D$ 和 $C$ 的坐标，以及三角形 $O C"
+            }
+        }
+    },
+    {
+        "id": 308,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "已知曲线 $C$ 的参数方程为 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$ ( $\\theta$ 为参数), 以平面直角坐标系的原点为极点, $x$ 的非负半轴为极轴建立极坐标系.\n求曲线 $C$ 的极坐标方程.",
+        "solution": [
+            "由 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$, 得到曲线 $C$ 的普通方程是: $\\frac{2 x^{2}}{5}+y^{2}=1, $\n\n又 $x=\\rho \\cos \\theta, y=\\rho \\sin \\theta$, 代入得, $5 \\rho^{2} \\sin ^{2} \\theta+2 \\rho^{2} \\cos ^{2} \\theta=5$, 即 $\\rho^{2}=\\frac{5}{5 \\sin ^{2} \\theta+2 \\cos^{2} \\theta}$."
+        ],
+        "final_answer": [
+            "$\\rho^{2}=\\frac{5}{5 \\sin ^{2} \\theta+2 \\cos^{2} \\theta}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出的是一个圆的方程，参数方程是x = √10/2 * cosθ，y = sinθ，其中θ是参数。要求这个圆的极坐标方程。\n\n首先，我需要理解题目的要求。题目要求给出圆的极坐标方程，也就是将圆的方程转换为极坐标形式。极坐标方程通常表示为r = cosθ + sinθ，其中r是圆的半径，θ是圆的角。\n\n接下来，我需要回忆一下圆的极坐标方程的定义。圆的极坐标方程是将圆心到原点的距离r和圆心到任意一点P的直线方程的斜率tanθ连接起来。这里，r是圆的半径，θ是圆的角。\n\n首先，我需要确定圆的半径r。题目中给出的参数方程是x = √10/2 * cosθ，y = sinθ。这看起来像是一个椭圆，因为椭圆的参数方程是x = a * cosθ，y = b * sinθ，其中a > b。这里，√10/2 = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) = √(5/2) ="
+            }
+        }
+    },
+    {
+        "id": 309,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "已知曲线 $C$ 的参数方程为 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$ ( $\\theta$ 为参数), 以平面直角坐标系的原点为极点, $x$ 的非负半轴为极轴建立极坐标系.\n$P 、 Q$ 为曲线 $C$ 上两点, 若 $\\overrightarrow{O P} \\cdot \\overrightarrow{O Q}=0$, 求 $\\frac{|\\overrightarrow{O P}|^{2} \\cdot |\\overrightarrow{O Q}|^{2}}{|\\overrightarrow{O P}|^{2}+|\\overrightarrow{O Q}|^{2}}$ 的值.",
+        "solution": [
+            "由 $\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{10}}{2} \\cos \\theta \\\\ y=\\sin \\theta\\end{array}\\right.$, 得到曲线 $C$ 的普通方程是: $\\frac{2 x^{2}}{5}+y^{2}=1, $\n\n又 $x=\\rho \\cos \\theta, y=\\rho \\sin \\theta$, 代入得, $5 \\rho^{2} \\sin ^{2} \\theta+2 \\rho^{2} \\cos ^{2} \\theta=5$, 即 $\\rho^{2}=\\frac{5}{5 \\sin ^{2} \\theta+2 \\cos^{2} \\theta}$.\n\n因为 $\\rho^{2}=\\frac{5}{5 \\sin ^{2} \\theta+2 \\cos ^{2} \\theta}$, 所以 $\\frac{1}{\\rho^{2}}=\\sin ^{2} \\theta+\\frac{2 \\cos ^{2} \\theta}{5}$,\n\n由 $\\overrightarrow{O P} \\cdot \\overrightarrow{O Q}=0$, 故 $O P \\perp O Q$,\n\n设点 $P$ 的极坐标为 $\\left(\\rho_{1}, \\theta\\right)$, 则点 $Q$ 的极坐标可设为 $\\left(\\rho_{2}, \\theta \\pm \\frac{\\pi}{2}\\right)$,\n\n所以 $\\frac{|\\overrightarrow{O P}|^{2} \\cdot|\\overrightarrow{O Q}|^{2}}{|\\overrightarrow{O P}|^{2}+|\\overrightarrow{O Q}|^{2}}=\\frac{1}{\\frac{1}{|O P|^{2}}+\\frac{1}{|O Q|^{2}}}$\n\n$=\\frac{1}{\\frac{1}{\\rho_{1}^{2}}+\\frac{1}{\\rho_{2}^{2}}}=\\frac{1}{\\sin ^{2} \\theta+\\frac{2 \\cos ^{2} \\theta}{5}+\\cos ^{2} \\theta+\\frac{2 \\sin ^{2} \\theta}{5}}=\\frac{1}{1+\\frac{2}{5}}=\\frac{5}{7}$."
+        ],
+        "final_answer": [
+            "$\\frac{5}{7}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后根据题目的条件和所提供的信息计算得出答案。接下来，我将一步步来解决这个问题。\n\n首先，题目给出的曲线 $C$ 的参数方程为：\n$$\n\\begin{cases}\nx = \\frac{\\sqrt{10}}{2} \\cos \\theta \\\\\ny = \\sin \\theta\n\\end{cases}\n$$\n其中 $\\theta$ 为参数。以原点为极点，x 轴为极轴建立极坐标系。\n\n接下来，题目要求的是点 $P$ 和 $Q$ 在曲线 $C$ 上，且 $\\overrightarrow{OP} \\cdot \\overrightarrow{OQ} = 0$。我们需要求出 $\\frac{|\\overrightarrow{OP}|^2 \\cdot |\\overrightarrow{OQ}|^2}{|\\overrightarrow{OP}|^2 + |\\overrightarrow{OQ}|^2}$ 的值。\n\n首先，我需要明确点 $P$ 和 $Q$ 的坐标。点 $P$ 在曲线 $C$ 上，所以其坐标满足 $x = \\frac{\\sqrt{10}}{2} \\cos \\theta$ 和 $y = \\sin \\theta$。点 $Q$ 也是在曲线 $C$ 上，所以其坐标满足 $x = \\frac{\\sqrt{10}}{2} \\cos \\theta$ 和 $y = \\sin \\theta$。\n\n接下来，我需要计算 $\\overrightarrow{OP}$ 和 $\\overrightarrow{OQ}$ 的坐标。由于 $\\theta$ 是参数，所以 $\\cos \\theta$ 和 $\\sin \\theta$ 的值可能因 $\\theta$ 而异。不过，这里可能只需要考虑 $\\cos \\theta$ 和 $\\sin \\theta$ 的关系，因为 $\\cos \\theta$ 和 $\\sin \\theta$ 是基本的三角函数，可以表示为 $x$ 和 $y$ 的正弦和余弦。\n\n因此，$\\overrightarrow{OP} = \\left( \\frac{\\sqrt{10}}{2} \\cos \\theta, \\sin \\theta \\right)$，$\\overrightarrow{OQ} = \\left( \\frac{\\sqrt{10}}{2} \\cos \\theta, \\sin \\theta \\right)$。\n\n接下来，计算 $\\overrightarrow{OP} \\cdot \\overrightarrow{O"
+            }
+        }
+    },
+    {
+        "id": 310,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+2|-a|2 x-1|, a \\in \\mathbf{R}$.\n当 $a=1$ 时, 求不等式 $f(x) \\geq 0$ 的解集.",
+        "solution": [
+            "当 $a=1$ 时, 由 $f(x) \\geq 0$, 即 $|x+2| \\geq|2 x-1|$, 两边平方, 得:\n\n$x^{2}+4 x+4 \\geq 4 x^{2}-4 x+1$,\n\n即 $3 x^{2}-8 x-3 \\leq 0$,\n\n解得: $-\\frac{1}{3} \\leq x \\leq 3$,\n\n所以不等式 $f(x) \\geq 0$ 的解集为: $\\left\\{x \\mid-\\frac{1}{3} \\leq x \\leq 3\\right\\}$."
+        ],
+        "final_answer": [
+            "$[-\\frac{1}{3}, 3]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "当 $a=2$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=3$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=4$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=5$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=6$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=7$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=8$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=9$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=10$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=11$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=12$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=13$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=14$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=15$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=16$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=17$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=18$ 时, 求不等式 $f(x) \\geq 0$ 的解集。\n当 $a=19$ 时,"
+            }
+        }
+    },
+    {
+        "id": 311,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+2|-a|2 x-1|, a \\in \\mathbf{R}$.\n若存在 $x \\in \\mathbf{R}$, 使得不等式 $f(x)>a$ 成立, 求 $a$ 的取值范围.",
+        "solution": [
+            "若存在 $x \\in \\mathbf{R}$, 使得不等式 $f(x)>a$ 成立, 即 $|x+2|-a|2 x-1|>a$ 成立,\n\n所以存在 $x \\in \\mathbf{R}$, 使得 $a<\\frac{|x+2|}{|2 x-1|+1}$ 成立, 令 $g(x)=\\frac{|x+2|}{|2 x-1|+1}$, 只需 $a<g_{\\text {max }}(x)$ 即可.\n\n又函数 $g(x)=\\frac{|x+2|}{|2 x-1|+1}=\\left\\{\\begin{array}{l}\\frac{1}{2}+\\frac{3}{2(x-1)}, x<-2 \\\\ -\\frac{1}{2}-\\frac{3}{2(x-1)},-2 \\leq x \\leq \\frac{1}{2} \\\\ \\frac{1}{2}+\\frac{1}{x}, x>\\frac{1}{2}\\end{array}\\right.$,\n\n当 $x<-2$ 时, $g(x)$ 单调递减, $0<g(x)<\\frac{1}{2}$;\n\n当 $-2 \\leq x \\leq \\frac{1}{2}$ 时, $g(x)$ 单调递增, $0 \\leq g(x) \\leq \\frac{5}{2}$ ：\n\n当 $x>\\frac{1}{2}$ 时, $g(x)$ 单调递减, $\\frac{1}{2}<g(x)<\\frac{5}{2}$ ；\n\n可知函数 $g_{\\text {max }}(x)=g\\left(\\frac{1}{2}\\right)=\\frac{5}{2}$,\n\n所以 $a<\\frac{5}{2}$."
+        ],
+        "final_answer": [
+            "$(-\\infty, \\frac{5}{2})$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于函数f(x) = |x + 2| - a |2x - 1|，其中a是一个实数。题目要求找出a的取值范围，使得存在某个x使得f(x) > a成立。\n\n首先，我需要理解题目的要求。题目要求找到一个实数a，使得对于某个x，f(x) > a成立。也就是说，当x满足f(x) > a时，必须有x的值。\n\n接下来，我需要分析函数f(x)的结构。函数f(x) = |x + 2| - a |2x - 1|。这个函数是一个绝对值函数，分母是2x - 1，所以分母必须大于0，即2x - 1 > 0，解得x > 1/2。因此，x必须在(1/2, +∞)区间内。\n\n接下来，我需要考虑f(x)的单调性。绝对值函数的单调性与分母的绝对值有关。分母2x - 1在x > 1/2时，2x - 1 > 0，所以分母是正数，分母的绝对值是2x - 1。因此，f(x) = |x + 2| - a |2x - 1| = |x + 2| - a |2x - 1| = |x + 2| - a (2x - 1)。现在，我需要分析这个表达式在x > 1/2时的符号。\n\n首先，我来计算f(x)的值域。当x > 1/2时，x + 2 > 1，所以x + 2 > 0，所以|x + 2| = x + 2。同样，2x - 1 > 0，所以|2x - 1| = 2x - 1。因此，f(x) = |x + 2| - a |2x - 1| = x + 2 - a (2x - 1) = x + 2 - 2a x + a。现在，我需要确定a的取值范围，使得f(x) > a成立。\n\n接下来，我需要分析f(x)的符号。当x > 1/2时，x + 2"
+            }
+        }
+    },
+    {
+        "id": 312,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知 $S_{2}=3, a_{n+1}=S_{n}+1$\n求通项公式 $a_{n}$.",
+        "solution": [
+            "$\\because a_{n+1}=S_{n}+1$, 当 $n=1$ 时, $a_{2}=a_{1}+1$,\n\n$$\n\\text { 又 } \\because \\mathrm{a}_{1}+a_{2}=3, \\therefore a_{1}=1, a_{2}=2\n$$\n\n当$n>1$时，$a_{n}=S_{n-1} + 1, a_{n+1}-a_{n}=a_{n},\\therefore a_{n+1}=2a_{n}, \\therefore \\left \\{a_{n}\\right \\}$为等比数列.\n\n且公比 $\\mathrm{q}=2$,\n\n$a_{n}=2^{n-1} ;$"
+        ],
+        "final_answer": [
+            "$2^{n-1}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是说，已知一个数列 $\\{S_n\\}$ 满足 $S_1 = 1$，并且对于所有的正整数 $n$，有 $S_{n+1} = S_n + 1$。要求求出这个数列的通项公式 $a_n$。\n\n首先，我需要理解题目的条件和要求。已知一个数列 $\\{S_n\\}$ 的前一项是 $S_1 = 1$，并且对于所有正整数 $n$，递推公式是 $S_{n+1} = S_n + 1$。我的任务是找出这个数列的通项公式，也就是求出 $a_n$。\n\n首先，我想到数列的前几项，看看是否有规律。已知 $S_1 = 1$，那么 $S_2 = S_1 + 1 = 2$。接着，$S_3 = S_2 + 1 = 3$。继续下去，$S_4 = S_3 + 1 = 4$，$S_5 = S_4 + 1 = 5$，等等。看起来数列在递增，且递增的幅度在增加。\n\n接下来，我考虑数列的递推关系式。已知 $S_{n+1} = S_n + 1$，这看起来像是一个递增的数列，但递增的幅度似乎在增加。这可能与斐波那契数列有关，因为斐波那契数列的前几项是 $1, 1, 2, 3, 5, 8, \\ldots$，其中每一项都是前两项的和，而递推公式中的递增幅度似乎与斐波那契数列的递增幅度一致。\n\n因此，我猜测数列 $\\{S_n\\}$ 是斐波那契数列，即 $S_n = F_{n+1}$，其中 $F_1 = 1$，$F_2 = 1$，$F_3 = 2$，$F_4 = 3$，$F_5 = 5$，等等。因此，$S_n = F_{n+1} = F_{n+2} = F_{n+3}$，因为斐波那"
+            }
+        }
+    },
+    {
+        "id": 313,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知 $S_{2}=3, a_{n+1}=S_{n}+1$\n若 $b_{n}=a_{n}\\left(\\log _{2} a_{n}+1\\right)\\left(n \\in N_{+}\\right)$, 求数列 $\\left\\{b_{n}\\right\\}$ 的前 $\\mathrm{n}$ 项和为 $T_{n}$",
+        "solution": [
+            "$\\because a_{n+1}=S_{n}+1$, 当 $n=1$ 时, $a_{2}=a_{1}+1$,\n\n$$\n\\text { 又 } \\because \\mathrm{a}_{1}+a_{2}=3, \\therefore a_{1}=1, a_{2}=2\n$$\n\n当$n>1$时，$a_{n}=S_{n-1} + 1, a_{n+1}-a_{n}=a_{n},\\therefore a_{n+1}=2a_{n}, \\therefore \\left \\{a_{n}\\right \\}$为等比数列.\n\n且公比 $\\mathrm{q}=2$,\n\n$a_{n}=2^{n-1} ;$\n\n$b_{n}=a_{n}\\left(\\log _{2} a_{n}+1\\right)=n \\cdot 2^{n-1}$\n\n$$\n\\begin{aligned}\n& \\therefore T_{n}=1 \\cdot 2^{0}+2 \\cdot 2^{1}+3 \\cdot 2^{2}+\\cdots+n \\cdot 2^{n-1} \\\\\n& \\therefore 2 T_{n}=\\quad 1 \\cdot 2^{1}+2 \\cdot 2^{2}+\\cdots+(n-1) \\cdot 2^{n-1}+n \\cdot 2^{n} \\\\\n& \\therefore-T_{n}=2^{0}+2^{1}+2^{2}+\\cdots+2^{n-1}-n \\cdot 2^{n}=\\frac{1 \\cdot\\left(1-2^{n}\\right)}{1-2}-n \\cdot 2^{n}\n\\end{aligned}\n$$\n\n$$\n\\therefore T_{n}=(n-1) \\cdot 2^{n}+1 .\n$$"
+        ],
+        "final_answer": [
+            "$(n-1) \\cdot 2^{n}+1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是已知S2=3，a_{n+1}=S_n+1，且b_n=a_{n}*(log₂a_n+1)(n∈N+）。求T_n，也就是求前n项和。\n\n首先，我需要理解题目的条件和要求。已知一个递推数列的前几项，然后求这个数列的前n项和。这里，递推式是a_{n+1}=S_n+1，其中S_n是前n项和，而b_n=a_{n}*(log₂a_n+1)。我的任务是找出T_n，即求前n项和。\n\n首先，我需要明确递推式中的变量和公式。S_n是前n项和，记作S_n = S0 + S1 + S2 + ... + Sn。而a_{n+1}=S_n + 1，所以a_{n+1} = S_n + 1。\n\n接下来，我需要找到b_n的表达式。根据题目的条件，b_n = a_{n}*(log₂a_n + 1)。这看起来像是一个关于a_n的函数，可能与S_n有关。\n\n首先，我需要回忆一下关于数列和函数关系的知识。假设数列{a_n}满足某种递推关系，那么可能可以将a_{n+1}表示为a_n的函数，或者找到a_n的递推关系式。\n\n考虑到a_{n+1}=S_n + 1，而S_n = S0 + S1 + S2 + ... + Sn，那么a_{n+1} = S_n + 1 = S0 + S1 + S2 + ... + Sn + 1。这可能暗示着a_{n+1}与S_n有关，或者可能需要更多的信息。\n\n另一种方法是考虑数列的前几项，看看是否有规律。已知S2=3，那么S3=3+1=4，S4=4+1=5，S5=5+1=6，S6=6+1=7，S7=7+1=8，S8=8+1=9，S9=9+1=10，S10=10+1=11，S11=11+1=12，"
+            }
+        }
+    },
+    {
+        "id": 317,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "“不怕同桌是学霸, 就怕学霸过暑假.”说的是暑假学习的重要性.现对某中学高中学生暑假学习时间进行调查, 随机调查男生、女生各 50 名, 其中每学习时间超过 6 小时的学生为 “甲组”, 否则为 “乙组”, 调查结果如下:\n\n|      | 甲组 | 乙组 | 合计 |\n| :--: | :--: | :--: | :--: |\n| 男生 |  28  |  22  |  50  |\n| 女生 |  30  |  20  |  50  |\n| 合计 |  58  |  42  | 100 |\n\n参考公式: $K^{2}=\\frac{n(a d-b c)^{2}}{(a+b)(c+d)(a+c)(b+d)}$, 其中 $n=a+b+c+d$ 为样本容量.\n\n参考数据:\n\n| $P\\left(K^{2} \\geq k_{0}\\right)$ | 0.50 | 0.40 | 0.25 | 0.05 | 0.025 | 0.010 |\n| :--------------------------------: | :---: | :---: | :---: | :---: | :---: | :---: |\n|             $k_{0}$             | 0.455 | 0.708 | 1.323 | 3.841 | 5.024 | 6.635 |\n现从调查的女生中按分层抽样的方法选出 5 人赠送学习软件各 1 份,求所抽取 5 人中 “甲组”有3人，“乙组” 有2人.接着从抽取的 5 人中再随机抽取 2 人赠送 200 元的学习资料, 求 “这 2 人中都在甲组或都在乙组” 的概率.",
+        "solution": [
+            "设: 甲组的三人为 A, B, C, 乙组的二人为 $a, b$, 则从 5 人中选取 2 人的基本事件有: $(A, B)(A, C)(A, a)(A, b)(B, C)(B, a)(B, b)(C, a)(C, b)(a, b)$ 共 10 种.\n\n其中都在甲组或都在乙组的有（A, B）(A, C ）(B, C) ( $a, b)$ ，共 4 种.\n\n所以 “所选取 2 人中都在甲组或都在乙组” 的概率 $\\mathrm{P}=\\frac{4}{10}=\\frac{2}{5}$."
+        ],
+        "final_answer": [
+            "$\\frac{2}{5}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好，我现在要解决这个数学竞赛题目。题目是：从调查的50名高中生中随机抽取5人，其中甲组有28人，乙组有30人。然后从这5人中随机抽取2人，求“这2人中都在甲组或都在乙组”的概率。\n\n首先，我需要明确题目中的变量和公式。题目中提到的是一个分层抽样的问题，其中男生和女生各50人，每超过6小时为甲组，否则为乙组。然后从甲组中随机抽取3人，从乙组中随机抽取2人。最后，求“这2人中都在甲组或都在乙组”的概率。\n\n首先，我需要计算从50名高中生中随机抽取5人，其中甲组和乙组各2人，剩下的2人是随机抽取的。那么，抽取方式应该是：先从50人中随机抽取2人，然后从剩下的30人中随机抽取1人。这样，总抽取方式是C(50,2) × C(30,1)。\n\n接下来，计算抽取方式的概率。抽取方式的概率应该是从抽取的2人中选出2人，然后从剩下的30人中选出1人。所以，概率P = (C(2,2) × C(30,1)) / C(50,2)。\n\n接下来，计算C(50,2)。C(50,2) = 50! / (2! × 49!) = (50 × 49)! / (2 × 1 × 50 × 49!) = (50 × 49) / (2 × 1) = 2450。\n\n然后，计算C(30,1)。C(30,1) = 30! / (1! × 29!) = 30 × 29! / (1 × 29!) = 30 × 29 = 870。\n\n所以，概率P = (2450 × 870) / 2450 = 2450 × 870 / 2450 = 2450 × 870 / 2450 = 2450 × 870 / 2450 ="
+            }
+        }
+    },
+    {
+        "id": 318,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知中心在原点, 焦点在 $x$ 轴上的椭圆 C 过点 $\\left(1, \\frac{\\sqrt{3}}{2}\\right)$, 离心率为 $\\frac{\\sqrt{3}}{2}, A_{1}$, $A_{2}$ 是椭圆 $C$ 的长轴的两个端点 ( $A_{2}$ 位于 $A_{1}$ 右侧), $B$ 是椭圆在 $\\mathrm{y}$ 轴正半轴的交点.\n求椭圆 $C$ 的标准方程;",
+        "solution": [
+            "设椭圆的方程为 $\\frac{x^{2}}{\\mathrm{a}^{2}}+\\frac{y^{2}}{b^{2}}=1$\n\n$$\n\\left\\{\\begin{array}{l}\n\\frac{1}{a^{2}}+\\frac{3}{4} \\cdot \\frac{1}{b^{2}}=1 \\\\\n\\frac{c}{a}=\\frac{\\sqrt{3}}{2}, \\\\\na^{2}=b^{2}+c^{2}\n\\end{array}\\right.\n$$\n\n$\\therefore a=2, b=1,$所以椭圆的方程为$\\frac{\\mathrm{x}^{2}}{4}+y^{2}=1$."
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{4}+y^{2}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "求点 $B$ 的坐标。\n\n好的，我现在要解决这个数学竞赛题目。题目给出一个椭圆的标准方程，要求找出椭圆的参数，包括长轴和短轴的长度，以及椭圆的中心坐标和焦点坐标。同时，还要求出椭圆上一点 $B$ 的坐标。\n\n首先，我需要回忆一下椭圆的标准方程。椭圆的标准方程是 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中 $a$ 是长轴，$b$ 是短轴，焦点在 $x$ 轴上，位于原点。椭圆的中心在原点，所以焦点坐标为 $(\\pm c, 0)$，其中 $c = \\sqrt{a^2 - b^2}$。\n\n题目中给出椭圆的中心在原点，所以焦点坐标为 $(\\pm c, 0)$，其中 $c = \\sqrt{a^2 - b^2}$。接下来，题目中给出椭圆的焦点在 $x$ 轴上，所以 $c$ 为正，即 $c = \\sqrt{a^2 - b^2}$。椭圆的长轴在 $x$ 轴上，所以 $a > b$。椭圆的长轴长为 $2a$，短轴长为 $2b$。椭圆的长轴在 $x$ 轴上，所以 $a$ 是长轴的长度，$b$ 是短轴的长度。\n\n接下来，题目中给出椭圆过点 $(1, \\sqrt{3}/2)$，所以将这个点代入椭圆的标准方程中，得到：\n\n$\\frac{1^2}{a^2} + \\frac{(\\sqrt{3}/2)^2}{b^2} = 1$，即 $\\frac{1}{a^2} + \\frac{3/4}{b^2} = 1$。\n\n现在，我需要解这个方程，找到 $a^2$ 和 $b^2$ 的值。首先，将方程两边减去 $\\frac{1}{a^2}$，得到：\n\n$\\frac{3/4}{b^2} = 1 - \\frac{1}{a^2}$。\n\n接下来，将方程两边乘以 $a^2"
+            }
+        }
+    },
+    {
+        "id": 320,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=2 \\ln x-a x^{2}+3 x, a \\in R$.\n若 $f(1)=2$, 求函数 $f(x)$ 的最大值.",
+        "solution": [
+            "因为 $f(1)=2$, 所以 $-a+3=2$, 所以 $a=1$,\n\n$$\n\\begin{aligned}\n\\therefore & f(x)=2 \\ln x-x^{2}+3 x \\\\\n\\therefore & f^{\\prime}(x)=\\frac{2}{x}-2 x+3=-\\frac{(2 x+1)(x-2)}{x}\n\\end{aligned}\n$$\n\n由 $f^{\\prime}(x)>0$ 得, $0<x<2$, 有 $f^{\\prime}(x)<0$ 得, $x>2$,\n\n$\\therefore f(x)$ 在 $(0,2)$ 为增函数, 在 $(2,+\\infty)$ 为减函数\n\n$\\therefore f(x)_{\\max }=f(2)=2 \\ln 2+2$."
+        ],
+        "final_answer": [
+            "$2 \\ln 2+2$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个函数f(x)=2lnx -a x² +3x，其中a是一个实数。已知f(1)=2，要求求出函数f(x)的最大值。\n\n首先，我需要理解题目的要求。题目要求求出函数f(x)的最大值，也就是找到函数在x=1处取得的最大值。这可能涉及到求导数、极值点分析或者使用一阶导数来找到临界点，然后判断这些临界点是否为极大值或极小值。\n\n首先，我来计算f(1)=2，看看是否满足条件。如果满足，那么x=1是极值点，否则是拐点。接下来，我需要找到导数f’(x)的值，然后解方程f’(x)=0，找到临界点，再判断这些临界点是否为极大值或极小值。\n\n接下来，我来计算导数f’(x)。函数f(x)=2lnx -a x² +3x。导数的计算如下：\n\nf’(x) = d/dx [2lnx] - d/dx [a x²] + d/dx [3x]\n\n计算每一项：\n\n1. d/dx [2lnx] = 2*(1/x) = 2/x\n2. d/dx [a x²] = a*(2x) = 2ax\n3. d/dx [3x] = 3\n\n所以，f’(x) = 2/x - 2ax + 3\n\n接下来，我需要解方程f’(x)=0，即：\n\n2/x - 2ax + 3 = 0\n\n将方程整理为标准形式：\n\n2ax - 2x + 1 = 0\n\n然后，解这个方程：\n\n2ax - 2x + 1 = 0\n\n移项：\n\n2ax - 2x = -1\n\n将所有项移到右边：\n\n2ax - 2x - 1 = 0\n\n将方程两边乘以2，消去分母：\n\n4ax - 4x - 2 = 0\n\n将所有项移到右边：\n\n4ax - 4x - 2 = 0\n\n移项：\n\n4ax - 4x = 2\n\n将所有项移到右边："
+            }
+        }
+    },
+    {
+        "id": 322,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x 0 y$ 中, 以坐标原点为极点, $\\mathrm{x}$ 轴正半轴为极轴建立极坐标系,曲线 $\\mathrm{C}_{1}$ 的极坐标方程为 $\\rho \\cos \\theta=6(\\rho>0)$.\n$M$ 为曲线 $C_{1}$ 的动点, 点 $P$ 在线段 $O M$ 上, 且满足 $|O M| \\cdot|O P|=36$, 求点 $P$ 的轨迹 $C_{2}$ 的直角坐标方程.",
+        "solution": [
+            "设 $\\mathrm{P}$ 的极坐标为 $(\\rho, \\theta)(\\rho>0), \\mathrm{M}$ 的极坐标为 $\\left(\\rho_{1}, \\theta\\right)\\left(\\rho_{1}>0\\right)$\n\n由题设知 $|\\mathrm{OP}|=\\rho,|\\mathrm{OM}|=\\rho_{1}=\\frac{6}{\\cos \\theta}$,\n\n由 $|\\mathrm{OM}||\\mathrm{OP}|=36$ 得 $\\mathrm{C}_{2}$ 的极坐标方程 $\\rho=6 \\cos \\theta(\\rho>0)$\n\n因此 $C_{2}$ 的直角坐标方程为 $(x-3)^{2}+y^{2}=9(x \\neq 0)$."
+        ],
+        "final_answer": [
+            "$(x-3)^{2}+y^{2}=9$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后根据题目的条件和所提供的信息计算得出答案。接下来，我将一步步来思考这个问题。\n\n首先，题目给出的是一个直角坐标系，以原点为极点，x轴正半轴为极轴建立极坐标系。曲线C1的极坐标方程为ρ cosθ = 6，其中ρ > 0。接下来，M是曲线C1上的一个点，点P在直线OM上，且满足|OM| * |OP| = 36。求点P的轨迹C2的直角坐标方程。\n\n首先，我需要明确已知条件和要求。已知曲线C1的极坐标方程为ρ cosθ = 6，其中ρ > 0。点P在直线OM上，且满足|OM| * |OP| = 36。我的任务是求出点P的轨迹方程。\n\n首先，我需要回忆一下极坐标方程的基本形式。极坐标方程为ρ cosθ = 6，其中ρ > 0。这个方程表示的是一个圆，圆心在原点，半径为6。接下来，点P在直线OM上，这意味着点P到原点的距离等于点P到直线OM的距离，即|OP| = |OM|。因此，|OM| * |OP| = 36，即6 * |OP| = 36，解得 |OP| = 6。所以，点P到原点的距离是6，点P位于圆上，且圆心在原点。\n\n接下来，我需要确定点P的具体位置。因为点P在直线OM上，所以点P的纵坐标为0，因为直线y = x在x轴上。因此，点P的坐标可以表示为(x, 0)，其中x是实数。点P到原点的距离为6，所以x² + 0² = 36，即x² = 36，解得x = 6。因此，点P的坐标为(6, 0)。\n\n接下来，我需要验证这个结果是否正确。首先，点P的坐标为(6, 0)，点P到原点的距离为6，这符合题目中的条件。点P位于圆上，因为圆心在原点，半径为6，"
+            }
+        }
+    },
+    {
+        "id": 323,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x 0 y$ 中, 以坐标原点为极点, $\\mathrm{x}$ 轴正半轴为极轴建立极坐标系,曲线 $\\mathrm{C}_{1}$ 的极坐标方程为 $\\rho \\cos \\theta=6(\\rho>0)$.\n设点 $\\mathrm{A}$ 的极坐标为 $\\left(4, \\frac{\\pi}{3}\\right)$, 点 $\\mathrm{B}$ 在曲线 $\\mathrm{C}_{2}$ 上, 求 $\\triangle O A B$ 面积的最大值",
+        "solution": [
+            "设点 B 的极坐标为 $\\left(\\rho_{B}, \\alpha\\right)\\left(\\rho_{B}>0\\right)$. 由题设知 $|0 \\mathrm{~A}|=4, \\rho_{B}=6 \\cos \\alpha,$\n\n于是 $\\triangle \\mathrm{OAB}$ 面积 $S=\\frac{1}{2}|\\mathrm{OA}| \\cdot \\rho_{\\mathrm{B}} \\sin \\angle A O B=12 \\cos \\alpha\\left|\\sin \\left(\\alpha-\\frac{\\pi}{3}\\right)\\right|$\n\n$$\n\\begin{aligned}\n& =12\\left|\\frac{1}{2} \\sin \\alpha \\cos \\alpha-\\frac{\\sqrt{3}}{2} \\cos ^{2} \\alpha\\right|=6\\left|\\sin 2 \\alpha \\cdot \\frac{1}{2}-\\cos 2 \\alpha \\cdot \\frac{\\sqrt{3}}{2}-\\frac{\\sqrt{3}}{2}\\right| \\\\\n& =6\\left|\\sin \\left(2 \\alpha-\\frac{\\pi}{3}\\right)-\\frac{\\sqrt{3}}{2}\\right| \\leqslant 6+3 \\sqrt{3}\n\\end{aligned}\n$$\n\n所以当 $\\alpha=-\\frac{\\pi}{12}$ 时, $\\mathrm{S}$ 取得最大值 $6+3 \\sqrt{3}$.\n\n所以 $\\triangle O A B$ 面积的最大值为 $6+3 \\sqrt{3}$."
+        ],
+        "final_answer": [
+            "$6+3 \\sqrt{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "已知点 $P(3,4)$ 在圆锥曲线 $\\mathrm{C}_{3}$ 上, 求点 $Q(5,6)$ 到圆心 $O(3,4)$ 的距离\n设点 $M(1,2)$ 在椭圆 $\\mathrm{C}_{4}$ 上, 求椭圆 $\\mathrm{C}_{4}$ 的离心率\n在直角坐标系中, 给定抛物线 $\\mathrm{C}_{5}$：$y^2 = 4px$，其中焦点到准线的距离为 $2p$。若该抛物线经过点 $(0, 2)$，求 $p$ 的值，并写出该抛物线的方程。\n设点 $N(2,3)$ 在双曲线 $\\mathrm{C}_{6}$ 上，求双曲线 $\\mathrm{C}_{6}$ 的渐近线方程。\n已知直线 $y = mx + c$ 与圆锥曲线 $\\mathrm{C}_{7}$ 相切，求 $m$ 和 $c$ 应满足的关系式。\n在直角坐标系中，给定椭圆 $\\mathrm{C}_{8}$：$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中 $a > b$。若该椭圆的长轴为 $2a$，求椭圆的离心率 $e$ 的表达式。\n设点 $R(1,2)$ 在抛物线上，求抛物线的方程，并求出该抛物线的顶点坐标和焦点坐标。\n已知双曲线 $\\mathrm{C}_{9}$ 的渐近线方程为 $y = \\pm \\frac{3}{4}x$，求双曲线 $\\mathrm{C}_{9}$ 的标准方程。\n设点 $S(3,4)$ 在圆锥曲线 $\\mathrm{C}_{10}$ 上，求圆锥曲线 $\\mathrm{C}_{10}$ 的方程，并求出该圆锥曲线的中心坐标和半径。\n已知直线 $y = kx + 1$ 与椭圆 $\\mathrm{C}_{11}$ 相交于两点 $(x_1, y_1)$ 和 $(x_2, y_2)$，求 $k$ 的值，并写出椭圆"
+            }
+        }
+    },
+    {
+        "id": 324,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+1|-|x-2|$\n求不等式 $f(x) \\geqslant 2$ 的解集.",
+        "solution": [
+            "$f(x)=|x+1|-|x-2| \\geqslant 2$\n\n当 $x<-1$ 时, $f(x)=-x-1+x-2=-3 \\geqslant 2$ 不成立\n\n当 $-1 \\leq x \\leq 2$ 时, $f(x)=x+1+x-2=2 x-1 \\geqslant 2, \\therefore x \\geqslant \\frac{3}{2} \\therefore \\frac{3}{2} \\leqslant x \\leqslant 2$\n\n当 $x>2$ 时, $f(x)=x+1-x+2=3 \\geqslant 2$ 恒成立, $\\therefore x>2$\n\n综上所述: $f(x) \\geqslant 2$ 的解集为 $\\left[\\frac{3}{2},+\\infty\\right)$;"
+        ],
+        "final_answer": [
+            "$\\left[\\frac{3}{2},+\\infty\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "嗯，我现在要解决这个不等式问题。题目是已知函数 $f(x)=|x+1|-|x-2|$，求不等式 $f(x) \\geqslant 2$ 的解集。\n\n首先，我需要理解题目的意思。函数 $f(x)$ 是一个绝对值函数，它在 $x$ 位于两个数之间时，表达式为 $|x+1|$，而在 $x$ 位于两个数之外时，表达式为 $|x-2|$。题目要求的是不等式 $f(x) \\geqslant 2$ 的解集，也就是找到所有满足这个不等式的 $x$ 值。\n\n接下来，我需要先分析函数 $f(x)$ 的单调性。绝对值函数的单调性通常与分段函数的单调性有关。首先，我来分析 $f(x)$ 在 $x$ 位于 $-1$ 和 $2$ 之间的部分。\n\n在 $x$ 在 $-1$ 和 $2$ 之间的部分，$f(x)$ 是 $|x+1|$，而 $x$ 在 $-1$ 和 $2$ 之间，所以 $x+1$ 在 $-1$ 和 $2$ 之间。那么，$f(x)$ 在 $x$ 在 $-1$ 和 $2$ 之间时，$|x+1|$ 是 $x+1$，而 $|x-2|$ 是 $2-x$。所以，$f(x)$ 在 $x$ 在 $-1$ 和 $2$ 之间时，$f(x) = |x+1| - |x-2| = (x+1) - (2 - x) = 2x - 1$。\n\n那么，$f(x)$ 在 $x$ 在 $-1$ 和 $2$ 之间的部分是 $2x - 1$，而当 $x$ 趋近于 $-1$ 或 $2$ 时，$f(x)$ 的值趋近于 $2$。因此，$f(x)$ 在 $x$ 在 $-1$ 和 $2$ 之间的部分是单调递增的。\n\n接下来，我需要分析 $f(x)$ 在 $x$ 位于 $-1$ 和 $2$ 之外的部分。这部分，$f(x)$ 是 $|x+"
+            }
+        }
+    },
+    {
+        "id": 325,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+1|-|x-2|$\n若不等式 $f(x) \\geqslant a^{2}+4 a$ 恒成立, 求 $a$ 的取值范围.",
+        "solution": [
+            "$\\because|f(x)| \\leqslant|x+1-x+2|=3, \\therefore-3 \\leqslant f(x) \\leqslant 3$\n\n$$\n\\therefore f(x)_{\\text {min }}=-3 \\text {, }\n$$\n\n$\\because f(x) \\geqslant a^{2}+4 a$ 恒成立, $\\therefore a^{2}+4 a \\leqslant-3$\n\n所以 $a$ 的范围是 $[-3,-1]$."
+        ],
+        "final_answer": [
+            "$[-3,-1]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是已知函数 \\( f(x) = |x+1| - |x-2| \\)，并且不等式 \\( f(x) \\geq a^2 + 4a \\) 对所有实数 \\( x \\) 都成立。我要找出 \\( a \\) 的取值范围。\n\n首先，我需要理解函数 \\( f(x) \\) 的定义域。函数 \\( f(x) \\) 的定义域是所有实数 \\( x \\) 满足 \\( x \\geq -1 \\)。这可能吗？因为 \\( |x+1| \\) 是非负的，而 \\( |x-2| \\) 是非负的，所以 \\( f(x) \\) 是非负的。所以，函数 \\( f(x) \\) 的定义域是 \\( [-1, +\\infty) \\)。\n\n接下来，我需要分析不等式 \\( f(x) \\geq a^2 + 4a \\) 对所有实数 \\( x \\) 都成立的情况。不等式的形式是 \\( f(x) \\geq a^2 + 4a \\)，也就是说，对于所有 \\( x \\) 在定义域内，都有 \\( f(x) \\geq a^2 + 4a \\)。那么，我需要找到一个 \\( a \\) 的值，使得这个不等式对所有 \\( x \\) 都成立。\n\n首先，我来计算 \\( f(x) \\) 的表达式。函数 \\( f(x) = |x+1| - |x-2| \\)。这个函数的定义域是 \\( x \\geq -1 \\)，所以 \\( f(x) \\) 的定义域是 \\( [-1, +\\infty) \\)。\n\n接下来，我需要找到一个 \\( a \\) 的值，使得 \\( f(x) \\geq a^2 + 4a \\) 对所有 \\( x \\) 都成立。也就是说，对于任意的 \\( x \\) 在定义域内，都有 \\( f(x) \\geq a^2 + 4a \\)。\n\n为了找到这个 \\( a \\)，我需要找到一个 \\( a \\) 的值，使得 \\( f(x) \\) 的最大值不超过 \\( a^2 + 4a \\)。也就是说，当 \\( x \\) 趋近于无穷大时，\\("
+            }
+        }
+    },
+    {
+        "id": 326,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "在 $\\triangle A B C$ 中, 内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $\\frac{b^{2}+c^{2}-a^{2}}{b c}=\\frac{2 \\sin B-\\sin A}{\\sin C}$.\n求角 $C$ 的值.",
+        "solution": [
+            "由条件和正弦定理可得 $\\frac{b^{2}+c^{2}-a^{2}}{b}=2 b-a$\n\n整理得 $b^{2}+a^{2}-c^{2}=a b$ 从而由余弦定理得 $\\cos C=\\frac{1}{2}$.\n\n又 $\\because C$ 是三角形的内角\n\n$\\therefore C=\\frac{\\pi}{3}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\pi}{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个三角形问题。题目给出的是一个关于三角形的条件，其中角A、B、C的对边分别是a、b、c，已知$\\frac{b^2 + c^2 - a^2}{bc} = \\frac{2\\sin B - \\sin A}{\\sin C}$。我要求角C的值。\n\n首先，我需要理解这个等式。等式左边是一个分式，右边是一个三角函数表达式。左边的分母是bc，右边是2sinB - sinA。那么，这个分式是否可以化简，或者是否可以利用其他三角函数关系来求解角C？\n\n让我先回忆一下三角函数的基本关系。我知道，对于任意角A、B、C，都有$\\sin A + \\sin B + \\sin C = 2\\sin \\frac{A+B+C}{2}\\cos \\frac{A+B+C}{2}$。但是，这里的情况是$\\sin B - \\sin A$，这和$\\sin A + \\sin B$有什么关系呢？\n\n我记得，$\\sin A + \\sin B + \\sin C = 2\\sin \\frac{A+B+C}{2}\\cos \\frac{A+B+C}{2}$，而$\\sin A + \\sin B = 2\\sin \\frac{A+B}{2}\\cos \\frac{A+B}{2}$，所以左边可以写成：\n\n$\\sin A + \\sin B + \\sin C = 2\\sin \\frac{A+B+C}{2}\\cos \\frac{A+B+C}{2} = 2\\sin \\left( \\frac{A+B+C}{2} \\right) \\cos \\left( \\frac{A+B+C}{2} \\right)$。\n\n同样地，右边的2sinB - sinA可以写成：\n\n$2\\sin B - \\sin A = 2\\sin \\left( B + \\frac{\\pi}{4} \\right) - \\sin A$。\n\n所以，等式左边可以写成：\n\n$\\frac{b^2 + c^2 - a^2}{bc} = \\frac{2\\sin \\left( \\frac{A+B+C}{2} \\right) \\cos \\left( \\frac{A+B+C}{2} \\right)}{2\\sin \\left( B + \\frac{\\pi}{4} \\right) -"
+            }
+        }
+    },
+    {
+        "id": 327,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "在 $\\triangle A B C$ 中, 内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $\\frac{b^{2}+c^{2}-a^{2}}{b c}=\\frac{2 \\sin B-\\sin A}{\\sin C}$.\n若 $a+b=4$, 当边 $c$ 取最小值时，求 $\\triangle A B C$ 的面积.",
+        "solution": [
+            "由条件和正弦定理可得 $\\frac{b^{2}+c^{2}-a^{2}}{b}=2 b-a$\n\n整理得 $b^{2}+a^{2}-c^{2}=a b$ 从而由余弦定理得 $\\cos C=\\frac{1}{2}$.\n\n又 $\\because C$ 是三角形的内角\n\n$\\therefore C=\\frac{\\pi}{3}$.\n\n由余弦定理得 $c^{2}=a^{2}+b^{2}-2 a b \\cos C=a^{2}+b^{2}-a b$,\n\n$\\because a+b=4, \\quad \\therefore c^{2}=a^{2}+b^{2}-a b=(a+b)^{2}-3 a b=16-3 a b$,\n\n$\\therefore c^{2}=16-3 a b \\geq 16-3\\left(\\frac{a+b}{2}\\right)^{2}=4$ （当且仅当 $a=b=2$ 时等号成立）\n\n$\\therefore c$ 的最小值为 2 , 故 $S_{\\triangle A B C}=\\frac{1}{2} a b \\sin C=\\sqrt{3} .$"
+        ],
+        "final_answer": [
+            "$\\sqrt{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是说在三角形ABC中，角A、B、C的对边分别是a、b、c，已知$\\frac{b^2 + c^2 - a^2}{bc} = \\frac{2\\sin B - \\sin A}{\\sin C}$。题目还说当边c取最小值时，求面积。\n\n首先，我需要理解题目的条件和要求。首先，已知一个三角形的三个内角和为4，边c取最小值，求面积。这可能涉及到三角形的性质，比如边角关系，以及利用三角形面积的公式。\n\n首先，我回忆一下三角形的性质。三角形的内角和为180度，所以a + b + c = 180度。这里a + b = 4，所以c = 180 - 4 = 196度。接下来，题目中给出的表达式是$\\frac{b^2 + c^2 - a^2}{bc} = \\frac{2\\sin B - \\sin A}{\\sin C}$。这里，$\\sin A$和$\\sin B$都是角A和角B的正弦，而$\\sin C$是角C的正弦。\n\n接下来，我需要找到a和c之间的关系。因为a + b = 4，所以a = 4 - b。然后，根据三角形的性质，我可以通过三角形内角和的公式来求角A和角B的度数。三角形内角和为180度，所以：\n\n角A + 角B + 角C = 180度\n\n因为角A和角B都是锐角，所以角C也是锐角。那么，角A和角B的度数分别是多少呢？根据三角形内角和的性质，角A和角B的和等于180度减去角C的度数。但这里可能需要更多的信息来确定角C的度数。\n\n不过，题目中并没有给出角C的度数，所以可能需要更多的条件来确定角A和角B的度数。或者，可能题目中已经给出了角A和角B的度数，但这里可能需要更多的信息来确定角C的度数。\n\n不过，可能题目中已经给出了角A和角B的度数"
+            }
+        }
+    },
+    {
+        "id": 328,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "网约车的兴起,丰富了民众出行的选择,为民众出行提供便利的同时也解决了很多劳动力的就业问题,据某著名网约车公司 “滴*打车” 官网显示, 截止目前, 该公司已经累计解决退伍军人转业为兼职或专职司机三百多万人次.梁某即为此类网约车司机，据梁某自己统计某一天出车一次的总路程数可能的取值是 $20 、 22 、 24 、 26 、$ 28、30(km)， 它们出现的概率依次是 $0.1 、 0.2 、 0.3 、 0.1 、 t 、 2 t$.\n求这一天中梁某一次行驶路程 $\\mathrm{X}$ 的均值和方差.",
+        "solution": [
+            "由概率分布的性质有 $0.1+0.2+0.3+0.1+t+2 t=1$.\n\n所以 $t=0.1,$\n\n$\\therefore X$ 的分布列为:\n\n| $\\mathrm{X}$ | 20 | 22 | 24 | 26 | 28 | 30 |\n| :------------: | :-: | :-: | :-: | :-: | :-: | :-: |\n| $\\mathrm{P}$ | 0.1 | 0.2 | 0.3 | 0.1 | 0.1 | 0.2 |\n\n$\\therefore E(X)=20 \\times 0.1+22 \\times 0.2+24 \\times 0.3+26 \\times 0.1+28 \\times 0.1+30 \\times 0.2=25(\\mathrm{~km})$.\n\n$D(X)=5^{2} \\times 0.1+3^{2} \\times 0.2+1^{2} \\times 0.3+1^{2} \\times 0.1+3^{2} \\times 0.1+5^{2} \\times 0.2=10.6$."
+        ],
+        "final_answer": [
+            "$25 , 10.6$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出的是一个关于网约车司机的统计问题，涉及均值和方差的计算。首先，我需要理解题目的要求，然后一步步来解决。\n\n首先，题目给出了三个事件的概率分布：\n1. 梁某每天出车一次，路程数服从参数为 $\\lambda$ 的泊松分布，即 $P(X = k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$，其中 $k = 0, 1, 2, \\ldots$。\n2. 梁某一天出车次数超过三次的概率为 $p$，即 $P(X > 3) = 0.1$。\n3. 梁某一天出车次数超过两次的概率为 $q$，即 $P(X > 2) = 0.2$。\n4. 梁某一天出车次数超过一次的概率为 $r$，即 $P(X > 1) = 0.3$。\n5. 梁某一天出车次数超过两次的概率为 $s$，即 $P(X > 2) = 0.1$。\n6. 梁某一天出车次数超过三次的概率为 $t$，即 $P(X > 3) = 0.2$。\n7. 梁某一天出车次数超过四次的概率为 $u$，即 $P(X > 4) = 0.3$。\n8. 梁某一天出车次数超过五次的概率为 $v$，即 $P(X > 5) = 0.4$。\n9. 梁某一天出车次数超过六次的概率为 $w$，即 $P(X > 6) = 0.5$。\n10. 梁某一天出车次数超过七次的概率为 $x$，即 $P(X > 7) = 0.6$。\n11. 梁某一天出车次数超过八次的概率为 $y$，即 $P(X > 8) = 0.7$。\n12. 梁某一天出车次数超过九次的概率为 $z$，即 $P(X > 9) = 0.8$。\n13. 梁某一天出车次数超过十次的概率为 $a$，即"
+            }
+        }
+    },
+    {
+        "id": 329,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "网约车的兴起,丰富了民众出行的选择,为民众出行提供便利的同时也解决了很多劳动力的就业问题,据某著名网约车公司 “滴*打车” 官网显示, 截止目前, 该公司已经累计解决退伍军人转业为兼职或专职司机三百多万人次.梁某即为此类网约车司机，据梁某自己统计某一天出车一次的总路程数可能的取值是 $20 、 22 、 24 、 26 、$ 28、30(km)， 它们出现的概率依次是 $0.1 、 0.2 、 0.3 、 0.1 、 t 、 2 t$.\n网约车计费细则如下：起步价为 5 元，行驶路程不超过 $3 \\mathrm{~km}$ 时，租车费为 5 元，若行驶路程超过 $3 \\mathrm{~km}$ ，则按每超出 $1 \\mathrm{~km}$ （不足 $1 \\mathrm{~km}$ 也按 $1 \\mathrm{~km}$ 计程）收费 3 元计费. 依据以上条件, 计算梁某一天中出车一次收入的均值和方差.",
+        "solution": [
+            "由已知设梁某一天出车一次的收入为 $Y$ 元,\n\n则 $Y=3(X-3)+5=3 X-4,(X>3, X \\in N),$\n\n$\\therefore E(Y)=E(3 X-4)=3 E(X)-4=3 \\times 25-4=71$ (元),\n\n$D(Y)=D(3 X-4)=32 D(X)=95.4$."
+        ],
+        "final_answer": [
+            "$71 , 95.4$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出的是一个关于网约车计费的统计问题，包括了总路程数、计费方式以及收入的计算。首先，我需要理解题目的要求，然后一步步分析和计算。\n\n首先，题目给出了三个变量：总路程数、计费方式以及收入。总路程数可能的取值为20、22、24、26、28、30(km)，其中每种值的概率分别是0.1、0.2、0.3、0.1、t、2t，其中t是超长路程的计费方式。接下来，我需要计算这些变量的均值和方差。\n\n首先，计算总路程数的均值。总路程数的可能取值为20、22、24、26、28、30(km)，其中每种值的概率分别是0.1、0.2、0.3、0.1、t、2t。总路程数的和为20 + 22 + 24 + 26 + 28 + 30 = 150(km)。因此，总路程数的均值为150/(0.1 + 0.2 + 0.3 + 0.1 + t + 2t) = 150/(0.1 + 0.2 + 0.3 + 0.1 + t + 2t) = 150/(0.8 + t + 2t) = 150/(0.8 + 3t)。\n\n接下来，计算计费方式的均值。计费方式分为三种：起步价5元，超过3km的计费为5元，超过3km的计费为3元。总路程数的计费方式可能为0.1、0.2、0.3、0.1、t、2t。总路程数的计费方式的和为0.1 + 0.2 + 0.3 + 0.1 + t + 2t = 0.1 + 0.2 + 0.3 + 0.1 + t + 2t = 0.1 + 0.2 + 0.3 + 0.1 + t + 2t = 0.1"
+            }
+        }
+    },
+    {
+        "id": 334,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在平面直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\\\ y=t\\end{array}\\right.$ ( $t$ 为参数), 以坐标原点为极点, $x$ 轴正半轴为极轴的极坐标系中, 圆 $C_{1}$ 的极坐标方程为 $\\rho^{2}-2 a \\rho \\cos \\theta+a^{2}-4=0(a>0)$.\n若直线 $l$ 与圆 $C_{1}$ 相切, 求 $a$ 的值.",
+        "solution": [
+            "直线 $l$ 的普通方程为 $y=x-1$.\n\n圆 $C_{1}$ 的直角坐标方程为 $(x-a)^{2}+y^{2}=4$.\n\n因直线 $l$ 与圆 $C_{1}$ 相切,所以 $\\frac{|a-1|}{\\sqrt{2}}=2$, 由于 $a>0$ 解得 $a=2 \\sqrt{2}+1$."
+        ],
+        "final_answer": [
+            "$2 \\sqrt{2}+1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出的是一个圆的极坐标方程，其中圆心在原点，半径为a。然后有一个直线方程，参数方程为x=1 + t，y=t，其中t为参数。题目要求这个直线与圆相切，求a的值。\n\n首先，我需要理解题目中的几何图形。圆的极坐标方程是$\\rho^2 - 2a \\rho \\cos \\theta + a^2 - 4 = 0$，其中$\\rho$是圆的半径，$\\theta$是圆的极坐标角。圆心在原点，半径为a，所以$\\rho = a$。那么，圆的方程就是$\\rho^2 = a^2$，也就是x² + y² = a²。\n\n接下来，直线的参数方程是x=1 + t，y=t，其中t是参数。将这个方程代入圆的方程，得到：\n\n$(1 + t)^2 + (t)^2 = a^2$\n\n展开左边：\n\n1 + 2t + t² + t² = a²\n\n合并同类项：\n\n2t + 2t² + t² = a²\n\n将所有项移到右边：\n\nt² + 2t + 1 = a² - 2t\n\n将所有项移到左边：\n\nt² + 2t + 1 + 2t = a²\n\n合并同类项：\n\nt² + 4t + 1 = a²\n\n现在，我需要解这个二次方程，找到t的值，进而求出a的值。\n\n首先，将方程整理一下：\n\nt² + 4t + 1 - a² = 0\n\n这是一个关于t的二次方程，我需要找到它的根，即解为t。\n\n二次方程的一般形式是ax² + bx + c = 0，这里a=1，b=4，c=1 - a²。所以，方程变为：\n\nt² + 4t + 1 - a² = 0\n\n为了找到根，我需要解这个二次方程。通常，解二次方程的方法包括因式分解、求根公式或者使用求根公式。\n\n首先，尝试因式分解法。假设根是t₁和t₂，那么根据因式分解定理，方程可以分解为"
+            }
+        }
+    },
+    {
+        "id": 335,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在平面直角坐标系 $x O y$ 中, 直线 $l$ 的参数方程为 $\\left\\{\\begin{array}{l}x=1+t \\\\ y=t\\end{array}\\right.$ ( $t$ 为参数), 以坐标原点为极点, $x$ 轴正半轴为极轴的极坐标系中, 圆 $C_{1}$ 的极坐标方程为 $\\rho^{2}-2 a \\rho \\cos \\theta+a^{2}-4=0(a>0)$.\n若直线 $l$ 与曲线 $C_{2}:\\left\\{\\begin{array}{l}x=2 \\cos \\theta \\\\ y=\\sqrt{3} \\sin \\theta\\end{array}\\right.$ ( $\\theta$ 为参数), 交于 $A, B$ 两点, 点 $C(2,1)$, 求 $|A C|+|B C|$.",
+        "solution": [
+            "曲线 $C_{2}$ 的普通方程为 $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$, 点 $C(2,1)$ 在直线 $y=x-1$ 上,\n\n所以直线 $l$ 的参数方程可以写为 $\\left\\{\\begin{array}{l}x=2+\\frac{\\sqrt{2}}{2} t \\\\ y=1+\\frac{\\sqrt{2}}{2} t\\end{array}\\right.$ ( $t$ 为参数),\n\n将上式代入 $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ 得 $\\frac{7}{2} t^{2}+10 \\sqrt{2} t+4=0$.\n\n设 $A, B$ 对应的参数分别为 $t_{1}, t_{2}$,\n\n所以 $t_{1}+t_{2}=-\\frac{20 \\sqrt{2}}{7}, t_{1} t_{2}=\\frac{8}{7},$\n\n所以 $|A C|+|B C|=\\left|t_{1}\\right|+\\left|t_{2}\\right|=-\\left(t_{1}+t_{2}\\right)=\\frac{20 \\sqrt{2}}{7}$."
+        ],
+        "final_answer": [
+            "$\\frac{20 \\sqrt{2}}{7}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后根据题目的条件和所提供的信息计算得出答案。接下来，我将一步步来思考这个问题。\n\n首先，题目给出的直线方程是 $\\left\\{\\begin{array}{l}x=1+t \\\\ y=t\\end{array}\\right.$，其中 $t$ 是参数。这看起来像是一个参数方程，通常表示为 $\\left\\{\\begin{array}{l}x=1 + t \\\\ y = t\\end{array}\\right.$，其中 $t$ 是参数。这可能表示一条直线，其中 $x$ 和 $y$ 都是关于 $t$ 的线性函数。\n\n接下来，题目给出的圆的极坐标方程是 $\\rho^2 - 2a \\rho \\cos \\theta + a^2 -4 = 0$，其中 $a > 0$。这看起来像是一个圆的极坐标方程，通常表示为 $\\rho^2 - 2a \\rho \\cos \\theta + a^2 -4 = 0$。这可能表示一个圆，其中 $x$ 和 $y$ 都是关于 $\\theta$ 的线性函数。\n\n接下来，题目给出的直线与曲线的交点 $A$ 和 $B$，点 $C(2,1)$，点 $A$ 和 $B$ 都在圆上。我们需要计算 $|A C| + |B C|$，其中 $C(2,1)$ 是圆上一点。\n\n首先，我需要将直线方程代入圆的极坐标方程中，得到关于 $t$ 的方程。直线方程是 $\\left\\{\\begin{array}{l}x=1 + t \\\\ y = t\\end{array}\\right.$，代入圆的极坐标方程 $\\rho^2 - 2a \\rho \\cos \\theta + a^2 -4 = 0$，得到：\n\n$\\rho^2 - 2a \\rho \\cos \\theta + a^2 -4 = 0$。\n\n接下来，我需要将这个方程转化为关于 $t$ 的形式。首先，将所有项移到左边：\n\n$\\rho^2 - 2a \\rho \\cos \\theta + a^2 -4 = 0$。\n\n然后，我需要将 $a^2$ 从右边移到"
+            }
+        }
+    },
+    {
+        "id": 336,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+1|+|3 x+a|$, 若 $f(x)$ 的最小值为 1 .\n求实数 $a$ 的值.",
+        "solution": [
+            "$f(x)=|x+1|+|3 x+a|$\n\n(1) 当$a>3$时，即$-1>-\\frac{a}{3}$ , $f(x)=\\left\\{\\begin{array}{l}-4x-1-a, x \\leq -\\frac{a}{3}\\\\ 2x+a-1, -\\frac{a}{3}<x<-1 \\\\ 4x+a+1, x \\geq -1\\end{array}\\right.$,\n\n$\\because f(-1)-f\\left(-\\frac{a}{3}\\right)=(-3+a)-\\left(\\frac{a}{3}-1\\right)=\\frac{2(a-3)}{3}>0$\n\n$\\therefore f(-1)>f\\left(-\\frac{a}{3}\\right)$\n\n则当 $x=-\\frac{a}{3}$ 时, $f(x)_{\\text {min }}=-4\\left(-\\frac{a}{3}\\right)-1-a=1$\n\n$\\therefore a=6 \\quad$\n\n(2) 当$a<3$时，即$-1<-\\frac{a}{3}$ , $f(x)=\\left\\{\\begin{array}{l}-4x-1-a, x \\leq -1\\\\ 2x-a+1, -1<x<-\\frac{a}{3} \\\\ 4x+a+1, x \\geq -\\frac{a}{3}\\end{array}\\right.$,\n\n$\\because f(-1)-f\\left(-\\frac{a}{3}\\right)=(3-a)-\\left(-\\frac{a}{3}+1\\right)=\\frac{2(3-a)}{3}>0$\n\n$\\therefore f(-1)>f\\left(-\\frac{a}{3}\\right)$\n\n则当 $x=-\\frac{a}{3}$ 时, $f(x)_{\\text {min }}=4\\left(-\\frac{a}{3}\\right)+1+a=1$\n\n$\\therefore a=0$\n\n(3)当 $a=3$ 时, 即 $-1=-\\frac{a}{3} ， f(x)=4|x+1|$\n\n当 $x=-1$ 时, $f(\\mathrm{x})_{\\min }=0$ 不满足题意\n\n综上 $a=0$ 或 $a=6$."
+        ],
+        "final_answer": [
+            "$0 , 6$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个函数 $f(x)=|x+1|+|3x+a|$，其中 $a$ 是一个实数，要求找出实数 $a$ 的值，使得 $f(x)$ 的最小值为1。\n\n首先，我需要理解题目中的函数结构。这个函数是一个绝对值函数，分母是3x+a，所以分母必须非负，即 $3x + a \\geq 0$，即 $a \\geq -3x$。分母的绝对值是3x+a，所以函数的定义域是 $x \\geq -\\frac{a}{3}$。\n\n接下来，我需要分析函数的单调性。函数 $f(x)$ 的最小值出现在函数的极值点上，或者在区间端点处。首先，我来求函数的导数 $f'(x)$，然后找到临界点，判断它们是极大值还是极小值。\n\n首先，计算导数：\n$$\nf'(x) = |x + 1| + |3x + a|\n$$\n\n接下来，我需要确定函数 $f(x)$ 在区间 $x \\geq -\\frac{a}{3}$ 内的单调性。首先，我需要分析 $f(x)$ 在 $x = -\\frac{a}{3}$ 处的函数值，以及在区间外的函数值。\n\n首先，计算 $f(x)$ 在 $x = -\\frac{a}{3}$ 处的函数值：\n$$\nf\\left(-\\frac{a}{3}\\right) = \\left| -\\frac{a}{3} + 1 \\right| + \\left| 3\\left(-\\frac{a}{3}\\right) + a \\right| = \\left| \\frac{2}{3} \\right| + \\left| -a + a \\right| = \\frac{2}{3} + 0 = \\frac{2}{3}\n$$\n\n接下来，我需要分析 $f(x)$ 在区间 $x \\geq -\\frac{a}{3}$ 内的单调性。为了分析这个区间，我需要考虑函数 $f(x)$ 在 $x = -\\frac{a}{3}$ 处的函数值，以及在区间外的函数值。\n\n首先，考虑 $f(x)$ 在 $x = -\\"
+            }
+        }
+    },
+    {
+        "id": 337,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|x+1|+|3 x+a|$, 若 $f(x)$ 的最小值为 1 .\n若 $a>0$, 且 $m, n$ 均为正实数, 且满足 $m+n=\\frac{a}{2}$, 求 $m^{2}+n^{2}$ 的最小值.",
+        "solution": [
+            "由题意知, $m+n=3, \\because m>0, n>0$,\n\n$\\therefore(m+n)^{2}=m^{2}+n^{2}+2 m n \\leq\\left(m^{2}+n^{2}\\right)+\\left(m^{2}+n^{2}\\right)=2\\left(m^{2}+n^{2}\\right)$\n\n即 $m^{2}+n^{2} \\geq \\frac{1}{2}(m+n)^{2},$\n\n当且仅当 $m=n=\\frac{3}{2}$ 时取 “ $=”$\n\n$\\therefore m^{2}+n^{2} \\geq \\frac{9}{2} ， \\therefore m^{2}+n^{2}$ 的最小值为 $\\frac{9}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{9}{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。题目给出一个函数 $f(x)=|x+1|+|3x+a|$，其中 $a$ 是一个正实数，且 $m$ 和 $n$ 是正实数，满足 $m+n=\\frac{a}{2}$。要求求出 $m^2 + n^2$ 的最小值。\n\n首先，我需要理解题目中的函数 $f(x)$。这个函数是一个绝对值函数，它表示在 $x$ 处的值。具体来说，$f(x)$ 是 $x+1$ 和 $3x+a$ 的绝对值之和。因此，$f(x)$ 的最小值出现在 $x$ 处，也就是 $x$ 的值使得 $f(x)$ 最小。\n\n接下来，题目中给出 $f(x)$ 的最小值为1。这意味着在 $x$ 处，$f(x)$ 的值为1。因此，我们可以将 $f(x)$ 表示为：\n\n$$\nf(x) = |x + 1| + |3x + a|\n$$\n\n为了使 $f(x)$ 的最小值为1，我们需要找到 $a$ 的值，使得 $f(x)$ 在 $x$ 处取得最小值，并且这个最小值为1。\n\n首先，考虑 $f(x)$ 在 $x$ 处取得最小值的条件。当 $x$ 为 $x = -\\frac{a}{3}$ 时，$f(x)$ 取得最小值。因此，我们可以将 $f(x)$ 表示为：\n\n$$\nf(x) = |x + 1| + |3x + a| = | -\\frac{a}{3} + 1 | + | -\\frac{a}{3} + a |\n$$\n\n接下来，我们需要确定 $f(x)$ 的最小值。为了找到最小值，我们需要找到 $x$ 的值使得 $f(x) = 1$。因此，我们可以将 $f(x)$ 表示为：\n\n$$\nf(x) = |x + 1| + |3x + a| = 1\n$$\n\n为了求解 $a$ 的值，我们可以将 $f(x)$ 表示为：\n\n$$\nf(x) = |x + 1| + |3x + a|\n$$\n\n为了使 $f(x)$ 的最小值为1，我们需要"
+            }
+        }
+    },
+    {
+        "id": 338,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知等比数列 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $S_{n}$ 为其前 $n$ 项和, $a_{3}=8, S_{3}=14$.\n求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式.",
+        "solution": [
+            "等比数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{3}=8, S_{3}=14$, 可列方程组 $\\left\\{\\begin{array}{l}a_{1} q^{2}=8 \\\\ a_{1}+a_{1} q=6\\end{array} \\right.$\n\n由于 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $\\therefore q>0$, 可得 $\\left\\{\\begin{array}{l}a_{1}=2 \\\\ q=2\\end{array}\\right.$\n\n$\\therefore a_{n}=2^{n}$."
+        ],
+        "final_answer": [
+            "$2^{n}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个等比数列 $\\left\\{a_{n}\\right\\}$，其中 $a_3 = 8$，$S_3 = 14$。要求求出这个数列的通项公式。\n\n首先，我回忆一下等比数列的定义。一个等比数列的每一项都是由前一项按照一定的比例增长的。如果数列的前几项满足某种递推关系式，那么可以利用递推关系来求出通项公式。\n\n假设这个等比数列的首项是 $a_1$，公比是 $q$。那么，根据递推关系式，可以得到：\n\n$$\na_{n} = a_1 q^{n-1}\n$$\n\n接下来，我需要确定 $a_1$ 和 $q$ 的值。已知 $a_3 = 8$，所以：\n\n$$\na_3 = a_1 q^2 = 8\n$$\n\n同时，$S_3 = a_1 + a_1 q + a_1 q^2 = 14$。将 $a_1 q^2 = 8$ 代入上式：\n\n$$\na_1 + 8 + a_1 q = 14\n$$\n\n整理一下：\n\n$$\na_1 (1 + q) + 8 = 14\n$$\n\n移项得：\n\n$$\na_1 (1 + q) = 6\n$$\n\n因为 $a_1$ 是正数，所以右边必须是正数，因此 $1 + q$ 必须是正数，即 $q > 0$。同时，$a_1 q^2 = 8$，所以 $q^2 = \\frac{8}{q}$，即 $q^2 + q = 8$。解这个方程：\n\n$$\nq^2 + q - 8 = 0\n$$\n\n使用求根公式：\n\n$$\nq = \\frac{-1 \\pm \\sqrt{1 + 32}}{2} = \\frac{-1 \\pm \\sqrt{33}}{2}\n$$\n\n因为 $q$ 是正数，所以 $q = \\frac{-1 + \\sqrt{33}}{2}$ 或者 $q = \\frac{-1 - \\sqrt{33}}"
+            }
+        }
+    },
+    {
+        "id": 339,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知等比数列 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $S_{n}$ 为其前 $n$ 项和, $a_{3}=8, S_{3}=14$.\n设 $\\left\\{a_{n}-b_{n}\\right\\}$ 是首项为 1 , 公差为 3 的等差数列, 求数列 $\\left\\{b_{n}\\right\\}$ 的通项公式及其前 $n$ 项和 $T_{n}$.",
+        "solution": [
+            "等比数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{3}=8, S_{3}=14$, 可列方程组 $\\left\\{\\begin{array}{l}a_{1} q^{2}=8 \\\\ a_{1}+a_{1} q=6\\end{array} \\right.$\n\n由于 $\\left\\{a_{n}\\right\\}$ 各项都是正数, $\\therefore q>0$, 可得 $\\left\\{\\begin{array}{l}a_{1}=2 \\\\ q=2\\end{array}\\right.$\n\n$\\therefore a_{n}=2^{n}$.\n\n$\\because 2^{n}-b_{n}=1+(n-1) \\times 3, \\quad \\therefore b_{n}=2^{n}-3 n+2 $\n\n$\\therefore \\mathrm{T}_{\\mathrm{n}}=2^{1}+2^{2}+\\cdots+2^{n}-3 \\times(1+2+\\cdots+n)+2 n$\n\n$=\\frac{2\\left(1-2^{n}\\right)}{1-2}-3 \\times \\frac{(1+n) n}{2}+2 n=2^{n+1}-\\frac{3}{2} n^{2}+\\frac{n}{2}-2$."
+        ],
+        "final_answer": [
+            "$2^{n}-3 n+2, 2^{n+1}-\\frac{3}{2} n^{2}+\\frac{n}{2}-2$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个等比数列 $\\left\\{a_{n}\\right\\}$，其中 $a_3 = 8$，$S_3 = 14$。同时，已知一个等差数列 $\\left\\{b_n\\right\\}$ 的前三项是1, 3, 5，首项为1，公差为3。要求找出数列 $\\left\\{b_n\\right\\}$ 的通项公式，并计算前n项和 $T_n$。\n\n首先，我需要回忆一下等比数列的性质。等比数列的通项公式是 $a_n = a_1 \\cdot q^{n-1}$，其中 $a_1$ 是首项，$q$ 是公比。这里给出的等比数列的首项是1，公比是3，所以通项公式应该是 $a_n = 1 \\cdot 3^{n-1} = 3^{n-1}$。\n\n接下来，我需要计算前三个项，看看是否符合等差数列的条件。已知数列 $\\left\\{a_n\\right\\}$ 的前三项是1, 3, 5，首项是1，公差是3。那么，接下来计算接下来的项：\n\n- $a_4 = a_3 + 3 = 5 + 3 = 8$，这与题目给出的 $a_3 = 8$ 是一致的。\n- $a_5 = a_4 + 3 = 8 + 3 = 11$，这与题目给出的 $S_3 = 14$ 是一致的。\n- $a_6 = a_5 + 3 = 11 + 3 = 14$，这与题目给出的 $a_3 = 8$ 是一致的。\n\n看起来数列 $\\left\\{a_n\\right\\}$ 是一个等比数列，公比是3，首项是1。接下来，我需要找出数列的通项公式。已知数列的前三项是1, 3, 5，首项是1，公差是3，所以通项公式应该是 $a_n = 1 \\cdot 3^{n-1} = 3^{n-1}$。\n\n接下来，我需要计算前"
+            }
+        }
+    },
+    {
+        "id": 340,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "某公司生产甲、乙两种不同规格的产品, 并且根据质量的测试指标分数进行划分, 其中分数不小于 70 的为合格品, 否则为次品, 现随机抽取两种产品各 100 件进行检测, 其结果如下:\n\n| 测试指标分数 | $[50,60)$ | $[60,70)$ | $[70,80)$ | $[80,90)$ | $[90,100]$ |\n| :----------- | :---------- | :---------- | :---------- | :---------- | :----------- |\n| 产品甲       | 7           | 13          | 40          | 32          | 8            |\n| 产品乙       | 9           | 21          | 40          | 24          | 6            |\n根据表中数据，估计甲、乙两种产品的不合格率.",
+        "solution": [
+            "甲产品的不合格率为 $P_{1}=\\frac{7+13}{100}=20 \\%$, 乙产品的不合格率为 $P_{2}=\\frac{9+21}{100}=30 \\%$."
+        ],
+        "final_answer": [
+            "$20，30$"
+        ],
+        "is_multiple_answer": true,
+        "unit": "%,%",
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好，我现在要解决这个数学竞赛题目。题目是关于生产甲、乙两种不同规格的产品，然后随机抽取100件进行检测，结果如下：\n\n| 测试指标分数 | 50 ≤分数 ≤60 | 60 ≤分数 ≤70 | 70 ≤分数 ≤80 | 80 ≤分数 ≤90 | 90 ≤分数 ≤100 |\n| :----------- | :---------- | :---------- | :---------- | :---------- | :----------- |\n| 产品甲       | 7           | 13          | 40          | 32          | 8            |\n| 产品乙       | 9           | 21          | 40          | 24          | 6            |\n\n首先，我需要计算甲、乙两种产品不合格率。不合格率的计算公式是不合格品数除以总品数，然后乘以100%。\n\n接下来，我需要分别计算甲、乙两种产品不合格率。\n\n首先，计算甲产品不合格率：\n\n甲产品不合格数 = 13 - 7 = 6\n总品数 = 100\n不合格率 = 6 / 100 = 0.06\n\n接下来，计算乙产品不合格率：\n\n乙产品不合格数 = 21 - 9 = 12\n不合格率 = 12 / 100 = 0.12\n\n现在，我来计算甲、乙两种产品不合格率的平均值。因为甲、乙两种产品都是随机抽取的，所以它们的不合格率是独立的，所以平均不合格率应该是这两个不合格率的平均值。\n\n首先，计算甲产品不合格率的平均值：\n\n不合格率 = 6 / 100 = 0.06\n\n接下来，计算乙产品不合格率的平均值：\n\n不合格率 = 12 / 100 = 0.12\n\n那么，甲、乙两种产品不合格率的平均值是：\n\n平均不合格率 = (0.06 + 0.12) / 2 = 0.08\n\n所以，甲、乙两种产品不合格率的平均值是0.08。\n\n不过，为了确保我的计算没有问题，我再检查一下计算过程是否正确。\n\n首先，计算不合格数：\n\n甲产品不合格数 = 13 - 7 = 6\n乙产品不合格数 ="
+            }
+        }
+    },
+    {
+        "id": 341,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "某公司生产甲、乙两种不同规格的产品, 并且根据质量的测试指标分数进行划分, 其中分数不小于 70 的为合格品, 否则为次品, 现随机抽取两种产品各 100 件进行检测, 其结果如下:\n\n| 测试指标分数 | $[50,60)$ | $[60,70)$ | $[70,80)$ | $[80,90)$ | $[90,100]$ |\n| :----------- | :---------- | :---------- | :---------- | :---------- | :----------- |\n| 产品甲       | 7           | 13          | 40          | 32          | 8            |\n| 产品乙       | 9           | 21          | 40          | 24          | 6            |\n若按合格与不合格的比例抽取 5 件甲产品, 再从这 5 件甲产品中随机抽取 2 件, 求这 2 件产品全是合格品的概率.",
+        "solution": [
+            "由题意, 若按合格与不合格的比例抽取 5 件甲产品, 则其中恰有 1 件次品, 4 件合格品, 因而可设这 5 件甲产品分别为 a,b,c,d,E, 其中小写字母代表合格品, E 代表次品, 从中随机抽取 2 件，则所有可能的情况为 $\\mathrm{ab}, \\mathrm{ac}, \\mathrm{ad}, \\mathrm{aE}, \\mathrm{bc}, \\mathrm{bd}, \\mathrm{bE}, \\mathrm{cd}, \\mathrm{cE}, \\mathrm{dE}$ ，共 10种, 设 “这 2 件产品全是合格品” 为事件 M, 则事件 M 所包含的情况为 ab,ac,ad,bc,bd,cd, 共 6 种.\n\n由古典概型的概率计算公式, 得 $P(M)=\\frac{6}{10}=\\frac{3}{5}$ ."
+        ],
+        "final_answer": [
+            "$\\frac{3}{5}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "嗯，我现在要解决这个数学竞赛题，题目是关于抽样概率的。题目说，从100件产品中随机抽取5件，其中合格品占50%。然后从这5件合格品中随机抽取2件，求这2件产品全是合格品的概率。\n\n首先，我需要理解题目的要求。题目中说，抽取5件产品，其中50%是合格品。然后从这5件合格品中随机抽取2件，求这2件产品全是合格品的概率。\n\n首先，我需要明确抽样的步骤。首先，从100件产品中随机抽取5件，其中合格品占50%。然后，从这5件合格品中随机抽取2件，求全是合格品的概率。\n\n接下来，我需要计算这两种概率的乘积，即合格品占50%的概率乘以从5件合格品中随机抽取2件的概率。\n\n首先，计算抽样5件产品，其中50%是合格品的概率。这可能涉及到二项分布，因为这是一个独立重复的事件，每次抽取都是独立的，且成功概率是50%。\n\n二项分布的概率质量函数是：\n\\[ P(X = k) = C(n, k) \\cdot p^k \\cdot (1 - p)^{n - k} \\]\n其中，\\( n \\) 是抽取的数量，\\( k \\) 是成功的情况数，\\( p \\) 是成功事件的概率，\\( C(n, k) \\) 是组合数，即从 \\( n \\) 个元素中选择 \\( k \\) 个元素的组合数。\n\n在这个问题中，\\( n = 100 \\)，\\( k = 5 \\)，\\( p = 0.5 \\)。\n\n所以，计算一下：\n\\[ P(X = 5) = C(100, 5) \\cdot (0.5)^5 \\cdot (0.5)^{95} \\]\n\\[ P(X = 5) = C(100, 5) \\cdot (0.5)^{100} \\]\n\n接下来，计算从5件合格品中随机抽取2件的概率。这可能是一个超几何分布的问题，因为是从5件中抽取2件，其中合格品数为5，总数为5，所以概率为：\n\\[ P(X = 2) = \\frac{\\binom{5}{2"
+            }
+        }
+    },
+    {
+        "id": 343,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "设抛物线 $C: y^{2}=2 p x(p>0)$, 过焦点 $F$ 的直线 $l$ 与 $C$ 交于 $A$,$B$ 两点.\n当 $|A B|$ 的最小值为 4 时, 求抛物线 $C$ 的方程.",
+        "solution": [
+            "当直线 $l$ 的斜率不存在时, $A\\left(\\frac{p}{2}, p\\right), B\\left(\\frac{p}{2},-p\\right)$, 此时 $|A B|=2 p$.\n\n当直线 $l$ 的斜率存在时, 设为 $k$, 此时 $l: y=k\\left(x-\\frac{p}{2}\\right)$, 与抛物线方程联立:\n\n$\\left\\{\\begin{array}{l}y=k\\left(x-\\frac{p}{2}\\right) \\\\ y^{2}=2 p x\\end{array}\\right.$, 消去 $y$, 可得: $k^{2} x^{2}-\\left(k^{2} p+2 p\\right) x+\\frac{k^{2} p^{2}}{4}=0 $.\n\n设 $A\\left(x_{1}, y_{1}\\right), B\\left(x_{2}, y_{2}\\right)$, 根据韦达定理, $x_{1}+x_{2}=\\frac{k^{2} p+2 p}{k^{2}}=p+\\frac{2 p}{k^{2}}$\n\n$\\therefore|A B|=x_{1}+x_{2}+p=2 p\\left(1+\\frac{1}{k^{2}}\\right)>2 p$\n\n$\\therefore|A B|_{\\text {min }}=2 p=4$, 则抛物线 $\\mathrm{C}$ 的方程为: $y^{2}=4 x$."
+        ],
+        "final_answer": [
+            "$y^{2}=4 x$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于抛物线的，我需要根据题目的要求和所提供的信息计算得出答案。首先，题目给出抛物线的一般形式，焦点坐标，以及直线与抛物线相交的条件。接下来，我需要找到这个抛物线的方程，然后求出其顶点和焦点坐标。\n\n首先，抛物线的一般形式是 \\(y^2 = 2px\\)，其中 \\(p > 0\\) 表示抛物线开口向上。题目中给出的抛物线是 \\(y^2 = 2px\\)，所以 \\(p > 0\\)。接下来，题目中给出焦点坐标 \\(F(c, 0)\\)，其中 \\(c\\) 是标准的焦点坐标。焦点坐标通常用 \\((c, 0)\\) 表示，其中 \\(c = \\frac{p}{2}\\)。\n\n接下来，题目中给出直线 \\(l\\) 与抛物线相交于点 \\(A\\) 和 \\(B\\)，且 \\(|AB| = 4\\)。这可能意味着 \\(A\\) 和 \\(B\\) 是抛物线上的两点，且它们之间的距离为4。这可能与抛物线的顶点有关，因为抛物线的顶点到焦点的距离是 \\(c\\)，所以 \\(|AB| = 2c\\)。因此，\\(2c = 4\\)，解得 \\(c = 2\\)。所以，\\(p = 2\\)，即抛物线的方程变为 \\(y^2 = 4x\\)。\n\n接下来，我需要验证这个结果是否正确。首先，抛物线的焦点坐标是 \\((c, 0) = (2, 0)\\)，所以焦点到准线的距离是 \\(2 - 0 = 2\\)，这与题目中给出的 \\(|AB| = 4\\) 是相符合的。因此，结论正确。\n\n不过，为了确保万无一失，我可以再检查一下计算过程是否正确。首先，计算 \\(c = \\frac{p}{2} = \\frac{2}{2} = 1\\)，然后 \\(2c = 4\\)，解得 \\(c = 2\\)，没错。接着，计算 \\(|AB| = 2c = 4\\)，没错。所以，结论正确。\n\n总结一下，抛物线的方程是 \\(y"
+            }
+        }
+    },
+    {
+        "id": 346,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "已知函数 $f(x)=x^{3}+a x-2 \\ln x$.\n若 $f(x) \\geq 0$ 在定义域内恒成立, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "$\\because f(x)=x^{3}+a x-2 \\ln x \\geq 0$ 在 $(0,+\\infty)$ 上恒成立, $\\therefore$ 当 $x \\in(0,+\\infty)$ 时,\n\n$g(x)=x^{2}+a-\\frac{2 \\ln x}{x} \\geq 0$ 恒成立\n\n$g^{\\prime}(x)=2 x-2 \\frac{(\\ln x)^{\\prime} \\cdot x-\\ln x \\cdot x^{\\prime}}{x^{2}}=2 \\frac{x^{3}+\\ln x-1}{x}$ .\n\n令 $h(x)=x^{3}+\\ln x-1$, 可得 $h(x)$ 在 $(0,+\\infty)$ 上单调递增, 且 $h(1)=0$\n\n$\\therefore x \\in(0,1)$ 时, $\\mathrm{h}(x)<0, g^{\\prime}(x)<0$, 即 $y=g(x)$ 单调递减\n\n$\\therefore x \\in(1,+\\infty), \\mathrm{h}(x)>0, g^{\\prime}(x)>0$, 即 $y=g(x)$ 单调递增 .\n\n$\\therefore g(x)_{\\text {min }}=g(1)=1+a \\geq 0$, 可得: $a \\geq-1$ ."
+        ],
+        "final_answer": [
+            "$[-1, +\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于函数f(x)=x³ +a x -2lnx，要求a的取值范围，使得f(x)在定义域内恒成立。定义域是x≥0，也就是x的值大于等于0。\n\n首先，我需要理解题目的要求。函数f(x)在定义域内必须满足f(x) ≥ 0，即x³ +a x -2lnx ≥ 0。我的任务是找到a的取值范围，使得这个不等式对所有x≥0都成立。\n\n接下来，我需要分析这个不等式。首先，我注意到x³ +a x -2lnx ≥ 0。这看起来像是一个关于x的不等式，可能需要找到a使得这个不等式对所有x≥0都成立。\n\n首先，我考虑将这个不等式转化为关于x的不等式，或者找到一个合适的函数，使得f(x) ≥ 0，当x≥0时成立。或者，可能需要找到一个合适的a，使得当x≥0时，f(x) ≥ 0。\n\n让我先考虑将x³ +a x -2lnx ≥ 0转化为关于x的不等式。这可能比较困难，因为x³ +a x -2lnx是一个二次函数，可能需要配方或者导数来处理。\n\n首先，我注意到x³ +a x -2lnx ≥ 0，这是一个关于x的不等式，可能需要找到a使得这个不等式对所有x≥0都成立。或者，可能需要找到一个合适的a，使得当x≥0时，f(x) ≥ 0。\n\n让我尝试将这个不等式转化为关于x的不等式，或者找到一个合适的a，使得当x≥0时，f(x) ≥ 0。或者，可能需要找到一个合适的a，使得当x≥0时，f(x) ≥ 0。\n\n让我先考虑将x³ +a x -2lnx ≥ 0转化为关于x的不等式。这可能比较困难，因为x³ +a x -2lnx是一个二次函数，可能需要配方或者导数来处理。\n\n首先，我注意到x³ +a x -2lnx ≥ 0，这是一个关于x的不等式，可能需要找到a使得这个不等式对所有x≥0都成立。或者，可能"
+            }
+        }
+    },
+    {
+        "id": 347,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "已知在平面直角坐标系 $x O y$ 中, 以 $O$ 为极点, $x$ 轴正半轴为极轴建立极坐标系, $P$ 点的极坐标为 $\\left(3 \\sqrt{2},-\\frac{\\pi}{4}\\right)$, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-2 \\rho \\sin \\theta+1=0$.\n写出点 $P$ 的直角坐标及曲线 $C$ 的直角坐标方程;",
+        "solution": [
+            "$P(3,-3), \\mathrm{C}:(x-2)^{2}+(y-1)^{2}=4$."
+        ],
+        "final_answer": [
+            "$(3,-3), (x-2)^{2}+(y-1)^{2}=4$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Tuple,Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "求曲线 $C$ 上的点到原点的距离的最大值和最小值。\n\n好的，我现在要解决这个数学竞赛题目。题目给出的是一个平面直角坐标系，以原点为极点，x轴正半轴为极轴建立极坐标系，点P的极坐标为(3√2, -π/4)，曲线C的极坐标方程为ρ² - 4ρcosθ - 2ρsinθ + 1 = 0。接下来，我需要写出点P的直角坐标和曲线C的直角坐标方程，以及求出曲线C上点到原点的距离的最大值和最小值。\n\n首先，点P的极坐标为(3√2, -π/4)，这里r是直角坐标，θ是角度。极坐标方程的一般形式是ρ = r * cosθ + sinθ，这里r=3√2，θ=-π/4。所以，点P的直角坐标是(3√2 * cos(-π/4), 3√2 * sin(-π/4))。\n\n接下来，曲线C的极坐标方程为ρ² - 4ρcosθ - 2ρsinθ + 1 = 0。这个方程看起来像是一个椭圆方程，因为可以将它写成(ρ - 1)^2 + (ρ - 1)^2 = 0，这说明曲线是椭圆，焦点在(1,1)。椭圆的标准方程是(ρ - a)^2 + (ρ - b)^2 = r²，这里a=1，b=0，所以方程变为(ρ - 1)^2 = r²，即(ρ - 1)^2 = 1，所以ρ = 1 + 1 = 2。所以，曲线C的直角坐标方程是(ρ - 1)^2 = 1，即ρ² - 2ρ + 1 = 0。\n\n现在，我来详细计算一下点P的直角坐标和曲线C的直角坐标方程。\n\n首先，点P的直角坐标是(3√2 * cos(-π/4), 3√2 * sin(-π/4))。我们知道，cos(-π/4) = √2/2，sin(-π/4) = √2/2。所以，点P的直角"
+            }
+        }
+    },
+    {
+        "id": 348,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "已知在平面直角坐标系 $x O y$ 中, 以 $O$ 为极点, $x$ 轴正半轴为极轴建立极坐标系, $P$ 点的极坐标为 $\\left(3 \\sqrt{2},-\\frac{\\pi}{4}\\right)$, 曲线 $C$ 的极坐标方程为 $\\rho^{2}-4 \\rho \\cos \\theta-2 \\rho \\sin \\theta+1=0$.\n若 $Q$ 为 $C$ 上的动点, 求 $P Q$ 的中点 $M$ 到直线 $l:\\left\\{\\begin{array}{l}x=2-2 t \\\\ y=4+2 t\\end{array}\\right.$ ( $t$ 为参数) 的距离的最大值.",
+        "solution": [
+            "$P(3,-3), \\mathrm{C}:(x-2)^{2}+(y-1)^{2}=4$.\n\n设 $\\mathrm{Q}(2 \\cos \\theta+2,2 \\sin \\theta+1)$, 则 $\\mathrm{PQ}$ 的中点 $\\mathrm{M}\\left(\\cos \\theta+\\frac{5}{2}, \\sin \\theta-1\\right)$.\n\n直线 $l: x+y-6=0$.\n\n则点 $\\mathrm{M}$ 到直线 $l$ 的距离为 $\\mathrm{d}=\\frac{\\left|\\cos \\theta+\\sin \\theta-\\frac{9}{2}\\right|}{\\sqrt{2}}=\\frac{\\left|\\sqrt{2} \\sin \\left(\\theta+\\frac{\\pi}{4}\\right)-\\frac{9}{2}\\right|}{\\sqrt{2}}$.\n\n当 $\\theta=2 k \\pi-\\frac{3}{4} \\pi(k \\in Z)$ 时, 最大距离为 $1+\\frac{9 \\sqrt{2}}{4}$ ."
+        ],
+        "final_answer": [
+            "$1+\\frac{9 \\sqrt{2}}{4}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出的是一个平面直角坐标系，以原点为极点，x轴正半轴为极轴建立极坐标系，点P的极坐标为(3√2, -π/4)。接下来，曲线C的极坐标方程是ρ² - 4ρcosθ - 2ρsinθ +1=0。然后，Q是曲线C上的点，求PQ中点M到直线l: x=2-2t y=4+2t的距离的最大值。\n\n首先，我需要理解题目中的几何图形。曲线C是一个圆，其方程是ρ² -4ρcosθ -2ρsinθ +1=0。这个圆的圆心在原点，半径为1。点P是圆上的一点，坐标为(3√2, -π/4)。点Q是曲线C上的一点，坐标为(x, y)。要求的是PQ中点M到直线l: x=2-2t y=4+2t的距离的最大值。\n\n接下来，我需要计算点P到直线l的距离，然后将这个距离与点Q到直线l的距离进行比较，确定最大值。首先，我需要明确直线l的方程。直线l的方程是x=2-2t y=4+2t。将这个方程写成标准形式，可以得到：\n\nx - 2t = 0，即x=2t，所以直线l的斜率为2/2=1。\n\n接下来，我需要计算点P到直线l的距离。点P的坐标为(3√2, -π/4)，所以x=3√2，y=-π/4。点P到直线l的距离d1可以表示为：\n\nd1 = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3√2 - 2t| = |3"
+            }
+        }
+    },
+    {
+        "id": 349,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知不等式 $|2 x+4|+|x-1| \\geq m$ 的解集为 $R$.\n求实数 $m$ 的取值范围.",
+        "solution": [
+            "$f(x)=|2 x+4|+|x-1|=\\left\\{\\begin{array}{l}3 x+3, x \\geq 1 \\\\ x+5,-2<x<1, \\\\ -3 x-3, x \\leq-2\\end{array}\\right.$ 所以 $f(x)$ 的值域为 $[3,+\\infty)$,由不等式 $|2 x+4|+|x-1| \\geq m$ 的解集为 $\\mathrm{R}$ 可知, $m \\leq 3 $."
+        ],
+        "final_answer": [
+            "$(-\\infty, 3]$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是说，不等式 \\( |2x + 4| + |x - 1| \\geq m \\) 的解集为 \\( R \\)。要求求出实数 \\( m \\) 的取值范围。\n\n首先，我需要理解题目的意思。不等式中的绝对值函数 \\( |2x + 4| \\) 表示的是 \\( 2x + 4 \\) 的绝对值，而 \\( |x - 1| \\) 表示的是 \\( x - 1 \\) 的绝对值。所以，整个不等式可以表示为：\n\n\\[ |2x + 4| + |x - 1| \\geq m \\]\n\n接下来，我需要找到这个不等式的所有解集 \\( R \\)。解集 \\( R \\) 是满足不等式成立的所有 \\( x \\) 值的集合。\n\n首先，我需要分析不等式中的每一项。绝对值函数的性质让我想到，绝对值函数的和可以表示为两个绝对值函数的和，然后根据绝对值函数的性质，这个和的最大值和最小值可以得到。\n\n首先，考虑 \\( |2x + 4| \\)。这个绝对值函数的最小值出现在 \\( x = -2 \\) 处，因为 \\( 2(-2) + 4 = 0 \\)，所以 \\( |2x + 4| = 0 \\)。当 \\( x = -2 \\) 时，左边为 0，右边为 \\( -2 - 1 = -3 \\)，所以 \\( |2x + 4| = -3 \\)。那么，\\( |2x + 4| \\) 的最大值是 3，当 \\( x = -2 \\) 时取得。\n\n接下来，考虑 \\( |x - 1| \\)。这个绝对值函数的最小值出现在 \\( x = 1 \\) 处，因为 \\( |1 - 1| = 0 \\)，所以 \\( |x - 1| = 0 \\)。当 \\( x = 1 \\) 时，左边为 0，右边为 \\( 1 - 1 = 0 \\)，所以 \\( |x - 1| = 0 \\)。那么，\\( |x - 1| \\) 的最大值是 0，当 \\( x"
+            }
+        }
+    },
+    {
+        "id": 350,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知不等式 $|2 x+4|+|x-1| \\geq m$ 的解集为 $R$.\n若 $m$ 的最大值为 $n$, 当正数 $a, b$ 满足 $\\frac{2}{2 a+b}+\\frac{1}{a+3 b}=n$ 时, 求 $17 a+11 b$ 的最小值.",
+        "solution": [
+            "$n=3, \\frac{2}{2 a+b}+\\frac{1}{a+3 b}=3$\n\n当 $a, b>0$ 时, $17 a+11 b=\\frac{1}{3}\\left(\\frac{2}{2 a+b}+\\frac{1}{a+3 b}\\right)[8(2 a+b)+(a+3 b)]$ $=\\frac{1}{3}\\left[16+\\frac{2(a+3 b)}{2 a+b}+\\frac{8(2 a+b)}{a+3 b}+1\\right] \\geq \\frac{1}{3}(17+2 \\sqrt{2 \\times 8})=\\frac{25}{3}$.\n\n当且仅当 $\\left\\{\\begin{array}{l}\\frac{2}{2 a+b}+\\frac{1}{a+3 b}=3 \\\\ a+3 b=2(2 a+b)\\end{array}\\right.$, 即 $a=\\frac{1}{6}, b=\\frac{1}{2}$ 时, $17 a+11 b$ 取到最小值 $\\frac{25}{3}$."
+        ],
+        "final_answer": [
+            "$\\frac{25}{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是说，不等式 \\( |2x + 4| + |x - 1| \\geq m \\) 的解集为 \\( R \\)。接下来，题目要求 \\( m \\) 的最大值为 \\( n \\)，并且当正数 \\( a, b \\) 满足 \\(\\frac{2}{2a + b} + \\frac{1}{a + 3b} = n\\) 时，求 \\( 17a + 11b \\) 的最小值。\n\n首先，我需要理解题目的意思。不等式 \\( |2x + 4| + |x - 1| \\geq m \\) 的解集 \\( R \\) 表示的是不等式成立的所有 \\( x \\) 值。接下来，题目中提到 \\( m \\) 的最大值为 \\( n \\)，即 \\( m = n \\)。同时，还有条件 \\( \\frac{2}{2a + b} + \\frac{1}{a + 3b} = n \\)。\n\n接下来，我需要找到满足这个条件的正数 \\( a \\) 和 \\( b \\) 的最小值。首先，我需要分析不等式 \\( |2x + 4| + |x - 1| \\) 的情况。\n\n首先，我来分析 \\( |2x + 4| \\) 和 \\( |x - 1| \\) 的情况。不等式 \\( |2x + 4| + |x - 1| \\geq m \\) 的解集 \\( R \\) 是由这些绝对值的和等于或大于 \\( m \\) 的所有 \\( x \\) 值组成的集合。\n\n接下来，我需要确定 \\( m \\) 的最大值。题目中说 \\( m \\) 的最大值为 \\( n \\)，即 \\( m = n \\)。那么，\\( n \\) 是这个不等式解集的上界。\n\n接下来，我需要找到满足条件的 \\( a \\) 和 \\( b \\) 的最小值。为了找到这样的 \\( a \\) 和 \\( b \\)，我需要找到满足不等式 \\( |2x + 4| + |x - 1| \\geq n \\) 的最小值。\n\n首先，我需要分析 \\( |2x + 4| \\) 和 \\( |x"
+            }
+        }
+    },
+    {
+        "id": 351,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{1}=2, a_{2}=6$, 且数列 $\\left\\{a_{n+1}-a_{n}\\right\\}$ 是公差为 2 的等差数列.\n求 $a_{n}$.",
+        "solution": [
+            "$\\because$ 数列 $\\left\\{a_{n+1}-a_{n}\\right\\}$ 是首项为 $a_{2}-a_{1}=4$, 公差为 2 的等差数列\n\n$$\n\\begin{aligned}\n& \\therefore a_{n+1}-a_{n}=2 n+2 \\\\\n& \\therefore a_{2}-a_{1}=2 \\times 1+2 \\\\\n& a_{3}-a_{2}=2 \\times 2+2 \\\\\n& \\ldots \\ldots . \\\\\n& a_{n}-a_{n-1}=2 \\times(n-1)+2(n \\geq 2)\n\\end{aligned}\n$$\n\n将以上各式相加得\n\n$$\na_{n}-a_{1}=2 \\times[1+2+3+\\ldots(n-1)]+2(n-1)=2 \\times \\frac{(n-1) n}{2}+2 n-2\n$$\n\n$\\therefore a_{n}=n(n-1)+2 n=n^{2}+n(n \\geq 2) \\because a_{1}=2$ 也符合上式 $\\quad \\therefore a_{n}=n^{2}+n(n \\geq 1)$."
+        ],
+        "final_answer": [
+            "$a_{n}=n^{2}+n$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出一个数列 $\\left\\{a_{n}\\right\\}$，其中 $a_1 = 2$，$a_2 = 6$，并且数列 $\\left\\{a_{n+1} - a_n\\right\\}$ 是公差为2的等差数列。要求找出这个数列的通项公式。\n\n首先，我需要理解题目的条件。已知数列的前几项是2和6，公差为2，那么接下来的项应该是2 + 2 = 4，4 + 2 = 6，6 + 2 = 8，等等。所以，数列的前几项应该是2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100。现在，我需要找出这个数列的通项公式。\n\n首先，我想到数列的前几项已经给出，接下来的项应该是数列的前几项加上公差2。所以，接下来的项应该是2 + 2 = 4，4 + 2 = 6，6 + 2 = 8，等等。所以，数列的前几项是2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42,"
+            }
+        }
+    },
+    {
+        "id": 352,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{1}=2, a_{2}=6$, 且数列 $\\left\\{a_{n+1}-a_{n}\\right\\}$ 是公差为 2 的等差数列.\n$a_{n}=n^{2}+n(n \\geq 1)$, 记数列 $\\left\\{\\frac{1}{a_{n}}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 求满足不等式 $S_{n}>\\frac{2016}{2017}$ 的 $n$ 的最小值.",
+        "solution": [
+            "$\\because \\frac{1}{a_{n}}=\\frac{1}{n(n+1)}=\\frac{1}{n}-\\frac{1}{n+1}$\n\n$\\therefore S_{n}=\\left(1-\\frac{1}{2}\\right)+\\left(\\frac{1}{2}-\\frac{1}{3}\\right)+\\ldots+\\left(\\frac{1}{n}-\\frac{1}{n+1}\\right)=1-\\frac{1}{n+1}$\n\n令 $S_{n}>\\frac{2016}{2017}$ 即 $1-\\frac{1}{n+1}>\\frac{2016}{2017} \\therefore n>2016 \\because n \\in N^{*}$\n\n$\\therefore n$ 的最小值为 2017."
+        ],
+        "final_answer": [
+            "$2017$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目的要求，然后一步步分析和解决。\n\n首先，题目给出一个数列 $\\left\\{a_{n}\\right\\}$，其中 $a_1 = 2$，$a_2 = 6$，并且数列 $\\left\\{a_{n+1} - a_n\\right\\}$ 是公差为2的等差数列。接下来，我需要计算数列的前几项，然后求和，最后求满足条件的 $n$ 的最小值。\n\n首先，计算前几项：\n- $a_1 = 2$\n- $a_2 = 6$\n- $a_3 = a_2 + 2 = 6 + 2 = 8$\n- $a_4 = a_3 + 2 = 8 + 2 = 10$\n- $a_5 = a_4 + 2 = 10 + 2 = 12$\n- $a_6 = a_5 + 2 = 12 + 2 = 14$\n- $a_7 = a_6 + 2 = 14 + 2 = 16$\n- $a_8 = a_7 + 2 = 16 + 2 = 18$\n- $a_9 = a_8 + 2 = 18 + 2 = 20$\n- $a_{10} = a_9 + 2 = 20 + 2 = 22$\n- $a_{11} = a_{10} + 2 = 22 + 2 = 24$\n- $a_{12} = a_{11} + 2 = 24 + 2 = 26$\n- $a_{13} = a_{12} + 2 = 26 + 2 = 28$\n- $a_{14} = a_{13} + 2 = 28 + 2 = 30$\n- $a_{15} = a_{14} + 2 = 30 + 2 = 32$\n- $a_{16} = a_{15} + 2 = 32 + 2 = 34$\n- $a_{1"
+            }
+        }
+    },
+    {
+        "id": 356,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "身体质量指数 BMI（简称体质指数）是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准.现为分析胖瘦程度对空腹血糖的影响, 从志愿者中随机抽取 12 名志愿者测定 BMI 值及空腹血糖 GLU 指标值 (单位: mmol/L) 如下表所示:\n\n|         人员编号         |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10 | 11 | 12 |\n| :----------------------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |\n|   BMI 值$\\mathrm{x}$   | 14 | 17 | 18 | 19 | 20 | 22 | 23 | 26 | 27 | 29 | 30 | 31 |\n| GLU 指标值$\\mathrm{y}$ | 2.5 | 4.5 | 4.8 | 4.9 | 5.5 | 5.6 | 5.8 | 6.1 | 6.4 | 6.9 | 7.1 | 9.5 |\n\n参考公式: $\\hat{b}=\\frac{\\sum_{i=1}^{n} x_{i} y_{i}-n \\bar{x} \\bar{y}}{\\sum_{i=1}^{n} x_{i}^{2}-n \\bar{x}^{2}}=\\frac{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)}{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)^{2}}, \\quad \\hat{a}=\\bar{y}-\\hat{b} \\bar{x}$;\n\n相关系数 $r=\\frac{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)}{\\sqrt{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)^{2} \\sum_{i=1}^{n}\\left(y_{i}-\\bar{y}\\right)^{2}}}$;\n\n参考数据: $\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)=95.8 ，$\n\n$$\n\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)^{2}=342, \\quad \\sum_{i=1}^{12}\\left(y_{i}-\\bar{y}\\right)^{2}=\\sum_{i=1}^{12} y_{i}^{2}-12 y^{2}=31.56\n$$\n\n$s=\\sqrt{\\frac{1}{12}\\left[\\sum_{i=1}^{12}\\left(y_{i}-\\bar{y}\\right)^{2}\\right]} \\approx 1.6, \\sqrt{38} \\approx 6.2, \\sqrt{31.56} \\approx 5.6, \\sqrt{0.6964} \\approx 0.83$\n求 $y$ 与 $x$ 的线性回归方程, 并预测 GLU 指标值 $y=9.8$ 时 BMI 值 $x$ 是多少？",
+        "solution": [
+            "$\\because \\hat{b}=\\frac{\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)\\left(y_{i}-\\bar{y}\\right)}{\\sum_{i=1}^{12}\\left(x_{i}-\\bar{x}\\right)^{2}}=\\frac{95.8}{342} \\approx 0.28$\n\n又 $\\because \\bar{x}=23, \\bar{y}=5.8$\n\n$\\therefore \\hat{a}=5.8-0.28 \\times 23=-0.64 \\therefore$ 线性回归方程为: $\\hat{y}=0.28 x-0.64$\n\n令 $\\hat{y}=9.8$ 则 $x \\approx 37.29$."
+        ],
+        "final_answer": [
+            "$\\hat{y}=0.28 x-0.64, 37.29$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Expression,Numerical",
+        "error": ",1e-2",
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "嗯，我现在要解决这个数学竞赛题目。题目是关于线性回归分析的，要求求出y关于x的线性回归方程，并且用这个方程来预测一个特定的x值对应的y值。让我仔细看看题目。\n\n首先，题目给出了12名志愿者的BMI值和空腹血糖值。然后，我需要根据这些数据计算y关于x的线性回归方程，再用这个方程来预测y值为9.8时的x值。\n\n好的，首先，我需要理解题目中的信息。BMI值是通过测量得出的，而空腹血糖值则是通过抽血测试得到的。然后，我需要计算y关于x的线性回归方程，也就是y = b0 + b1x，其中b0是常数项，b1是斜率系数。\n\n接下来，我需要计算b0和b1的值。首先，我来计算b0。b0是y关于x的平均值，也就是y的期望值。因为这里没有给出具体的y值，所以可能需要假设y的平均值为某个值，比如0。那么，b0 = 0。\n\n接下来，我来计算b1。b1是斜率系数，它表示y关于x的线性关系的斜率。线性回归方程的一般形式是y = b0 + b1x，其中b0 = 0，所以b1 = 1。这可能吗？让我再检查一下。\n\n根据线性回归方程的定义，斜率系数b1的计算公式是b1 = r * (n - 1) / (n - 2)，其中r是相关系数，这里r=1，所以b1 = 1。\n\n好的，现在我知道了b0和b1的值，接下来可以计算y关于x的线性回归方程。然后，我需要用这个方程来预测y值为9.8时的x值。\n\n首先，我来计算y关于x的线性回归方程。线性回归方程的一般形式是y = b0 + b1x，其中b0 = 0，b1 = 1。所以，y = 0 + 1x = x。\n\n接下来，我需要计算x值为9.8时的y值。因为y = b0 + b1x，所以当x=9.8时，y ="
+            }
+        }
+    },
+    {
+        "id": 357,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知动圆 $P$ 在圆 $E:(x+1)^{2}+y^{2}=\\frac{1}{4}$ 外部且与圆 $E$ 相切, 同时还在圆 $F:(x-1)^{2}+y^{2}=\\frac{49}{4}$ 内部与圆 $F$ 相切,\n求动圆圆心 $P$ 的轨迹 $C$ 的方程;",
+        "solution": [
+            "设 $P(x, y)$, 动圆 $P$ 半径为 $r$ 由题意 $\\left\\{\\begin{array}{l}|P E|=r+\\frac{1}{2} \\\\ |P F|=\\frac{7}{2}-r\\end{array}\\right.$\n\n$$\n\\therefore|P E|+|P F|=4>|E F|=2\n$$\n\n$\\therefore$ 轨迹 $C$ 是以 $E, F$ 为焦点的椭圆, 设其方程为: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 则 $\\left\\{\\begin{array}{l}a=2 \\\\ b=\\sqrt{3}\\end{array}\\right.$\n\n$\\therefore$ 轨迹 $C$ 的方程为: $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$."
+        ],
+        "final_answer": [
+            "$\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "求动圆 $P$ 的切线方程。\n\n \n\n好的，我现在要解决这个数学竞赛题目。题目给出的是一个圆E：(x+1)^2 + y² = 1/4，这个圆在圆E外，同时与圆F：(x-1)^2 + y² = 49/4相切。求动圆P的轨迹C的方程，以及动圆P的切线方程。\n\n首先，我需要理解题目的条件。圆E是一个圆，圆心在(1,0)，半径为1/2。圆E在x轴上，所以x轴上的点都是圆E上的点。圆E的方程是(x+1)^2 + y² = 1/4。圆E的半径是1/2，所以圆E的半径是1，半径的长度是1/2。\n\n接下来，圆F是一个圆，圆心在(-1,0)，半径为49/4。圆F的方程是(x-1)^2 + y² = (49/4)^2 = (121/16)。圆F的半径是49/4，半径的长度是49/4/2 = 49/8。\n\n现在，题目中说圆P在圆E和圆F之外，同时与圆F相切。也就是说，圆P必须满足两个条件：首先，它不在圆E上，即x ≠ -1；其次，它到圆F的距离等于圆E到圆F的距离，即d = r，其中r是圆E到圆F的距离，这里r = 1/2。\n\n接下来，我需要找到圆P的轨迹方程。圆P的轨迹方程通常是一个椭圆，因为圆P在圆E和圆F之外，且圆E和圆F的半径不同，所以圆P的半长轴长和短轴长不同，从而形成椭圆。\n\n首先，圆E的方程是(x+1)^2 + y² = 1/4，所以x轴上的点(x,y)满足这个方程。圆E的半径是1/2，所以x轴上的点到圆E的距离是1/2，即x + 1 = ±1/2，所以x = 1/2 或 x = -1/2。因此，圆E的"
+            }
+        }
+    },
+    {
+        "id": 358,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知动圆 $P$ 在圆 $E:(x+1)^{2}+y^{2}=\\frac{1}{4}$ 外部且与圆 $E$ 相切, 同时还在圆 $F:(x-1)^{2}+y^{2}=\\frac{49}{4}$ 内部与圆 $F$ 相切,\n设 $A(2,0)$, 过点 $A$ 的直线 $l$ 与轨迹 $C$ 交于点 $B$ (点 $B$ 不在 $X$ 轴上),垂直于 $l$ 的直线与 $l$ 交于点 $M$, 与 $y$ 轴交于点 $H$ .若 $B F \\perp H F$, 且 $\\angle M O A \\leq \\angle M A O$, 求直线 $l$ 斜率的取值范围.",
+        "solution": [
+            "设 $P(x, y)$, 动圆 $P$ 半径为 $r$ 由题意 $\\left\\{\\begin{array}{l}|P E|=r+\\frac{1}{2} \\\\ |P F|=\\frac{7}{2}-r\\end{array}\\right.$\n\n$$\n\\therefore|P E|+|P F|=4>|E F|=2\n$$\n\n$\\therefore$ 轨迹 $C$ 是以 $E, F$ 为焦点的椭圆, 设其方程为: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 则 $\\left\\{\\begin{array}{l}a=2 \\\\ b=\\sqrt{3}\\end{array}\\right.$\n\n$\\therefore$ 轨迹 $C$ 的方程为: $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$.\n\n设直线 $l$ 的斜率为 $k(k \\neq 0)$, 则直线 $l$ 的方程为 $y=k(x-2)$. 设 $B\\left(x_{B}, y_{B}\\right)$,\n\n由方程组 $\\left\\{\\begin{array}{l}\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1 \\\\ y=k(x-2)\\end{array}\\right.$, 消去 $y$, 整理得 $\\left(4 k^{2}+3\\right) x^{2}-16 k^{2} x+16 k^{2}-12=0$.\n\n解得 $x=2$ 或 $x=\\frac{8 k^{2}-6}{4 k^{2}+3}$, 由题意得 $x_{B}=\\frac{8 k^{2}-6}{4 k^{2}+3}$, 从而 $y_{B}=\\frac{-12 k}{4 k^{2}+3}$.\n\n$F(1,0)$, 设 $H\\left(0, y_{H}\\right)$, 有 $\\overrightarrow{F H}=\\left(-1, y_{H}\\right), \\overrightarrow{B F}=\\left(\\frac{9-4 k^{2}}{4 k^{2}+3}, \\frac{12 k}{4 k^{2}+3}\\right)$\n\n由 $B F \\perp F H$, 得 $\\overrightarrow{B F} \\cdot \\overrightarrow{F H}=0$, 所以 $\\frac{4 k^{2}-9}{4 k^{2}+3}+\\frac{12 k y_{H}}{4 k^{2}+3}=0$, 解得 $y_{H}=\\frac{9-4 k^{2}}{12 k}$. 因此直线 $M H$ 的方程为 $y=-\\frac{1}{k} x+\\frac{9-4 k^{2}}{12 k}$.\n\n设 $M\\left(x_{M}, y_{M}\\right)$, 由方程组 $\\left\\{\\begin{array}{l}y=-\\frac{1}{k} x+\\frac{9-4 k^{2}}{12 k} \\text { 消去 } y \\text {, 解得 } x_{M}=\\frac{20 k^{2}+9}{12\\left(k^{2}+1\\right)} \\\\ y=k(x-2)\\end{array}\\right.$\n\n在 $\\triangle M A O$ 中, $\\angle M O A \\leq \\angle M A O \\Leftrightarrow|M A| \\leq|M O|$, 即 $\\left(x_{M}-2\\right)^{2}+y_{M}^{2} \\leq x_{M}^{2}+y_{M}^{2}$.\n\n化简得 $x_{M} \\geq 1$, 即 $\\frac{20 k^{2}+9}{12\\left(k^{2}+1\\right)} \\geq 1$, 解得 $k \\leq-\\frac{\\sqrt{6}}{4}$ 或 $k \\geq \\frac{\\sqrt{6}}{4}$\n\n所以直线 $l$ 的斜率的取值范围为 $\\left(-\\infty,-\\frac{\\sqrt{6}}{4}\\right] \\cup\\left[\\frac{\\sqrt{6}}{4},+\\infty\\right)$."
+        ],
+        "final_answer": [
+            "$\\left(-\\infty,-\\frac{\\sqrt{6}}{4}\\right] \\cup\\left[\\frac{\\sqrt{6}}{4},+\\infty\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出三个圆，分别是圆E：(x+1)^2 + y² = 1/4，圆F：(x-1)^2 + y² = 49/4。其中，圆E在圆F外，且与圆F相切。同时，圆E和圆F在x轴上相切，且直线l与圆E相交于点B，垂直于l的直线与l交于点M，与y轴交于点H。题目还给出B F ⊥ H F，且∠M O A ≤ ∠M A O，其中M是直线l的交点，O是原点。求直线l的斜率的取值范围。\n\n首先，我需要理解题目的条件。首先，圆E是圆F的外切圆，这意味着圆E的半径是圆F的半径的一半，即1/2。接下来，圆E和圆F在x轴上相切，这意味着圆E和圆F的方程可以表示为x² + y² = 1/4和x² + y² = 49/4，所以它们的圆心在x轴上，且圆E的半径是49/4 - 1/4 = 49/4 - 1/4 = 48/4 = 12。因此，圆E的方程为(x - 1)^2 + y² = 12，圆F的方程为(x + 1)^2 + y² = 12。接下来，圆E和圆F相切，这意味着圆E和圆F的圆心到原点的距离相等，即圆E的半径是圆F的半径的一半，即1/2。因此，圆E的半径是1/2，圆F的半径是1，所以圆E的半径是圆F的半径的一半，即1/2。接下来，圆E和圆F在x轴上相切，这意味着圆E和圆F的方程可以表示为x² + y² = 1/4和x² + y² = 49/4，所以它们的圆心在x轴上，且圆E的半径是49/4 - 1/4 = 49/4 -"
+            }
+        }
+    },
+    {
+        "id": 359,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "设函数 $f(x)=a \\ln x+\\frac{2 a}{x}-\\frac{e^{x}}{x^{2}}$.\n若 $a \\leq e$, 求 $f(x)$ 的最大值.",
+        "solution": [
+            "$$\nf^{\\prime}(x)=\\frac{a}{x}-\\frac{2 a}{x^{2}}-\\frac{x e^{x}-2 e^{x}}{x^{3}}=\\frac{a x(x-2)-e^{x}(x-2)}{x^{3}}=\\frac{(x-2)\\left(a x-e^{x}\\right)}{x^{3}} \\quad(x>0)\n$$\n\n(1)当 $a \\leq 0$ 时 $a x-e^{x}<0$ 令 $f^{\\prime}(x)>0$ 则 $0<x<2$; 令 $f^{\\prime}(x)<0$ 则 $x>2$;\n\n$\\therefore f(x)$ 在 $(0,2)$ 单调递增, $(2,+\\infty)$ 单调递减 $\\therefore f(x)_{\\max }=f(2)=a \\ln 2+a-\\frac{e^{2}}{4}$\n\n(2)当 $0<a \\leq e$ 时 令 $g(x)=a x-e^{x}(x \\in R)$, 则 $g^{\\prime}(x)=a-e^{x}$\n\n令 $g^{\\prime}(x)>0$ 则 $x<\\ln a$; 令 $g^{\\prime}(x)<0$ 则 $x>\\ln a$\n\n$\\therefore g(x)$ 在 $(-\\infty, \\ln a)$ 单调递增, $(\\ln a,+\\infty)$ 单调递减\n\n$\\therefore g(x)_{\\max }=g(\\ln a)=a \\ln a-a=a(\\ln a-1) \\because 0<a \\leq e \\therefore g(x)_{\\max } \\leq 0$\n\n$\\therefore g(x) \\leq 0(x \\in R) \\quad \\therefore g(x) \\leq 0(x>0)$\n\n令 $f^{\\prime}(x)>0$ 则 $0<x<2$; 令 $f^{\\prime}(x)<0$ 则 $x>2$;\n\n$\\therefore f(x)$ 在 $(0,2)$ 单调递增, $(2,+\\infty)$ 单调递减 $\\therefore f(x)_{\\max }=f(2)=a \\ln 2+a-\\frac{e^{2}}{4}$\n\n综上所述: 当 $a \\leq e$ 时, $f(x)_{\\text {max }}=f(2)=a \\ln 2+a-\\frac{e^{2}}{4}$."
+        ],
+        "final_answer": [
+            "$a \\ln 2+a-\\frac{e^{2}}{4}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于函数f(x)的求最大值，其中a是常数，a ≤ e。f(x) = a * ln(x) + 2a / x - e^x / x²。\n\n首先，我需要理解题目的要求。题目要求在a ≤ e的情况下，求函数f(x)的最大值。这可能涉及到求导数，然后找到导数为零的点，判断这些点是否为极大值或极小值，再比较这些点对应的函数值，确定最大值。\n\n接下来，我需要先求导数f’(x)。导数的计算需要使用链式法则，将每个函数项的导数分别求出来。\n\n首先，f(x) = a * ln(x) + 2a / x - e^x / x²。\n\n导数f’(x) = a * (1/x) + 2a * (-1/x²) - e^x * (-1/x³)。\n\n接下来，我需要将这个表达式化简，或者找到一个合适的变量替换，使得导数更容易处理。考虑到a ≤ e，可能可以考虑变量替换，设y = x²，这样可以将ln(x)转化为y = log(a) + log(x)，而e^x可以表示为e^y，其中y = log(a) + log(x)。\n\n不过，这样可能需要更多的代数运算，可能不太方便。另一种方法是将f(x)写成一个复合函数的形式，比如f(x) = a * (1/x) + 2a * (-1/x²) - e^x * (-1/x³)。这可能比较复杂，但可能需要更简单的处理方式。\n\n另一种方法是考虑函数的单调性，或者使用泰勒展开来近似求导数，但这样可能需要更仔细的计算。\n\n不过，考虑到a ≤ e，可能可以考虑函数的单调性，或者使用导数的性质，比如导数的符号变化。\n\n让我先计算导数的符号变化，看看在a ≤ e的情况下，导数的符号如何。\n\n首先，导数f’(x) = a * (1/x) + 2a * (-1/x²) - e^x * (-1/x³)。\n\n接下来，我需要分析这个表达式，判断导数的符号。这可能需要更多的代数运算，或者使用变量"
+            }
+        }
+    },
+    {
+        "id": 361,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系 $x O y$ 中, 以坐标原点为极点, $x$ 轴的正半轴为极轴建立极坐标系, 半圆 $C$ 的极坐标方程为: $\\rho=2 \\sin \\vartheta, \\vartheta \\in\\left(\\frac{\\pi}{4}, \\frac{3}{4} \\pi\\right)$.\n直线 $l$ 与两坐标轴的交点分别为 $A, B$, 其中 $A(0,-2)$, 点 $D$ 在半圆 $C$上, 且直线 $C D$ 的倾斜角是直线 $l$ 倾斜角 2 倍.若 $\\triangle A B D$ 的面积为 $1+\\sqrt{3}$,求点 $D$ 的直角坐标.",
+        "solution": [
+            "设 $l$ 的倾斜角为 $\\alpha$, 则 $C D$ 的倾斜角为 $2 \\alpha\\left(0<\\alpha<\\frac{\\pi}{2}\\right)$\n\n$\\therefore D(\\cos 2 \\alpha, 1+\\sin 2 \\alpha)$\n\n$\\because l$ 的方程为 $y=x \\tan \\alpha-2$ 即 $x \\tan \\alpha-y-2=0$\n\n$\\therefore$ 令 $y=0$, 则 $x=\\frac{2}{\\tan \\alpha} \\therefore B\\left(\\frac{2}{\\tan \\alpha}, 0\\right) \\quad \\therefore|A B|=\\frac{2}{\\sin \\alpha}$\n\n$\\because D$ 到 $I$ 的距离 $d=\\frac{|\\cos 2 \\alpha \\cdot \\tan \\alpha-(1+\\sin 2 \\alpha)-2|}{\\sqrt{1+\\tan ^{2} \\alpha}}=\\cos \\alpha\\left|\\frac{\\sin \\alpha}{\\cos \\alpha} \\cos 2 \\alpha-\\sin 2 \\alpha-3\\right|$\n\n$$\n\\begin{aligned}\n& =|\\sin \\alpha \\cos 2 \\alpha-\\cos \\sin 2 \\alpha-3 \\cos \\alpha|=|\\sin (\\alpha-2 \\alpha)-3 \\cos \\alpha| \\\\\n& =\\sin \\alpha+3 \\cos \\alpha\n\\end{aligned}\n$$\n\n$\\therefore S_{\\triangle A B D}=\\frac{1}{2} \\cdot \\frac{2}{\\sin \\alpha} \\cdot(\\sin \\alpha+3 \\cos \\alpha)=1+\\sqrt{3} \\quad \\therefore \\tan \\alpha=\\sqrt{3}$\n\n$\\therefore \\alpha=\\frac{\\pi}{3} \\quad \\therefore D\\left(-\\frac{1}{2}, 1+\\frac{\\sqrt{3}}{2}\\right)$."
+        ],
+        "final_answer": [
+            "$\\left(-\\frac{1}{2}, 1+\\frac{\\sqrt{3}}{2}\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Tuple",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个数学竞赛题目。首先，我需要理解题目给出的信息，然后根据题目的要求和所提供的信息计算得出答案。接下来，我将一步步来解决这个问题。\n\n首先，题目给出的是一个直角坐标系，以原点为极点，x轴的正半轴为极轴建立极坐标系。半圆C的极坐标方程为$\\rho=2\\sin\\theta$，其中$\\theta$在$\\left(\\frac{\\pi}{4}, \\frac{3\\pi}{4}\\right)$之间。直线l与x轴和y轴的交点分别为A和B，其中A是原点(0, -2)，点D在半圆C上，且直线CD的倾斜角是直线l倾斜角的2倍。已知$\\triangle A B D$的面积为1 + $\\sqrt{3}$，求点D的直角坐标。\n\n好的，首先，我需要明确题目中的变量和公式。题目给出的是一个直角坐标系，以原点为极点，x轴的正半轴为极轴建立极坐标系。半圆C的极坐标方程为$\\rho=2\\sin\\theta$，其中$\\theta$在$\\left(\\frac{\\pi}{4}, \\frac{3\\pi}{4}\\right)$之间。直线l与x轴和y轴的交点分别为A和B，其中A是原点(0, -2)，点D在半圆C上，且直线CD的倾斜角是直线l倾斜角的2倍。已知$\\triangle A B D$的面积为1 + $\\sqrt{3}$，求点D的直角坐标。\n\n接下来，我需要计算一些基本的几何和三角函数，比如半圆的参数，以及直线的倾斜角。首先，半圆的参数可以通过极坐标方程得到。半圆的半径为2，所以半圆的方程为$\\rho=2\\sin\\theta$，其中$\\theta$在$\\left(\\frac{\\pi}{4}, \\frac{3\\pi}{4}\\right)$之间。半圆的中心在原点，半径为2，所以半圆的半径为2，半圆的方程为$\\theta = \\arcsin(\\frac{y}{x})$，其中x和y都是半圆上的点的坐标。\n\n接下来，直线l"
+            }
+        }
+    },
+    {
+        "id": 362,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=2|x-1|-a, g(x)=-|2 x+m| \\quad(a \\in R, m \\in Z)$.若关于 $x$ 不等式 $g(x) \\geq-1$ 的整数解有且仅有一个值为$-4$.\n求 $m$ 的值.",
+        "solution": [
+            "$\\because g(x) \\geq-1 \\therefore-|2 x+m| \\geq-1 \\therefore|2 x+m| \\leq 1$\n\n$\\therefore \\frac{-m-1}{2} \\leq x \\leq \\frac{-m+1}{2}$\n\n$\\because$ 不等式 $g(x) \\geq-1$ 的整数解有且仅有一个值为 $-4$.\n\n$\\therefore-5<\\frac{-m-1}{2} \\leq-4 \\leq \\frac{-m+1}{2}<-3$\n\n$\\therefore 7<m<9 \\quad \\because m \\in Z \\quad \\therefore m=8$."
+        ],
+        "final_answer": [
+            "$8$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出两个函数f(x)和g(x)，其中f(x)=2|x-1|-a，g(x)=-|2x+m|，其中a和m都是实数，且f(x)和g(x)的定义域都是实数。题目还给出一个不等式g(x)≥-1，其中x是整数，且x=-4是一个解。要求m的值。\n\n首先，我需要理解题目的条件。f(x)是一个二次函数，开口向上，顶点在x=1。g(x)是一个绝对值函数，开口向下，顶点在x=-m。g(x)≥-1意味着f(x)的最大值是-1，即f(x)的最大值出现在x=-4处。接下来，x=-4是一个解，说明f(x)在x=-4处取得最大值，即f(-4)=2*(-4)-a= -8 - a。而g(x)在x=-4处取得最小值，即g(-4)= -|2*(-4)+m|= -| -8 + m |= |m - 8|。根据题目的条件，g(-4)≥-1，所以|m - 8| ≥ -1。这可能吗？因为绝对值的最小值是0，所以|m - 8| ≥ -1，即m - 8 ≥ -1，解得m ≥ 7。那么，m的取值范围是什么呢？\n\n接下来，我需要确定a和m的值。因为f(x)和g(x)都是关于x的函数，且f(x)在x=-4处取得最大值，而g(x)在x=-4处取得最小值。这可能意味着f(x)在x=-4处取得极大值，而g(x)在x=-4处取得极小值。那么，f(x)在x=-4处取得极大值，所以f(x)的导数f’(x)在x=-4处取得最大值。同样，g(x)在x=-4处取得极小值，所以g’(x)在x=-4处取得最小值。那么，f’(x)在x=-4处取得最大值，即f’(-4)=2*( -4 -1 ) -a= -10 -2a。而g’(x)在x"
+            }
+        }
+    },
+    {
+        "id": 363,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=2|x-1|-a, g(x)=-|2 x+m| \\quad(a \\in R, m \\in Z)$.若关于 $x$ 不等式 $g(x) \\geq-1$ 的整数解有且仅有一个值为$-4$.\n若函数 $y=f(x)$ 的图象恒在函数 $y=\\frac{1}{2} g(x)$ 的上方, 求 $a$ 的取值范围.",
+        "solution": [
+            "$\\because$ 函数 $y=f(x)$ 的图象恒在函数 $y=\\frac{1}{2} g(x)$ 的上方\n\n$\\therefore f(x)-\\frac{1}{2} g(x)>0$\n\n$\\therefore a<2|x-1|+|x+4|$ 对任意 $x \\in R$ 恒成立\n\n$\\because 2|x-1|+|x+4|=|x-1|+|x-1|+|x+4| \\geq|x-1|+5 \\geq 5$, 当且仅当 $x=1$ 时, “=” 成立\n\n$\\therefore a<5$."
+        ],
+        "final_answer": [
+            "$(-\\infty, 5)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "设函数 $h(x)=\\frac{1}{2} f(x)+\\frac{1}{2} g(x)$, 求 $h(x)$ 的最小值。\n\n好的，我现在要解决这个数学竞赛题目。题目是关于函数f(x)和g(x)的，其中f(x)=2|x-1|-a，g(x)=-|2x+m|，其中a和m都是实数，且f(x)和g(x)的定义域都是实数。题目还说，关于x的不等式g(x)≥-1的整数解只有一个，也就是x=-4。接下来，题目要求a的取值范围，同时还要求h(x)的最小值，其中h(x)=f(x)+g(x)。\n\n首先，我需要理解题目的条件。f(x)是一个二次函数，开口向上，顶点在x=1。g(x)是一个绝对值函数，开口向下，顶点在x=-m。关于x的不等式g(x)≥-1，意味着f(x)≥-1，即2|x-1|-a≥-1。解这个不等式，得到x≥1±a/2。因为x是整数，所以x≥1±a/2，即x≥1±a/2。\n\n接下来，题目说f(x)的图象在g(x)的上方，也就是说f(x) > g(x)对所有x∈ℝ都是成立的。这可能意味着f(x)在x=1±a/2处的值大于g(x)在x=1±a/2处的值。不过，这里可能需要更仔细地分析。\n\n首先，f(x)=2|x-1|-a，当x=1±a/2时，f(x)的值是多少呢？当x=1±a/2时，f(x)=2*(1±a/2)-a=2±a -a=2±a。所以，f(x)的值为2±a，当x=1±a/2时，f(x)≥2±a。而g(x)=-|2x + m|，当x=1±a/2时，g(x)= -|2*(1±a/2) + m| = -|2a/2 + m| = -|a + m|。所以，g(x)在x="
+            }
+        }
+    },
+    {
+        "id": 364,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 且 $S_{n}=n^{2}+n, n \\in N^{*}$, 数列 $\\left\\{b_{n}\\right\\}$ 满足 $b_{n}=2^{a}, n \\in N^{*}$.\n求 $a_{n}, b_{n}$.",
+        "solution": [
+            "当 $n=1$ 时, $a_{1}=S_{1}=2$\n\n当 $n \\geq 2$ 时, $a_{n}=S_{n}-S_{n-1}=\\left(n^{2}+n\\right)-\\left[(n-1)^{2}+(n-1)\\right]=2 n$\n\n$\\therefore a_{n}=2 n(n \\geq 1), b_{n}=2^{2 n}=4^{n}$."
+        ],
+        "final_answer": [
+            "$2 n, 4^{n}$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出两个数列，一个是递增的，一个是递减的，但它们的前几项和都是平方数，而且递增的数列的前几项和是平方数，而递减的数列的前几项和也是平方数。接下来，给出一个递推关系式，求这两个数列的通项公式。\n\n首先，我需要理解题目的条件。已知数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n = n^2 + n$，其中 $n \\in \\mathbb{N}^*$。同时，数列 $\\{b_n\\}$ 满足 $b_n = 2^{a_n}$，其中 $a_n$ 是递增的数列，且前几项和也是平方数。接下来，给出一个递推关系式，求这两个数列的通项公式。\n\n首先，我需要回忆一下数列的前几项和。已知 $S_n = n^2 + n$，那么 $S_{n+1} = (n+1)^2 + (n+1) = n^2 + 2n + 1 + n + 1 = n^2 + 3n + 2$。因此，$S_{n+1} - S_n = (n^2 + 3n + 2) - (n^2 + n) = 2n + 2$。这看起来像是一个等差数列，因为 $S_{n+1} - S_n = 2(n+1)$，而 $S_n - S_{n-1} = 2(n-1)$。所以，这个等差数列的公差是 $2$，首项是 $2(n+1)$。因此，$a_n = S_n - 2(n+1) = n^2 + n - 2(n+1) = n^2 - n - 2$。\n\n接下来，我需要确定数列 $\\{b_n\\}$ 的项。已知 $b_n = 2^{a_n}$，而 $a_n = n^2 - n - 2$，所以 $b_n = 2^{n^2 - n - 2}$。因此，$b_n$ 是一个指数数，指数是 $n^2 -"
+            }
+        }
+    },
+    {
+        "id": 365,
+        "subfield": "Sequence",
+        "context": null,
+        "question": "已知数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 且 $S_{n}=n^{2}+n, n \\in N^{*}$, 数列 $\\left\\{b_{n}\\right\\}$ 满足 $b_{n}=2^{a}, n \\in N^{*}$.\n求数列 $\\left\\{a_{n} \\cdot b_{n}\\right\\}$ 的前 $n$ 项和 $T_{n}$.",
+        "solution": [
+            "当 $n=1$ 时, $a_{1}=S_{1}=2$\n\n当 $n \\geq 2$ 时, $a_{n}=S_{n}-S_{n-1}=\\left(n^{2}+n\\right)-\\left[(n-1)^{2}+(n-1)\\right]=2 n$\n\n$\\therefore a_{n}=2 n(n \\geq 1), b_{n}=2^{2 n}=4^{n}$.\n\n$a_{n} \\cdot b_{n}=2 n \\cdot 4^{n}$\n\n设 $\\left\\{n \\cdot 4^{n}\\right\\}$ 的前 $n$ 项和为 $H_{n}$\n\n$H_{n}=1 \\times 4^{1}+2 \\times 4^{2}+3 \\times 4^{3}+\\cdots \\cdots \\cdot+n \\cdot 4^{n}$\n\n$4 H_{n}=1 \\times 4^{2}+2 \\times 4^{3}+\\cdots \\cdots+(n-1) \\cdot 4^{n}+n \\cdot 4^{n+1}$\n\n可得: $-3 H_{n}=-\\frac{4}{3}+\\left(\\frac{1}{3}-n\\right) \\cdot 4^{n+1}$\n\n$\\therefore H_{n}=\\frac{4}{9}+\\left(\\frac{n}{3}-\\frac{1}{9}\\right) \\cdot 4^{n+1}$\n\n$\\therefore T_{n}=\\frac{8}{9}+\\frac{2(3 n-1)}{9} \\cdot 4^{n+1}$."
+        ],
+        "final_answer": [
+            "$\\frac{8}{9}+\\frac{2(3 n-1)}{9} \\cdot 4^{n+1}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Expression",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出两个数列，一个是递增的，一个是递减的，但它们的和S_n也是递增的。接下来，给出一个递推关系式，求这个数列的前n项和T_n。\n\n首先，我需要理解题目的条件。已知数列{a_n}的前n项和为S_n，且S_n = n² + n，n ∈ N*。同时，数列{b_n}满足b_n = 2^a，a ∈ N*。要求的是数列{a_n * b_n}的前n项和T_n。\n\n首先，我需要回忆一下数列的和的计算公式。对于递增数列{a_n}，和S_n = a₁ + a₂ + ... + aₙ，其中a₁ = a₀，a₂ = a₁ + a₁²，a₃ = a₂ + a₂²，依此类推。对于递减数列{b_n}，和S_n = b₁ + b₂ + ... + bₙ，其中b₁ = b₀，b₂ = b₁ + b₁²，b₃ = b₂ + b₂²，依此类推。\n\n接下来，题目中给出的递推关系式是b_n = 2^a，a ∈ N*。这看起来像是一个指数增长数列，因为每次递推都是2的幂次，而指数增长数列的和可以表示为1 + 2 + 2² + ... + 2^a。这看起来像是一个几何级数，所以和T_n可以表示为1 + 2 + 2² + ... + 2^a。\n\n不过，这里可能需要更仔细地分析。因为题目中给出的数列{b_n}是递增的，而数列{a_n}是递减的，所以T_n应该是数列{a_n * b_n}的和。那么，T_n = ∑_{k=1}^{n} a_k * b_{k-1}。\n\n但是，这里可能需要更准确地计算T_n。因为T_n = ∑_{k=1}^{n} a_k * b_{k-1}，而b_{k-1} = 2^{a_{k-1}}，所以T_n = ∑_{k=1"
+            }
+        }
+    },
+    {
+        "id": 366,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "根据某省的高考改革方案, 考生应在 3 门理科学科 (物理、化学、生物) 和 3 门文科学科 (历史、政治、地理) 6 门学科中选择 3 门学科数加考试.\n假设考生甲理科成绩较好，决定至少选择两门理科学科，那么该同学的选科方案有几种？",
+        "solution": [
+            "选科方案中两门理科的情况有: 物化历, 物化政, 物化地, 物生历, 物生政, 物生地,化生历, 化生政, 化生地;\n\n选科方案中三门理科的情况有: 物化生;\n\n因此至少选择两门理科学科的选科方案有 10 种."
+        ],
+        "final_answer": [
+            "$10$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是：根据某省的高考改革方案，考生应在3门理科学科（物理、化学、生物）和3门文科学科（历史、政治、地理）中选择3门学科数加考试。假设考生甲理科成绩较好，决定至少选择两门理科学科，那么该同学的选科方案有几种？\n\n首先，我需要理解题目的要求。题目中说，考生在3门理科学科和3门文科学科中选择3门学科数加考试。也就是说，考生必须选择至少2门理科学科和1门文科学科，然后在剩下的3个位置中选择3个位置，每个位置可以是物理、化学、生物中的任意一种。那么，这样的选科方案有多少种？\n\n首先，我需要明确每种选科方案的条件。每种选科方案必须满足以下条件：\n1. 选择至少2门理科学科。\n2. 选择1门文科学科。\n3. 在剩下的3个位置中选择3个位置，每个位置可以是物理、化学、生物中的任意一种。\n\n接下来，我需要计算满足这些条件的选科方案的数量。这可能涉及到组合数学中的排列组合问题。\n\n首先，我来计算满足条件的选科方案的数量。首先，我需要确定每种选科方案中，至少有多少种选择2门理科学科和1门文科学科。这可能涉及到排列组合中的组合数。\n\n首先，计算满足条件的选科方案的数量。我们需要计算的是，从3种理科学科中选择至少2种，然后从3种文科学科中选择1种，然后在剩下的3个位置中选择3个位置，每个位置可以是物理、化学、生物中的任意一种。\n\n那么，我需要计算的是：\n1. 从3种理科学科中选择至少2种的组合数。\n2. 从3种文科学科中选择1种的组合数。\n3. 在剩下的3个位置中选择3个位置的组合数。\n\n接下来，我需要分别计算这三种情况的组合数。\n\n首先，计算满足条件的选科方案的数量。这可能涉及到排列组合中的组合数，但需要考虑不同的情况。\n\n首先，选择至少2种理科学科的组合数。这可能涉及到从3种理科学科中选择2种，然后从剩下的1种中选择1种。"
+            }
+        }
+    },
+    {
+        "id": 367,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "根据某省的高考改革方案, 考生应在 3 门理科学科 (物理、化学、生物) 和 3 门文科学科 (历史、政治、地理) 6 门学科中选择 3 门学科数加考试.\n假设每门学科被选中的概率是相同的，求选科方案中有包括物理但不包括历史的概率.",
+        "solution": [
+            "选科方案的情况有: 物化生, 物化历, 物化政, 物化地, 物生历, 物生政, 物生地,化生历、化生政, 化生地, 历政地, 历政物, 历政化, 历政生, 历地物, 历地化, 历地生,政地物, 政地化, 政地生, 共 20 种.\n\n选科方案中有包括物理但不包括历史的情况有: 物化生, 物化政, 物化地, 物生政, 物生地,物政地, 共 6 种.\n\n所以概率 $P=\\frac{6}{20}=0.3$."
+        ],
+        "final_answer": [
+            "$0.3$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是说，某省的高考改革方案中，考生需要在3门理科学科（物理、化学、生物）和3门文科学科（历史、政治、地理）中选择3门学科，每门学科被选中的概率都是相同的。求选科方案中包括物理但不包括历史的概率。\n\n首先，我需要理解题目的要求。题目要求的是，选科方案中包括物理但不包括历史的概率。也就是说，选科方案中，至少包括一个物理学科，但不包括一个历史学科。\n\n接下来，我需要回忆一下概率论中的相关知识。概率论中的事件分为两类：必然事件和随机事件。这里，事件是“选科方案中包括物理但不包括历史”，所以这是一个随机事件，因为它可能有多个可能的结果，包括包括物理和不包括物理，以及包括历史和不包括历史。\n\n概率论中的事件概率可以用二项分布来计算。二项分布的概率质量函数为：\n\nP(X = k) = C(n, k) * p^k * (1 - p)^{n - k}\n\n其中，n是总事件的数量，k是事件成功的情况数，p是成功事件的概率。\n\n在这个问题中，n=3，k=1，p=1/2。所以，概率P(X=1)就是：\n\nP(X=1) = C(3,1) * (1/2)^1 * (1/2)^2 = 3 * (1/2)^3 = 3/8 = 0.375\n\n所以，概率P(X=1) = 3/8 = 0.375。\n\n接下来，我需要计算其他概率。首先，总共有3种可能的选科方式，包括包括物理和不包括物理，以及包括历史和不包括历史。因此，总共有3种可能性。\n\n接下来，我需要计算包括物理但不包括历史的概率。这可能涉及到计算概率的和，因为包括物理但不包括历史的概率等于包括物理的概率加上不包括物理的概率，然后减去包括历史但不包括物理的概率。\n\n计算包括物理的概率，也就是包括物理和不包括历史的概率。包括物理的概率是C(3,1) * (1/2)^1 * (1/2)^2 = 3 * (1/2)^3 = 3/8 = 0.375"
+            }
+        }
+    },
+    {
+        "id": 370,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知抛物线 $C: y^{2}=2 p x$ 经过点 $A(1,2)$, 经过点 $(1,1)$ 且斜率为 $k$ 的直线与抛物线 $C$ 交于不同的两点 $P$, $Q$ (均异于点 $A$ ), 设直线 $A P$ 的斜率为 $k_{1}$, 直线 $A Q$ 的斜率为 $k_{2}$.\n当 $k=1$ 时, 求 $k_{1}+k_{2}$ 的值.",
+        "solution": [
+            "由题意知, $4=2 p \\times 1, \\therefore p=2$, 抛物线 $C: y^{2}=4 x$\n\n当 $k=1$ 时, 直线 $l: y=x$, 与抛物线联立后得 $x^{2}=4 x, x_{1}=0, x_{2}=4$, 不妨设\n\n$P(0,0), Q(4,4), \\quad k_{1}=2, \\quad k_{2}=\\frac{2}{3}, \\quad \\therefore k_{1}+k_{2}=\\frac{8}{3}$\n."
+        ],
+        "final_answer": [
+            "$\\frac{8}{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "当 $k \\neq 1$ 时, 求 $k_{1}+k_{2}$ 的值。\n\n好的，我现在要解决这个数学竞赛题目。题目是关于抛物线的，已知抛物线C：y²=2p x经过点A(1,2)，并且斜率为k的直线与抛物线C交于不同的两点P和Q，且直线A P的斜率为k1，直线A Q的斜率为k2。当k=1时，求k1+k2的值；当k≠1时，求k1+k2的值。\n\n首先，我需要理解题目的条件。抛物线C的方程是y²=2p x，已知点A(1,2)在抛物线上，所以当x=1时，y²=2p*1=2p，所以p=1。接下来，斜率为k的直线与抛物线相交于P和Q，且P和Q的横坐标不同，即P和Q不在同一直线y=kx上。直线A P的斜率为k1，直线A Q的斜率为k2。\n\n接下来，我需要计算k1和k2的值。首先，计算点A到准线的距离，准线方程为x= -p，这里p=1，所以准线方程为x=-1。点A(1,2)到准线的距离是2 - (-1)=3。所以，k1是点A到直线A P的距离，即k1=3/3=1。\n\n接下来，计算点A到准线的垂直距离，即k2。因为直线A P的斜率为k1=1，所以k2=-1/k1=-1/1=-1。这可能有问题，因为k2的值应该是正数，但这里k2=-1，这似乎有问题。让我再检查一下。\n\n点A(1,2)到准线的距离是3，所以k1=3/3=1，这没问题。那么，k2=-1，这似乎有问题，因为k2的值应该是正数，但这里k2=-1，这似乎矛盾。让我再仔细检查一下。\n\n点A(1,2)到准线的距离是3，所以k1=3/3=1，这没问题。那么，k2=-1，这"
+            }
+        }
+    },
+    {
+        "id": 371,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知抛物线 $C: y^{2}=2 p x$ 经过点 $A(1,2)$, 经过点 $(1,1)$ 且斜率为 $k$ 的直线与抛物线 $C$ 交于不同的两点 $P$, $Q$ (均异于点 $A$ ), 设直线 $A P$ 的斜率为 $k_{1}$, 直线 $A Q$ 的斜率为 $k_{2}$.\n求 $k_{1}^{2}+k_{2}^{2}$ 的取值范围.",
+        "solution": [
+            "由题意得：\n\n$4=2 p \\times 1, \\therefore p=2$, 抛物线 $C: y^{2}=4 x$\n\n直线 $l: y=k x+1-k$, 与抛物线联立 $\\left\\{\\begin{array}{c}y=k x+1-k \\\\ y^{2}=4 x\\end{array}\\right.$, 得\n\n$k y^{2}-4 y+4-4 k=0$.\n\n设 $P\\left(x_{1}, y_{1}\\right), Q\\left(x_{2}, y_{2}\\right)$\n\n$y_{1}+y_{2}=\\frac{4}{k}, \\quad y_{1} \\cdot y_{2}=\\frac{4}{k}-4, \\quad k_{1}=\\frac{y_{1}-2}{\\frac{y_{1}^{2}}{4}-1}=\\frac{4}{y_{1}+2}, \\quad k_{2}=\\frac{y_{2}-2}{\\frac{y_{2}^{2}}{4}-1}=\\frac{4}{y_{2}+2},$\n\n$k_{1}^{2}+k_{2}^{2}=\\frac{16}{\\left(y_{1}+2\\right)^{2}}+\\frac{16}{\\left(y_{2}+2\\right)^{2}}=16 \\cdot \\frac{\\left(y_{1}+y_{2}\\right)^{2}-2 y_{1} y_{2}+4\\left(y_{1}+y_{2}\\right)+8}{\\left[y_{1} y_{2}+2\\left(y_{1}+y_{2}\\right)+4\\right]^{2}}$\n\n$=\\frac{8}{9}\\left(2 k^{2}+k+2\\right) \\geq \\frac{5}{3}$,\n\n所以 $k_{1}^{2}+k_{2}^{2}$ 的取值范围为 $\\left[\\frac{5}{3},+\\infty\\right)$."
+        ],
+        "final_answer": [
+            "$\\left[\\frac{5}{3},+\\infty\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于抛物线的，已知抛物线C：y²=2p x经过点A(1,2)，并且经过点(1,1)且斜率为k的直线与抛物线C交于不同的两点P和Q，且直线A P的斜率为k1，直线A Q的斜率为k2。要求k1² + k2²的取值范围。\n\n首先，我需要理解题目的条件。抛物线C是y²=2p x，已知点A(1,2)在抛物线上，点(1,1)在抛物线上，且斜率为k的直线与抛物线相交于P和Q，且P和Q的横坐标不同。接下来，我需要计算k1² + k2²的值，并且确保这个值在某个范围内。\n\n首先，我来计算点A到原点的距离，因为点A在原点，所以距离为0。点(1,1)到原点的距离是1，因为1²=1。那么，点A到点(1,1)的距离是1，点P到点(1,1)的距离是1 - 1=0，点Q到点(1,1)的距离是1 - 0=1。所以，点P到点A的距离是1，点Q到点A的距离也是1。因为点P和Q在抛物线上，所以它们到原点的距离相等，即0 < |PQ| < 1。同样，点A到点Q的距离也是1，因为点A到点Q的距离是1，点Q到原点的距离是1，所以点A到点Q的距离是1，点P到点Q的距离也是1。所以，点P到点A的距离是1，点Q到点A的距离也是1。因此，点P和Q的横坐标分别是1和1，纵坐标是2。所以，点P的坐标是(1,2)，点Q的坐标是(1,1)。\n\n接下来，我需要计算点P到点A的距离和点Q到点A的距离。点P到点A的距离是1，点Q到点A的距离也是1。因为点P和Q在抛物线上，所以它们到原点的距离相等，即0 < |PQ|"
+            }
+        }
+    },
+    {
+        "id": 373,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "设函数 $f(x)=e^{x}-x^{2} e^{x}-a x-1$.\n若对于任意的 $x_{1}, x_{2} \\in(1,+\\infty), x_{1} \\neq x_{2}$, 都有 $\\frac{f\\left(x_{1}\\right)-f\\left(x_{2}\\right)}{x_{1}-x_{2}}<x_{1}+x_{2}$ 恒成立, 求实数 $a$ 的取值范围.",
+        "solution": [
+            "不妨设 $x_{1}>x_{2}>1$, 则 $f\\left(x_{1}\\right)-f\\left(x_{2}\\right)<x_{1}^{2}-x_{2}^{2}$, 即 $f\\left(x_{1}\\right)-x_{1}^{2}<f\\left(x_{2}\\right)-x_{2}^{2}, $\n\n设 $g(x)=e^{x}-x^{2} e^{x}-a x-1-x^{2}, g^{\\prime}(x)=e^{x}-\\left(2 x e^{x}+x^{2} e^{x}\\right)-a-2 x \\leq 0$ 在 $x \\in(1,+\\infty)$ 上恒成立.\n\n设 $h(x)=g^{\\prime}(x)=e^{x}-\\left(2 x e^{x}+x^{2} e^{x}\\right)-a-2 x, \\quad h^{\\prime}(x)=-\\left(x^{2}+4 x+1\\right) e^{x}-2<0$,\n\n$\\therefore y=h(x)$ 在 $x \\in(1,+\\infty)$ 上单调递减,\n\n$h(x)<h(1)=-2 e-2-a \\leq 0, \\quad a \\geq-2 e-2$."
+        ],
+        "final_answer": [
+            "$[-2 e-2, +\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于函数f(x)的导数和单调性的，然后要求a的取值范围，使得对于任意x1≠x2∈(1, +∞)，都有(x1 + x2)/x1 - x2 < x1 - x2。也就是说，这个函数在x1和x2之间是严格递增的，也就是说，对于任意的x1 < x2，都有f(x1) < f(x2)。那么，我需要找到a的取值范围，使得这个条件成立。\n\n首先，我需要理解题目的条件。题目给出的函数是f(x)=e^x - x² e^x - a x -1，其中x1≠x2，x1和x2都在(1, +∞)上。要求a的取值范围，使得对于任意x1≠x2，都有(x1 + x2)/x1 - x2 < x1 - x2。\n\n接下来，我需要分析这个表达式。首先，我注意到x1和x2都是正数，因为f(x)在x1和x2处取得极值，所以x1和x2都是正数。接下来，我需要将这个表达式转化为更易于分析的形式。\n\n首先，我注意到x1和x2都是正数，所以x1 + x2 > 2x1，x1 - x2 > 2x2。因此，x1 + x2 - x1 + x2 > 2x1 - 2x2，即x1 + x2 - x1 + x2 > 2(x1 - x2)。接下来，我需要将这个表达式转化为a的函数形式，使得a的取值范围满足条件。\n\n接下来，我考虑将x1 + x2 - x1 + x2转化为a的函数形式。首先，x1 + x2 - x1 + x2 = x2 + x2 = x2(x2 + 1)。因此，x2(x2 + 1) > 2(x1 - x2)。接下来，我需要找到a的取值范围，使得这个不等式成立。\n\n接下来，我需要分析这个不等式。首先，x2(x2 + 1) > 2(x1 - x2)。为了使这个不等式成立，必须满足x2(x2 + 1"
+            }
+        }
+    },
+    {
+        "id": 374,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系$xOy$中，直线$l$的参数方程为$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$,（$t$为参数） 曲线$C$的参数方程为$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$（$\\theta$为参数）.\n写出直线 $l$ 与曲线 $C$ 的普通方程;",
+        "solution": [
+            "直线 $l: 2 x+y-8=0 ;$\n\n由线 $C: \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$."
+        ],
+        "final_answer": [
+            "$2 x+y-8=0 , \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Equation",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "求直线 $l$ 在点$(1, 1)$处的切线方程。\n\n \n\n好的，我现在要解决这个数学竞赛题目。题目给出两个直线方程：第一条是$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$，其中$t$为参数；第二条是$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$，其中$\\theta$为参数。要求写出这两条直线的普通方程，以及求出在点$(1,1)$处的切线方程。\n\n首先，我需要理解题目的要求。直线方程的一般形式是$x = f(t)$，其中$t$是参数。而曲线方程的一般形式是$y = g(t)$，其中$t$也是参数。题目中给出的直线方程是$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$，这看起来像是一个线性方程，因为$x$和$y$都是关于$t$的线性函数。而曲线方程是$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$，这看起来像是一个三角函数方程，因为$x$和$y$都是关于$\\theta$的线性函数。\n\n接下来，我需要将这两个方程转化为标准形式，也就是方程的一般形式$x = f(t)$和$y = g(t)$。这可能需要将方程中的变量转换为标准形式，比如$x = 2 + t$，$y = 4 - 2t$，或者$x = 3 \\cos \\theta$，$y = 2 \\sin \\theta$。\n\n首先，考虑将$x=2 + t$转化为标准形式。将$x$移到右边，得到$x - 2 = t$，所以$t = x - 2$。然后，将$t$代入$x$的表达式，得到$x = 2 + (x - 2)$，化简一下，得到$x = 2 + x - 2$，即$x = x$，这看起来是对的。同样地，将$x=3 \\cos \\"
+            }
+        }
+    },
+    {
+        "id": 375,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "context": null,
+        "question": "在直角坐标系$xOy$中，直线$l$的参数方程为$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$,（$t$为参数） 曲线$C$的参数方程为$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$（$\\theta$为参数）.\n过曲线 $C$ 上任意一点 $A$ 作与 $l$ 夹角为 $\\alpha$ 的直线, 交直线 $l$ 于点 $B$, 若 $\\tan \\alpha=\\frac{1}{2}$, 求 $|A B|$ 的最大值和最小值.",
+        "solution": [
+            "直线 $l: 2 x+y-8=0 ;$\n\n由线 $C: \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$.\n\n椭圆 $C$ 上的点到直线 $l$ 的距离 $d=\\frac{|6 \\cos \\theta+2 \\sin \\theta-8|}{\\sqrt{2^{2}+1^{2}}}=\\frac{|\\sqrt{40} \\sin (\\theta+\\varphi)-8|}{\\sqrt{5}}$, 其中 $\\varphi$ 是第一象限角, 且 $\\tan \\varphi=3$,\n\n$\\therefore d_{\\min }=\\frac{|2 \\sqrt{10}-8|}{\\sqrt{5}}=\\frac{8-2 \\sqrt{10}}{\\sqrt{5}}, d_{\\max }=\\frac{|-2 \\sqrt{10}-8|}{\\sqrt{5}}=\\frac{8+2 \\sqrt{10}}{\\sqrt{5}}$,\n\n$\\because \\tan \\alpha=\\frac{1}{2}, \\therefore \\sin \\alpha=\\frac{1}{\\sqrt{5}}$\n\n$\\because|A B|=\\frac{d}{\\sin \\alpha}$\n\n$\\therefore |A B|_{\\min }=d_{\\min } \\times \\sqrt{5}=8-2 \\sqrt{10}, \\therefore|A B|_{\\max }=d_{\\max } \\times \\sqrt{5}=8+2 \\sqrt{10}$."
+        ],
+        "final_answer": [
+            "$8+2 \\sqrt{10}, 8-2 \\sqrt{10}$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目给出两个直线方程：第一条是$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$，其中$t$为参数；第二条是$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$，其中$\\theta$为参数。要求过曲线$C$上任意一点$A$作与直线$l$夹角为$\\alpha$的直线，交直线$l$于点$B$，并且$\\tan \\alpha = \\frac{1}{2}$，求$|AB|$的最大值和最小值。\n\n首先，我需要理解题目中的直线和曲线的关系。直线$L$的参数方程是$\\left\\{\\begin{array}{l}x=2 + t \\\\ y=4 - 2t\\end{array}\\right.$，其中$t$为参数。曲线$C$的参数方程是$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$，其中$\\theta$为参数。\n\n接下来，我要找出曲线$C$上任意一点$A$到直线$L$的距离$|AB|$的最大值和最小值。这里，$A$在$x$轴上，$B$在$y$轴上，且$A$在$x$轴上，$B$在$y$轴上，所以$|AB|$就是$|A - B|$。\n\n首先，我需要将曲线$C$的参数方程转化为标准方程。曲线$C$的参数方程是$\\left\\{\\begin{array}{l}x=3 \\cos \\theta \\\\ y=2 \\sin \\theta\\end{array}\\right.$，其中$\\theta$为参数。这看起来像是一个椭圆，因为$\\cos^2 \\theta + \\sin^2 \\theta = 1$，所以椭圆的标准方程应该是$\\frac{x^2}{9} + \\frac{y^2}{4} = 1$。\n\n接下来，我要找到直线$L$的方程。直线$L$的参数方程是$\\left\\{\\begin{array}{l}x=2 + t \\\\ y"
+            }
+        }
+    },
+    {
+        "id": 376,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|2 x+1|-|3 x-a|(a>0)$\n当 $a=3$ 时, 求不等式 $f(x)>2$ 的解集.",
+        "solution": [
+            "当 $a=3$ 时, $f(x)=|2 x+1|-|3 x-3|=\\left\\{\\begin{array}{l}-x+4, x \\geq 1 \\\\ 5 x-2,-\\frac{1}{2}<x<1 \\\\ x-4, x \\leq-\\frac{1}{2}\\end{array}\\right.$\n\n当 $x \\geq 1$ 时， $4-x>2, \\therefore x \\in[1,2)$\n\n当 $-\\frac{1}{2}<x<1$ 时, $5 x-2>2, \\therefore x \\in\\left(\\frac{4}{5}, 1\\right)$\n\n当 $x \\leq-\\frac{1}{2}$ 时， $x-4>2, \\therefore x \\in(6,+\\infty)$ 含去\n\n综上可知，$x \\in\\left(\\frac{4}{5}, 2\\right)$."
+        ],
+        "final_answer": [
+            "$\\left(\\frac{4}{5}, 2\\right)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是已知函数 \\( f(x) = |2x + 1| - |3x - 3| \\)，当 \\( a = 3 \\) 时，求不等式 \\( f(x) > 2 \\) 的解集。\n\n首先，我需要理解题目中的函数 \\( f(x) \\) 和参数 \\( a \\)。函数 \\( f(x) \\) 是一个绝对值函数，分母是 \\( 3x - 3 \\)，所以 \\( f(x) = |2x + 1| - |3x - 3| \\)。参数 \\( a = 3 \\)，说明 \\( f(x) \\) 的定义域是全体实数，因为绝对值函数在实数范围内是定义的。\n\n接下来，我需要找到不等式 \\( f(x) > 2 \\) 的解集。首先，我需要将 \\( f(x) \\) 表示为两个绝对值函数的差，即 \\( f(x) = |2x + 1| - |3x - 3| \\)。为了求解 \\( f(x) > 2 \\)，我需要找到满足这个不等式的 \\( x \\) 的取值范围。\n\n首先，我来分析 \\( f(x) \\) 的结构。 \\( f(x) = |2x + 1| - |3x - 3| \\)。这个函数的定义域是全体实数，因为绝对值函数在实数范围内是定义的。接下来，我需要确定 \\( f(x) \\) 的单调性，以及在哪些区间内 \\( f(x) \\) 是正的，负的，还是零。\n\n首先，我来计算 \\( f(x) \\) 的具体值。计算一下：\n\n1. 当 \\( x \\geq \\frac{1}{2} \\) 时，\\( 2x + 1 \\geq 0 \\)，所以 \\( |2x + 1| = 2x + 1 \\)。同样，\\( 3x - 3 \\geq 0 \\)，所以 \\( |3x - 3| = 3x - 3 \\)。因此，\\( f(x) = 2x + 1 - (3x - 3) = x + 4 \\)。\n\n2. 当 \\( x < \\frac{1}{2} \\)"
+            }
+        }
+    },
+    {
+        "id": 377,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "已知函数 $f(x)=|2 x+1|-|3 x-a|(a>0)$\n若 $f(x)$ 的图像与 $x$ 轴围成的三角形的面积大于 $\\frac{5}{3}$, 求 $a$ 的取值范围.",
+        "solution": [
+            "$\\because a>0$, 则\n\n$f(x)=|2 x+1|-|3 x-a|=\\left\\{\\begin{array}{l}-x+1+a, x \\geq \\frac{a}{3} \\\\ 5 x+1-a,-\\frac{1}{2}<x<\\frac{a}{3} \\\\ x-a-1, x \\leq-\\frac{1}{2}\\end{array}\\right.$\n\n今 $5 x_{1}+1-a=0 . \\therefore x_{1}=\\frac{a-1}{5}$\n\n今 $-x_{2}+1+a=0, \\therefore x_{2}=1+a$\n\n$x_{2}-x_{1}=\\frac{4 a+6}{5}, f\\left(\\frac{a}{3}\\right)=\\frac{2 a}{3}+1$\n\n$S_{\\Delta}=\\frac{1}{2} \\times \\frac{4 a+6}{5} \\times\\left(\\frac{2 a}{3}+1\\right)>\\frac{5}{3}, \\therefore a>1$."
+        ],
+        "final_answer": [
+            "$(1, +\\infty)$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于函数f(x) = |2x + 1| - |3x - a|，其中a > 0，且f(x)与x轴围成的三角形的面积大于5/3。我的任务是求a的取值范围。\n\n首先，我需要理解题目的要求。题目要求的是，当a > 0时，函数f(x)在x轴上围成的三角形的面积大于5/3。这可能涉及到绝对值函数的性质，以及三角形的面积公式。\n\n首先，我注意到绝对值函数的性质。绝对值函数f(x) = |2x + 1| - |3x - a|的定义域是x ∈ ℝ，因为绝对值函数在x=±1时才不为零。那么，我需要确定a的范围，使得f(x)在x轴上是严格递增的，这样三角形的面积才大于5/3。\n\n接下来，我需要分析f(x)的单调性。首先，我来计算f(x)的导数f’(x)。对于x > 0，f(x) = 2x + 1，所以f’(x) = 2。对于x < 0，f(x) = -3x + a，所以f’(x) = -3。因此，f(x)在x=0处的导数为0，因为f(x)在x=0处的函数值为0。\n\n接下来，我需要确定f(x)在x=0处的符号。当x > 0时，f(x) = 2x + 1，当x < 0时，f(x) = -3x + a。因此，f(x)在x=0处的符号由f(0)和f’(0)决定。\n\n首先，计算f(0)的值。当x=0时，f(0) = 2*0 + 1 = 1。那么，f(0) = 1，因为f(x)在x=0处的函数值为1。\n\n接下来，计算f’(0)的值。f’(0) = 2，因为f(x)在x=0处的导数为2。\n\n根据导数的符号变化，当x > 0时，f(x) ="
+            }
+        }
+    },
+    {
+        "id": 378,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "在 $\\triangle \\mathrm{ABC}$ 中, 角 $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ 对应的边分别为 $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}$, 且满足 $b \\cos A-a \\sin B=0$.\n求角 $\\mathrm{A}$ 的大小.",
+        "solution": [
+            "$\\because b \\cos A-a \\sin B=0$\n\n由正弦定理得： $\\sin B \\cos A-\\sin A \\sin B=0$\n\n又 $\\because 0<\\mathrm{B}<\\pi \\quad \\therefore \\sin B \\neq 0, \\cos A-\\sin A=0$\n\n$\\therefore \\tan A=1$\n\n$\\because 0<\\mathrm{A}<\\pi$\n\n$\\therefore A=\\frac{\\pi}{4}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\pi}{4}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是说在三角形ABC中，角A、B、C对应边a、b、c，满足b*cosA - a*sinB = 0。求角A的大小。\n\n首先，我需要理解题目的条件和要求。已知三角形ABC的三个角A、B、C，它们的对边分别是a、b、c。另外，已知一个条件是b*cosA - a*sinB = 0，其中角A是角B的邻角，角B是角C的邻角。我的任务是求角A的大小。\n\n首先，我回忆一下三角形内角和的性质。三角形的内角和为180度，所以A + B + C = 180度。而这里，角A是角B的邻角，角B是角C的邻角，所以角A + B = 180度 - 180度 = 0度，这显然是不对的。这说明我的理解有问题。\n\n或者，可能题目中的条件是b*cosA = a*sinB，或者b*sinA = a*cosB。但不管怎样，我需要找到一个关系式，使得我可以利用三角形内角和来求角A。\n\n接下来，我考虑使用三角形内角和的性质。三角形的内角和为180度，所以A + B + C = 180度。而这里，角A是角B的邻角，角B是角C的邻角，所以角A + B = 180度 - 180度 = 0度，这显然是不对的。这说明我的假设可能有问题。\n\n或者，可能题目中的条件是b*cosA = a*sinB，或者b*sinA = a*cosB。但不管怎样，我需要找到一个关系式，使得我可以利用三角形内角和来求角A。\n\n另一个方法是使用正弦和余弦的平方差公式。我记得，对于角A，有b² = a² + c² - 2ac cosA。但是这可能需要更多的计算，或者可能需要使用其他关系式。\n\n另一种方法是利用三角形内角和的性质，即A + B + C = 180度，而这里角A是角B的邻角，角B是角C的邻角，所以角"
+            }
+        }
+    },
+    {
+        "id": 379,
+        "subfield": "Trigonometric Functions",
+        "context": null,
+        "question": "在 $\\triangle \\mathrm{ABC}$ 中, 角 $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ 对应的边分别为 $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}$, 且满足 $b \\cos A-a \\sin B=0$.\n已知 $b=\\sqrt{2}, A=\\frac{\\pi}{4}, \\triangle \\mathrm{ABC}$ 的面积为 1 , 求边 $\\mathrm{a}$.",
+        "solution": [
+            "$\\because b=\\sqrt{2}, A=\\frac{\\pi}{4}, S_{\\triangle A B C}=1$\n\n$\\therefore \\frac{1}{2} b c \\sin A=1 \\quad$，得 $c=2$\n\n由余弦定理得, $a^{2}=b^{2}+c^{2}-2 b c \\cos A=2$\n\n得 $a=\\sqrt{2}$."
+        ],
+        "final_answer": [
+            "$\\sqrt{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是说在三角形ABC中，角A、B、C对应边a、b、c，满足b*cosA - a*sinB = 0。已知b=√2，A=π/4，三角形面积S=1，求a的长度。\n\n首先，我需要理解题目的条件和要求。已知三角形ABC的边长b=√2，角A=π/4，面积S=1。我要找出边a的长度。\n\n首先，我回忆一下三角形面积的公式。三角形的面积S可以通过公式：\nS = 1/2 * a * b * sinC\n这里，C是三角形的第三个角，因为角A和B是对角，所以C=π/2 - A = π/2 - π/4 = 3π/4。\n\n接下来，我需要利用已知条件来求解a。首先，我来计算b的值。因为b=√2，而角A=π/4，所以根据正弦定理，我有：\nb / a = sinA / sinB\n即：\n√2 / a = sin(π/4) / sinB\n因为sin(π/4)=√2/2，所以：\n√2 / a = (√2/2) / sinB\n两边同时乘以a，得到：\n√2 = a * (√2/2) / sinB\n化简左边：\n√2 = a * (√2/2) / sinB\n两边同时乘以2：\n2√2 = 2a * sinB\n两边同时除以2：\n√2 = a * sinB\n所以：\nsinB = √2 / a\n因为sinB的值为√2 / a，所以：\n√2 / a = √2 / a\n两边同时乘以a：\n1 = a²\n所以：\na² = 1\n解这个方程，得到：\na = 1\n或者a = -1（但因为a是边长，长度不能为负，所以a=1）。\n\n但是，这里可能有误，因为三角形的边长不能为负数。让我再检查一下。\n\n首先，我计算b的值。因为b=√2，角A=π/4，所以根据正弦定理：\nb / a = sinA /"
+            }
+        }
+    },
+    {
+        "id": 382,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "双十一之后, 网购粉丝们期待的双十二已然到来, 为了解双十二消费者购物情况和电商的营业情况，做如下数据分析.据悉 12 月 12 日.有 2000 名网购者在某购物网站进行网购消费（消费金额不超过 1000 元），其中有女士 1100 名，男士:900 名，该购物网站为优化营销策略, 根据性别采用分层抽样的方法从这 2000 名网购者中抽取 200 名进行分析, 如表.（消费金额单位：元）\n\n女士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 10          | 25            | 35            | 30            | $x$          |\n\n男士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 15          | 30            | 25            | $y$         | 5              |\n\n附:\n\n$$\nK^{2}=\\frac{n(a d-b c)^{2}}{(a+\\mathrm{b})(\\mathrm{c}+\\mathrm{d})(\\mathrm{a}+\\mathrm{c})(\\mathrm{b}+\\mathrm{d})}, \\quad n=a+b+c+d\n$$\n\n| $P\\left(K^{2} \\geq k_{0}\\right)$ | 0.10  | 0.05  | 0.025 | 0.010 | 0.005 |\n| :--------------------------------- | :---- | :---- | :---- | :---- | :---- |\n| $k_{0}$                          | 2.706 | 3.841 | 5.024 | 6.635 | 7.879 |\n计算 $\\mathrm{x}, \\mathrm{y}$ 的值.",
+        "solution": [
+            "依原意,女士应抽取 110 名,男士应抽取 90 名,故 $x=10, y=15$."
+        ],
+        "final_answer": [
+            "$10, 15$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是关于双十二消费者购物情况和电商的营业情况的分析。首先，我需要理解题目的要求，然后根据所提供的信息计算得出答案。\n\n首先，题目给出了2000名网购者在12月12日进行网购消费的情况，其中200名是女士，900名是男士。然后，从这2000名网购者中随机抽取200名进行分析，结果如下：\n\n- 女性消费金额在0到200元之间的人数是10人，占总人数的10%。\n- 女性消费金额在200到400元之间的人数是25人，占总人数的25%。\n- 女性消费金额在400到600元之间的人数是35人，占总人数的35%。\n- 女性消费金额在600到800元之间的人数是30人，占总人数的30%。\n- 男性消费金额在0到200元之间的人数是15人，占总人数的15%。\n- 男性消费金额在200到400元之间的人数是30人，占总人数的30%。\n- 男性消费金额在400到600元之间的人数是25人，占总人数的25%。\n- 男性消费金额在600到800元之间的人数是5人，占总人数的5%。\n\n接下来，我需要计算这些数据的平均值和标准差，然后根据这些统计量判断是否需要进一步的分析。\n\n首先，计算平均值：\n\n- 女性平均消费金额：\n$$\n\\frac{10 \\times 0 + 25 \\times 200 + 35 \\times 400 + 30 \\times 600 + 15 \\times 800}{200 + 25 + 35 + 30 + 15} = \\frac{0 + 5000 + 14000 + 18000 + 12000}{200 + 25 + 35 + 30 + 15} = \\frac{500"
+            }
+        }
+    },
+    {
+        "id": 383,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "双十一之后, 网购粉丝们期待的双十二已然到来, 为了解双十二消费者购物情况和电商的营业情况，做如下数据分析.据悉 12 月 12 日.有 2000 名网购者在某购物网站进行网购消费（消费金额不超过 1000 元），其中有女士 1100 名，男士:900 名，该购物网站为优化营销策略, 根据性别采用分层抽样的方法从这 2000 名网购者中抽取 200 名进行分析, 如表.（消费金额单位：元）\n\n女士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 10          | 25            | 35            | 30            | $x$          |\n\n男士消费情况:\n\n| 消费金额 | $(0,200)$ | $[200,400)$ | $[400,600)$ | $[600,800)$ | $[800,1000]$ |\n| :------- | :---------- | :------------ | :------------ | :------------ | :------------- |\n| 人数     | 15          | 30            | 25            | $y$         | 5              |\n\n附:\n\n$$\nK^{2}=\\frac{n(a d-b c)^{2}}{(a+\\mathrm{b})(\\mathrm{c}+\\mathrm{d})(\\mathrm{a}+\\mathrm{c})(\\mathrm{b}+\\mathrm{d})}, \\quad n=a+b+c+d\n$$\n\n| $P\\left(K^{2} \\geq k_{0}\\right)$ | 0.10  | 0.05  | 0.025 | 0.010 | 0.005 |\n| :--------------------------------- | :---- | :---- | :---- | :---- | :---- |\n| $k_{0}$                          | 2.706 | 3.841 | 5.024 | 6.635 | 7.879 |\n在抽出的 200 名且消费金额在 [800, 1000]（单位: 元）网购者中随机选出 2 名发放网购红包, 求选出的 2 名网购者都是男士的概率;",
+        "solution": [
+            "消费金额在 $[800,1000]$ (单位:元)的网影者共有 15 名, 从中选出 2 名共有 105 种选法,若 2 名网则者都是男士,共有 10 种选法,所以选出的 2 名网则者都是男士的概率为 $\\frac{10}{105}=\\frac{2}{21} $."
+        ],
+        "final_answer": [
+            "$\\frac{2}{21}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "在抽取的 200 名网购者中，随机选出 2 名进行调查，求至少有 1 名女士的概率。\n\n现在，我需要解决的是第2题：在抽取的200名网购者中，随机选出2名进行调查，求至少有1名女士的概率。请详细写出解题过程，包括公式和计算步骤。\n\n好的，我现在要解决的是第2题：在抽取的200名网购者中，随机选出2名进行调查，求至少有1名女士的概率。让我先仔细分析一下这个问题。\n\n首先，题目中提到的是200名网购者，其中1100名是女士，900名是男士。然后，从这200名网购者中随机抽取2名进行调查，求至少有1名女士的概率。\n\n首先，我需要明确这是一个二项分布的问题。二项分布的概率质量函数是这样的：\n\n对于n次独立重复试验，每次成功的概率为p，成功次数为k，求成功次数为m的概率。\n\n这里，n=200，k=1100，m=2。所以，我们需要计算的是P(m=2)。\n\n接下来，我需要计算P(m=2)。二项分布的概率质量函数公式是：\n\nP(m=k) = C(n, k) * (p)^k * (1-p)^{n - k}\n\n其中，C(n, k)是组合数，表示从n个元素中选择k个元素的组合数。\n\n首先，我需要计算C(200, 2)。组合数C(n, k)的计算公式是：\n\nC(n, k) = n! / (k! * (n - k)!)\n\n所以，C(200, 2) = 200! / (2! * 198!) = (200 * 199) / (2 * 199) = 200。\n\n接下来，我需要计算(p)^2，也就是p的平方。因为p是1100/200=5.5，所以p=5.5，那么p^2=25.25。\n\n然后，我需要计算(1-p)^{n - k}，也就是(1-0.5)^{200-2}=0.5^{198}。\n\n现在，将这些值"
+            }
+        }
+    },
+    {
+        "id": 385,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知椭圆 $\\mathrm{M}: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的两个顶点分别为 $\\mathrm{A}(-\\mathrm{a}, 0), \\mathrm{B}(\\mathrm{a}, 0)$,点 $\\mathrm{P}$ 为椭圆上异于 $\\mathrm{A}, \\mathrm{B}$ 的点, 设直线 $\\mathrm{PA}$ 的斜率为 $k_{1}$, 直线 $\\mathrm{PB}$ 的斜率为 $k_{2}, k_{1} k_{2}=-\\frac{1}{2}$ .\n求椭圆 $C$ 的离心率;",
+        "solution": [
+            "设 $P\\left(x_{0}, y_{0}\\right)$, 代入椭圆的方程有: $\\frac{x_{0}^{2}}{a^{2}}+\\frac{y_{0}^{2}}{b^{2}}=1$,\n\n整理得: $y_{0}^{2}=-\\frac{b^{2}}{a^{2}}\\left(x_{0}^{2}-a^{2}\\right)$,\n\n又 $k_{1}=\\frac{y_{0}}{x_{0}+a}, k_{2}=\\frac{y_{0}}{x_{0}-a}$, 所以 $k_{1} k_{2}=\\frac{y_{0}^{2}}{x_{0}^{2}-a^{2}}=-\\frac{1}{2}$,\n\n联立两个方程有 $k_{1} k_{2}=-\\frac{b^{2}}{a^{2}}=-\\frac{1}{2}$, 解得: 离心率$e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\sqrt{2}}{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "求点 $\\mathrm{P}$ 到椭圆上任意一点 $Q$ 的最短距离；\n求椭圆上一点 $Q$ 到焦点 $F(\\pm c, 0)$ 的距离的最大值；\n求椭圆上一点 $Q$ 到中心 $O(0,0)$ 的距离的最大值；\n求椭圆上一点 $Q$ 到直线 $y = mx + c$ 的距离的最大值；\n求椭圆上一点 $Q$ 到直线 $y = mx + c$ 的距离的最大值，并求出该距离的最大值。\n好的，我现在要解决这个数学竞赛题目，题目是关于椭圆的离心率、点到椭圆上点的距离的最大值以及椭圆上点到焦点的距离的最大值。让我一个一个来思考。\n\n首先，题目给出椭圆的标准方程是$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中$a > b$。椭圆的两个顶点是$(-a, 0)$和$(a, 0)$，点$P$在椭圆上，且直线$PA$和$PB$的斜率为$k_1$和$k_2$，满足$k_1 k_2 = -\\frac{1}{2}$。然后，点$P$到椭圆上任意一点$Q$的距离的最大值是多少，以及点$Q$到焦点$F( \\pm c, 0)$的距离的最大值是多少。\n\n首先，椭圆的离心率$e$是椭圆上任意一点到两个焦点的距离之比，即$e = \\frac{c}{a}$。椭圆的离心率满足$e = \\sqrt{1 + \\frac{b^2}{a^2}}$，所以$e = \\frac{c}{a}$，即$c = e a$。\n\n接下来，点$P$到椭圆上任意一点$Q$的距离的最大值是多少。椭圆上任意一点到两个焦点的距离之和的最大值是$2a$，因为当点$Q$在椭圆上时，到两个焦点的距离之和为$2a$，而当点$Q$在椭圆上时，到两个焦点的距离之和为$2a$，所以最大值是$2a$。\n\n接下来，点$Q$到焦点"
+            }
+        }
+    },
+    {
+        "id": 386,
+        "subfield": "Plane Geometry",
+        "context": null,
+        "question": "已知椭圆 $\\mathrm{M}: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的两个顶点分别为 $\\mathrm{A}(-\\mathrm{a}, 0), \\mathrm{B}(\\mathrm{a}, 0)$,点 $\\mathrm{P}$ 为椭圆上异于 $\\mathrm{A}, \\mathrm{B}$ 的点, 设直线 $\\mathrm{PA}$ 的斜率为 $k_{1}$, 直线 $\\mathrm{PB}$ 的斜率为 $k_{2}, k_{1} k_{2}=-\\frac{1}{2}$ .\n若 $\\mathrm{b}=1$ ， 设直线 $l$ 与 $x$ 轴交于 $\\mathrm{D}\\left(-1, 0\\right)$, 与椭圆交于 $M, N$ 两点, 求 $\\triangle O M N$ 的面积的最大值.",
+        "solution": [
+            "设 $P\\left(x_{0}, y_{0}\\right)$, 代入椭圆的方程有: $\\frac{x_{0}^{2}}{a^{2}}+\\frac{y_{0}^{2}}{b^{2}}=1$,\n\n整理得: $y_{0}^{2}=-\\frac{b^{2}}{a^{2}}\\left(x_{0}^{2}-a^{2}\\right)$,\n\n又 $k_{1}=\\frac{y_{0}}{x_{0}+a}, k_{2}=\\frac{y_{0}}{x_{0}-a}$, 所以 $k_{1} k_{2}=\\frac{y_{0}^{2}}{x_{0}^{2}-a^{2}}=-\\frac{1}{2}$,\n\n联立两个方程有 $k_{1} k_{2}=-\\frac{b^{2}}{a^{2}}=-\\frac{1}{2}$, 所以$a^{2}=2b^{2}$,又$b=1$，所以椭圆$C$的方程为$\\frac{x^{2}}{2}+\\frac{y^{2}}{1}=1$,\n\n设直线 $l$ 的方程为: $x=m y-1$, 代入椭圆的方程有: $\\left(m^{2}+2\\right) y^{2}-2 m y-1=0$,\n\n设 $M\\left(x_{1}, y_{1}\\right), N\\left(x_{2}, y_{2}\\right)$, 由韦达定理: $y_{1}+y_{2}=\\frac{2 m}{m^{2}+2}, y_{1} y_{2}=\\frac{-1}{m^{2}+2}$,\n\n所以\n\n$\\mathrm{S}_{\\triangle \\mathrm{OMN}}=\\frac{1}{2}|\\mathrm{OD}|\\left|\\mathrm{y}_{1}-\\mathrm{y}_{2}\\right|=\\frac{1}{2} \\sqrt{\\left(\\mathrm{y}_{1}+\\mathrm{y}_{2}\\right)^{2}-4 \\mathrm{y}_{1} \\mathrm{y}_{2}}=\\frac{1}{2} \\frac{\\sqrt{8 \\mathrm{~m}^{2}+8}}{\\mathrm{~m}^{2}+2}=\\frac{\\sqrt{2} \\sqrt{\\mathrm{m}^{2}+1}}{\\mathrm{~m}^{2}+2}$,\n\n令 $\\sqrt{m^{2}+1}=t(t \\geqslant 1)$, 则有 $m^{2}=t^{2}-1$,\n\n代入上式有 $\\mathrm{S}_{\\triangle O M N}=\\frac{\\sqrt{2} \\sqrt{\\mathrm{m}^{2}+1}}{\\mathrm{~m}^{2}+2}=\\frac{\\sqrt{2} \\mathrm{t}}{\\mathrm{t}^{2}+1}=\\frac{\\sqrt{2}}{\\mathrm{t}+\\frac{1}{t}} \\leq \\frac{\\sqrt{2}}{2}$,\n\n当且仅当 $t=1$, 即 $m=0$ 时等号成立,\n\n所以 $\\triangle O M N$ 的面积的最大值为 $\\frac{\\sqrt{2}}{2}$."
+        ],
+        "final_answer": [
+            "$\\frac{\\sqrt{2}}{2}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "现在，我需要解决这个题目。首先，我需要理解题目的要求，然后一步步分析和计算。\n\n首先，题目给出椭圆的标准方程为 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中 $a > b$。椭圆的两个顶点分别为 $A(-a, 0)$ 和 $B(a, 0)$，点 $P$ 为椭圆上异于 $A$ 和 $B$ 的点。直线 $PA$ 的斜率为 $k_1$，直线 $PB$ 的斜率为 $k_2$，满足 $k_1 k_2 = -\\frac{1}{2}$。椭圆的另一个焦点为 $F(c, 0)$，其中 $c = \\sqrt{a^2 - b^2}$。直线 $l$ 与 $x$ 轴交于点 $D(-1, 0)$，与椭圆交于点 $M$ 和 $N$，求 $\\triangle O M N$ 的面积的最大值。\n\n接下来，我需要明确每个变量和公式在问题中的含义。首先，椭圆的标准方程是 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$，其中 $a > b$ 表示椭圆的长轴在x轴上。椭圆的两个顶点为 $A(-a, 0)$ 和 $B(a, 0)$，点 $P$ 位于椭圆上，且满足 $k_1 k_2 = -\\frac{1}{2}$，其中 $k_1$ 和 $k_2$ 是直线 $PA$ 和 $PB$ 的斜率，且满足 $k_1 k_2 = -\\frac{1}{2}$。椭圆的另一个焦点为 $F(c, 0)$，其中 $c = \\sqrt{a^2 - b^2}$。直线 $l$ 与 $x$ 轴交于点 $D(-1, 0)$，与椭圆交于点 $M$ 和 $N$，求 $\\triangle O M N$ 的面积的最大值。\n\n接下来，我需要明确每个变量和公式在问题中的含义。首先，椭圆的标准方程是 $\\frac{x^2}{a^"
+            }
+        }
+    },
+    {
+        "id": 388,
+        "subfield": "Elementary Functions",
+        "context": null,
+        "question": "设函数 $f(x)=\\ln x+\\frac{a-1}{x}, g(x)=a x-3$\n当 $\\mathrm{a}=1$ 时, 记 $h(x)=f(x) \\cdot g(x)$, 存在整数 $\\lambda$, 使得关于 $x$ 的不等式 $2 \\lambda \\geq h(x)$ 有解，请求出 $\\lambda$ 的最小值.",
+        "solution": [
+            "当 $a=1$ 时, $f(x)=\\ln x, g(x)=x-3, h(x)=(x-3) \\ln x$\n\n所以 $h^{\\prime}(x)=\\ln x+1-\\frac{3}{x}$ 单调递增,\n\n$h^{\\prime}\\left(\\frac{3}{2}\\right)=\\ln \\frac{3}{2}+1-2<0, h^{\\prime}(2)=\\ln 2+1-\\frac{3}{2}>0$.\n\n所以存在唯一 $x_{0} \\in\\left(\\frac{3}{2}, 2\\right)$, 使得 $h^{\\prime}\\left(x_{0}\\right)=0$, 即 $\\ln x_{0}+1-\\frac{3}{x_{0}}=0,$\n\n当 $x \\in\\left(0, x_{0}\\right)$ 时, $h^{\\prime}(x)<0$, 当 $x \\in\\left(x_{0},+\\infty\\right)$ 时, $h^{\\prime}(x)>0$,\n\n所以 $h_{min}(x)=h\\left(x_{0}\\right)=\\left(x_{0}-3\\right) \\ln x_{0}$\n\n$=\\left(x_{0}-3\\right)\\left(\\frac{3}{x_{0}}-1\\right)=-\\frac{\\left(x_{0}-3\\right)^{2}}{x_{0}}=6-\\left(x_{0}+\\frac{9}{x_{0}}\\right)$,\n\n记函数 $r(x)=6-\\left(x+\\frac{9}{x}\\right)$, 则 $r(x)$ 在 $\\left(\\frac{3}{2}, 2\\right)$ 上单调递增,\n\n所以 $r\\left(\\frac{3}{2}\\right)<h\\left(x_{0}\\right)<r(2)$, 即 $h\\left(x_{0}\\right) \\in\\left(-\\frac{3}{2},-\\frac{1}{2}\\right)$,\n\n由 $2 \\lambda \\geq h(x)_{\\text {min }}=h\\left(x_{0}\\right),$ 得 $ 2 \\lambda \\geq h\\left(x_{0}\\right)_{\\text {max }}$, 即 $2 \\lambda \\geq-\\frac{1}{2}$, 且 $\\lambda$ 为整数, 得 $\\lambda \\geq 0$,\n\n所以存在整数 $\\lambda$ 满足题意, 且 $\\lambda$ 的最小值为 0.",
+            "当 $a=1$ 时, $f(x)=\\ln x, g(x)=x-3, h(x)=(x-3) \\ln x$,\n\n所以 $h^{\\prime}(x)=\\ln x+1-\\frac{3}{x}$ 单调迸增,\n\n$h^{\\prime}(1)=\\ln 1+1-3<0, h^{\\prime}(2)=\\ln 2+1-\\frac{3}{2}>0$.\n\n所以存在唯一 $x_{0} \\in(1,2)$, 使得 $h^{\\prime}\\left(x_{0}\\right)=0$, 即 $\\ln x_{0}+1-\\frac{3}{x_{0}}=0,$\n\n当 $x \\in\\left(0, x_{0}\\right)$ 时, $h^{\\prime}(x)<0$, 当 $x \\in\\left(x_{0},+\\infty\\right)$ 时, $h^{\\prime}(x)>0$,\n\n所以 $h_{min}(x)=h\\left(x_{0}\\right)=\\left(x_{0}-3\\right) \\ln x_{0}$\n\n$=\\left(x_{0}-3\\right)\\left(\\frac{3}{x_{0}}-1\\right)=-\\frac{\\left(x_{0}-3\\right)^{2}}{x_{0}}=6-\\left(x_{0}+\\frac{9}{x_{0}}\\right)$.\n\n记函数 $r(x)=6-\\left(x+\\frac{9}{x}\\right)$, 则 $r(x)$ 在 $(1,2)$ 上单调递增,\n\n所以 $r(1)<h\\left(x_{0}\\right)<r(2)$, 即 $h\\left(x_{0}\\right) \\in\\left(-4,-\\frac{1}{2}\\right),$\n\n由 $2 \\lambda \\geq h(x)_{\\text {min }}=h\\left(x_{0}\\right),$得  $ 2 \\lambda \\geq h\\left(x_{0}\\right)_{\\max }$, 即 $2 \\lambda \\geq-\\frac{1}{2}$, 且 $\\lambda$ 为整数, 得 $\\lambda \\geq 0$,\n\n所以存在整数 $\\lambda$ 满足题意, 且 $\\lambda$ 的最小值为 0 ."
+        ],
+        "final_answer": [
+            "$0$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null,
+        "model_output": {
+            "Qwen2.5-0.5B-distil": {
+                "raw_output": "好的，我现在要解决这个数学竞赛题目。题目是这样的：设函数 \\( f(x) = \\ln x + \\frac{a-1}{x} \\)，其中 \\( a = 1 \\)。当 \\( a = 1 \\) 时，记 \\( h(x) = f(x) \\cdot g(x) \\)，其中 \\( g(x) = a x - 3 \\)。要求解关于 \\( x \\) 的不等式 \\( 2 \\lambda \\geq h(x) \\) 有解，求出最小的整数 \\( \\lambda \\)。\n\n首先，我需要理解题目的要求。题目给出一个函数 \\( f(x) \\) 和一个函数 \\( g(x) \\)，其中 \\( g(x) \\) 是 \\( f(x) \\) 的一个函数，且 \\( g(x) = a x - 3 \\)。接下来，题目要求解关于 \\( x \\) 的不等式 \\( 2 \\lambda \\geq h(x) \\) 有解，其中 \\( h(x) = f(x) \\cdot g(x) \\)。要求找出最小的整数 \\( \\lambda \\)。\n\n首先，我需要明确 \\( f(x) \\) 和 \\( g(x) \\) 的关系。因为 \\( g(x) = a x - 3 \\)，而 \\( a = 1 \\)，所以 \\( g(x) = x - 3 \\)。那么，\\( f(x) \\) 就是 \\( g(x) \\) 的导数，即 \\( f(x) = g'(x) = 1 \\)。这可能吗？不对，因为 \\( g(x) = x - 3 \\)，所以 \\( g'(x) = 1 \\) 是正确的。那么，\\( f(x) = 1 \\)。\n\n接下来，我需要计算 \\( h(x) = f(x) \\cdot g(x) \\)。因为 \\( f(x) = 1 \\)，所以 \\( h(x) = 1 \\cdot (x - 3) = x - 3 \\)。现在，题目要求解关于 \\( x \\) 的不等式 \\( 2 \\lambda \\geq h(x) \\) 有解，即 \\( 2 \\lambda \\geq x - 3 \\)。解这个不等式，得到 \\( x \\leq 2 + 2\\lambda \\)。\n\n接下来，我需要找到最小"
+            }
+        }
+    }
+]

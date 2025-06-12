@@ -37,7 +37,7 @@ def extract_answer(is_chinese, model_output, is_deepseek=False):
 def judge_result():
 	judger = MathJudger()
 
-	for dataset in os.listdir('generated'):
+	for dataset in os.listdir('/user/gaoziheng/nlp/generated'):
 		print('-'*10 + dataset + '-'*10)
 		if "TP" in dataset:
 			print("Warning: Theorem proving problems cannot currently be automatically assessed.")
@@ -94,9 +94,9 @@ def judge_result():
 							single_result_dict[id]['model_output'][model]['correctness'] = judge_result
 						merged_result += single_result_dict # 保留所有的处理结果
 
-				if not os.path.exists(os.path.join('merged_result', model)):
-					os.makedirs(os.path.join('merged_result', model))
-				with open(os.path.join('merged_result', model, f'{dataset}.json'), 'w', encoding='utf-8') as f:
+				if not os.path.exists(os.path.join('/user/gaoziheng/nlp/merged_result', model)):
+					os.makedirs(os.path.join('/user/gaoziheng/nlp/merged_result', model))
+				with open(os.path.join('/user/gaoziheng/nlp/merged_result', model, f'{dataset}.json'), 'w', encoding='utf-8') as f:
 					json.dump(merged_result, f, ensure_ascii=False, indent=4)
 
 
